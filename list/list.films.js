@@ -3540,6 +3540,11 @@ const arrFilms = [
 	cast: { kevin_bacon_08071958: 1, elisabeth_shue_06101963: 1, rhona_mitra_09081976: 1, },
 },
 {
+	id: 'the_invisibles_2024', title: { ua: 'Невидимки', en: 'The Invisibles', }, year: 2024, country: { can: 1, },
+	genre: { fantasy: 1, drama: 1, },
+	internet: { imdb: '14872806', },
+},
+{
 	id: 'unknown_2011', title: { ua: 'Невідомий', en: 'Unknown', }, year: 2011, country: { usa: 1, },
 	genre: { action: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '1401152', wiki_ua: '%D0%9D%D0%B5%D0%B2%D1%96%D0%B4%D0%BE%D0%BC%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '15117', },
