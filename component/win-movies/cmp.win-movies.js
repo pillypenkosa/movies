@@ -181,20 +181,7 @@ class ComponentWinMovies {
     				arrSelected.sort( sortDown );
 				}
 
-
-
-
-
-
 			}
-
-
-
-
-
-
-
-
 		}
 
 
@@ -210,7 +197,12 @@ class ComponentWinMovies {
 		//console.log( arrSelected );
 
 		arrSelected.forEach( k => {
-			html += `<div class="">${ k.title.ua } (${ k.year })</div>`;
+			html += `<div class="each-movie">
+				<div class="title pointer" onclick="${ this.name }.clcBtnTitle( this )">${ k.title.ua } (${ k.year })</div>
+				<div class="body unvivisible">
+					${ Component( 'Film', { filmID: k.id } ) }
+				</div>
+			</div>`;
 		});
 
 
@@ -232,12 +224,22 @@ class ComponentWinMovies {
  
  
  
-	static clc( data ) { 
-		const fooName = this.name + '.clc()'; 
+	static clcBtnTitle( elem ) { 
+		const fooName = this.name + '.clcBtnTitle()'; 
  
-		//console.log( 'fooName: ', fooName ); 
-		//console.log( 'data', data ); 
+		console.log( 'fooName: ', fooName ); 
+		console.log( 'elem: ', elem ); 
  
+
+		elem.closest( '.each-movie' ).querySelector( '.body' ).classList.toggle( 'unvivisible' );
+
+
+
+
+
+
+
+
 	} 
  
  

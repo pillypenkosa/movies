@@ -49,6 +49,7 @@ const dependences = [
 	{ cmp: 'Menu' 				, },
 	{ cmp: 'Menu-Filter-Movie' 	, },
 	{ cmp: 'Menu-Filter-People' , },
+	{ cmp: 'Film' 				, },
 
 
 	//{ cmp: 'Franchise' 			, },
