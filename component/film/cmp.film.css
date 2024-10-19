@@ -1,1 +1,65 @@
-/* © 2024 DJS */ cmp-film {} 
+cmp-film {
+
+} 
+
+	cmp-film .section1 {
+		margin: 10px 0 10px 0;
+		display: flex;
+	} 
+		cmp-film .section1 .img {
+
+		} 
+			cmp-film .section1 .img img {
+				border-radius: 10px;
+			} 
+
+		cmp-film .section1 .info {
+			margin: 0 0 0 10px;
+		} 
+			cmp-film .section1 .info .title-en {
+				font-size: 30px;
+				font-weight: bold;
+			} 
+
+			cmp-film .section1 .info .title-ua {
+				font-style: oblique;
+				color: #aaa;
+			} 
+			cmp-film .section1 .info hr {
+				border-color: var( --bg2 );
+			}
+
+			cmp-film .section1 .info .keyval {
+				margin: 0 0 20px 0;
+			}
+
+
+		cmp-film .section1 .internet img {
+			height: 30px;
+		}
+
+		cmp-film .section2 {
+			
+		}
+
+
+
+
+
+cmp-film .key {
+	font-style: oblique;
+	color: #aaa;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+

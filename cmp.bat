@@ -1,7 +1,7 @@
 @chcp 65001
 
-@set up=WinAny
-@set low=win-any
+@set up=Cast
+@set low=cast
 @set pref=__NEW_COMPONENT_
 @set intro=© 2024 DJS
 

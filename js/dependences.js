@@ -42,15 +42,15 @@ const dependences = [
 
 	{ cmp: 'Win-Err404' 		, },
 	{ cmp: 'Footer' 			, },
-	//{ cmp: 'Cast' 				, },
 	{ cmp: 'Header' 			, },
 	{ cmp: 'Logo' 				, },
 
 	{ cmp: 'Menu' 				, },
 	{ cmp: 'Menu-Filter-Movie' 	, },
 	{ cmp: 'Menu-Filter-People' , },
-	{ cmp: 'Film' 				, },
 
+	{ cmp: 'Cast' 				, },
+	{ cmp: 'Film' 				, },
 
 	//{ cmp: 'Franchise' 			, },
 

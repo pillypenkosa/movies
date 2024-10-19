@@ -150,7 +150,7 @@ const arrFilms = [
 	studio: { _20_century: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, planet: 1, world: 1, battle: 1, },
 	internet: { imdb: '0499549', wiki_ua: '%D0%90%D0%B2%D0%B0%D1%82%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '331', },
-	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, michelle_rodriguez_12071978: 1, }, director: { james_cameron_16081954: 1, }, composser: { james_horner_14081953: 1, },
+	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, michelle_rodriguez_12071978: 1, }, director: { james_cameron_16081954: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'avatar_2_2022', title: { ua: 'Аватар - 2', en: 'Avatar: The Way of Water', }, year: 2022, country: { usa: 1, }, franchise: 'avatar',
@@ -209,7 +209,7 @@ const arrFilms = [
 	studio: { warner: 1, },
 	year: 1997, country: { usa: 1, }, genre: { mystic: 1, drama: 1, }, hash: { justice: 1, },
 	internet: { imdb: '0118971', wiki_ua: '%D0%90%D0%B4%D0%B2%D0%BE%D0%BA%D0%B0%D1%82_%D0%94%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2219', },
-	cast: { keanu_reeves_02091964: 1, al_pacino_25041940: 1, charlize_theron_07081975: 1, connie_nielsen_03071965: 1, }, composser: { james_newton_howard_09061951: 1, },
+	cast: { keanu_reeves_02091964: 1, al_pacino_25041940: 1, charlize_theron_07081975: 1, connie_nielsen_03071965: 1, }, composer: { james_newton_howard_09061951: 1, },
 },
 {
 	id: 'crank_2006', title: { ua: 'Адреналін', en: 'Crank', }, year: 2006, country: { usa: 1, }, 
@@ -269,7 +269,7 @@ const arrFilms = [
 	studio: { miramax: 1, },
 	genre: { drama: 1, comedy: 1, }, hash: { psycho: 1, young: 1, },
 	internet: { imdb: '0211915', wiki_ua: '%D0%90%D0%BC%D0%B5%D0%BB%D1%96', },
-	cast: { audrey_tautou_09081976: 1, jamel_debbouze_18061975: 1, }, composser: { yann_tiersen_23071970: 1, },
+	cast: { audrey_tautou_09081976: 1, jamel_debbouze_18061975: 1, }, composer: { yann_tiersen_23071970: 1, },
 },
 {
 	id: 'american_gigolo_1980', title: { ua: 'Американський жиголо', en: 'American Gigolo', }, year: 1980, country: { usa: 1, },
@@ -313,7 +313,7 @@ const arrFilms = [
 	studio: { imagine: 1, },
 	genre: { drama: 1, history: 1, }, hash: { real: 1, space: 1, },
 	internet: { imdb: '0112384', wiki_ua: '%D0%90%D0%BF%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD-13_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14886', },
-	cast: { tom_hanks_09071956: 1, kevin_bacon_08071958: 1, bill_paxton_17051955: 1, ed_harris_28111950: 1, }, director: { ron_howard_31031954: 1, }, composser: { james_horner_14081953: 1, }, 
+	cast: { tom_hanks_09071956: 1, kevin_bacon_08071958: 1, bill_paxton_17051955: 1, ed_harris_28111950: 1, }, director: { ron_howard_31031954: 1, }, composer: { james_horner_14081953: 1, }, 
 },
 {
 	id: 'upgrade_2018', title: { ua: 'Апгрейд', en: 'Upgrade', }, year: 2018, country: { aus: 1, },
@@ -370,7 +370,7 @@ const arrFilms = [
 	studio: { mgm: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0155267', wiki_ua: '%D0%90%D1%84%D0%B5%D1%80%D0%B0_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81%D0%B0_%D0%9A%D1%80%D0%B0%D1%83%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', ashdivip: '16225', },
-	cast: { pierce_brosnan_16051953: 1, }, composser: { Bill_Conti_13041942: 1, },
+	cast: { pierce_brosnan_16051953: 1, }, composer: { Bill_Conti_13041942: 1, },
 },
 {
 	id: 'much_ado_about_1993', title: { ua: 'Багато галасу з нічого', en: 'Much Ado About', }, year: 1993, country: { gbr: 1, usa: 1, },
@@ -1511,7 +1511,7 @@ const arrFilms = [
 	studio: { paramount: 1, netflix: 1, },
 	genre: { drama: 1, sport: 1, }, hash: { sport: 1, race: 1, cars: 1, },
 	internet: { imdb: '0099371', wiki_ua: '%D0%94%D0%BD%D1%96_%D0%B3%D1%80%D0%BE%D0%BC%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1990)', },
-	cast: { tom_cruise_03071962: 1, nicole_kidman_20061967: 1, }, composser: { hans_zimmer_12091957: 1, }, 
+	cast: { tom_cruise_03071962: 1, nicole_kidman_20061967: 1, }, composer: { hans_zimmer_12091957: 1, }, 
 },
 {
 	id: 'a_long_way_down_2014', title: { ua: 'Довге падіння', en: 'A Long Way Down', }, year: 2014, country: { deu: 1, gbr: 1, },
@@ -2778,7 +2778,7 @@ const arrFilms = [
 	studio: { paramount: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { treasure: 1, travel: 1, },
 	internet: { imdb: '0325703', wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82_%D1%80%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C:_%D0%BA%D0%BE%D0%BB%D0%B8%D1%81%D0%BA%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F', },
-	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, }, director: { jan_de_bont_22101943: 1, }, composser: { alan_silvestri_26031950: 1, },
+	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, }, director: { jan_de_bont_22101943: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'LaRoy_Texas_2023', title: { ua: 'ЛаРой Техас', en: 'LaRoy, Texas', }, year: 2023, country: { usa: 1, fra: 1, },
@@ -4238,7 +4238,7 @@ const arrFilms = [
 	studio: { touchstone: 1, netflix: 1, },
 	genre: { action: 1, thriller: 1, crime: 1, }, hash: { prison: 1, plane: 1, },
 	internet: { imdb: '0118880', wiki_ua: '%D0%9F%D0%BE%D0%B2%D1%96%D1%82%D1%80%D1%8F%D0%BD%D0%B0_%D1%82%D1%8E%D1%80%D0%BC%D0%B0', ashdivip: '3148', moviestape: 'Con.Air', },
-	cast: { nicolas_cage_07011964: 1, john_cusack_28061966: 1, john_malkovich_09121953: 1, ving_rhames_12051959: 1, danny_trejo_16051944: 1, steve_buscemi_13121957: 1, monica_potter_30061971: 1, }, composser: { mark_mancina_09031957: 1, },
+	cast: { nicolas_cage_07011964: 1, john_cusack_28061966: 1, john_malkovich_09121953: 1, ving_rhames_12051959: 1, danny_trejo_16051944: 1, steve_buscemi_13121957: 1, monica_potter_30061971: 1, }, composer: { mark_mancina_09031957: 1, },
 },
 {
 	id: 'non_stop_2014', title: { ua: 'Повітряний маршал', en: 'Non-Stop', }, year: 2014, country: { usa: 1, fra: 1, },
@@ -4272,7 +4272,7 @@ const arrFilms = [
 	studio: { columbia: 1, netflix: 1, },
 	genre: { action: 1, comedy: 1, }, 
 	internet: { imdb: '0112442', wiki_ua: '%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96_%D1%85%D0%BB%D0%BE%D0%BF%D1%86%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, }, director: { michael_bay_17021965: 1, }, composser: { mark_mancina_09031957: 1, }, 
+	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, }, director: { michael_bay_17021965: 1, }, composer: { mark_mancina_09031957: 1, }, 
 },
 {
 	id: 'bad_boys_2_2003', title: { ua: 'Погані хлопці - 2', en: 'Bad Boys II', }, year: 2003, country: { usa: 1, }, franchise: 'bad_boys',
@@ -4860,19 +4860,19 @@ const arrFilms = [
 	studio: { netflix: 1, },
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0075148', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96', },
-	cast: { sylvester_stallone_06071946: 1, }, composser: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, }, composer: { Bill_Conti_13041942: 1, },
 },
 {
 	id: 'Rocky_2_1979', title: { ua: 'Роккі - 2', en: 'Rocky II', }, year: 1979, country: { usa: 1, }, franchise: 'Rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0079817', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_2', },
-	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composser: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
 },
 {
 	id: 'Rocky_3_1982', title: { ua: 'Роккі - 3', en: 'Rocky III', }, year: 1982, country: { usa: 1, }, franchise: 'Rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0084602', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_3', },
-	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composser: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
 },
 {
 	id: 'Rocky_4_1985', title: { ua: 'Роккі - 4', en: 'Роккі IV', }, year: 1985, country: { usa: 1, }, franchise: 'Rocky',
@@ -4885,14 +4885,14 @@ const arrFilms = [
 	id: 'Rocky_5_1990', title: { ua: 'Роккі - 5', en: 'Роккі V', }, year: 1990, country: { usa: 1, }, franchise: 'Rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0100507', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_5', },
-	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composser: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
 },
 {
 	id: 'Rocky_6_2006', title: { ua: 'Роккі Бальбоа', en: 'Rocky Balboa', }, year: 2006, country: { usa: 1, }, franchise: 'Rocky',
 	studio: { mgm: 1, columbia: 1, _20_century: 1, netflix: 1, }, 
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0479143', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_%D0%91%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { sylvester_stallone_06071946: 1, mike_tyson_30061966: 1, }, director: { sylvester_stallone_06071946: 1, },  composser: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, mike_tyson_30061966: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
 },
 {
 	id: 'role_play_2024', title: { ua: 'Рольові ігри', en: 'Role Play', }, year: 2024, country: { usa: 1, },
@@ -5207,7 +5207,7 @@ const arrFilms = [
 	studio: { warner: 1, netflix: 1, },
 	genre: { thriller: 1, disaster: 1, },
 	internet: { imdb: '0117998', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%87_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
-	cast: { bill_paxton_17051955: 1, }, director: { jan_de_bont_22101943: 1, }, composser: { mark_mancina_09031957: 1, },
+	cast: { bill_paxton_17051955: 1, }, director: { jan_de_bont_22101943: 1, }, composer: { mark_mancina_09031957: 1, },
 },
 {
 	id: 'twisters_2024', title: { ua: 'Смерчі', en: 'Twisters', }, year: 2024, country: { usa: 1, }, franchise: 'twister',
@@ -5786,7 +5786,7 @@ const arrFilms = [
 	studio: { carolco: 1, netflix: 1, }, 
 	genre: { drama: 1, crime: 1, }, hash: { prison: 1, },
 	internet: { imdb: '0097770', wiki_ua: '%D0%A2%D1%8E%D1%80%D1%8F%D0%B3%D0%B0', },
-	cast: { sylvester_stallone_06071946: 1, donald_sutherland_17071935: 1, tom_sizemore_29111961: 1, danny_trejo_16051944: 1, }, composser: { Bill_Conti_13041942: 1, }, 
+	cast: { sylvester_stallone_06071946: 1, donald_sutherland_17071935: 1, tom_sizemore_29111961: 1, danny_trejo_16051944: 1, }, composer: { Bill_Conti_13041942: 1, }, 
 },
 {
 	id: 'into_the_white_2012', title: { ua: 'У білому полоні', en: 'Into the White', }, year: 2012, country: { nor: 1, swe: 1, }, 
@@ -6258,7 +6258,7 @@ const arrFilms = [
 	studio: { warner: 1, netflix: 1, },
 	genre: { action: 1, thriller: 1, crime: 1, },
 	internet: { imdb: '0113010', wiki_ua: '%D0%A7%D0%B5%D1%81%D0%BD%D0%B0_%D0%B3%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', ashdivip: '19784', },
-	cast: { william_baldwin_21021963: 1, cindy_crawford_20021966: 1, salma_hayek_02091966: 1, }, composser: { mark_mancina_09031957: 1, },
+	cast: { william_baldwin_21021963: 1, cindy_crawford_20021966: 1, salma_hayek_02091966: 1, }, composer: { mark_mancina_09031957: 1, },
 },
 {
 	id: 'honest_thief_2020', title: { ua: 'Чесний злодій', en: 'Honest Thief', }, year: 2020, country: { usa: 1, },
@@ -6369,14 +6369,14 @@ const arrFilms = [
 	studio: { _20_century: 1, netflix: 1, },
 	genre: { action: 1, thriller: 1, }, hash: { bus: 1, terrorist: 1, hostage: 1, police: 1, subway: 1, },
 	internet: { imdb: '0111257', wiki_ua: '%D0%A8%D0%B2%D0%B8%D0%B4%D0%BA%D1%96%D1%81%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13774', moviestape: 'Speed', },
-	cast: { keanu_reeves_02091964: 1, sandra_bullock_26071964: 1, dennis_hopper_17051936: 1, jeff_daniels_19021955: 1, joe_morton_18101947: 1, }, director: { jan_de_bont_22101943: 1, }, composser: { mark_mancina_09031957: 1, },
+	cast: { keanu_reeves_02091964: 1, sandra_bullock_26071964: 1, dennis_hopper_17051936: 1, jeff_daniels_19021955: 1, joe_morton_18101947: 1, }, director: { jan_de_bont_22101943: 1, }, composer: { mark_mancina_09031957: 1, },
 },
 {
 	id: 'speed_2_1997', title: { ua: 'Швидкість - 2', en: 'Speed 2: Cruise Control', }, year: 1997, country: { usa: 1, }, franchise: 'speed',
 	studio: { _20_century: 1, netflix: 1, },
 	genre: { action: 1, sea: 1, }, hash: { ship: 1, sea: 1, trap: 1, },
 	internet: { imdb: '0120179', wiki_ua: '%D0%A8%D0%B2%D0%B8%D0%B4%D0%BA%D1%96%D1%81%D1%82%D1%8C_2:_%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C_%D0%BD%D0%B0%D0%B4_%D0%BA%D1%80%D1%83%D1%97%D0%B7%D0%BE%D0%BC', ashdivip: '72969', moviestape: 'Speed 2: Cruise Control', }, 
-	cast: { sandra_bullock_26071964: 1, willem_dafoe_22071955: 1, }, director: { jan_de_bont_22101943: 1, }, composser: { mark_mancina_09031957: 1, },
+	cast: { sandra_bullock_26071964: 1, willem_dafoe_22071955: 1, }, director: { jan_de_bont_22101943: 1, }, composer: { mark_mancina_09031957: 1, },
 },
 {
 	id: 'terminal_velocity_1994', title: { ua: 'Швидкість падіння', en: 'Terminal Velocity', }, year: 1994, country: { usa: 1, },
@@ -6554,7 +6554,7 @@ const arrFilms = [
 	studio: { paramount: 1, dream_works: 1, netflix: 1, hasbro: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, team: 1, },
 	internet: { imdb: '1046173', wiki_ua: '%D0%94%D0%B6%D1%96_%D0%90%D0%B9_%D0%94%D0%B6%D0%BE:_%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%9A%D0%BE%D0%B1%D1%80%D0%B8', },
-	composser: { alan_silvestri_26031950: 1, },
+	composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'g_i_joe_2_2013', title: { ua: 'G.I. Joe: Атака кобри - 2', en: 'G.I. Joe: Retaliation', }, year: 2013, country: { usa: 1, },
@@ -6582,7 +6582,7 @@ const arrFilms = [
 	studio: { columbia: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '1464335', wiki_ua: 'Uncharted:_%D0%9D%D0%B5%D0%B7%D0%B2%D1%96%D0%B4%D0%B0%D0%BD%D0%B5', },
-	cast: { antonio_banderas_10081960: 1, mark_wahlberg_05061971: 1, }, composser: { ramin_djawadi_19071974: 1, },
+	cast: { antonio_banderas_10081960: 1, mark_wahlberg_05061971: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 
 
@@ -6609,7 +6609,7 @@ let objFilmsCountry = {};
 
 let arrFilmsActors = [];
 let arrFilmsDirectors = [];
-let arrFilmsCompossers = [];
+let arrFilmsComposers = [];
 
 
 
@@ -6647,11 +6647,11 @@ arrFilms.forEach( k => {
 
 
 
-	if ( k.composser ) {
-		for ( let k3 in k.composser ) {
+	if ( k.composer ) {
+		for ( let k3 in k.composer ) {
 
-			if ( arrFilmsCompossers.indexOf( k3 ) == -1 ) 
-				arrFilmsCompossers.push( k3 );
+			if ( arrFilmsComposers.indexOf( k3 ) == -1 ) 
+				arrFilmsComposers.push( k3 );
 
 		}
 	}

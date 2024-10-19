@@ -1,6 +1,4 @@
-// © 2024 DJS 
- 
- 
+
  
  
  
@@ -171,15 +169,15 @@ class ComponentMenuFilterMovie {
 
 
 
- 		let optionComposser = '<option value="all">- Композитори ---</option>';
-		arrFilmsCompossers.sort().forEach( k => {
+ 		let optionComposer = '<option value="all">- Композитори ---</option>';
+		arrFilmsComposers.sort().forEach( k => {
 
  			let attrSelected = '';
 			let name = '';
 	 		if ( Router.urlGET ) {
 	 			if ( Router.urlGET.win == 'movies' ) {
-	 				if ( Router.urlGET.composser ) {
-			 			if ( k == Router.urlGET.composser ) 
+	 				if ( Router.urlGET.composer ) {
+			 			if ( k == Router.urlGET.composer ) 
 			 				attrSelected = 'selected';
 			 		}
 			 	}
@@ -194,7 +192,7 @@ class ComponentMenuFilterMovie {
 					name += ' ' + objListPeople[ k ].name.s;
 			}
 
-		 	optionComposser += `<option value="${ k }" ${ attrSelected }>${ name }</option>`;
+		 	optionComposer += `<option value="${ k }" ${ attrSelected }>${ name }</option>`;
 		});
 
 
@@ -332,7 +330,7 @@ class ComponentMenuFilterMovie {
 	 				<select data-id="director" onchange="${ this.name }.changeFilter( this )">${ optionDirectors }</select>
 	 			</div>
 	 			<div>
-	 				<select data-id="composser" onchange="${ this.name }.changeFilter( this )">${ optionComposser }</select>
+	 				<select data-id="composer" onchange="${ this.name }.changeFilter( this )">${ optionComposer }</select>
 	 			</div>
 	 			<div>
 	 				<select data-id="studio" onchange="${ this.name }.changeFilter( this )">${ optionStudio }</select>
