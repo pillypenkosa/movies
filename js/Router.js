@@ -99,7 +99,7 @@ class Router {
 			actor 			: 1,
 			cast 			: 1,
 			cat 			: 1,
-			composser 		: 1,
+			composer 		: 1,
 			country 		: 1,
 			director 		: 1,
 			genre 			: 1,

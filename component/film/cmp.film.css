@@ -57,6 +57,18 @@ cmp-film .key {
 
 
 
+cmp-film .hashtag {
+	margin: 0 2px;
+	padding: 0 10px;
+	border-radius: 5px;
+	background: var( --bg-b );
+	color: #ccc;
+}
+	cmp-film .hashtag:hover {
+		background: var( --bg-t );
+		color: #fff;
+	}
+
 
 
 

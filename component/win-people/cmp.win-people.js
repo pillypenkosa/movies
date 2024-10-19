@@ -38,7 +38,7 @@ class ComponentWinPeople {
  
  
 		setMeta({ 
-			title 			: fooName, 
+			title 			: 'Movie People', 
 			description 	: 'Опис...', 
 			//image 		: '', 
 		}); 

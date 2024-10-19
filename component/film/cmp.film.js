@@ -56,24 +56,19 @@ class ComponentFilm {
 				if ( film.internet ) {
 
 					if ( film.internet.imdb ) 
-						htmlImdb += `<a href="https://www.imdb.com/title/tt${ film.internet.imdb }" target="_blank"><img src="img/pic/logo_IMDb.png" alt="IMDb"></a>`;
+						htmlImdb += `<a href="https://www.imdb.com/title/tt${ film.internet.imdb }" target="_blank" title="IMDb"><img src="img/pic/logo_IMDb.png" alt="IMDb"></a>`;
 					
 					if ( film.internet.wiki_ua ) 
-						htmlWikiUa += `<a href="https://uk.wikipedia.org/wiki/${ film.internet.wiki_ua }" target="_blank"><img src="img/pic/sn_wiki_ua.png" alt="WikiUa"></a>`;
+						htmlWikiUa += `<a href="https://uk.wikipedia.org/wiki/${ film.internet.wiki_ua }" target="_blank" title="WikiUa"><img src="img/pic/sn_wiki_ua.png" alt="WikiUa"></a>`;
 					
 					if ( film.internet.wiki_ru ) 
-						htmlWikiRu += `<a href="https://ru.wikipedia.org/wiki/${ film.internet.wiki_ru }" target="_blank"><img src="img/pic/sn_wiki_ru.png" alt="WikiRu"></a>`;
+						htmlWikiRu += `<a href="https://ru.wikipedia.org/wiki/${ film.internet.wiki_ru }" target="_blank" title="WikiRu"><img src="img/pic/sn_wiki_ru.png" alt="WikiRu"></a>`;
 					
 					if ( film.internet.ashdivip ) 
-						htmlHdVip = `<a href="https://ashdi.vip/vod/${ film.internet.ashdivip }" target="_blank"><img src="img/pic/logo_hdvip.png" alt="HDVip"></a>`;
+						htmlHdVip = `<a href="https://ashdi.vip/vod/${ film.internet.ashdivip }" target="_blank" title="HDVip"><img src="img/pic/logo_hdvip.png" alt="HDVip"></a>`;
 					
 					if ( film.internet.auliki7 ) 
-						htmlAuliki7 = `<a href="http://auliki7.xyz/stream.php?name=films/${ film.internet.auliki7 }.mp4" target="_blank"><img src="img/pic/logo_auliki7.png" alt="Auliki7"></a>`;
-					
-
-
-
-
+						htmlAuliki7 = `<a href="http://auliki7.xyz/stream.php?name=films/${ film.internet.auliki7 }.mp4" target="_blank" title="Auliki7"><img src="img/pic/logo_auliki7.png" alt="Auliki7"></a>`;
 				}
 
 
@@ -108,6 +103,20 @@ class ComponentFilm {
 
 
 
+				let htmlHash = '';
+				if ( film.hash ) {
+					for ( let k in film.hash ) {
+						if ( objHashTags[ k ] ) {
+							if ( objHashTags[ k ].title ) {
+
+								htmlHash += `<span class="hashtag pointer">#${ objHashTags[ k ].title }</span>`;
+							}
+						}
+					}
+
+					htmlHash = htmlHash.slice( 0, -2 );
+				}
+
 
 
 
@@ -126,6 +135,7 @@ class ComponentFilm {
 								<div class=""><span class="key">рік:</span> <span class="">${ film.year }</span></div>
 								<div class=""><span class="key">країна:</span> <span class="">${ htmlCountry }</span></div>
 								<div class=""><span class="key">жанр:</span> <span class="">${ htmlGenre }</span></div>
+								<div class=""><span class="key">хештеги:</span> <span class="">${ htmlHash }</span></div>
 							</div>
 
 							<div class="internet">
@@ -141,12 +151,8 @@ class ComponentFilm {
 					<div class="section2">
 						${ film.cast ? Component( 'Cast', film  ) : '' }
 					</div>
-
 				</div>`;
-
-
 			}
-
 		}
 		
 

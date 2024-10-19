@@ -22,7 +22,7 @@ class ComponentWinMovies {
 		let tagParam = { 
 			//'class' 		: '', 
 			//'name' 		: '', 
-			//'title' 		: '', 
+			//'title' 		: '123', 
 			//'data-id' 	: '', 
 			//'onclick' 	: '', 
 			//'selected' 	: '', 
@@ -59,10 +59,10 @@ class ComponentWinMovies {
 				});
 			}
 
-			if ( objData.composser ) {
+			if ( objData.composer ) {
 				arrSelected = arrSelected.filter( k => {
-					if ( k.composser ) {
-						if ( k.composser[ objData.composser ] )
+					if ( k.composer ) {
+						if ( k.composer[ objData.composer ] )
 							return true;
 					}
 				});
@@ -210,7 +210,7 @@ class ComponentWinMovies {
  
  
 		setMeta({ 
-			title 			: fooName, 
+			title 			: 'Movie Films', 
 			description 	: 'Опис...', 
 			//image 		: '', 
 		}); 
