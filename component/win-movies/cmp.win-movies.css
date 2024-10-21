@@ -1,19 +1,6 @@
 cmp-win-movies {
-	color: #fff;
+
 } 
-	cmp-win-movies .each-movie .title {
-		display: flex;
-		justify-content: space-between;
-
-		padding: 3px 10px 6px 10px;
-		border-top-left-radius: 5px;
-		border-top-right-radius: 5px;
-		background: var( --bg-t );
-	} 
-		cmp-win-movies .each-movie .title .pm {
-			color: #999;
-		}
-
 
 
 

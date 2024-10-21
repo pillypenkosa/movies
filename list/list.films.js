@@ -2353,6 +2353,11 @@ const arrFilms = [
 	cast: { bill_pullman_17121953: 1, },
 },
 {
+	id: 'cassino_in_ischia_2024', title: { ua: 'Кассіно на острові Іскія', en: 'Cassino in Ischia', }, year: 2024, country: { usa: 1, ita: 1, }, 
+	genre: { comedy: 1, }, 
+	internet: { imdb: '27759716', },
+},
+{
 	id: 'Kuffs_1992', title: { ua: 'Каффс', en: 'Kuffs', }, year: 1992, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, }, hash: { police: 1, animal: 1, dog: 1, },
 	internet: { imdb: '0104647', wiki_ua: '%D0%9A%D0%B0%D1%84%D1%84%D1%81', ashdivip: '72496', },
@@ -5932,6 +5937,12 @@ const arrFilms = [
 	genre: { comedy: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0060400', wiki_ua: '%D0%A4%D0%B0%D0%BD%D1%82%D0%BE%D0%BC%D0%B0%D1%81_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%A1%D0%BA%D0%BE%D1%82%D0%BB%D0%B5%D0%BD%D0%B4-%D0%AF%D1%80%D0%B4%D1%83', },
 	cast: { jean_marais_11121913: 1, louis_de_funes_31071914: 1, },
+},
+{
+	id: 'far_cry_2008', title: { ua: 'Фар Край', en: 'Far Cry', }, year: 2008, country: { deu: 1, can: 1, },
+	genre: { sci_fi: 1, action: 1, adventure: 1, },
+	internet: { imdb: '0400426', wiki_ua: '%D0%A4%D0%B0%D1%80_%D0%9A%D1%80%D0%B0%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { michael_pare_09101958: 1, },
 },
 {
 	id: 'the_queens_gambit_2020', title: { ua: 'Ферзевий гамбіт', en: 'The Queen\'s Gambit', }, year: 2020, country: { usa: 1, },

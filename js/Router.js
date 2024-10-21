@@ -104,6 +104,7 @@ class Router {
 			director 		: 1,
 			genre 			: 1,
 			hash 			: 1,
+			id 				: 1,
 			letter 			: 1,
 			movie 			: 1,
 			movies 			: 1,

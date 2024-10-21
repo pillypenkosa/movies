@@ -1,7 +1,7 @@
 @chcp 65001
 
-@set up=Cast
-@set low=cast
+@set up=EachMovie
+@set low=each-movie
 @set pref=__NEW_COMPONENT_
 @set intro=© 2024 DJS
 

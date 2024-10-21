@@ -192,21 +192,17 @@ class ComponentWinMovies {
 
 
 		//console.log( arrSelected );
-
-
 		//console.log( arrSelected );
 
-		arrSelected.forEach( k => {
-			html += `<div class="each-movie" data-id="${ k.id }">
-				<div class="title pointer" onclick="${ this.name }.clcBtnTitle( this )">
-					<div class="txt">${ k.title.ua } (${ k.year })</div>
-					<div class="pm">+</div>
-				</div>
-				<div class="body"></div>
-			</div>`;
-					//${ Component( 'Film', { filmID: k.id } ) }
-		});
 
+
+
+
+		arrSelected.forEach( k => {
+
+			html += Component( 'Each-Movie', { filmID: k.id, pm: false, } ); 
+			//html += Component( 'Each-Movie', { filmID: k.id, pm: true, } ); 
+		});
 
 
  
@@ -226,32 +222,12 @@ class ComponentWinMovies {
  
  
  
-	static clcBtnTitle( elem ) { 
-		const fooName = this.name + '.clcBtnTitle()'; 
+	static clc( elem ) { 
+		const fooName = this.name + '.clc()'; 
  
 		//console.log( 'fooName: ', fooName ); 
 		//console.log( 'elem: ', elem ); 
  
-
-		let elemParnet = elem.closest( '.each-movie' );
-		let elemBody = elemParnet.querySelector( '.body' );
-
-
-		if ( !elemBody.innerHTML ) 
-			elemBody.innerHTML = Component( 'Film', { filmID: elemParnet.dataset.id } );
-
-		else 
-			elemBody.classList.toggle( 'unvivisible' );
-
-
-		let htmlPM = '';
-		if ( elemBody.classList.contains( 'unvivisible' ) ) 
-			htmlPM = '+';
-		else 
-			htmlPM = '-';
-			
-		elem.querySelector( '.pm' ).innerHTML = htmlPM;
-
 
 	} 
  

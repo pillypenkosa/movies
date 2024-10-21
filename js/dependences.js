@@ -50,7 +50,7 @@ const dependences = [
 	{ cmp: 'Menu-Filter-People' , },
 
 	{ cmp: 'Cast' 				, },
-	{ cmp: 'Film' 				, },
+	{ cmp: 'Each-Movie' 		, },
 
 	//{ cmp: 'Franchise' 			, },
 
@@ -66,6 +66,7 @@ const dependences = [
 	
 	{ cmp: 'Win-Actor' 					, win: /^actor$/ 					, }, 	
 	{ cmp: 'Win-Actors' 				, win: /^actors$/ 					, }, 	
+	{ cmp: 'Win-Movie' 					, win: /^movie$/ 					, }, 	
 	{ cmp: 'Win-Movies' 				, win: /^movies$/ 					, }, 	
 	{ cmp: 'Win-People' 				, win: /^people$/ 					, }, 	
 
