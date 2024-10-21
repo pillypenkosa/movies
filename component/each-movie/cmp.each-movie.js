@@ -364,8 +364,8 @@ class ComponentEachMovie {
 
 		const fooName = this.name + '.clcPoster()'; 
  
-		console.log( 'fooName: ', fooName ); 
-		console.log( 'elem: ', elem ); 
+		//console.log( 'fooName: ', fooName ); 
+		//console.log( 'elem: ', elem ); 
  
 
 

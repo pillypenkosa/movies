@@ -487,7 +487,7 @@ const arrFilms = [
 	cast: { brad_pitt_18121963: 1, },
 },
 {
-	id: 'Bill_&_Ted_2020', title: { ua: 'Білл і Тед', en: 'Bill & Ted Face the Music', }, year: 2020, country: { usa: 1, },
+	id: 'bill_ted_2020', title: { ua: 'Білл і Тед', en: 'Bill & Ted Face the Music', }, year: 2020, country: { usa: 1, },
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '1086064', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB_%D1%96_%D0%A2%D0%B5%D0%B4', },
 	cast: { keanu_reeves_02091964: 1, },
@@ -1076,7 +1076,7 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, burt_reynolds_11021936: 1, gina_gershon_10061962: 1, },
 },
 {
-	id: 'pride_&_prejudice_2005', title: { ua: 'Гордість та упередження', en: 'Pride & Prejudice', }, year: 2005, country: { gbr: 1, usa: 1, fra: 1, },
+	id: 'pride_prejudice_2005', title: { ua: 'Гордість та упередження', en: 'Pride & Prejudice', }, year: 2005, country: { gbr: 1, usa: 1, fra: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '0414387', wiki_ua: '%D0%93%D0%BE%D1%80%D0%B4%D1%96%D1%81%D1%82%D1%8C_%D1%96_%D1%83%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
 	cast: { keira_knightley_26031985: 1, donald_sutherland_17071935: 1, rosamund_pike_27011979: 1, judi_dench_09121934: 1, },
@@ -3192,7 +3192,7 @@ const arrFilms = [
 	cast: { gal_gadot_30041985: 1, },
 },
 {
-	id: 'mr_&_mrs_Smith_2005', title: { ua: 'Містер і місіс Сміт', en: 'Mr. & Mrs. Smith', }, year: 2005, country: { usa: 1, fra: 1, },
+	id: 'mr_mrs_smith_2005', title: { ua: 'Містер і місіс Сміт', en: 'Mr. & Mrs. Smith', }, year: 2005, country: { usa: 1, fra: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '0356910', wiki_ua: '%D0%9C%D1%96%D1%81%D1%82%D0%B5%D1%80_%D1%96_%D0%BC%D1%96%D1%81%D1%96%D1%81_%D0%A1%D0%BC%D1%96%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', ashdivip: '3588', },
 	cast: { brad_pitt_18121963: 1, angelina_jolie_04061975: 1, michelle_monaghan_23031976: 1, },
@@ -3575,7 +3575,7 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
 },
 {
-	id: 'Bill_&_Ted_1989', title: { ua: 'Неймовірні пригоди Білла і Теда', en: ' Bill & Ted\'s Excellent Adventure', }, year: 1989, country: { usa: 1, },
+	id: 'bill_ted_1989', title: { ua: 'Неймовірні пригоди Білла і Теда', en: ' Bill & Ted\'s Excellent Adventure', }, year: 1989, country: { usa: 1, },
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0096928', },
 	cast: { keanu_reeves_02091964: 1, },
@@ -3685,7 +3685,7 @@ const arrFilms = [
 	cast: { daniel_c_ryan_09061993: 1, },
 },
 {
-	id: 'Bill_&_Ted_1991', title: { ua: 'Нові пригоди Білла і Теда', en: 'Bill & Ted\'s Bogus Journey', }, year: 1991, country: { usa: 1, }, rating: 5,
+	id: 'bill_ted_1991', title: { ua: 'Нові пригоди Білла і Теда', en: 'Bill & Ted\'s Bogus Journey', }, year: 1991, country: { usa: 1, }, rating: 5,
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0101452', wiki_ua: '%D0%9D%D0%BE%D0%B2%D1%96_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B8_%D0%91%D1%96%D0%BB%D0%BB%D0%B0_%D1%96_%D0%A2%D0%B5%D0%B4%D0%B0', },
 	cast: { keanu_reeves_02091964: 1, },
@@ -5470,7 +5470,7 @@ const arrFilms = [
 	cast: { samy_naceri_02071961: 1, },
 },
 {
-	id: 'Tango_&_Cash_1989', title: { ua: 'Танго і Кеш', en: 'Tango & Cash', }, year: 1989, country: { usa: 1, },
+	id: 'tango_cash_1989', title: { ua: 'Танго і Кеш', en: 'Tango & Cash', }, year: 1989, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '0098439', wiki_ua: '%D0%A2%D0%B0%D0%BD%D0%B3%D0%BE_%D1%96_%D0%9A%D0%B5%D1%88', },
 	cast: { sylvester_stallone_06071946: 1, kurt_russell_17031951: 1, savely_kramarov_13101934: 1, },
@@ -6045,7 +6045,7 @@ const arrFilms = [
 	cast: { vin_diesel_18071967: 1, jason_statham_26071967: 1, michelle_rodriguez_12071978: 1, jason_momoa_01081979: 1, charlize_theron_07081975: 1, brie_larson_01101989: 1, john_cena_23071977: 1, },
 },
 {
-	id: 'fast_furious_presents_Hobbs_Shaw_2019', title: { ua: 'Форсаж: Гоббс та Шоу', en: 'Fast & Furious Presents: Hobbs & Shaw', }, year: 2019, country: { usa: 1, },
+	id: 'fast_furious_presents_hobbs_shaw_2019', title: { ua: 'Форсаж: Гоббс та Шоу', en: 'Fast & Furious Presents: Hobbs & Shaw', }, year: 2019, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, },
 	internet: { imdb: '6806448', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6:_%D0%93%D0%BE%D0%B1%D0%B1%D1%81_%D1%82%D0%B0_%D0%A8%D0%BE%D1%83', },
 	cast: { dwayne_johnson_02051972: 1, jason_statham_26071967: 1, ryan_reynolds_23101976: 1, },
