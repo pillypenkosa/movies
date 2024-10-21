@@ -11,8 +11,6 @@ class ComponentHeader {
 	static args = {};
 
 
-	// чи відображати меню 	
-	static tfMenu = true; 		// при першому завантаженні застосування - TRUE !!!
 
 
 	static html( objData = {} ) {
@@ -35,8 +33,18 @@ class ComponentHeader {
 
 
 
-		//let html = appProjectName + ' ' + appVersion;
-		//&#128660;
+
+		let clsUnvisible = '';
+		if ( Router.urlGET ) {
+			if ( Router.urlGET.win ) {
+				if ( Router.urlGET.win == 'index' || Router.urlGET.win == 'movie' ) 
+					clsUnvisible = 'unvisible';
+			}
+		}
+
+
+
+
 		let html = `
 			<div class="head">
 				<div class="title">${ appProjectName }</div>
@@ -44,7 +52,7 @@ class ComponentHeader {
 					<img src="img/pic/menu.png" alt="menu">
 				</div>
 			</div>
-			<div class="nav-menu">${ Component( 'Menu' ) }</div>
+			<div class="nav-menu ${ clsUnvisible }">${ Component( 'Menu' ) }</div>
 		`;
 
 		return { tagParam, html };
@@ -59,19 +67,9 @@ class ComponentHeader {
 		//console.log( 'data', data );
 
 
-
-		let elem = document.querySelector( '.nav-menu' );
-		if ( this.tfMenu ) {
-
-			//elem.innerHTML = Component( 'Menu' );
-			elem.style.display = 'block';
-
-		} else
-			//elem.innerHTML = '';
-			elem.style.display = 'none';
+		document.querySelector( '.nav-menu' ).classList.toggle( 'unvisible' );
 
 
-		this.tfMenu = !this.tfMenu;
 	}
 
 

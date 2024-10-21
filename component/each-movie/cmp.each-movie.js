@@ -152,12 +152,22 @@ class ComponentEachMovie {
 					}
 
 
+					let htmlRating = '';
+					if ( film.rating ) {
+
+						if ( film.rating == 5 ) 
+							htmlRating = '<span class="rating5">// 5</span>';
+
+						if ( film.rating == '5+' ) 
+							htmlRating = '<span class="rating5p">// 5+</span>';
+					}
+
 
 
 							//<div class="title-ua">${ film.title.ua }</div>
 					html += `<div class="each-movie">
 						<div class="title pointer" onclick="${ this.name }.clcBtnTitle( this )">
-							<div class="txt">${ film.title.ua } (${ film.year })</div>
+							<div class="txt">${ film.title.ua } (${ film.year }) ${ htmlRating }</div>
 							<div class="pm">+</div>
 						</div>
 						<div class="body">${ htmlBody }</div>
@@ -315,7 +325,7 @@ class ComponentEachMovie {
 				</div>
 
 				<div class="section2">
-					<div class="img" onclick="${ this.name }.clcPoster( this )">
+					<div class="img pointer" onclick="${ this.name }.clcPoster( this )">
 						<img src="img/poster/${ film.id }.jpg" alt="${ film.title.ua }">
 					</div>
 

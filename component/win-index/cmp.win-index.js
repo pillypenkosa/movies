@@ -41,7 +41,7 @@ class ComponentWinIndex {
 
 		//let html = '<div class="info">Бажаю здоров\'я! ))</div>';
 		//let html = `<div>${ fooName }</div>`;
-		let html = fooName;
+		let html = '';
 	
 
 

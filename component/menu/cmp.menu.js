@@ -41,7 +41,7 @@ class ComponentMenu {
  		
 
 
- 		console.log( Router.urlGET );
+ 		//console.log( Router.urlGET );
 
 
 		//console.log( 'objData: ', objData );

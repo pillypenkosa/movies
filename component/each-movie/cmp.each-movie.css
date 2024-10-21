@@ -14,6 +14,25 @@ cmp-each-movie {
 			color: #999;
 		}
 
+
+		cmp-each-movie .title .txt .rating5 {
+			color: #ff0;
+		}
+		cmp-each-movie .title .txt .rating5p {
+			color: #0f0;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
 	cmp-each-movie .body {
 		padding: 0 10px 0 10px;
 	} 
