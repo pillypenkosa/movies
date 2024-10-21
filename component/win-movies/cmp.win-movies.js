@@ -197,12 +197,11 @@ class ComponentWinMovies {
 		//console.log( arrSelected );
 
 		arrSelected.forEach( k => {
-			html += `<div class="each-movie">
+			html += `<div class="each-movie" data-id="${ k.id }">
 				<div class="title pointer" onclick="${ this.name }.clcBtnTitle( this )">${ k.title.ua } (${ k.year })</div>
-				<div class="body unvivisible">
-					${ Component( 'Film', { filmID: k.id } ) }
-				</div>
+				<div class="body"></div>
 			</div>`;
+					//${ Component( 'Film', { filmID: k.id } ) }
 		});
 
 
@@ -227,16 +226,19 @@ class ComponentWinMovies {
 	static clcBtnTitle( elem ) { 
 		const fooName = this.name + '.clcBtnTitle()'; 
  
-		console.log( 'fooName: ', fooName ); 
-		console.log( 'elem: ', elem ); 
+		//console.log( 'fooName: ', fooName ); 
+		//console.log( 'elem: ', elem ); 
  
 
-		elem.closest( '.each-movie' ).querySelector( '.body' ).classList.toggle( 'unvivisible' );
+		let elemParnet = elem.closest( '.each-movie' );
+		let elemBody = elemParnet.querySelector( '.body' );
 
 
+		if ( !elemBody.innerHTML ) 
+			elemBody.innerHTML = Component( 'Film', { filmID: elemParnet.dataset.id } );
 
-
-
+		else 
+			elemBody.classList.toggle( 'unvivisible' );
 
 
 

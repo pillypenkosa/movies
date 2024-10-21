@@ -5334,6 +5334,12 @@ const arrFilms = [
 	cast: { kim_basinger_08121953: 1, jason_statham_26071967: 1, chris_evans_13061981: 1, },
 },
 {
+	id: 'sentinel_2024', title: { ua: 'Страж', en: 'Sentinel', }, year: 2024, country: { usa: 1, },	
+	genre: { sci_fi: 1, action: 1, }, hash: { space: 1, zombie: 1, },
+	internet: { imdb: '16231344', },
+	cast: { michael_pare_09101958: 1,  },
+},
+{
 	id: 'fear_and_loathing_in_Las_Vegas_1998', title: { ua: 'Страх і огида в Лас-Вегасі', en: 'Fear and Loathing in Las Vegas', }, year: 1998, country: { usa: 1, },
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0120669', wiki_ua: '%D0%A1%D1%82%D1%80%D0%B0%D1%85_%D1%96_%D0%BE%D0%B3%D0%B8%D0%B4%D0%B0_%D0%B2_%D0%9B%D0%B0%D1%81-%D0%92%D0%B5%D0%B3%D0%B0%D1%81%D1%96',	},
@@ -5386,6 +5392,11 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, },
 	internet: { imdb: '0483607', wiki_ua: '%D0%A1%D1%83%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { rhona_mitra_09081976: 1, },
+},
+{
+	id: 'succubus_2024', title: { ua: 'Суккуб', en: 'Succubus', }, year: 2024, country: { usa: 1, },
+	genre: { horror: 1, erotica: 1, }, hash: { cyber: 1, },
+	internet: { imdb: '13778486', },
 },
 {
 	id: 'super_8_2011', title: { ua: 'Супер 8', en: 'Super 8', }, year: 2011, country: { usa: 1, },
@@ -5584,6 +5595,11 @@ const arrFilms = [
 	id: 'the_texas_chain_saw_massacre_1974', title: { ua: 'Техаська різанина бензопилою', en: 'The Texas Chain Saw Massacre', }, year: 1974, country: { usa: 1, },
 	genre: { horror: 1, },
 	internet: { imdb: '0072271', wiki_ua: '%D0%A2%D0%B5%D1%85%D0%B0%D1%81%D1%8C%D0%BA%D0%B0_%D1%80%D1%96%D0%B7%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B5%D0%BD%D0%B7%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1974)', },
+},
+{
+	id: 'you_can_t_run_forever_2024', title: { ua: 'Ти не можеш бігти завжди', en: 'You Can\'t Run Forever', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { maniac: 1, },
+	internet: { imdb: '15451150', },
 },
 {
 	id: 'a_thousand_words_2012', title: { ua: 'Тисяча слів', en: 'A Thousand Words', }, year: 2012, country: { usa: 1, },
