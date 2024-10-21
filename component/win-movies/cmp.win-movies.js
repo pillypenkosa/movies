@@ -198,7 +198,10 @@ class ComponentWinMovies {
 
 		arrSelected.forEach( k => {
 			html += `<div class="each-movie" data-id="${ k.id }">
-				<div class="title pointer" onclick="${ this.name }.clcBtnTitle( this )">${ k.title.ua } (${ k.year })</div>
+				<div class="title pointer" onclick="${ this.name }.clcBtnTitle( this )">
+					<div class="txt">${ k.title.ua } (${ k.year })</div>
+					<div class="pm">+</div>
+				</div>
 				<div class="body"></div>
 			</div>`;
 					//${ Component( 'Film', { filmID: k.id } ) }
@@ -240,6 +243,14 @@ class ComponentWinMovies {
 		else 
 			elemBody.classList.toggle( 'unvivisible' );
 
+
+		let htmlPM = '';
+		if ( elemBody.classList.contains( 'unvivisible' ) ) 
+			htmlPM = '+';
+		else 
+			htmlPM = '-';
+			
+		elem.querySelector( '.pm' ).innerHTML = htmlPM;
 
 
 	} 

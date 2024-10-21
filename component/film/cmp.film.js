@@ -109,49 +109,52 @@ class ComponentFilm {
 						if ( objHashTags[ k ] ) {
 							if ( objHashTags[ k ].title ) {
 
-								htmlHash += `<span class="hashtag pointer">#${ objHashTags[ k ].title }</span>`;
+								htmlHash += `<div class="hashtag pointer">#${ objHashTags[ k ].title }</div>`;
 							}
 						}
 					}
 
-					htmlHash = htmlHash.slice( 0, -2 );
+
+					//htmlHash.slice( 0, -2 );
 				}
 
 
 
 
-				html += `<div class="">
+						//<div class="title-ua">${ film.title.ua }</div>
+				html += `
 					<div class="section1">
+						<div class="title-en">${ film.title.en }</div>
+						<div class="year">( ${ film.year } )</div>
+					</div>
+
+
+					<div class="section2">
 						<div class="img">
 							<img src="img/poster/${ objData.filmID }.jpg" alt="${ film.title.ua }">
 						</div>
 
-						<div class="info">
-							<div class="title-en">${ film.title.en }</div>
-							<div class="title-ua">${ film.title.ua }</div>
-							<hr />
-
-							<div class="keyval">
-								<div class=""><span class="key">рік:</span> <span class="">${ film.year }</span></div>
-								<div class=""><span class="key">країна:</span> <span class="">${ htmlCountry }</span></div>
-								<div class=""><span class="key">жанр:</span> <span class="">${ htmlGenre }</span></div>
-								<div class=""><span class="key">хештеги:</span> <span class="">${ htmlHash }</span></div>
-							</div>
-
-							<div class="internet">
-								${ htmlImdb }
-								${ htmlWikiUa }
-								${ htmlWikiRu }
-								${ htmlHdVip }
-								${ htmlAuliki7 }
-							</div>
+						<div class="internet">
+							${ htmlImdb }
+							${ htmlWikiUa }
+							${ htmlWikiRu }
+							${ htmlHdVip }
+							${ htmlAuliki7 }
 						</div>
 					</div>
 
-					<div class="section2">
+					<div class="section3">
+						<div class="keyval"><span class="key">рік:</span> <span class="val">${ film.year }</span></div>
+						<div class="keyval"><span class="key">країна:</span> <span class="val">${ htmlCountry }</span></div>
+						<div class="keyval"><span class="key">жанр:</span> <span class="val">${ htmlGenre }</span></div>
+					</div>
+
+					<div class="section4">${ htmlHash }</div>
+
+					<div class="section5">
 						${ film.cast ? Component( 'Cast', film  ) : '' }
 					</div>
-				</div>`;
+				`;
 			}
 		}
 		
