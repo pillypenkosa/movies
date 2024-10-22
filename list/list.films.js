@@ -2826,6 +2826,11 @@ const arrFilms = [
 	cast: { tom_cruise_03071962: 1, cameron_diaz_30081972: 1, gal_gadot_30041985: 1, },
 },
 {
+	id: 'bad_genius_2024', title: { ua: 'Ліга мільйонерів', en: 'Bad Genius', }, year: 2024, country: { can: 1, },
+	genre: { thriller: 1, }, hash: { young: 1, },
+	internet: { imdb: '17717416', },
+},
+{
 	id: 'the_hitman_1991', title: { ua: 'Ліквідатор', en: 'The Hitman', }, year: 1991, country: { usa: 1, },
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0102045', wiki_ua: '%D0%9B%D1%96%D0%BA%D0%B2%D1%96%D0%B4%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -3453,6 +3458,11 @@ const arrFilms = [
 	id: 'due_justice_2023', title: { ua: 'Належне правосуддя', en: 'Due Justice ', }, year: 2023, country: { usa: 1, }, 
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '14791590', },
+},
+{
+	id: 'napad_2024', title: { ua: 'Напад', en: 'Napad', }, year: 2024, country: { pol: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { robbery: 1, },
+	internet: { imdb: '32245158', },
 },
 {
 	id: 'lockout_2012', title: { ua: 'Напролом', en: 'Lockout', }, year: 2012, country: { fra: 1, },
