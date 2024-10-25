@@ -1922,6 +1922,12 @@ const arrFilms = [
 	cast: { emilio_estevez_12051962: 1, samuel_l_jackson_21121948: 1, bruce_willis_19031955: 1, charlie_sheen_03091965: 1, christopher_lambert_29031957: 1, whoopi_goldberg_13111955: 1, tim_curry_19041946: 1, denise_richards_17021971: 1, },
 },
 {
+	id: 'classified_2024', title: { ua: 'Засекречено', en: 'Classified', }, year: 2024, country: { bul: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '27714840', },
+	cast: { aaron_eckhart_12031968: 1, },
+},
+{
 	id: 'zathura_2005', title: { ua: 'Затура', en: 'Zathura: A Space Adventure', }, year: 2005, country: { usa: 1, }, rating: 5,
 	genre: { fantasy: 1, adventure: 1, }, 
 	internet: { imdb: '0406375', wiki_ua: '%D0%97%D0%B0%D1%82%D1%83%D1%80%D0%B0:_%D0%9A%D0%BE%D1%81%D0%BC%D1%96%D1%87%D0%BD%D0%B0_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B0', ashdivip: '16057', },
@@ -3524,7 +3530,7 @@ const arrFilms = [
 	id: 'no_time_to_die_2021', title: { ua: 'Не час помирати', en: 'No Time to Die', }, year: 2021, country: { gbr: 1, }, franchise: 'agent_007_Craig',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '2382320', wiki_ua: '007:_%D0%9D%D0%B5_%D1%87%D0%B0%D1%81_%D0%BF%D0%BE%D0%BC%D0%B8%D1%80%D0%B0%D1%82%D0%B8', },
-	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, },
+	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, rami_malek_12051981: 1, ana_de_armas_30041988: 1, },
 },
 {
 	id: 'dangerous_waters_2023', title: { ua: 'Небезпечні води', en: 'Dangerous Waters', }, year: 2023, country: { usa: 1, },
@@ -3714,7 +3720,7 @@ const arrFilms = [
 	id: 'knives_out_2019', title: { ua: 'Ножі наголо', en: 'Knives Out', }, year: 2019, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, }, 
 	internet: { imdb: '8946378', wiki_ua: '%D0%9D%D0%BE%D0%B6%D1%96_%D0%BD%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE', },
-	cast: { daniel_craig_02031968: 1, chris_evans_13061981: 1, jamie_lee_curtis_22111958: 1, don_johnson_15121949: 1, },
+	cast: { daniel_craig_02031968: 1, chris_evans_13061981: 1, jamie_lee_curtis_22111958: 1, don_johnson_15121949: 1, ana_de_armas_30041988: 1, },
 },
 {
 	id: 'new_york_taxi_2004', title: { ua: 'Нью-Йоркське таксі', en: 'Taxi', }, year: 2004, country: { usa: 1, fra: 1, },
@@ -3767,6 +3773,7 @@ const arrFilms = [
 	id: 'overdrive_2017', title: { ua: 'Овердрайв', en: 'Overdrive', }, year: 2017, country: { fra: 1, },
 	genre: { action: 1, crime: 1, adventure: 1, },
 	internet: { imdb: '1935194', wiki_ua: '%D0%9E%D0%B2%D0%B5%D1%80%D0%B4%D1%80%D0%B0%D0%B9%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { ana_de_armas_30041988: 1, },
 },
 {
 	id: 'uglies_2024', title: { ua: 'Огидні', en: 'Uglies', }, year: 2024, country: { usa: 1, },
@@ -4600,6 +4607,12 @@ const arrFilms = [
 	genre: { comedy: 1, },
 	internet: { imdb: '1033643', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B8_%D1%83_%D0%92%D0%B5%D2%91%D0%B0%D1%81%D1%96', },
 	cast: { cameron_diaz_30081972: 1, ashton_kutcher_07021978: 1, },
+},
+{
+	id: 'ghosted_2023', title: { ua: 'Примарні', en: 'Ghosted', }, year: 2023, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, adventure: 1, },
+	internet: { imdb: '15326988', wiki_ua: '%D0%9D%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F', },
+	cast: { chris_evans_13061981: 1, ana_de_armas_30041988: 1, adrien_brody_14041973: 1, ryan_reynolds_23101976: 1, },
 },
 {
 	id: 'the_Prince_of_Pennsylvania_1988', title: { ua: 'Принц Пенсільванії', en: 'The Prince of Pennsylvania', }, year: 1988, country: { usa: 1, },
@@ -5781,7 +5794,7 @@ const arrFilms = [
 	id: 'the_informer_2019', title: { ua: 'Три секунди', en: 'The Informer', }, year: 2019, country: { gbr: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1833116', wiki_ua: '%D0%A2%D1%80%D0%B8_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B8', },
-	cast: { rosamund_pike_27011979: 1, },
+	cast: { rosamund_pike_27011979: 1, ana_de_armas_30041988: 1, },
 },
 {
 	id: 'Ocean_s_thirteen_2007', title: { ua: 'Тринадцять друзів Оушена', en: 'Ocean\'s Thirteen', }, year: 2007, country: { usa: 1, },
