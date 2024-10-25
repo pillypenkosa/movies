@@ -2920,6 +2920,12 @@ const arrFilms = [
 	cast: { anthony_hopkins_31121937: 1, },
 },
 {
+	id: 'man_on_fire_2004', title: { ua: 'Лють', en: 'Man on Fire', }, year: 2004, country: { usa: 1, gbr: 1, che: 1, mex: 1,},
+	genre: { action: 1, drama: 1, crime: 1, },
+	internet: { imdb: '0328107', wiki_ua: '%D0%9B%D1%8E%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2004)', },
+	cast: { denzel_washington_28121954: 1, mickey_rourke_16091952: 1, dakota_fanning_23021994: 1, },
+},
+{
 	id: 'fury_2014', title: { ua: 'Лють', en: 'Fury', }, year: 2014, country: { usa: 1, },
 	genre: { war: 1, drama: 1, }, hash: { war: 1, war2w: 1, battle: 1, tank: 1, },
 	internet: { imdb: '2713180', wiki_ua: '%D0%9B%D1%8E%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2014)', },
@@ -4577,6 +4583,24 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { terrorist: 1, nuclear_bomb: 1, },
 	internet: { imdb: '0423412', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B8%D0%B2%D0%B0_%D0%B1%D1%80%D0%B5%D1%85%D0%BD%D1%8F', ashdivip: '1903', auliki7: 'True.Lies', },
 	cast: { arnold_schwarzenegger_30071947: 1, jamie_lee_curtis_22111958: 1, bill_paxton_17051955: 1, tia_carrere_02011967: 1, },
+},
+{
+	id: 'the_equalizer_2014', title: { ua: 'Праведник', en: 'The Equalizer', }, year: 2014, country: { usa: 1, }, rating: 5,
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '0455944', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '6682', },
+	cast: { denzel_washington_28121954: 1, bill_pullman_17121953: 1, },
+},
+{
+	id: 'the_equalizer_2_2018', title: { ua: 'Праведник - 2', en: 'The Equalizer 2', }, year: 2018, country: { usa: 1, }, rating: 5,
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '3766354', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA_2', ashdivip: '6683', },
+	cast: { denzel_washington_28121954: 1, bill_pullman_17121953: 1, },
+},
+{
+	id: 'the_equalizer_3_2023', title: { ua: 'Праведник - 3', en: 'The Equalizer 2', }, year: 2023, country: { usa: 1, }, rating: 5,
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '17024450', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA_3', ashdivip: '107573', },
+	cast: { denzel_washington_28121954: 1, remo_girone_01121948: 1, dakota_fanning_23021994: 1, },
 },
 {
 	id: 'righteous_kill_2008', title: { ua: 'Право на вбивство', en: 'Righteous Kill', }, year: 2008, country: { usa: 1, },
