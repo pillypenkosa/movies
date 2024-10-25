@@ -607,7 +607,7 @@ const arrFilms = [
 },
 {
 	id: 'Van_Helsing_2004', title: { ua: 'Ван Хелсінг', en: 'Van Helsing', }, year: 2004, country: { usa: 1, },
-	genre: { action: 1, fantasy: 1, },
+	genre: { action: 1, fantasy: 1, }, hash: { vampire: 1, },
 	internet: { imdb: '0338526', wiki_ua: '%D0%92%D0%B0%D0%BD_%D0%A5%D0%B5%D0%BB%D1%81%D1%96%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '7281', },
 	cast: { hugh_jackman_12101968: 1, kate_beckinsale_26071973: 1, },
 },
@@ -4598,6 +4598,12 @@ const arrFilms = [
 	cast: { patrick_swayze_18081952: 1, },
 },
 {
+	id: 'road_house_2024', title: { ua: 'Придорожній клуб', en: 'Road House', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, }, 
+	internet: { imdb: '3359350', },
+	cast: { jake_gyllenhaal_19121980: 1, conor_mc_gregor_14071988: 1, },
+},
+{
 	id: 'spadla_z_oblakov_1978', title: { ua: 'Пригоди в канікули', en: 'Spadla z oblakov', }, year: 1978, country: { svk: 1, },
 	genre: { serial: 1, adventure: 1, sci_fi: 1, }, hash: { aliens: 1, children: 1, },
 	internet: { imdb: '0077083', wiki_ru: '%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%BA%D0%B0%D0%BD%D0%B8%D0%BA%D1%83%D0%BB%D1%8B', youtube: 'Im2lD9l7zlg', },
@@ -4609,9 +4615,9 @@ const arrFilms = [
 	cast: { cameron_diaz_30081972: 1, ashton_kutcher_07021978: 1, },
 },
 {
-	id: 'ghosted_2023', title: { ua: 'Примарні', en: 'Ghosted', }, year: 2023, country: { usa: 1, },
+	id: 'ghosted_2023', title: { ua: 'Примарні', en: 'Ghosted', }, year: 2023, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, comedy: 1, adventure: 1, },
-	internet: { imdb: '15326988', wiki_ua: '%D0%9D%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F', },
+	internet: { imdb: '15326988', wiki_ua: '%D0%9D%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D0%B5_%D0%BF%D0%BE%D0%B1%D0%B0%D1%87%D0%B5%D0%BD%D0%BD%D1%8F', ashdivip: '93706', },
 	cast: { chris_evans_13061981: 1, ana_de_armas_30041988: 1, adrien_brody_14041973: 1, ryan_reynolds_23101976: 1, },
 },
 {
@@ -5548,6 +5554,12 @@ const arrFilms = [
 	genre: { thriller: 1, adventure: 1, }, hash: { shark: 1, underwater: 1, },
 	internet: { imdb: '1507563', wiki_ru: '%D0%97%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D0%B0_%D0%B0%D0%BA%D1%83%D0%BB',  },
 	cast: { halle_berry_14081966: 1, },
+},
+{
+	id: 'the_dark_knight_2008', title: { ua: 'Темний лицар', en: 'The Dark Knight', }, year: 2008, country: { usa: 1, gbr: 1, },
+	genre: { fantasy: 1, action: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '0468569', wiki_ua: '%D0%A2%D0%B5%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B8%D1%86%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',  },
+	cast: { christian_bale_30011974: 1, gary_oldman_21031958: 1, aaron_eckhart_12031968: 1, morgan_freeman_01061937: 1,  }, composer: { hans_zimmer_12091957: 1, james_newton_howard_09061951: 1, }, 
 },
 {
 	id: 'tenet_2020', title: { ua: 'Тенет', en: 'Tenet', }, year: 2020, country: { usa: 1, }, rating: 5,

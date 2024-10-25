@@ -131,6 +131,7 @@ const arrHashTags = [
 	{ id: 'animal' 			, title: 'тварини' 						, app: { films: 1, }, },
 	{ id: 'shark' 			, title: 'акули' 						, app: { films: 1, }, },
 	{ id: 'groundhog' 		, title: 'бабак' 						, app: { films: 1, }, }, // в стилі Дня Бабака
+	{ id: 'vampire' 		, title: 'вампіри' 						, app: { films: 1, }, }, 
 	{ id: 'bear' 			, title: 'ведмеді' 						, app: { films: 1, }, }, 
 	{ id: 'virus' 			, title: 'вірус' 						, app: { films: 1, }, },
 	{ id: 'dinosaur' 		, title: 'динозаври' 					, app: { films: 1, }, },
