@@ -608,7 +608,7 @@ const arrFilms = [
 {
 	id: 'Van_Helsing_2004', title: { ua: 'Ван Хелсінг', en: 'Van Helsing', }, year: 2004, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, },
-	internet: { imdb: '0338526', wiki_ua: '%D0%92%D0%B0%D0%BD_%D0%A5%D0%B5%D0%BB%D1%81%D1%96%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0338526', wiki_ua: '%D0%92%D0%B0%D0%BD_%D0%A5%D0%B5%D0%BB%D1%81%D1%96%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '7281', },
 	cast: { hugh_jackman_12101968: 1, kate_beckinsale_26071973: 1, },
 },
 {
@@ -6107,6 +6107,12 @@ const arrFilms = [
 	genre: { action: 1, fantasy: 1, }, hash: { aliens: 1, police: 1, },
 	internet: { imdb: '0100403', wiki_ua: '%D0%A5%D0%B8%D0%B6%D0%B0%D0%BA_2', },
 	cast: { gary_busey_29061944: 1, bill_paxton_17051955: 1, danny_glover_22071946: 1, },
+},
+{
+	id: 'never_let_go_2024', title: { ua: 'Хижий ліс', en: 'Never Let Go', }, year: 2024, country: { usa: 1, can: 1, fra: 1,},
+	genre: { horror: 1, thriller: 1, },
+	internet: { imdb: '14415204', wiki_ua: '%D0%A5%D0%B8%D0%B6%D0%B8%D0%B9_%D0%BB%D1%96%D1%81', },
+	cast: { halle_berry_14081966: 1, },
 },
 {
 	id: 'splice_2009', title: { ua: 'Химера', en: 'Splice', }, year: 2009, country: { usa: 1, }, rating: 5,
