@@ -87,7 +87,7 @@ class ComponentCast {
 				}
 
 				htmlDirector = `<div class="each-cast pointer">
-					<div class="">Режисер:</div>${ htmlDirector }
+					<div class="">Режисери:</div>${ htmlDirector }
 				</div>`;
 			}
 
@@ -118,7 +118,7 @@ class ComponentCast {
 				}
 
 				htmlComposer = `<div class="each-cast pointer">
-					<div class="">Композитор:</div>${ htmlComposer }
+					<div class="">Композитори:</div>${ htmlComposer }
 				</div>`;
 			}
 

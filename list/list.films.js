@@ -2289,6 +2289,12 @@ const arrFilms = [
 	cast: { jean_reno_30071948: 1, laurence_fishburne_30071961: 1, matt_dillon_18021964: 1, },
 },
 {
+	id: 'the_foreigner_2017', title: { ua: 'Іноземець', en: 'The Foreigner', }, year: 2017, country: { usa: 1, gbr: 1, chn: 1, ind: 1, che: 1, },
+	genre: { action: 1, }, hash: { fight: 1, },
+	internet: { imdb: '1615160', wiki_ua: '%D0%86%D0%BD%D0%BE%D0%B7%D0%B5%D0%BC%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jackie_chan_07041954: 1, pierce_brosnan_16051953: 1, },
+},
+{
 	id: 'interstellar_2014', title: { ua: 'Інтерстеллар', en: 'Interstellar ', }, year: 2014, country: { usa: 1, gbr: 1, },
 	genre: { sci_fi: 1, }, hash: { space: 1, time: 1, },
 	internet: { imdb: '0816692', wiki_ua: '%D0%86%D0%BD%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B5%D0%BB%D0%BB%D0%B0%D1%80', ashdivip: '2', moviestape: 'Interstellar', },
@@ -3299,6 +3305,11 @@ const arrFilms = [
 	cast: { charlize_theron_07081975: 1, bill_paxton_17051955: 1, },
 },
 {
+	id: 'morbius_2022', title: { ua: 'Морбіус', en: 'Morbius', }, year: 2022, country: { usa: 1, },
+	genre: { sci_fi: 1, action: 1,  },
+	internet: { imdb: '5108870', },
+},
+{
 	id: 'muzzle_2023', title: { ua: 'Морда', en: 'Muzzle', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, crime: 1,  }, hash: { dog: 1, police: 1, },
 	internet: { imdb: '17663876', },
@@ -3806,7 +3817,7 @@ const arrFilms = [
 {
 	id: 'Caddo_lake_2024', title: { ua: 'Озеро Каддо', en: 'Caddo Lake', }, year: 2024, country: { usa: 1, },
 	genre: { thriller: 1, },
-	internet: { imdb: '15552142', wiki_ru: '%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D0%9A%D0%B0%D0%B4%D0%B4%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '15552142', wiki_ru: '%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D0%9A%D0%B0%D0%B4%D0%B4%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', ashdivip: '146382', },
 },
 {
 	id: 'Oppenheimer_2023', title: { ua: 'Оппенгеймер', en: 'Oppenheimer', }, year: 2023, country: { usa: 1, gbr: 1, },
@@ -5558,7 +5569,7 @@ const arrFilms = [
 {
 	id: 'the_dark_knight_2008', title: { ua: 'Темний лицар', en: 'The Dark Knight', }, year: 2008, country: { usa: 1, gbr: 1, },
 	genre: { fantasy: 1, action: 1, }, hash: { superhero: 1, },
-	internet: { imdb: '0468569', wiki_ua: '%D0%A2%D0%B5%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B8%D1%86%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',  },
+	internet: { imdb: '0468569', wiki_ua: '%D0%A2%D0%B5%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B8%D1%86%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '557', },
 	cast: { christian_bale_30011974: 1, gary_oldman_21031958: 1, aaron_eckhart_12031968: 1, morgan_freeman_01061937: 1,  }, composer: { hans_zimmer_12091957: 1, james_newton_howard_09061951: 1, }, 
 },
 {
