@@ -456,6 +456,18 @@ const arrFilms = [
 	cast: { angelina_jolie_04061975: 1, anthony_hopkins_31121937: 1, john_malkovich_09121953: 1, crispin_glover_20041964: 1, ray_winstone_19021957: 1, },
 },
 {
+	id: 'the_batman_2022', title: { ua: 'Бетмен', en: 'The Batman', }, year: 2022, country: { usa: 1, }, franchise: 'batman',
+	genre: { action: 1, fantasy: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '1877830', wiki_ua: '%D0%91%D0%B5%D1%82%D0%BC%D0%B5%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', },
+	cast: { zoe_kravitz_01121988: 1, },
+},
+{
+	id: 'batman_begins_2005', title: { ua: 'Бетмен: Початок', en: 'Batman Begins', }, year: 2005, country: { usa: 1, gbr: 1, }, franchise: 'batman',
+	genre: { action: 1, fantasy: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '0372784', wiki_ua: '%D0%91%D0%B5%D1%82%D0%BC%D0%B5%D0%BD:_%D0%9F%D0%BE%D1%87%D0%B0%D1%82%D0%BE%D0%BA', },
+	cast: { christian_bale_30011974: 1, liam_neeson_07061952: 1, gary_oldman_21031958: 1, morgan_freeman_01061937: 1, rutger_hauer_23011944: 1, }, composer: { hans_zimmer_12091957: 1, james_newton_howard_09061951: 1, }, 
+},
+{
 	id: 'batman_and_Robin_1997', title: { ua: 'Бетмен і Робін', en: 'Batman & Robin', }, year: 1997, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, },
 	internet: { imdb: '0118688', wiki_ua: '%D0%91%D0%B5%D1%82%D0%BC%D0%B5%D0%BD_%D1%96_%D0%A0%D0%BE%D0%B1%D1%96%D0%BD', },
@@ -733,7 +745,7 @@ const arrFilms = [
 	cast: { tom_hanks_09071956: 1, },
 },
 {
-	id: 'a_view_to_a_kill_1985', title: { ua: 'Вид на вбивство', en: 'A View to a Kill', }, year: 1985, country: { gbr: 1, },
+	id: 'a_view_to_a_kill_1985', title: { ua: 'Вид на вбивство', en: 'A View to a Kill', }, year: 1985, country: { gbr: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0090264', wiki_ua: '%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B2%D0%B1%D0%B8%D0%B2%D1%81%D1%82%D0%B2%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2667', },
 	cast: { roger_moore_14101927: 1, },
@@ -801,7 +813,7 @@ const arrFilms = [
 	id: 'war_of_the_worlds_2005', title: { ua: 'Війна світів', en: 'War of the Worlds', }, year: 2005, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0407304', wiki_ua: '%D0%92%D1%96%D0%B9%D0%BD%D0%B0_%D1%81%D0%B2%D1%96%D1%82%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
-	cast: { tom_cruise_03071962: 1, }, director: { steven_spielberg_18121946: 1, },
+	cast: { tom_cruise_03071962: 1, dakota_fanning_23021994: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'Willow_1988', title: { ua: 'Віллоу', en: 'Willow', }, year: 1988, country: { gbr: 1, usa: 1, }, rating: 5,
@@ -822,7 +834,7 @@ const arrFilms = [
 },
 {
 	id: 'teen_wolf_1985', title: { ua: 'Вовченя', en: 'Teen Wolf', }, year: 1985, country: { usa: 1, },
-	genre: { comedy: 1, fantasy: 1, }, hash: { young: 1, },
+	genre: { comedy: 1, fantasy: 1, }, hash: { young: 1, werewolf: 1, },
 	internet: { imdb: '0090142', wiki_ua: '%D0%92%D0%BE%D0%B2%D1%87%D0%B5%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { michael_j_fox_09061961: 1, },
 },
@@ -1832,7 +1844,7 @@ const arrFilms = [
 	internet: { imdb: '9484998', },
 },
 {
-	id: 'tomorrow_never_dies_1997', title: { ua: 'Завтра не помре ніколи', en: 'Tomorrow Never Dies', }, year: 1997, country: { gbr: 1, usa: 1, }, franchise: 'agent_007_Brosnan',
+	id: 'tomorrow_never_dies_1997', title: { ua: 'Завтра не помре ніколи', en: 'Tomorrow Never Dies', }, year: 1997, country: { gbr: 1, usa: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0120347', wiki_ua: '%D0%97%D0%B0%D0%B2%D1%82%D1%80%D0%B0_%D0%BD%D0%B5_%D0%BF%D0%BE%D0%BC%D1%80%D0%B5_%D0%BD%D1%96%D0%BA%D0%BE%D0%BB%D0%B8', },
 	cast: { pierce_brosnan_16051953: 1, judi_dench_09121934: 1, },
@@ -2069,7 +2081,7 @@ const arrFilms = [
 	internet: { imdb: '12349832', wiki_ua: '%D0%97%D0%BE%D0%B7%D1%83%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
 },
 {
-	id: 'golden_eye_1995', title: { ua: 'Золоте око', en: 'GoldenEye', }, year: 1995, country: { usa: 1, }, rating: 5, franchise: 'agent_007_Brosnan',
+	id: 'golden_eye_1995', title: { ua: 'Золоте око', en: 'GoldenEye', }, year: 1995, country: { usa: 1, }, rating: 5, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0113189', wiki_ua: '%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%B5_%D0%BE%D0%BA%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2636', auliki7: 'GoldenEye', },
 	cast: { pierce_brosnan_16051953: 1, sean_bean_17041959: 1, judi_dench_09121934: 1, },
@@ -2154,7 +2166,7 @@ const arrFilms = [
 	cast: { dwayne_johnson_02051972: 1, ashley_judd_19041968: 1, billy_crystal_14031948: 1, },
 },
 {
-	id: 'the_world_is_not_enough_1999', title: { ua: 'І цілого світу замало', en: 'The World Is Not Enough', }, year: 1999, country: { gbr: 1, usa: 1, }, franchise: 'agent_007_Brosnan',
+	id: 'the_world_is_not_enough_1999', title: { ua: 'І цілого світу замало', en: 'The World Is Not Enough', }, year: 1999, country: { gbr: 1, usa: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0113189', wiki_ua: '%D0%86_%D1%86%D1%96%D0%BB%D0%BE%D0%B3%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D1%83_%D0%B7%D0%B0%D0%BC%D0%B0%D0%BB%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { pierce_brosnan_16051953: 1, sophie_marceau_17111966: 1, judi_dench_09121934: 1, },
@@ -2275,7 +2287,7 @@ const arrFilms = [
 	id: 'Indiana_Johns_4_2008', title: { ua: 'Індіана Джонс - 4', en: 'Indiana Jones and the Kingdom of the Crystal Skull', }, year: 2008, country: { usa: 1, }, franchise: 'Indiana_Johns',
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0367882', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D0%BA%D1%80%D0%B8%D1%88%D1%82%D0%B0%D0%BB%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE_%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0', },
-	cast: { harrison_ford_13071942: 1, shia_labeouf_11061986: 1, cate_blanchett_14051969: 1,  }, director: { steven_spielberg_18121946: 1, },
+	cast: { harrison_ford_13071942: 1, shia_labeouf_11061986: 1, cate_blanchett_14051969: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'the_engineer_2023', title: { ua: 'Інженер', en: 'The Engineer ', }, year: 2023, country: { usa: 1, isr: 1, },
@@ -2291,7 +2303,7 @@ const arrFilms = [
 {
 	id: 'the_foreigner_2017', title: { ua: 'Іноземець', en: 'The Foreigner', }, year: 2017, country: { usa: 1, gbr: 1, chn: 1, ind: 1, che: 1, },
 	genre: { action: 1, }, hash: { fight: 1, },
-	internet: { imdb: '1615160', wiki_ua: '%D0%86%D0%BD%D0%BE%D0%B7%D0%B5%D0%BC%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '1615160', wiki_ua: '%D0%86%D0%BD%D0%BE%D0%B7%D0%B5%D0%BC%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '7583', },
 	cast: { jackie_chan_07041954: 1, pierce_brosnan_16051953: 1, },
 },
 {
@@ -2336,7 +2348,7 @@ const arrFilms = [
 	cast: { liza_minnelli_12031946: 1, },
 },
 {
-	id: 'casino_royale_2006', title: { ua: 'Казино Рояль', en: 'Casino Royale', }, year: 2006, country: { gbr: 1, usa: 1, deu: 1, cze: 1, }, franchise: 'agent_007_Craig',
+	id: 'casino_royale_2006', title: { ua: 'Казино Рояль', en: 'Casino Royale', }, year: 2006, country: { gbr: 1, usa: 1, deu: 1, cze: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0381061', wiki_ua: '%D0%9A%D0%B0%D0%B7%D0%B8%D0%BD%D0%BE_%D0%A0%D0%BE%D1%8F%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2006)', },
 	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, },
@@ -2376,7 +2388,7 @@ const arrFilms = [
 	cast: { christian_slater_18081969: 1, milla_jovovich_17121975: 1, ashley_judd_19041968: 1, },
 },
 {
-	id: 'quantum_of_solace_2008', title: { ua: 'Квант милосердя', en: 'Quantum of Solace', }, year: 2008, country: { gbr: 1, usa: 1, }, franchise: 'agent_007_Craig',
+	id: 'quantum_of_solace_2008', title: { ua: 'Квант милосердя', en: 'Quantum of Solace', }, year: 2008, country: { gbr: 1, usa: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0830515', wiki_ua: '%D0%9A%D0%B2%D0%B0%D0%BD%D1%82_%D0%BC%D0%B8%D0%BB%D0%BE%D1%81%D0%B5%D1%80%D0%B4%D1%8F', },
 	cast: { daniel_craig_02031968: 1, olga_kurylenko_14111979: 1, judi_dench_09121934: 1, },
@@ -2629,7 +2641,7 @@ const arrFilms = [
 	cast: { kevin_spacey_26071959 : 1, },
 },
 {
-	id: 'skyfall_2012', title: { ua: 'Координати Скайфолл', en: 'Skyfall', }, year: 2012, country: { gbr: 1, }, rating: 5, franchise: 'agent_007_Craig',
+	id: 'skyfall_2012', title: { ua: 'Координати Скайфолл', en: 'Skyfall', }, year: 2012, country: { gbr: 1, }, rating: 5, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '1074638', wiki_ua: '007:_%D0%9A%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D0%B8_%C2%AB%D0%A1%D0%BA%D0%B0%D0%B9%D1%84%D0%BE%D0%BB%D0%BB%C2%BB', ashdivip: '2534', },
 	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, },
@@ -2697,6 +2709,12 @@ const arrFilms = [
 	genre: { drama: 1, }, hash: { love: 1, },
 	internet: { imdb: '0100405', wiki_ua: '%D0%9A%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%8F', },
 	cast: { julia_roberts_28101967: 1, richard_gere_31081949: 1, },
+},
+{
+	id: 'jolt_2021', title: { ua: 'Красуня на драйві', en: 'Jolt', }, year: 2021, country: { usa: 1, }, 
+	genre: { action: 1, crime: 1, comedy: 1, },
+	internet: { imdb: '10228134', wiki_ua: '%D0%9A%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%8F_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D1%96', },
+	cast: { kate_beckinsale_26071973: 1, },
 },
 {
 	id: 'red_right_hand_2024', title: { ua: 'Кривава права рука', en: 'Red Right Hand', }, year: 2024, country: { usa: 1, }, 
@@ -3544,7 +3562,7 @@ const arrFilms = [
 	cast: { jean_claude_van_damme_18101960: 1, },
 },
 {
-	id: 'no_time_to_die_2021', title: { ua: 'Не час помирати', en: 'No Time to Die', }, year: 2021, country: { gbr: 1, }, franchise: 'agent_007_Craig',
+	id: 'no_time_to_die_2021', title: { ua: 'Не час помирати', en: 'No Time to Die', }, year: 2021, country: { gbr: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '2382320', wiki_ua: '007:_%D0%9D%D0%B5_%D1%87%D0%B0%D1%81_%D0%BF%D0%BE%D0%BC%D0%B8%D1%80%D0%B0%D1%82%D0%B8', },
 	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, rami_malek_12051981: 1, ana_de_armas_30041988: 1, },
@@ -3822,7 +3840,7 @@ const arrFilms = [
 },
 {
 	id: 'Caddo_lake_2024', title: { ua: 'Озеро Каддо', en: 'Caddo Lake', }, year: 2024, country: { usa: 1, },
-	genre: { thriller: 1, },
+	genre: { thriller: 1, mystic: 1, }, hash: { time: 1, },
 	internet: { imdb: '15552142', wiki_ru: '%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D0%9A%D0%B0%D0%B4%D0%B4%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', ashdivip: '146382', },
 },
 {
@@ -4532,7 +4550,7 @@ const arrFilms = [
 	internet: { imdb: '2669336', wiki_ua: '%D0%9F%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B0_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
-	id: 'die_another_day_2002', title: { ua: 'Помри але не зараз', en: 'Die Another Day', }, year: 2002, country: { usa: 1, }, franchise: 'agent_007_Brosnan',
+	id: 'die_another_day_2002', title: { ua: 'Помри але не зараз', en: 'Die Another Day', }, year: 2002, country: { usa: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0246460', wiki_ua: '%D0%9F%D0%BE%D0%BC%D1%80%D0%B8,_%D0%B0%D0%BB%D0%B5_%D0%BD%D0%B5_%D0%B7%D0%B0%D1%80%D0%B0%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { pierce_brosnan_16051953: 1, halle_berry_14081966: 1, judi_dench_09121934: 1, madonna_16081958: 1,  rosamund_pike_27011979: 1, },
@@ -5326,7 +5344,7 @@ const arrFilms = [
 	cast: { nastassja_kinski_24011961: 1, },
 },
 {
-	id: 'spectre_2015', title: { ua: 'Спектр', en: 'Spectre', }, year: 2015, country: { gbr: 1, usa: 1, }, franchise: 'agent_007_Craig',
+	id: 'spectre_2015', title: { ua: 'Спектр', en: 'Spectre', }, year: 2015, country: { gbr: 1, usa: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '2379713', wiki_ua: '007:_%D0%A1%D0%BF%D0%B5%D0%BA%D1%82%D1%80', },
 	cast: { daniel_craig_02031968: 1, monica_bellucci_30091964: 1, },
@@ -5591,10 +5609,16 @@ const arrFilms = [
 	cast: { halle_berry_14081966: 1, },
 },
 {
-	id: 'the_dark_knight_2008', title: { ua: 'Темний лицар', en: 'The Dark Knight', }, year: 2008, country: { usa: 1, gbr: 1, },
+	id: 'the_dark_knight_2008', title: { ua: 'Темний лицар', en: 'The Dark Knight', }, year: 2008, country: { usa: 1, gbr: 1, }, franchise: { batman: 1, },
 	genre: { fantasy: 1, action: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '0468569', wiki_ua: '%D0%A2%D0%B5%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B8%D1%86%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '557', },
 	cast: { christian_bale_30011974: 1, gary_oldman_21031958: 1, aaron_eckhart_12031968: 1, morgan_freeman_01061937: 1,  }, composer: { hans_zimmer_12091957: 1, james_newton_howard_09061951: 1, }, 
+},
+{
+	id: 'the_dark_knight_rises_2012', title: { ua: 'Темний лицар повертається', en: 'The Dark Knight Rises', }, year: 2012, country: { usa: 1, gbr: 1, }, franchise: { batman: 1, },
+	genre: { fantasy: 1, action: 1, }, hash: { superhero: 1, },
+	internet: { imdb: '1345836', wiki_ua: '%D0%A2%D0%B5%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BB%D0%B8%D1%86%D0%B0%D1%80_%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%82%D0%B0%D1%94%D1%82%D1%8C%D1%81%D1%8F', },
+	cast: { christian_bale_30011974: 1, tom_hardy_15091977: 1, gary_oldman_21031958: 1, liam_neeson_07061952: 1, morgan_freeman_01061937: 1,  }, composer: { hans_zimmer_12091957: 1, }, 
 },
 {
 	id: 'tenet_2020', title: { ua: 'Тенет', en: 'Tenet', }, year: 2020, country: { usa: 1, }, rating: 5,
@@ -5709,6 +5733,12 @@ const arrFilms = [
 	id: 't_i_m_2023', title: { ua: 'Т.І.М.', en: 'T.I.M.', }, year: 2023, country: { gbr: 1, },
 	genre: { thriller: 1, sci_fi: 1, }, hash: { robot: 1, },
 	internet: { imdb: '21988182', },
+},
+{
+	id: 'jennifer_s_body_2009', title: { ua: 'Тіло Дженніфер', en: 'Jennifer\'s Body', }, year: 2009, country: { usa: 1, can: 1, },
+	genre: { horror: 1, fantasy: 1, }, hash: { young: 1, werewolf: 1, },
+	internet: { imdb: '1131734', wiki_ua: '%D0%A2%D1%96%D0%BB%D0%BE_%D0%94%D0%B6%D0%B5%D0%BD%D0%BD%D1%96%D1%84%D0%B5%D1%80', },
+	cast: { megan_fox_16051986: 1, },
 },
 {
 	id: 'the_shadow_1994', title: { ua: 'Тінь', en: 'The Shadow', }, year: 1994, country: { usa: 1, },
@@ -6165,7 +6195,7 @@ const arrFilms = [
 {
 	id: 'predator_2_1990', title: { ua: 'Хижак - 2', en: 'Predator 2', }, year: 1990, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, }, hash: { aliens: 1, police: 1, },
-	internet: { imdb: '0100403', wiki_ua: '%D0%A5%D0%B8%D0%B6%D0%B0%D0%BA_2', },
+	internet: { imdb: '0100403', wiki_ua: '%D0%A5%D0%B8%D0%B6%D0%B0%D0%BA_2', ashdivip: '14027', },
 	cast: { gary_busey_29061944: 1, bill_paxton_17051955: 1, danny_glover_22071946: 1, },
 },
 {

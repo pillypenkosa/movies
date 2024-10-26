@@ -238,7 +238,14 @@ function setMeta( obj = {} ) {
 
 
 
+/*
 
+<meta property="og:image" content="https://elmir.ua/img/og-0/0/0/elmir.jpg">
+
+<link rel="image_src" href="https://elmir.ua/img/og-0/0/0/elmir.jpg">
+
+
+*/
 
 
 

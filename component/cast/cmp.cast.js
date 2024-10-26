@@ -17,6 +17,7 @@ class ComponentCast {
  
 		this.args = objData.args ? objData.args : {}; 
  
+		//console.log( objData );
  
  
 		let tagParam = { 
@@ -52,21 +53,24 @@ class ComponentCast {
 								name += ' ' + objListPeople[ k ].name.s;
 						}
 
-						htmlActor += `<div class="each-person pointer" title="${ name }">
+						htmlActor += `<div class="each-person pointer" title="${ name }" onclick="${ this.name }.clcLink( '${ objListPeople[ k ].id }' )">
 							<img src="https://pillypenkosa.github.io/media/img/people/${ objListPeople[ k ].id }/1.jpg" alt="${ name }">
 						</div>`;
 					}
 				}
 
 				htmlActor = `<div class="each-cast">
-					<div class="">Актори:</div>${ htmlActor }
+					<div class="txt">Актори:</div>${ htmlActor }
 				</div>`;
 			}
+
+			
+
+
 
 
 			let htmlDirector = ''; 
 			if ( objData.director ) {
-				//console.log( objData.director );
 
 				for ( let k in objData.director ) {
 					if ( objListPeople[ k ] ) {
@@ -80,13 +84,13 @@ class ComponentCast {
 								name += ' ' + objListPeople[ k ].name.s;
 						}
 
-						htmlDirector += `<div class="each-person pointer" title="${ name }">
+						htmlDirector += `<div class="each-person pointer" title="${ name }" onclick="${ this.name }.clcLink( '${ objListPeople[ k ].id }' )">
 							<img src="https://pillypenkosa.github.io/media/img/people/${ objListPeople[ k ].id }/1.jpg" alt="${ name }">
 						</div>`;
 					}
 				}
 
-				htmlDirector = `<div class="each-cast pointer">
+				htmlDirector = `<div class="each-cast">
 					<div class="">Режисери:</div>${ htmlDirector }
 				</div>`;
 			}
@@ -111,13 +115,13 @@ class ComponentCast {
 								name += ' ' + objListPeople[ k ].name.s;
 						}
 
-						htmlComposer += `<div class="each-person pointer" title="${ name }">
+						htmlComposer += `<div class="each-person pointer" title="${ name }" onclick="${ this.name }.clcLink( '${ objListPeople[ k ].id }' )">
 							<img src="https://pillypenkosa.github.io/media/img/people/${ objListPeople[ k ].id }/1.jpg" alt="${ name }">
 						</div>`;
 					}
 				}
 
-				htmlComposer = `<div class="each-cast pointer">
+				htmlComposer = `<div class="each-cast">
 					<div class="">Композитори:</div>${ htmlComposer }
 				</div>`;
 			}
@@ -133,11 +137,33 @@ class ComponentCast {
  
  
  
-	static clc( data ) { 
-		const fooName = this.name + '.clc()'; 
+	static clcLink( data ) { 
+		const fooName = this.name + '.clcLink()'; 
  
 		//console.log( 'fooName: ', fooName ); 
 		//console.log( 'data: ', data ); 
+
+
+
+		if ( data ) {
+
+			Router.urlGET = {};
+
+			Router.link([
+				{ k: 'win' 	, v: 'people' 		, },
+				{ k: 'uid' 	, v: data 			, },
+			]);
+		}
+
+
+
+
+
+
+
+
+
+
  
 	} 
  

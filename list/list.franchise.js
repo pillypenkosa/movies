@@ -11,14 +11,14 @@ const objFilmFranchise = {
 
 
 
-agent_007_Brosnan 		: [ 'golden_eye_1995', 'tomorrow_never_dies_1997', 'the_world_is_not_enough_1999', 'die_another_day_2002', ],
-agent_007_Craig 		: [ 'casino_royale_2006', 'quantum_of_solace_2008', 'skyfall_2012', 'spectre_2015', 'no_time_to_die_2021', ],
+agent_007 				: [ 'golden_eye_1995', 'tomorrow_never_dies_1997', 'the_world_is_not_enough_1999', 'die_another_day_2002', 'casino_royale_2006', 'quantum_of_solace_2008', 'skyfall_2012', 'spectre_2015', 'no_time_to_die_2021', ],
 alien 					: [ 'alien_1979', 'aliens_1986', 'alien_3_1992', 'alien_romulus_2024', ],
 avatar 					: [ 'avatar_2009', 'avatar_2_2022', ],
 back_to_the_future 		: [ 'back_to_the_future_1985', 'back_to_the_future_2_1989', 'back_to_the_future_3_1990', ],
 backdraft 				: [ 'backdraft_1991', 'backdraft_2_2019', ],
 bad_boys 				: [ 'bad_boys_1995', 'bad_boys_2_2003', 'bad_boys_3_2020', 'bad_boys_4_2024', ],
 basic_instinct 			: [ 'basic_instinct_1992', 'basic_instinct_2_2006', ],
+batman 					: [ 'batman_begins_2005', 'the_dark_knight_2008', 'the_dark_knight_rises_2012', 'the_batman_2022', ],
 Beverly_Hills_cop 		: [ 'Beverly_Hills_cop_1984', 'Beverly_Hills_cop_2_1987', 'Beverly_Hills_cop_3_1994', 'Beverly_Hills_cop_4_2024', ],
 Beethoven				: [ 'Beethoven_1992', 'Beethoven_2_1993', ],
 Born 					: [ 'the_Bourne_identity_2002', 'the_Bourne_supremacy_2004', 'the_Bourne_ultimatum_2007', 'Jason_Bourne_2016', ],

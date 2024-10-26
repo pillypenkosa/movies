@@ -106,99 +106,6 @@ class ComponentMenuFilterMovie {
 
 
 
-
- 		let optionActor = '<option value="all">- Актори ---</option>';
-		arrFilmsActors.sort().forEach( k => {
-
- 			let attrSelected = '';
-			let name = '';
-	 		if ( Router.urlGET ) {
-	 			if ( Router.urlGET.win == 'movies' ) {
-	 				if ( Router.urlGET.cast ) {
-			 			if ( k == Router.urlGET.cast ) 
-			 				attrSelected = 'selected';
-	 				}
-	 			}
-	 		}
-
-			if ( objListPeople[ k ] ) {
-				if ( objListPeople[ k ].name ) {
-
-					if ( objListPeople[ k ].name.n ) 
-						name += objListPeople[ k ].name.n;
-
-					if ( objListPeople[ k ].name.s ) 
-						name += ' ' + objListPeople[ k ].name.s;
-				} 
-			}
-
-		 	optionActor += `<option value="${ k }" ${ attrSelected }>${ name }</option>`;
-		});
-
-
-
-
-
- 		let optionDirectors = '<option value="all">- Режисери ---</option>';
-		arrFilmsDirectors.sort().forEach( k => {
-
- 			let attrSelected = '';
-			let name = '';
-	 		if ( Router.urlGET ) {
-	 			if ( Router.urlGET.win == 'movies' ) {
-	 				if ( Router.urlGET.director ) {
-			 			if ( k == Router.urlGET.director ) 
-			 				attrSelected = 'selected';
-			 		}
-			 	}
-			}
-
-			if ( objListPeople[ k ] ) {
-
-				if ( objListPeople[ k ].name.n ) 
-					name += objListPeople[ k ].name.n;
-
-				if ( objListPeople[ k ].name.s ) 
-					name += ' ' + objListPeople[ k ].name.s;
-			}
-
-		 	optionDirectors += `<option value="${ k }" ${ attrSelected }>${ name }</option>`;
-		});
-
-
-
-
-
- 		let optionComposer = '<option value="all">- Композитори ---</option>';
-		arrFilmsComposers.sort().forEach( k => {
-
- 			let attrSelected = '';
-			let name = '';
-	 		if ( Router.urlGET ) {
-	 			if ( Router.urlGET.win == 'movies' ) {
-	 				if ( Router.urlGET.composer ) {
-			 			if ( k == Router.urlGET.composer ) 
-			 				attrSelected = 'selected';
-			 		}
-			 	}
-			}
-
-			if ( objListPeople[ k ] ) {
-
-				if ( objListPeople[ k ].name.n ) 
-					name += objListPeople[ k ].name.n;
-
-				if ( objListPeople[ k ].name.s ) 
-					name += ' ' + objListPeople[ k ].name.s;
-			}
-
-		 	optionComposer += `<option value="${ k }" ${ attrSelected }>${ name }</option>`;
-		});
-
-
-
-
-
  		let optionStudio = '<option value="all">- Кінокомпанії ---</option>';
 		arrFilmStudio.forEach( k => {
 
@@ -322,15 +229,6 @@ class ComponentMenuFilterMovie {
 	 			</div>
 	 			<div>
 	 				<select data-id="country" onchange="${ this.name }.changeFilter( this )">${ optionCountry }</select>
-	 			</div>
-	 			<div>
-	 				<select data-id="cast" onchange="${ this.name }.changeFilter( this )">${ optionActor }</select>
-	 			</div>
-	 			<div>
-	 				<select data-id="director" onchange="${ this.name }.changeFilter( this )">${ optionDirectors }</select>
-	 			</div>
-	 			<div>
-	 				<select data-id="composer" onchange="${ this.name }.changeFilter( this )">${ optionComposer }</select>
 	 			</div>
 	 			<div>
 	 				<select data-id="studio" onchange="${ this.name }.changeFilter( this )">${ optionStudio }</select>

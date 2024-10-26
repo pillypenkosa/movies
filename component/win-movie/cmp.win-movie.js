@@ -47,8 +47,8 @@ class ComponentWinMovie {
 
 						setMeta({ 
 							title 			: `${ film.title.ua } (${ film.year })`, 
-							description 	: 'Опис...', 
-							//image 		: '', 
+							description 	: `${ film.title.ua } (${ film.year })`, 
+							image 			: `img/poster/${ film.id }.jpg`, 
 						}); 
 
 
@@ -59,7 +59,7 @@ class ComponentWinMovie {
 			}
 		}
 
-		
+
 		return { tagParam, html };  
 	} 
  

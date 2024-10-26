@@ -31,58 +31,17 @@ class ComponentMenuFilterPeople {
  
 		
 
+		const arrMoviePeople = [
 
-		// console.log( arrFilmsActors );
- 
- 
- 
- /*
-		let arrMovieActor = [];
-		let arrMovieDirector = [];
-		let arrMovieComposser = [];
+			{ id: 'actor' 		, title: 'Актори' 		, },
+			{ id: 'director' 	, title: 'Режисери' 	, },
+			{ id: 'composer' 	, title: 'Композитори' 	, },
+		];
 
 
- 		arrListPeople.forEach( k => {
- 			if ( k.hash ) {
- 				if ( k.hash.movie ) {
-
- 					if ( k.hash.actor ) 
- 						arrMovieActor.push( k );
-
- 					if ( k.hash.director ) 
- 						arrMovieDirector.push( k );
-
- 					if ( k.hash.composser ) 
- 						arrMovieComposser.push( k );
- 				}
- 			}
- 		});
-*/
-
-
-
-/*
- 		let optionActors = '<option value="all">Актори (всі)</option>';
- 		let optionDirector = '<option value="all">Режисери (всі)</option>';
- 		let optionComposser = '<option value="all">Композитори (всі)</option>';
-*/
- 		let optionPeople = '<option value="all">--- Всі ---</option>';
-
-
-
- 		const arrMoviePeople = [
-
- 			{ id: 'actor' 		, title: 'Актори' 		, },
- 			{ id: 'director' 	, title: 'Режисери' 	, },
- 			{ id: 'composer' 	, title: 'Композитори' 	, },
-
- 		];
-
-
-
-
+ 		let optionCat = '<option value="all">- Всі ---</option>';
  		arrMoviePeople.forEach( k => {
-			optionPeople += `<option value="${ k.id }">${ k.title }</option>`;
+			optionCat += `<option value="${ k.id }">${ k.title }</option>`;
  		});
 
 
@@ -90,36 +49,113 @@ class ComponentMenuFilterPeople {
 
 /*
 
- 		arrListPeople.forEach( k => {
+
+ 		let optionActor = '<option value="all">- Актори ---</option>';
+		arrFilmsActors.sort().forEach( k => {
 
  			let attrSelected = '';
-	 		let name = '';
-
-	 		if ( k.hash ) {
-		 		if ( k.hash.movie ) {
-
-					if ( k.name ) {
-						if ( k.name.n ) 
-							name += k.name.n;
-
-						if ( k.name.s ) 
-							name += ' ' + k.name.s;
-					}
-
-		 			if ( k.hash.actor ) 
-						optionActors += `<option value="${ k.id }" ${ attrSelected }>${ name }</option>`;
-
-
-
-		 			
-		 		}
+			let name = '';
+	 		if ( Router.urlGET ) {
+	 			if ( Router.urlGET.win == 'movies' ) {
+	 				if ( Router.urlGET.cast ) {
+			 			if ( k == Router.urlGET.cast ) 
+			 				attrSelected = 'selected';
+	 				}
+	 			}
 	 		}
- 		});
+
+			if ( objListPeople[ k ] ) {
+				if ( objListPeople[ k ].name ) {
+
+					if ( objListPeople[ k ].name.n ) 
+						name += objListPeople[ k ].name.n;
+
+					if ( objListPeople[ k ].name.s ) 
+						name += ' ' + objListPeople[ k ].name.s;
+				} 
+			}
+
+		 	optionActor += `<option value="${ k }" ${ attrSelected }>${ name }</option>`;
+		});
+
+
+
+
+
+ 		let optionDirectors = '<option value="all">- Режисери ---</option>';
+		arrFilmsDirectors.sort().forEach( k => {
+
+ 			let attrSelected = '';
+			let name = '';
+	 		if ( Router.urlGET ) {
+	 			if ( Router.urlGET.win == 'movies' ) {
+	 				if ( Router.urlGET.director ) {
+			 			if ( k == Router.urlGET.director ) 
+			 				attrSelected = 'selected';
+			 		}
+			 	}
+			}
+
+			if ( objListPeople[ k ] ) {
+
+				if ( objListPeople[ k ].name.n ) 
+					name += objListPeople[ k ].name.n;
+
+				if ( objListPeople[ k ].name.s ) 
+					name += ' ' + objListPeople[ k ].name.s;
+			}
+
+		 	optionDirectors += `<option value="${ k }" ${ attrSelected }>${ name }</option>`;
+		});
+
+
+
+
+
+ 		let optionComposer = '<option value="all">- Композитори ---</option>';
+		arrFilmsComposers.sort().forEach( k => {
+
+ 			let attrSelected = '';
+			let name = '';
+	 		if ( Router.urlGET ) {
+	 			if ( Router.urlGET.win == 'movies' ) {
+	 				if ( Router.urlGET.composer ) {
+			 			if ( k == Router.urlGET.composer ) 
+			 				attrSelected = 'selected';
+			 		}
+			 	}
+			}
+
+			if ( objListPeople[ k ] ) {
+
+				if ( objListPeople[ k ].name.n ) 
+					name += objListPeople[ k ].name.n;
+
+				if ( objListPeople[ k ].name.s ) 
+					name += ' ' + objListPeople[ k ].name.s;
+			}
+
+		 	optionComposer += `<option value="${ k }" ${ attrSelected }>${ name }</option>`;
+		});
+
 
 */
 
 
 
+/*
+
+	 			<div>
+	 				<select data-id="actor" onchange="${ this.name }.changeFilter( this )">${ optionActor }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="director" onchange="${ this.name }.changeFilter( this )">${ optionDirectors }</select>
+	 			</div>
+	 			<div>
+	 				<select data-id="composer" onchange="${ this.name }.changeFilter( this )">${ optionComposer }</select>
+	 			</div>
+
+*/
 
 
 
@@ -131,13 +167,13 @@ class ComponentMenuFilterPeople {
 
  		let html = `
  			<div class="divSelectFilter">
-
 	 			<div>
-	 				<select data-id="people" onchange="${ this.name }.changeFilter( this )">${ optionPeople }</select>
+	 				<select data-id="cat" onchange="${ this.name }.changeFilter( this )">${ optionCat }</select>
 	 			</div>
-
  			</div>
  		`;
+
+
 
 		return { tagParam, html };  
 	} 
@@ -163,16 +199,27 @@ class ComponentMenuFilterPeople {
 		//console.log( 'elem: ', elem ); 
 
 
+		//console.log( 'elem-ID: ', elem.dataset.id ); 
+		//console.log( 'value: ', elem.value ); 
+
+
+		// скидання фільтрів
+		//ComponentMenu.resetFilter();
+		// приховування меню
+		//ComponentHeader.clc();
+
 		Router.urlGET = {};
 
+
 		Router.link([
-			{ k: 'win' 		, v: 'people' 		, },
-			{ k: 'cat' 		, v: elem.value 	, },
+			{ k: 'win' 	, v: 'people' 		, },
+			{ k: 'cat' 	, v: elem.value 	, },
 		]);
 
 
 
-		//console.log( 'data', data ); 
+
+
  
 	} 
  

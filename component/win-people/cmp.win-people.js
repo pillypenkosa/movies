@@ -63,6 +63,24 @@ class ComponentWinPeople {
 
 				//console.log( arrSelected );
 
+
+
+				if ( objData.uid ) {
+
+					//alert( objData.uid );
+
+					arrSelected = arrSelected.filter( k => k.id == objData.uid  );
+
+					//alert( objData.uid );
+
+					arrSelected.forEach( k => {
+						html += Component( 'Each-People', { uid: k.id, pm: true, } ); 
+					});
+
+				}
+
+
+
 				if ( objData.cat ) {
 
 					//console.log( objData.cat );
@@ -73,50 +91,17 @@ class ComponentWinPeople {
 								return true;
 						}
 					});
+
+					arrSelected.forEach( k => {
+						html += Component( 'Each-People', { uid: k.id, pm: false, } ); 
+					});
 				}
 
-				arrSelected.forEach( k => {
 
-					let name = '';
-
-					if ( k.name ) {
-						if ( k.name.n ) 
-							name += k.name.n;
-						
-						if ( k.name.s ) 
-							name += ' ' + k.name.s;
-					}
-
-
-					html += `<div class="">${ name }</div>`;
-				});
 			}
-
-
-
-
-
-
-
 		}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 		return { tagParam, html };  
 	} 
  
@@ -124,15 +109,36 @@ class ComponentWinPeople {
  
  
  
-	static clc( data ) { 
-		const fooName = this.name + '.clc()'; 
+	static clcSpoyler( elem ) { 
+		const fooName = this.name + '.clcSpoyler()'; 
  
 		//console.log( 'fooName: ', fooName ); 
-		//console.log( 'data', data ); 
- 
+		//console.log( 'elem:', elem ); 
+
+		let innerBody = elem.closest( '.each-people' ).querySelector( '.body' ).innerHTML;
+
+		//console.log( 'innerBody: ', innerBody ); 
+
+		let elemParent = elem.closest( '.each-people' );
+		let uid = elemParent.dataset.id;
+
+		//console.log( 'uid: ', uid ); 
+
+
+		if ( !innerBody ) 
+			elem.closest( '.each-people' ).querySelector( '.body' ).innerHTML = this.getPeopleHTML( uid );
+
+		else 
+			elem.closest( '.each-people' ).querySelector( '.body' ).classList.toggle( 'unvisible' );
 	} 
  
  
+
+
+
+
+
+
  
  
  

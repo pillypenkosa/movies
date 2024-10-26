@@ -141,6 +141,7 @@ const arrHashTags = [
 	{ id: 'monkey' 			, title: 'мавпи' 						, app: { films: 1, }, },
 	{ id: 'mutant' 			, title: 'мутанти'						, app: { films: 1, }, },
 	{ id: 'spider' 			, title: 'павук' 						, app: { films: 1, }, }, 
+	{ id: 'werewolf' 		, title: 'перевертні' 					, app: { films: 1, }, },
 	{ id: 'ghost' 			, title: 'привиди' 						, app: { films: 1, }, }, 
 	{ id: 'dog' 			, title: 'собаки' 						, app: { films: 1, }, },
 

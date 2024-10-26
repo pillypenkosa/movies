@@ -40,17 +40,33 @@ const dependences = [
 	// компоненти загальні --------------------------------------------------------------------------------------------------------
 
 
-	{ cmp: 'Win-Err404' 		, },
-	{ cmp: 'Footer' 			, },
-	{ cmp: 'Header' 			, },
-	{ cmp: 'Logo' 				, },
 
-	{ cmp: 'Menu' 				, },
+
+	{ cmp: 'Title-Spoyler' 		, },
+	{ cmp: 'Posters-List' 		, },
+	{ cmp: 'Each-People' 		, },
+	{ cmp: 'Each-Movie' 		, },
+	{ cmp: 'Cast' 				, },
 	{ cmp: 'Menu-Filter-Movie' 	, },
 	{ cmp: 'Menu-Filter-People' , },
+	{ cmp: 'Menu' 				, },
 
-	{ cmp: 'Cast' 				, },
-	{ cmp: 'Each-Movie' 		, },
+
+
+	{ cmp: 'Logo' 				, },
+	{ cmp: 'Footer' 			, },
+	{ cmp: 'Header' 			, },
+	{ cmp: 'Win-Err404' 		, },
+
+
+
+
+
+
+
+
+
+
 
 	//{ cmp: 'Franchise' 			, },
 

@@ -1,0 +1,25 @@
+cmp-posters-list {
+
+}
+
+
+	cmp-posters-list .list {
+
+	}
+
+
+
+		cmp-posters-list .list .img {
+			height: 150px;
+			weight: 90px;
+			margin: 1px;
+			display: inline-block;
+		}
+
+			cmp-posters-list .list .img img {
+				height: 100%;
+				weight: 100%;
+				border-radius: 5px;
+			}
+
+

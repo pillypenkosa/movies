@@ -308,13 +308,29 @@ class ComponentEachMovie {
 					}
 
 					//htmlHash.slice( 0, -2 );
+					if ( htmlHash ) 
+						htmlHash = `<div class="section4">${ htmlHash }</div>`;
 				}
 
 
 
 
+				let htmlCast = Component( 'Cast', film  );
+				if ( htmlCast )
+					htmlCast = `<div class="section5">${ htmlCast }</div>`;
 
 
+
+
+				let htmlFranchise = '';
+				if ( film.franchise ) {
+					if ( objFilmFranchise[ film.franchise ] ) 
+						htmlFranchise = `<div class="section5">
+							<div class="txt">Франшиза:</div>
+							${ Component( 'Posters-List', { arrFilms: objFilmFranchise[ film.franchise ], } ) }
+						</div>`;
+				}
+				
 
 
 
@@ -344,11 +360,11 @@ class ComponentEachMovie {
 					<div class="keyval"><span class="key">жанр:</span> <span class="val">${ htmlGenre }</span></div>
 				</div>
 
-				<div class="section4">${ htmlHash }</div>
+				${ htmlHash }
+				${ htmlCast }
+				${ htmlFranchise }
 
-				<div class="section5">
-					${ film.cast ? Component( 'Cast', film  ) : '' }
-				</div>
+
 			`;
 			}
 		}

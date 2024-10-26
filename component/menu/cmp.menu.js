@@ -90,7 +90,7 @@ class ComponentMenu {
  				<div class="body ${ clsUnvisibleMovie }">${ Component( 'Menu-Filter-Movie' ) }</div>
  			</div>
  			<div class="filters" data-id="people">
- 				<div class="title" onclick="${ this.name }.clcBtnFilter( this )">Люди</div>
+ 				<div class="title" onclick="${ this.name }.clcBtnFilter( this )">Актори</div>
  				<div class="body ${ clsUnvisiblePeople }">${ Component( 'Menu-Filter-People' ) }</div>
  			</div>
 		`;
