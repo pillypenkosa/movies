@@ -327,20 +327,42 @@ class ComponentEachPeople {
 
 
 
+			let htmlInternet = '';
+
+			//let htmlIMDB = '';
+			//let htmlWikiUa = '';
+			if ( user.internet  ) {
+
+				if ( user.internet.imdb )
+					htmlInternet += `<a href="https://www.imdb.com/name/nm${ user.internet.imdb }/" target="_blank" title="Перейти на IMDB"><img src="img/pic/logo_IMDb.png"></a>`;
+
+				if ( user.internet.wiki_ua )
+					htmlInternet += `<a href="https://uk.wikipedia.org/wiki/${ user.internet.wiki_ua }" target="_blank" title="Перейти на WikiUA"><img src="img/pic/sn_wiki_ua.png"></a>`;
+
+				if ( user.internet.wiki_ru )
+					htmlInternet += `<a href="https://ru.wikipedia.org/wiki/${ user.internet.wiki_ru }" target="_blank" title="Перейти на WikiRU"><img src="img/pic/sn_wiki_ru.png"></a>`;
+
+				if ( htmlInternet ) 
+					htmlInternet = `<div class="internet">${ htmlInternet }</div>`;
+			}
 
 
-
+			//console.log( user );
 
 
 			html += `<div class="section1">
 				${ htmlName }
-				<div class="img" onclick="${ this.name}.clcLink( '${ user.id }' )">
+				<div class="img" onclick="${ this.name }.clcLink( '${ user.id }' )">
 					<img class="pointer" src="https://pillypenkosa.github.io/media/img/people/${ user.id }/1.jpg" alt="${ userName }">
 					${ htmlRibbon }
 				</div>
+
 			</div>
 
-			<div class="section2">${ htmlLifeData }</div>
+			<div class="section2">
+				${ htmlLifeData }
+				${ htmlInternet }
+			</div>
 
 			${ htmlPosters }
 

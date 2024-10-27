@@ -2,6 +2,23 @@ cmp-each-people {
 
 } 
 
+	cmp-each-people .internet {
+		margin: 20px 0 5px 0;
+	} 
+		cmp-each-people .internet a {
+	
+		} 
+
+			cmp-each-people .internet a img {
+				height: 35px;
+				margin: 1px 5px;
+
+			} 
+
+
+
+
+
 
 
 
