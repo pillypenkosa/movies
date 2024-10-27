@@ -63,25 +63,37 @@ class ComponentWinPeople {
 
 				//console.log( arrSelected );
 
-
-
 				if ( objData.uid ) {
 
-					//alert( objData.uid );
-
 					arrSelected = arrSelected.filter( k => k.id == objData.uid  );
-
-					//alert( objData.uid );
 
 					arrSelected.forEach( k => {
 						html += Component( 'Each-People', { uid: k.id, pm: true, } ); 
 					});
-
 				}
 
 
 
 				if ( objData.cat ) {
+
+/*
+НЕ видаляти - Пошук (людей без посилання на WikiUA)
+
+					if ( objData.cat == 'noWikiUa' ) {
+						arrSelected = arrSelected.filter( k => {
+							if ( k.internet ) {
+								if ( !k.internet.wiki_ua ) {
+
+									console.log( k.id );
+									return true;
+								}
+							}
+						});
+					}
+
+*/
+
+
 
 					//console.log( objData.cat );
 
@@ -96,8 +108,6 @@ class ComponentWinPeople {
 						html += Component( 'Each-People', { uid: k.id, pm: false, } ); 
 					});
 				}
-
-
 			}
 		}
 

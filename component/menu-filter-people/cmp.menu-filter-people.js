@@ -36,6 +36,7 @@ class ComponentMenuFilterPeople {
 			{ id: 'actor' 		, title: 'Актори' 		, },
 			{ id: 'director' 	, title: 'Режисери' 	, },
 			{ id: 'composer' 	, title: 'Композитори' 	, },
+			{ id: 'noWikiUa' 	, title: 'No WikiUa' 	, },
 		];
 
 
