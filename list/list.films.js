@@ -724,7 +724,7 @@ const arrFilms = [
 	id: 'platoon_1986', title: { ua: 'Взвод', en: 'Platoon', }, year: 1986, country: { usa: 1, },
 	genre: { war: 1, drama: 1, },
 	internet: { imdb: '0091763', wiki_ua: '%D0%92%D0%B7%D0%B2%D0%BE%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { charlie_sheen_03091965: 1, tom_berenger_31051949: 1, willem_dafoe_22071955: 1, johnny_depp_09061963: 1, forest_whitaker_15071961: 1, },
+	cast: { charlie_sheen_03091965: 1, tom_berenger_31051949: 1, willem_dafoe_22071955: 1, johnny_depp_09061963: 1, forest_whitaker_15071961: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
 	id: 'wanted_dead_or_alive_1986', title: { ua: 'Взяти живим або мертвим', en: 'Wanted: Dead or Alive', }, year: 1986, country: { usa: 1, },
@@ -864,13 +864,13 @@ const arrFilms = [
 	id: 'Wall_street_1987', title: { ua: 'Волл-стріт', en: 'Wall Street', }, year: 1987, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, 
 	internet: { imdb: '0094291', wiki_ua: '%D0%92%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { charlie_sheen_03091965: 1, martin_sheen_03081940: 1, michael_douglas_25091944: 1, sean_young_20111959: 1, },
+	cast: { charlie_sheen_03091965: 1, martin_sheen_03081940: 1, michael_douglas_25091944: 1, sean_young_20111959: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
 	id: 'Wall_street_2010', title: { ua: 'Волл-стріт: Гроші не сплять', en: 'Wall Street: Money Never Sleeps', }, year: 2010, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, 
 	internet: { imdb: '1027718', wiki_ua: '%D0%92%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82:_%D0%B3%D1%80%D0%BE%D1%88%D1%96_%D0%BD%D0%B5_%D1%81%D0%BF%D0%BB%D1%8F%D1%82%D1%8C', },
-	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, },
+	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
 	id: 'afraid_2024', title: { ua: 'Воно слухає', en: 'AfrAId', }, year: 2024, country: { usa: 1, },
@@ -3117,6 +3117,11 @@ const arrFilms = [
 	cast: { mel_gibson_03011956: 1, barry_pepper_04041970: 1, },
 },
 {
+	id: 'hansel_gretel_witch_hunters_2013', title: { ua: 'Мисливці за відьмами', en: 'Hansel & Gretel: Witch Hunters', }, year: 2013, country: { usa: 1, deu: 1, },
+	genre: { action: 1, fantasy: 1, horror: 1, },
+	internet: { imdb: '1428538', wiki_ua: '%D0%9C%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%86%D1%96_%D0%B7%D0%B0_%D0%B2%D1%96%D0%B4%D1%8C%D0%BC%D0%B0%D0%BC%D0%B8', },
+},
+{
 	id: 'ghostbusters_1984', title: { ua: 'Мисливці за привидами', en: 'Ghostbusters', }, year: 1984, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, comedy: 1, }, hash: { ghost: 1, },
 	internet: { imdb: '0087332', wiki_ua: '%D0%9C%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%86%D1%96_%D0%BD%D0%B0_%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%B4%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1984)', },
@@ -4678,6 +4683,12 @@ const arrFilms = [
 	genre: { comedy: 1, }, 
 	internet: { imdb: '0095903', wiki_ru: '%D0%9F%D1%80%D0%B8%D0%BD%D1%86_%D0%9F%D0%B5%D0%BD%D1%81%D0%B8%D0%BB%D1%8C%D0%B2%D0%B0%D0%BD%D0%B8%D0%B8', },
 	cast: { keanu_reeves_02091964: 1, },
+},
+{
+	id: 'natural_born_killers_1994', title: { ua: 'Природжені вбивці', en: 'Natural Born Killers', }, year: 1994, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '0110632', wiki_ru: '%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D1%96_%D0%B2%D0%B1%D0%B8%D0%B2%D1%86%D1%96', },
+	cast: { woody_harrelson_23071961: 1, juliette_lewis_21061973: 1, tom_sizemore_29111961: 1, tommy_lee_jones_15091946: 1, robert_downey_jr_01041965: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
 	id: 'slingshot_2024', title: { ua: 'Прискорення', en: 'Slingshot', }, year: 2024, country: { usa: 1, },
@@ -6702,6 +6713,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, hash: { team: 1, },
 	internet: { imdb: '0257076', wiki_ua: 'S.W.A.T.:_%D0%A1%D0%BF%D0%B5%D1%86%D0%BD%D0%B0%D0%B7_%D0%BC%D1%96%D1%81%D1%82%D0%B0_%D1%8F%D0%BD%D0%B3%D0%BE%D0%BB%D1%96%D0%B2', },
 	cast: { samuel_l_jackson_21121948: 1, michelle_rodriguez_12071978: 1, },
+},
+{
+	id: 'the_doors_1991', title: { ua: 'The Doors', en: 'The Doors', }, year: 1991, country: { usa: 1, fra: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0101761', wiki_ua: 'The_Doors_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { val_kilmer_31121959: 1, meg_ryan_19111961: 1, crispin_glover_20041964: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
 	id: 'u-571_2000', title: { ua: 'U-571', en: 'U-571', }, year: 2000, country: { usa: 1, fra: 1, },
