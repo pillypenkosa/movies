@@ -1,4 +1,4 @@
-// © 2024 DJS 
+
  
  
  
@@ -36,13 +36,7 @@ class ComponentWinPeople {
 		//console.log( fooName ); 
 		//console.log( objData ); 
  
- 
-		setMeta({ 
-			title 			: 'Movie People', 
-			description 	: 'Опис...', 
-			//image 		: '', 
-		}); 
- 
+
  
 
 
@@ -65,11 +59,60 @@ class ComponentWinPeople {
 
 				if ( objData.uid ) {
 
-					arrSelected = arrSelected.filter( k => k.id == objData.uid  );
+					//console.log( objData.uid );
+
+					let user = {};
+					if ( objListPeople[ objData.uid ] ) {
+
+						html += Component( 'Each-People', objListPeople[ objData.uid ] ); 
+
+						let user = objListPeople[ objData.uid ];
+
+
+
+						let name = '';
+						if ( user.name ) {
+							if ( user.name.n ) 
+								name += user.name.n;
+							
+							if ( user.name.s ) 
+								name += ' ' + user.name.s;
+						}
+
+
+						setMeta({ 
+							title 			: name, 
+							description 	: name,
+							keywords 		: name,
+							image 			: `https://pillypenkosa.github.io/media/img/people/${ objData.uid }/1.jpg`, 
+						});
+
+
+
+
+
+
+					}
+
+
+					//arrSelected = arrSelected.filter( k => k.id == objData.uid  );
+
+
+					//console.log( arrSelected );
+/*
+
+
+*/
+
+
+/*
 
 					arrSelected.forEach( k => {
-						html += Component( 'Each-People', { uid: k.id, pm: true, } ); 
+						html += Component( 'Each-People', k ); 
 					});
+
+*/
+
 				}
 
 
@@ -105,8 +148,29 @@ class ComponentWinPeople {
 					});
 
 					arrSelected.forEach( k => {
-						html += Component( 'Each-People', { uid: k.id, pm: false, } ); 
+						//html += Component( 'Each-People', { uid: k.id, pm: false, } ); 
+
+
+						//html += Component( 'Spoyler', { uid: k.id, pm: false, } ); 
+
+						html += Component( 'Spoyler', { key: 'people', data: k, } ); 
+
+
+
 					});
+
+
+
+
+
+
+
+
+
+
+
+
+
 				}
 			}
 		}

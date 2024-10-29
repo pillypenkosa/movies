@@ -268,6 +268,10 @@ class ComponentMenuFilterMovie {
 		//console.log( 'id: ', elem.dataset.id );
 		//console.log( 'elem: ', elem.value );
 
+		//Router.urlGET = {};
+		delete( Router.urlGET.id ); // костиль
+
+
 		Router.link([
 			{ k: 'win' 					, v: 'movies' 		, },
 			{ k: elem.dataset.id 		, v: elem.value 	, },

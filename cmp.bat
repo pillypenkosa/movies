@@ -1,7 +1,7 @@
 @chcp 65001
 
-@set up=EachPeople
-@set low=each-people
+@set up=WinUid
+@set low=win-uid
 @set pref=__NEW_COMPONENT_
 @set intro=© 2024 DJS
 

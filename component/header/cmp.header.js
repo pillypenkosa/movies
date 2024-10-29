@@ -75,6 +75,15 @@ class ComponentHeader {
 
 
 
+	static hide() {
+
+		document.querySelector( '.nav-menu' ).classList.add( 'unvisible' );
+
+
+	}
+
+
+
 
 
 

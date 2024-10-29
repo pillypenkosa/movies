@@ -8,14 +8,15 @@ class ComponentWinMovie {
  
  
  
-	static args = {}; 
+	//static args = {}; 
  
  
  
 	static html( objData = {} ) {  	// objData.pm == true - спойлер розвернутий, false - мінімалізований в title
 		const fooName = this.name + '.html()'; 
  
-		this.args = objData.args ? objData.args : {}; 
+		//this.args = objData.args ? objData.args : {}; 
+		//console.log( 'objData: ', objData ); 
  
  
  
@@ -32,32 +33,84 @@ class ComponentWinMovie {
 
 
 		let html = '';
+
 		if ( objData ) {
-			if ( objData.win && objData.win == 'movie' && objData.id ) {
+			if ( objData.win && objData.win == 'movie' ) {
+				if ( objData.id ) {
 
-				//console.log( 'objData: ', objData ); 
+					//console.log( 'objData: ', objData ); 
 
-				if ( objFilms ) {
-					if ( objFilms[ objData.id ] ) {
-
-
-						let film = objFilms[ objData.id ];
-						//console.log( 'film: ', film ); 
+					if ( objFilms ) {
+						if ( objFilms[ objData.id ] ) {
 
 
-						setMeta({ 
-							title 			: `${ film.title.ua } (${ film.year })`, 
-							description 	: `${ film.title.ua } (${ film.year })`, 
-							image 			: `img/poster/${ film.id }.jpg`, 
-						}); 
+							let film = objFilms[ objData.id ];
+							//console.log( 'film: ', film ); 
 
 
-						html = Component( 'Each-Movie', { filmID: objData.id, pm: true, } );
+							let txtGenre = '';
+							if ( film.genre ) {
+								for ( let k in film.genre ) {
 
+									if ( objGenres[ k ] ) {
+										if ( objGenres[ k ].title ) 
+											txtGenre += `${ objGenres[ k ].title.toLowerCase() }, `;
+
+									}
+								}
+
+
+
+								txtGenre = txtGenre.slice( 0, -2 );
+								//console.log( txtGenre );
+
+								//film.genre = txtGenre;
+
+								txtGenre = txtGenre[ 0 ].toUpperCase() + txtGenre.slice( 1 );
+
+								//console.log( txtGenre );
+
+							}
+
+
+							let txtCountry = '';
+							if ( film.country ) {
+								for ( let k in film.country ) {
+
+									if ( objCountry[ k ] ) {
+										if ( objCountry[ k ].title ) {
+											if ( objCountry[ k ].title.ua ) 
+												txtCountry += `${ objCountry[ k ].title.ua }, `;
+										}
+									}
+								}
+								//txtCountry = txtCountry.slice( 0, -2 );
+							}
+
+
+							//console.log( txtCountry );
+
+
+							html = Component( 'Movie', film );
+
+
+							setMeta({ 
+								title 			: `${ film.title.ua } (${ film.year })`, 
+								description 	: `${ film.title.ua } (${ txtCountry }${ film.year } рік). ${ txtGenre }.`,
+								keywords 		: `${ film.title.ua }, ${ film.year }, ${ txtGenre }`,
+								image 			: `img/poster/${ film.id }.jpg`, 
+							}); 
+
+						} else 
+							html = Component( 'Win-Err404' );
 					}
-				}
+				
+				} else 
+					html = Component( 'Win-Err404' );
+
 			}
 		}
+
 
 
 		return { tagParam, html };  
@@ -72,28 +125,6 @@ class ComponentWinMovie {
  
 		//console.log( 'fooName: ', fooName ); 
 		//console.log( 'elem', elem ); 
-
-
-
-
-		let elemParnet = elem.closest( '.each-movie' );
-		let elemBody = elemParnet.querySelector( '.body' );
-
-
-		if ( !elemBody.innerHTML ) 
-			elemBody.innerHTML = Component( 'Film', { filmID: elemParnet.dataset.id } );
-
-		else 
-			elemBody.classList.toggle( 'unvisible' );
-
-
-		let htmlPM = '';
-		if ( elemBody.classList.contains( 'unvisible' ) ) 
-			htmlPM = '+';
-		else 
-			htmlPM = '-';
-			
-		elem.querySelector( '.pm' ).innerHTML = htmlPM;
 
 
 	} 

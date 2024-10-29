@@ -40,12 +40,11 @@ const dependences = [
 	// компоненти загальні --------------------------------------------------------------------------------------------------------
 
 
-
-
-	{ cmp: 'Title-Spoyler' 		, },
+	{ cmp: 'Spoyler' 			, },
+	//{ cmp: 'Title-Spoyler' 		, },
 	{ cmp: 'Posters-List' 		, },
 	{ cmp: 'Each-People' 		, },
-	{ cmp: 'Each-Movie' 		, },
+	{ cmp: 'Movie' 				, },
 	{ cmp: 'Cast' 				, },
 	{ cmp: 'Menu-Filter-Movie' 	, },
 	{ cmp: 'Menu-Filter-People' , },
@@ -79,10 +78,16 @@ const dependences = [
 	// компоненти-контенти // win-сторiнки ----------------------------------------------------------------------------------------
 	
 	{ cmp: 'Win-Index' 					, win: /^index$/ 					, }, 	// regexp - url-маршрут (route) в адресному рядку
+	{ cmp: 'Win-Movie' 					, win: /^movie$/ 					, }, 	
 	
+
+	//{ cmp: 'Win-Uid' 					, win: /^user\/[0-9A-Za-z]+$/ 		, }, 	// user/{ txt }
+
+
+
+
 	{ cmp: 'Win-Actor' 					, win: /^actor$/ 					, }, 	
 	{ cmp: 'Win-Actors' 				, win: /^actors$/ 					, }, 	
-	{ cmp: 'Win-Movie' 					, win: /^movie$/ 					, }, 	
 	{ cmp: 'Win-Movies' 				, win: /^movies$/ 					, }, 	
 	{ cmp: 'Win-People' 				, win: /^people$/ 					, }, 	
 

@@ -92,7 +92,7 @@ class ComponentPostersList {
 		// скидання фільтрів
 		ComponentMenu.resetFilter();
 		// приховування меню
-		ComponentHeader.clc();
+		ComponentHeader.hide();
 
 
 		Router.link([

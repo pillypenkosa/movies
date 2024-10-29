@@ -200,17 +200,17 @@ class ComponentWinMovies {
 
 		arrSelected.forEach( k => {
 
-			html += Component( 'Each-Movie', { filmID: k.id, pm: false, } ); 
-			//html += Component( 'Each-Movie', { filmID: k.id, pm: true, } ); 
+			html += Component( 'Spoyler', { key: 'movie', data: k, } ); 
+
 		});
 
 
  
  
-		setMeta({ 
+		setMeta ({ 
 			title 			: 'Movie Films', 
 			description 	: 'Опис...', 
-			//image 		: '', 
+			image 			: 'img/pic/logoDJS.png', 
 		}); 
  
  

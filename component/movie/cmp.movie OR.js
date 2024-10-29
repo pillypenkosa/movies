@@ -1,10 +1,8 @@
-// © 2024 DJS 
+
  
  
  
- 
- 
-class ComponentEachMovie { 
+class ComponentMovie { 
  
  
  

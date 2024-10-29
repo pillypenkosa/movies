@@ -6,6 +6,55 @@ const arrHashTags = [
 
 
 
+	{ id: '-' 				, title: '--- --- ЛЮДИ --- ---' 		, app: { films: 1, }, },
+	{ id: 'fight' 			, title: 'бійці' 						, app: { films: 1, }, }, // бойові мистецтва
+	{ id: 'truckers' 		, title: 'далекобійники' 				, app: { films: 1, }, },
+	{ id: 'children' 		, title: 'діти' 						, app: { films: 1, }, },
+	{ id: 'bond' 			, title: 'ДжеймсБонд' 					, app: { films: 1, }, }, 
+	{ id: 'hostage' 		, title: 'заручники' 					, app: { films: 1, }, },
+	{ id: 'killer' 			, title: 'кілери' 						, app: { films: 1, }, },
+	{ id: 'cowboy' 			, title: 'ковбої' 						, app: { films: 1, }, },
+	{ id: 'team' 			, title: 'команда' 						, app: { films: 1, }, }, // група осіб
+	{ id: 'love' 			, title: 'кохання' 						, app: { films: 1, }, },
+	{ id: 'doctor' 			, title: 'лікар' 						, app: { films: 1, }, },
+	{ id: 'maniac' 			, title: 'маніяки' 						, app: { films: 1, }, },
+	{ id: 'young' 			, title: 'молодь' 						, app: { films: 1, }, },
+	{ id: 'oneman' 			, title: 'одинАктор' 					, app: { films: 1, }, }, // театр одного актора
+	{ id: 'pirates' 		, title: 'пірати' 						, app: { films: 1, }, },
+	{ id: 'cop' 			, title: 'поліцейські' 					, app: { films: 1, }, },
+	{ id: 'prince' 			, title: 'принц' 						, app: { films: 1, }, }, 
+	{ id: 'superhero' 		, title: 'супергерої' 					, app: { films: 1, }, },
+	{ id: 'terrorist' 		, title: 'терористи' 					, app: { films: 1, }, },
+	
+
+
+	{ id: '-' 				, title: '--- --- ПОТОЙБІЧНИЙ СВІТ --- ---' 	, app: { films: 1, }, },
+	{ id: 'vampire' 		, title: 'вампіри' 								, app: { films: 1, }, }, 
+	{ id: 'witch' 			, title: 'відьми' 								, app: { films: 1, }, },
+	{ id: 'zombie' 			, title: 'зомбі' 								, app: { films: 1, }, },
+	{ id: 'mutant' 			, title: 'мутанти'								, app: { films: 1, }, },
+	{ id: 'bodyChange' 		, title: 'обмінТілами' 							, app: { films: 1, }, }, // театр одного актора
+	{ id: 'werewolf' 		, title: 'перевертні' 							, app: { films: 1, }, },
+	{ id: 'souls' 			, title: 'переселенняДуш' 						, app: { films: 1, }, }, 
+	{ id: 'ghost' 			, title: 'привиди' 								, app: { films: 1, }, }, 
+
+
+
+	{ id: '-' 				, title: '--- --- ТВАРИНИ --- ---' 		, app: { films: 1, }, },
+	{ id: 'animal' 			, title: 'тварини' 						, app: { films: 1, }, },
+	{ id: 'shark' 			, title: 'акули' 						, app: { films: 1, }, },
+	{ id: 'groundhog' 		, title: 'бабак' 						, app: { films: 1, }, }, // в стилі Дня Бабака
+	{ id: 'bear' 			, title: 'ведмеді' 						, app: { films: 1, }, }, 
+	{ id: 'virus' 			, title: 'вірус' 						, app: { films: 1, }, },
+	{ id: 'dinosaur' 		, title: 'динозаври' 					, app: { films: 1, }, },
+	{ id: 'snake' 			, title: 'змії' 						, app: { films: 1, }, },
+	{ id: 'crocodile' 		, title: 'крокодили' 					, app: { films: 1, }, },
+	{ id: 'monkey' 			, title: 'мавпи' 						, app: { films: 1, }, },
+	{ id: 'spider' 			, title: 'павук' 						, app: { films: 1, }, }, 
+	{ id: 'dog' 			, title: 'собаки' 						, app: { films: 1, }, },
+
+
+
 	{ id: '-' 				, title: '--- --- ВІЙНА --- ---' 		, app: { films: 1, }, },
 	{ id: 'army' 			, title: 'армія' 						, app: { films: 1, }, },
 	{ id: 'battle' 			, title: 'битва' 						, app: { films: 1, }, },
@@ -57,30 +106,6 @@ const arrHashTags = [
 	
 
 
-	{ id: '-' 				, title: '--- --- ЛЮДИ --- ---' 		, app: { films: 1, }, },
-	{ id: 'fight' 			, title: 'бійці' 						, app: { films: 1, }, }, // бойові мистецтва
-	{ id: 'truckers' 		, title: 'далекобійники' 				, app: { films: 1, }, },
-	{ id: 'children' 		, title: 'діти' 						, app: { films: 1, }, },
-	{ id: 'bond' 			, title: 'ДжеймсБонд' 					, app: { films: 1, }, }, 
-	{ id: 'hostage' 		, title: 'заручники' 					, app: { films: 1, }, },
-	{ id: 'killer' 			, title: 'кілери' 						, app: { films: 1, }, },
-	{ id: 'cowboy' 			, title: 'ковбої' 						, app: { films: 1, }, },
-	{ id: 'team' 			, title: 'команда' 						, app: { films: 1, }, }, // група осіб
-	{ id: 'love' 			, title: 'кохання' 						, app: { films: 1, }, },
-	{ id: 'doctor' 			, title: 'лікар' 						, app: { films: 1, }, },
-	{ id: 'maniac' 			, title: 'маніяки' 						, app: { films: 1, }, },
-	{ id: 'young' 			, title: 'молодь' 						, app: { films: 1, }, },
-	{ id: 'bodyChange' 		, title: 'обмінТілами' 					, app: { films: 1, }, }, // театр одного актора
-	{ id: 'oneman' 			, title: 'один' 						, app: { films: 1, }, }, // театр одного актора
-	{ id: 'pirates' 		, title: 'пірати' 						, app: { films: 1, }, },
-	{ id: 'cop' 			, title: 'поліцейські' 					, app: { films: 1, }, },
-	{ id: 'ghost' 			, title: 'привиди' 						, app: { films: 1, }, }, 
-	{ id: 'prince' 			, title: 'принц' 						, app: { films: 1, }, }, 
-	{ id: 'superhero' 		, title: 'супергерої' 					, app: { films: 1, }, },
-	{ id: 'terrorist' 		, title: 'терористи' 					, app: { films: 1, }, },
-	
-
-
 	{ id: '-' 				, title: '--- --- ПАСТКИ --- ---' 		, app: { films: 1, }, },
 	{ id: 'trap' 			, title: 'пастка' 						, app: { films: 1, }, }, // випадкові смертельні пастки
 	{ id: 'surviving' 		, title: 'виживання' 					, app: { films: 1, }, }, // подорожі у часі
@@ -124,26 +149,6 @@ const arrHashTags = [
 	{ id: 'fashion' 		, title: 'мода' 						, app: { films: 1, }, },
 	{ id: 'politic' 		, title: 'політика' 					, app: { films: 1, }, },
 	{ id: 'psycho' 			, title: 'психо' 						, app: { films: 1, }, }, // зламай мозок
-
-
-
-	{ id: '-' 				, title: '--- --- ТВАРИНИ --- ---' 		, app: { films: 1, }, },
-	{ id: 'animal' 			, title: 'тварини' 						, app: { films: 1, }, },
-	{ id: 'shark' 			, title: 'акули' 						, app: { films: 1, }, },
-	{ id: 'groundhog' 		, title: 'бабак' 						, app: { films: 1, }, }, // в стилі Дня Бабака
-	{ id: 'vampire' 		, title: 'вампіри' 						, app: { films: 1, }, }, 
-	{ id: 'bear' 			, title: 'ведмеді' 						, app: { films: 1, }, }, 
-	{ id: 'virus' 			, title: 'вірус' 						, app: { films: 1, }, },
-	{ id: 'dinosaur' 		, title: 'динозаври' 					, app: { films: 1, }, },
-	{ id: 'snake' 			, title: 'змії' 						, app: { films: 1, }, },
-	{ id: 'zombie' 			, title: 'зомбі' 						, app: { films: 1, }, },
-	{ id: 'crocodile' 		, title: 'крокодили' 					, app: { films: 1, }, },
-	{ id: 'monkey' 			, title: 'мавпи' 						, app: { films: 1, }, },
-	{ id: 'mutant' 			, title: 'мутанти'						, app: { films: 1, }, },
-	{ id: 'spider' 			, title: 'павук' 						, app: { films: 1, }, }, 
-	{ id: 'werewolf' 		, title: 'перевертні' 					, app: { films: 1, }, },
-	{ id: 'ghost' 			, title: 'привиди' 						, app: { films: 1, }, }, 
-	{ id: 'dog' 			, title: 'собаки' 						, app: { films: 1, }, },
 
 
 

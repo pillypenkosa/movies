@@ -108,7 +108,7 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, steve_buscemi_13121957: 1, },
 },
 {
-	id: 'the_33_2015', title: { ua: '33', en: 'The 33', }, year: 2015, country: { usa: 1, chi: 1, col: 1, },
+	id: 'the_33_2015', title: { ua: '33', en: 'The 33', }, year: 2015, country: { usa: 1, chl: 1, col: 1, },
 	studio: { _20_century: 1, warner: 1, netflix: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '2006295', wiki_ua: '33_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -782,8 +782,13 @@ const arrFilms = [
 {
 	id: 'from_dusk_till_dawn_1996', title: { ua: 'Від заходу до світанку', en: 'From Dusk Till Dawn', }, year: 1996, country: { usa: 1, },
 	genre: { horror: 1, action: 1, mystic: 1, }, hash: { zombie: 1, },
-	internet: { imdb: '0116367', wiki_ua: '%D0%92%D1%96%D0%B4_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%83_%D0%B4%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BA%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',		 },
+	internet: { imdb: '0116367', wiki_ua: '%D0%92%D1%96%D0%B4_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%83_%D0%B4%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BA%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { george_clooney_06051961: 1, quentin_tarantino_27031963: 1, juliette_lewis_21061973: 1, salma_hayek_02091966: 1, danny_trejo_16051944: 1, },
+},
+{
+	id: 'the_abandon_2022', title: { ua: 'Відмова', en: 'The Abandon', }, year: 2022, country: { usa: 1, },
+	genre: { horror: 1, thriller: 1, }, hash: { oneman: 1, trap: 1, army: 1, },
+	internet: { imdb: '10273738', },
 },
 {
 	id: 'retribution_2023', title: { ua: 'Відплата: Дорога помсти', en: 'Retribution', }, year: 2023, country: { usa: 1, },
@@ -1045,6 +1050,12 @@ const arrFilms = [
 	genre: { drama: 1, erotica: 1, },
 	internet: { imdb: '0104779', wiki_ua: '%D0%93%D1%96%D1%80%D0%BA%D0%B8%D0%B9_%D0%BC%D1%96%D1%81%D1%8F%D1%86%D1%8C', },
 	cast: { hugh_grant_09091960: 1, },
+},
+{
+	id: 'gladiator_2000', title: { ua: 'Гладіатор', en: 'Gladiator', }, year: 2000, country: { usa: 1, },
+	genre: { action: 1, adventure: 1, }, 
+	internet: { imdb: '0172495', wiki_ua: '%D0%93%D0%BB%D0%B0%D0%B4%D1%96%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { russell_crowe_07041964: 1, connie_nielsen_03071965: 1, },
 },
 {
 	id: 'gueules_noires_2023', title: { ua: 'Глибока темрява', en: 'Gueules noires', }, year: 2023, country: { fra: 1, },
@@ -1536,6 +1547,12 @@ const arrFilms = [
 	genre: { drama: 1, comedy: 1,  },
 	internet: { imdb: '0458413', wiki_ru: '%D0%94%D0%BE%D0%BB%D0%B3%D0%BE%D0%B5_%D0%BF%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 	cast: { pierce_brosnan_16051953: 1, rosamund_pike_27011979 : 1, },
+},
+{
+	id: 'longlegs_2024', title: { ua: 'Довгоніг', en: 'Longlegs', }, year: 2024, country: { usa: 1, can: 1, },
+	genre: { crime: 1, thriller: 1, horror: 1, },
+	internet: { imdb: '23468450', wiki_ua: '%D0%94%D0%BE%D0%B2%D0%B3%D0%BE%D0%BD%D1%96%D0%B3', },
+	cast: { nicolas_cage_07011964: 1, },
 },
 {
 	id: 'dogma_1999', title: { ua: 'Догма', en: 'Dogma', }, year: 1999, country: { usa: 1, },
@@ -2504,6 +2521,11 @@ const arrFilms = [
 	cast: { jennifer_lopez_24071969: 1, dean_norris_08041963: 1, },
 },
 {
+	id: 'the_skeleton_key_2005', title: { ua: 'Ключ від усіх дверей', en: 'The Skeleton Key', }, year: 2005, country: { usa: 1, deu: 1, },
+	genre: { mystic: 1, crime: 1, }, hash: { souls: 1, },
+	internet: { imdb: '0397101', wiki_ua: '%D0%9A%D0%BB%D1%8E%D1%87_%D0%B2%D1%96%D0%B4_%D1%83%D1%81%D1%96%D1%85_%D0%B4%D0%B2%D0%B5%D1%80%D0%B5%D0%B9', },
+},
+{
 	id: 'the_book_of_Eli_2010', title: { ua: 'Книга Ілая', en: 'The Book of Eli', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { utopia: 1, },
 	internet: { imdb: '1037705', wiki_ua: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D0%86%D0%BB%D0%B0%D1%8F', },
@@ -3124,7 +3146,7 @@ const arrFilms = [
 },
 {
 	id: 'hansel_gretel_witch_hunters_2013', title: { ua: 'Мисливці за відьмами', en: 'Hansel & Gretel: Witch Hunters', }, year: 2013, country: { usa: 1, deu: 1, },
-	genre: { action: 1, fantasy: 1, horror: 1, },
+	genre: { action: 1, fantasy: 1, horror: 1, }, hash: { witch: 1, },
 	internet: { imdb: '1428538', wiki_ua: '%D0%9C%D0%B8%D1%81%D0%BB%D0%B8%D0%B2%D1%86%D1%96_%D0%B7%D0%B0_%D0%B2%D1%96%D0%B4%D1%8C%D0%BC%D0%B0%D0%BC%D0%B8', },
 },
 {
@@ -3729,6 +3751,11 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, jason_statham_26071967: 1, dolph_lundgren_03111957: 1, megan_fox_16051986: 1, },
 },
 {
+	id: 'nowhere_2023', title: { ua: 'Ніде', en: 'Nowhere', }, year: 2023, country: { esp: 1, },
+	genre: { drama: 1, thriller: 1, }, hash: { oneman: 1, trap: 1, sea: 1, surviving: 1, },
+	internet: { imdb: '15789472', ashdivip: '113186', },
+},
+{
 	id: 'never_say_never_again_1983', title: { ua: 'Ніколи не кажи ніколи', en: 'Never Say Never Again', }, year: 1983, country: { usa: 1, gbr: 1, deu: 1, },
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0086006', wiki_ua: '%D0%9D%D1%96%D0%BA%D0%BE%D0%BB%D0%B8_%D0%BD%D0%B5_%D0%BA%D0%B0%D0%B6%D0%B8_%D0%BD%D1%96%D0%BA%D0%BE%D0%BB%D0%B8', ashdivip: '3307', },
@@ -4010,6 +4037,11 @@ const arrFilms = [
 	id: 'la_casa_de_papel_2017', title: { ua: 'Паперовий будинок', en: 'La casa de papel', }, year: 2017, country: { esp: 1, },
 	genre: { serial: 1, action: 1, crime: 1, }, hash: { robbery: 1, },
 	internet: { imdb: '6468322', wiki_ua: '%D0%9F%D0%B0%D0%BF%D0%B5%D1%80%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B1%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
+},
+{
+	id: 'paranormal_activity_2007', title: { ua: 'Паранормальне явище', en: 'Paranormal Activity', }, year: 2007, country: { usa: 1, },
+	genre: { horror: 1, },	
+	internet: { imdb: '1179904', wiki_ua: '%D0%9F%D0%B0%D1%80%D0%B0%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D1%8F%D0%B2%D0%B8%D1%89%D0%B5_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },	
 },
 {
 	id: 'jurassic_park_1993', title: { ua: 'Парк Юрського періоду', en: 'Jurassic Park', }, year: 1993, country: { usa: 1, }, rating: 5,
@@ -5074,6 +5106,12 @@ const arrFilms = [
 	genre: { comedy: 1, }, hash: { children: 1, },
 	internet: { imdb: '0119303', wiki_ua: '%D0%A1%D0%B0%D0%BC_%D1%83%D0%B4%D0%BE%D0%BC%D0%B0_3', },
 	cast: { scarlett_johansson_22111984: 1, },
+},
+{
+	id: 'samaritan_2022', title: { ua: 'Самаритянин', en: 'Samaritan', }, year: 2022, country: { usa: 1, }, 
+	genre: { fantasy: 1, action: 1, }, hash: { superhero: 1, children: 1, },
+	internet: { imdb: '5500218', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%B0%D1%80%D0%B8%D1%82%D1%8F%D0%BD%D0%B8%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', },
+	cast: { sylvester_stallone_06071946: 1, },
 },
 {
 	id: 'lionheart_1990', title: { ua: 'Самоволка', en: 'Lionheart', }, year: 1990, country: { usa: 1, }, rating: 5,
