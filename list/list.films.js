@@ -6442,16 +6442,9 @@ const arrFilms = [
 {
 	id: 'what_women_want_2000', title: { ua: 'Чого хочуть жінки', en: 'What Women Want', }, year: 2000, country: { usa: 1, },
 	genre: { fantasy: 1, comedy: 1, },
-	internet: { imdb: '0207201', wiki_ru: '%D0%A7%D0%B5%D0%B3%D0%BE_%D1%85%D0%BE%D1%82%D1%8F%D1%82_%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B', ashdivip: '', },
+	internet: { imdb: '0207201', wiki_ua: '%D0%A7%D0%BE%D0%B3%D0%BE_%D1%85%D0%BE%D1%87%D1%83%D1%82%D1%8C_%D0%B6%D1%96%D0%BD%D0%BA%D0%B8', ashdivip: '2068', },
 	cast: { mel_gibson_03011956: 1, },
 },
-
-
-
-
-
-
-
 {
 	id: 'nuts_1987', title: { ua: 'Чокнуті', en: 'Nuts', }, year: 1987, country: { usa: 1, },
 	genre: { thriller: 1, },
