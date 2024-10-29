@@ -1422,7 +1422,7 @@ const arrFilms = [
 	id: 'Johnny_mnemonic_1995', title: { ua: 'Джонні Мнемонік', en: 'Johnny Mnemonic', }, year: 1995, country: { can: 1, usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { cyber: 1, },
 	internet: { imdb: '0113481', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%BD%D0%BD%D1%96-%D0%9C%D0%BD%D0%B5%D0%BC%D0%BE%D0%BD%D1%96%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { keanu_reeves_02091964: 1, ice_t_16021958: 1, dolph_lundgren_03111957: 1, },
+	cast: { keanu_reeves_02091964: 1, ice_t_16021958: 1, dolph_lundgren_03111957: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
 	id: 'jumanji_1995', title: { ua: 'Джуманджи', en: 'Jumanji', }, year: 1995, country: { usa: 1, }, rating: 5,
@@ -3400,7 +3400,7 @@ const arrFilms = [
 	id: 'striking_distance_1993', title: { ua: 'На відстані удару', en: 'Striking Distance', }, year: 1993, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0108238', wiki_ua: '%D0%9D%D0%B0_%D0%B2%D1%96%D0%B4%D1%81%D1%82%D0%B0%D0%BD%D1%96_%D1%83%D0%B4%D0%B0%D1%80%D1%83', },
-	cast: { bruce_willis_19031955: 1, tom_sizemore_29111961: 1, brion_james_20021945: 1, },
+	cast: { bruce_willis_19031955: 1, tom_sizemore_29111961: 1, brion_james_20021945: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
 	id: 'point_break_1991', title: { ua: 'На гребені хвилі', en: 'Point Break', }, year: 1991, country: { usa: 1, }, rating: 5,
@@ -4611,7 +4611,7 @@ const arrFilms = [
 	id: 'true_lies_1995', title: { ua: 'Правдива брехня', en: 'True Lies', }, year: 1995, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, }, hash: { terrorist: 1, nuclear_bomb: 1, },
 	internet: { imdb: '0423412', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B8%D0%B2%D0%B0_%D0%B1%D1%80%D0%B5%D1%85%D0%BD%D1%8F', ashdivip: '1903', auliki7: 'True.Lies', },
-	cast: { arnold_schwarzenegger_30071947: 1, jamie_lee_curtis_22111958: 1, bill_paxton_17051955: 1, tia_carrere_02011967: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, jamie_lee_curtis_22111958: 1, bill_paxton_17051955: 1, tia_carrere_02011967: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
 	id: 'the_equalizer_2014', title: { ua: 'Праведник', en: 'The Equalizer', }, year: 2014, country: { usa: 1, }, rating: 5,
@@ -5417,7 +5417,7 @@ const arrFilms = [
 	id: 'the_real_McCoy_1993', title: { ua: 'Справжня Маккой', en: 'The Real McCoy', }, year: 1993, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, crime: 1, }, hash: { robbery: 1, },
 	internet: { imdb: '0107927', wiki_ua: '%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%B6%D0%BD%D1%8F_%D0%9C%D0%B0%D0%BA%D0%BA%D0%BE%D0%B9', ashdivip: '17052', },
-	cast: { kim_basinger_08121953: 1, val_kilmer_31121959: 1, },
+	cast: { kim_basinger_08121953: 1, val_kilmer_31121959: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
 	id: 'stealth_2005', title: { ua: 'Стелс', en: 'Stealth', }, year: 2005, country: { usa: 1, },
@@ -5676,13 +5676,13 @@ const arrFilms = [
 	id: 'terminator_1_1984', title: { ua: 'Термінатор', en: 'The Terminator', }, year: 1984, country: { usa: 1, }, rating: 5, franchise: 'terminator',
 	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, robot: 1, police: 1, },
 	internet: { imdb: '0088247', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '3499', moviestape: 'Terminator', },
-	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, michael_biehn_31071956: 1, bill_paxton_17051955: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, michael_biehn_31071956: 1, bill_paxton_17051955: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
 	id: 'terminator_2_1991', title: { ua: 'Термінатор - 2', en: 'Terminator 2: Judgment Day', }, year: 1991, country: { usa: 1, }, rating: '5+', franchise: 'terminator',
 	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, robot: 1, children: 1, motorbike: 1, police: 1, madhouse: 1, },
 	internet: { imdb: '0103064', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_2:_%D0%A1%D1%83%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C', ashdivip: '3314', moviestape: 'Terminator.2.Judgment.Day', },
-	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, edward_furlong_02081977: 1, robert_patrick_05111958: 1, joe_morton_18101947: 1, michael_biehn_31071956: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, edward_furlong_02081977: 1, robert_patrick_05111958: 1, joe_morton_18101947: 1, michael_biehn_31071956: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
 	id: 'terminator_3_2003', title: { ua: 'Термінатор - 3', en: 'Terminator 3: Rise of the Machines', }, year: 2003, country: { usa: 1, }, rating: '5+', franchise: 'terminator',
@@ -6439,6 +6439,19 @@ const arrFilms = [
 	genre: { comedy: 1, thriller: 1, },
 	internet: { imdb: '15320066', },
 },
+{
+	id: 'what_women_want_2000', title: { ua: 'Чого хочуть жінки', en: 'What Women Want', }, year: 2000, country: { usa: 1, },
+	genre: { fantasy: 1, comedy: 1, },
+	internet: { imdb: '0207201', wiki_ru: '%D0%A7%D0%B5%D0%B3%D0%BE_%D1%85%D0%BE%D1%82%D1%8F%D1%82_%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B', ashdivip: '', },
+	cast: { mel_gibson_03011956: 1, },
+},
+
+
+
+
+
+
+
 {
 	id: 'nuts_1987', title: { ua: 'Чокнуті', en: 'Nuts', }, year: 1987, country: { usa: 1, },
 	genre: { thriller: 1, },
