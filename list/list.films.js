@@ -901,6 +901,12 @@ const arrFilms = [
 	internet: { imdb: '1340094', wiki_ua: '%D0%92%D0%BE%D1%80%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
 },
 {
+	id: 'blue_steel_1990', title: { ua: 'Воронована сталь', en: 'Blue Steel', }, year: 1990, country: { usa: 1, },
+	genre: { drama: 1, thriller: 1, crime: 1, }, hash: { police: 1, },
+	internet: { imdb: '0099160', wiki_ua: '%D0%91%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B0_%D1%81%D1%82%D0%B0%D0%BB%D1%8C', ashdivip: '138898', },
+	cast: { jamie_lee_curtis_22111958: 1, }, composer: { brad_fiedel_10031951: 1, },
+},
+{
 	id: 'octopussy_1983', title: { ua: 'Восьминiжка', en: 'Octopussy', }, year: 1983, country: { gbr: 1, },
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0086034', wiki_ua: '%D0%92%D0%BE%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D1%96%D0%B6%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2701', },
