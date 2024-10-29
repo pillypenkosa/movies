@@ -6035,7 +6035,7 @@ const arrFilms = [
 	id: 'the_faculty_1998', title: { ua: 'Факультет', en: 'The Faculty', }, year: 1998, country: { usa: 1, },
 	genre: { horror: 1, sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0133751', wiki_ua: '%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { elijah_wood_28011981: 1, josh_hartnett_21071978: 1, robert_patrick_05111958: 1, salma_hayek_02091966: 1, },
+	cast: { elijah_wood_28011981: 1, josh_hartnett_21071978: 1, robert_patrick_05111958: 1, salma_hayek_02091966: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'the_phantom_1996', title: { ua: 'Фантом', en: 'The Phantom', }, year: 1996, country: { usa: 1, aus: 1, },
