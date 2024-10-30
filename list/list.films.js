@@ -1053,7 +1053,7 @@ const arrFilms = [
 },
 {
 	id: 'gladiator_2000', title: { ua: 'Гладіатор', en: 'Gladiator', }, year: 2000, country: { usa: 1, },
-	genre: { action: 1, adventure: 1, }, 
+	genre: { action: 1, adventure: 1, }, hash: { ancient: 1, },
 	internet: { imdb: '0172495', wiki_ua: '%D0%93%D0%BB%D0%B0%D0%B4%D1%96%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { russell_crowe_07041964: 1, connie_nielsen_03071965: 1, },
 },
@@ -1159,6 +1159,7 @@ const arrFilms = [
 	id: 'the_killer_s_game_2024', title: { ua: 'Гра кілера', en: 'The Killer\'s Game', }, year: 2024, country: { usa: 1, }, 
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '0327785', },
+	cast: { scott_adkins_17061976: 1, sofia_boutella_03041982: 1, },
 },
 {
 	id: 'surviving_the_game_1994', title: { ua: 'Гра на виживання', en: 'Surviving the Game', }, year: 1994, country: { usa: 1, }, rating: 5,
@@ -4236,31 +4237,31 @@ const arrFilms = [
 },
 {
 	id: 'pirates_of_the_Caribbean_2003', title: { ua: 'Пірати Карибського моря', en: 'Pirates of the Caribbean: The Curse of the Black Pearl', }, year: 2003, country: { usa: 1, }, rating: 5, franchise: 'Caribbean',
-	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0325980', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D1%8F%D1%82%D1%82%D1%8F_%C2%AB%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D1%97_%D0%BF%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D0%B8%C2%BB', },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
 	id: 'pirates_of_the_Caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+', franchise: 'Caribbean',
-	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0383574', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8F_%D0%BC%D0%B5%D1%80%D1%86%D1%8F', ashdivip: '308', auliki7: 'Pirates.of.the.Caribbean.Dead.Mans.Chest', },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
 	id: 'pirates_of_the_Caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'Caribbean',
-	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0449088', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%BA%D1%80%D0%B0%D1%8E_%D1%81%D0%B2%D1%96%D1%82%D1%83',  },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
 	id: 'pirates_of_the_Caribbean_4_2011', title: { ua: 'Пірати Карибського моря - 4', en: 'Pirates of the Caribbean: On Stranger Tides', }, year: 2011, country: { usa: 1, }, franchise: 'Caribbean',
-	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '1298650', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%B4%D0%B8%D0%B2%D0%BD%D0%B8%D1%85_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%B0%D1%85',  },
 	cast: { johnny_depp_09061963: 1, penelope_cruz_28041974: 1, },
 },
 {
 	id: 'pirates_of_the_Caribbean_5_2017', title: { ua: 'Пірати Карибського моря - 5', en: 'Pirates of the Caribbean: Dead Men Tell No Tales', }, year: 2017, country: { usa: 1, }, franchise: 'Caribbean',
-	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, },
+	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '1790809', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0_%D0%A1%D0%B0%D0%BB%D0%B0%D0%B7%D0%B0%D1%80%D0%B0',  },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, },
 },
@@ -5133,7 +5134,7 @@ const arrFilms = [
 },
 {
 	id: 'the_lone_ranger_2013', title: { ua: 'Самотній рейнджер', en: 'The Lone Ranger', }, year: 2013, country: { usa: 1, },
-	genre: { action: 1, western: 1, adventure: 1, }, hash: { cowboy: 1, },
+	genre: { action: 1, western: 1, adventure: 1, }, hash: { cowboy: 1, middleAges: 1, },
 	internet: { imdb: '1210819', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%A0%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { johnny_depp_09061963: 1, barry_pepper_04041970: 1, },
 },
@@ -5948,7 +5949,7 @@ const arrFilms = [
 },
 {
 	id: 'Troy_2004', title: { ua: 'Троя', en: 'Troy', }, year: 2004, country: { usa: 1, mlt: 1, gbr: 1, },
-	genre: { action: 1, }, hash: { middleAges: 1, },
+	genre: { action: 1, }, hash: { ancient: 1, },
 	internet: { imdb: '0332452', wiki_ua: '%D0%A2%D1%80%D0%BE%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { brad_pitt_18121963: 1, orlando_bloom_13011977: 1, sean_bean_17041959: 1, },
 },

@@ -114,11 +114,12 @@ const arrHashTags = [
 
 
 	{ id: '-' 				, title: '--- --- СВІТИ --- ---' 		, app: { films: 1, }, },
-	{ id: 'world' 			, title: 'світ' 						, app: { films: 1, }, }, // вигаданий світ
 	{ id: 'apocalypse' 		, title: 'апокаліпсис' 					, app: { films: 1, }, },
 	{ id: 'future' 			, title: 'майбутнє' 					, app: { films: 1, }, },
 	{ id: 'real' 			, title: 'наРеальнихПодіях' 			, app: { films: 1, }, }, // засновано на реальних подіях
 	{ id: 'middleAges' 		, title: 'середньовіччя' 				, app: { films: 1, }, },
+	{ id: 'ancient' 		, title: 'стародавнійСвіт' 				, app: { films: 1, }, }, // подорожі у часі
+	{ id: 'world' 			, title: 'світ' 						, app: { films: 1, }, }, // вигаданий світ
 	{ id: 'utopia' 			, title: 'утопія' 						, app: { films: 1, }, }, 
 	{ id: 'time' 			, title: 'уЧасі' 						, app: { films: 1, }, }, // подорожі у часі
 
