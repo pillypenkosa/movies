@@ -3407,7 +3407,7 @@ const arrFilms = [
 	id: 'the_mummy_2017', title: { ua: 'Мумія', en: 'The Mummy', }, year: 2017, country: { usa: 1, },
 	genre: { adventure: 1, fantasy: 1, },
 	internet: { imdb: '2345759', wiki_ua: '%D0%9C%D1%83%D0%BC%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', },
-	cast: { tom_cruise_03071962: 1, russell_crowe_07041964: 1, },
+	cast: { tom_cruise_03071962: 1, russell_crowe_07041964: 1, sofia_boutella_03041982: 1, },
 },
 {
 	id: 'the_fly_1986', title: { ua: 'Муха', en: 'The Fly', }, year: 1986, country: { usa: 1, },
