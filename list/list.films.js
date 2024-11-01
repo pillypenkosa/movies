@@ -708,6 +708,12 @@ const arrFilms = [
 	cast: { jenna_ortega_27092002: 1, catherine_zeta_jones_25091969: 1, },
 },
 {
+	id: 'venom_2018', title: { ua: 'Веном', en: 'Venom', }, year: 2018, country: { usa: 1, chn: 1, },
+	genre: { fantasy: 1, action: 1, }, hash: { superhero: 1, aliens: 1, },
+	internet: { imdb: '1270797', wiki_ua: '%D0%92%D0%B5%D0%BD%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
+	cast: { tom_hardy_15091977: 1, woody_harrelson_23071961: 1, },
+},
+{
 	id: 'vertical_limit_2000', title: { ua: 'Вертикальна межа', en: 'Vertical Limit', }, year: 2000, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, }, hash: { mountains: 1, winter: 1, },
 	internet: { imdb: '0190865', wiki_ua: '%D0%92%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BC%D0%B5%D0%B6%D0%B0', },
@@ -2568,6 +2574,11 @@ const arrFilms = [
 	cast: { denzel_washington_28121954: 1, ryan_reynolds_23101976: 1, robert_patrick_05111958: 1,  },
 },
 {
+	id: 'amber_alert_2024', title: { ua: 'Код жовтий', en: 'Amber Alert', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { children: 1, cars: 1, },
+	internet: { imdb: '31450182', },
+},
+{
 	id: 'the_protege_2021', title: { ua: 'Кодекс кілера', en: 'The Protege', }, year: 2021, country: { usa: 1, },
 	genre: { action: 1, }, hash: { killer: 1, },
 	internet: { imdb: '6079772', wiki_ua: '%D0%9A%D0%BE%D0%B4%D0%B5%D0%BA%D1%81_%D0%BA%D1%96%D0%BB%D0%B5%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -3656,6 +3667,11 @@ const arrFilms = [
 	genre: { mystic: 1, drama: 1, },
 	internet: { imdb: '0217869', wiki_ua: '%D0%9D%D0%B5%D0%B2%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D0%B2%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
+},
+{
+	id: 'stranger_in_the_woods_2024', title: { ua: 'Незнайомець у лісі', en: 'Stranger in the Woods', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, },
+	internet: { imdb: '19316408', },
 },
 {
 	id: 'strangers_2024', title: { ua: 'Незнайомці', en: 'Strangers', }, year: 2024, country: { usa: 1, },
