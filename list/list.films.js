@@ -126,6 +126,11 @@ const arrFilms = [
 	internet: { imdb: '12261776', wiki_uа: '65_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: '1917_2019', title: { ua: '1917', en: '1917', }, year: 2019, country: { usa: 1, gbr: 1, can: 1, esp: 1, ind: 1, },
+	genre: { war: 1, drama: 1, }, hash: { war: 1, war1w: 1, },
+	internet: { imdb: '8579674', wiki_ua: '1917_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: '2012_2009', title: { ua: '2012', en: '2012', }, year: 2009, country: { usa: 1, },
 	studio: { columbia: 1, sony: 1, netflix: 1, },
 	genre: { fantasy: 1, disaster: 1, }, hash: { apocalypse: 1, },
@@ -334,7 +339,7 @@ const arrFilms = [
 	id: 'argylle_2024', title: { ua: 'Арґайл', en: 'Argylle', }, year: 2024, country: { gbr: 1, usa: 1, },
 	genre: { action: 1, comedy: 1, },
 	internet: { imdb: '15009428', wiki_ua: '%D0%90%D1%80%D2%91%D0%B0%D0%B9%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { samuel_l_jackson_21121948: 1, john_cena_23071977: 1, catherine_ohara_04031954: 1, },
+	cast: { samuel_l_jackson_21121948: 1, john_cena_23071977: 1, catherine_ohara_04031954: 1, sofia_boutella_03041982: 1, },
 },
 {
 	id: 'armageddon_1998', title: { ua: 'Армагеддон', en: 'Armageddon', }, year: 1998, country: { usa: 1, },
@@ -586,7 +591,7 @@ const arrFilms = [
 	id: 'rebel_moon_2023', title: { ua: 'Бунтівний місяць', en: 'Rebel Moon - Part One: A Child of Fire', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, sci_fi: 1, }, hash: { utopia: 1, space: 1, planet: 1, robot: 1, },
 	internet: { imdb: '14998742', wiki_ua: '%D0%91%D1%83%D0%BD%D1%82%D1%96%D0%B2%D0%BD%D0%B8%D0%B9_%D0%BC%D1%96%D1%81%D1%8F%D1%86%D1%8C', ashdivip: '112489', },
-	cast: { anthony_hopkins_31121937: 1, },
+	cast: { anthony_hopkins_31121937: 1, sofia_boutella_03041982: 1, },
 },
 {
 	id: 'being_John_Malkovich_1999', title: { ua: 'Бути Джоном Малковичем', en: 'Being John Malkovich', }, year: 1999, country: { usa: 1, },
@@ -3005,6 +3010,12 @@ const arrFilms = [
 	internet: { imdb: '11057302', wiki_ua: '%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC_%D0%9F%D0%B0%D0%B2%D1%83%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: 'haunted_mansion_2023', title: { ua: 'Маєток з привидами', en: 'Haunted Mansion', }, year: 2023, country: { usa: 1, },
+	genre: { fantasy: 1, comedy: 1, horror: 1, }, hash: { ghost: 1, },
+	internet: { imdb: '1695843', wiki_ua: '%D0%9C%D0%B0%D1%94%D1%82%D0%BE%D0%BA_%D0%B7_%D0%BF%D1%80%D0%B8%D0%B2%D0%B8%D0%B4%D0%B0%D0%BC%D0%B8', },
+	cast: { danny_devito_17111944: 1, jamie_lee_curtis_22111958: 1, winona_ryder_29101971: 1, },
+},
+{
 	id: 'maximum_overdrive_1986', title: { ua: 'Максимальне прискорення', en: 'Maximum Overdrive', }, year: 1986, country: { usa: 1, },
 	genre: { horror: 1, mystic: 1, }, hash: { cars: 1, },
 	internet: { imdb: '0091499', wiki_ua: '%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D0%BF%D1%80%D0%B8%D1%81%D0%BA%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F', },
@@ -3800,6 +3811,11 @@ const arrFilms = [
 	id: 'new_york_taxi_2004', title: { ua: 'Нью-Йоркське таксі', en: 'Taxi', }, year: 2004, country: { usa: 1, fra: 1, },
 	genre: { comedy: 1, crime: 1, }, 
 	internet: { imdb: '0316732', wiki_ua: '%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D1%81%D1%8C%D0%BA%D0%B5_%D1%82%D0%B0%D0%BA%D1%81%D1%96', },
+},
+{
+	id: 'twin_sitters_1994', title: { ua: 'Няньки', en: 'Twin Sitters', }, year: 1994, country: { usa: 1, },
+	genre: { comedy: 1, crime: 1, }, 
+	internet: { imdb: '0122768', wiki_ua: '%D0%9D%D1%8F%D0%BD%D1%8C%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)', },
 },
 {
 	id: 'undisputed_2002', title: { ua: 'Обговоренню не підлягає', en: 'Undisputed', }, year: 2002, country: { usa: 1, deu: 1, }, franchise: 'undisputed',
@@ -4874,6 +4890,11 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, comedy: 1, },
 	internet: { imdb: '1821694', wiki_ua: '%D0%A0%D0%95%D0%94_2', },
 	cast: { bruce_willis_19031955: 1, john_malkovich_09121953: 1, catherine_zeta_jones_25091969: 1, anthony_hopkins_31121937: 1, },
+},
+{
+	id: 'serbuan_maut_2011', title: { ua: 'Рейд', en: 'Serbuan maut', }, year: 2011, country: { usa: 1, fra: 1, idn: 1,}, 
+	genre: { action: 1, crime: 1, }, hash: { fight: 1, police: 1, },
+	internet: { imdb: '1899353', wiki_ua: '%D0%A0%D0%B5%D0%B9%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'flight_2012', title: { ua: 'Рейс', en: 'Flight', }, year: 2012, country: { usa: 1, }, rating: 5,
