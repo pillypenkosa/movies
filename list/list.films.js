@@ -714,6 +714,12 @@ const arrFilms = [
 	cast: { tom_hardy_15091977: 1, woody_harrelson_23071961: 1, },
 },
 {
+	id: 'venom_let_there_be_carnage_2021', title: { ua: 'Веном - 2: Карнаж', en: 'Venom: Let There Be Carnage', }, year: 2021, country: { usa: 1, },
+	genre: { fantasy: 1, action: 1, }, hash: { superhero: 1, aliens: 1, },
+	internet: { imdb: '7097896', wiki_ua: '%D0%92%D0%B5%D0%BD%D0%BE%D0%BC_2:_%D0%9A%D0%B0%D1%80%D0%BD%D0%B0%D0%B6', },
+	cast: { tom_hardy_15091977: 1, woody_harrelson_23071961: 1, },
+},
+{
 	id: 'vertical_limit_2000', title: { ua: 'Вертикальна межа', en: 'Vertical Limit', }, year: 2000, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, }, hash: { mountains: 1, winter: 1, },
 	internet: { imdb: '0190865', wiki_ua: '%D0%92%D0%B5%D1%80%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BC%D0%B5%D0%B6%D0%B0', },
