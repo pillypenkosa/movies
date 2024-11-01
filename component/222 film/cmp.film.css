@@ -1,0 +1,97 @@
+cmp-film {
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0 10px;
+} 
+
+	cmp-film .section1 {
+		margin: 0 -10px 20px -10px;
+		padding: 0 0 5px 0;
+		text-align: center;
+
+		/*border: 0 solid var( --bg2 );*/
+		border-top-width: 1px;
+
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+
+		background: var( --bg-b );
+	} 
+		cmp-film .section1 .title-en {
+			font-size: 30px;
+			font-weight: bold;
+		} 
+		cmp-film .section1 .title-ua {
+			font-style: oblique;
+			color: #aaa;
+		} 
+		cmp-film .section1 .year {
+			font-size: 20px;
+			font-weight: bold;
+		} 
+
+	cmp-film .section2 {
+		display: flex;
+		margin: 0 0 0px 0;
+	}
+		cmp-film .section2 .img img {
+			border-radius: 10px;
+		} 
+		cmp-film .section2 .internet {
+			margin: 0 0 0 10px;
+		}
+			cmp-film .section2 .internet a img {
+				height: 50px;
+				margin: 0 0 5px 0;
+			}
+
+	cmp-film .section3 {
+		margin: 0 0 20px 0;
+	}
+		cmp-film .section3 .keyval {
+			/*margin: 0 0 20px 0;*/
+		}
+			cmp-film .section3 .keyval .key {
+				/*margin: 0 0 20px 0;*/
+				font-style: oblique;
+				color: #aaa;
+			}
+
+
+	cmp-film .section4 {
+		margin: 0 0 20px 0;
+	}
+		cmp-film .section4 .hashtag {
+			display: inline-block;
+			margin: 2px;
+			padding: 1px 15px;
+			border-radius: 5px;
+			background: var( --bg-b );
+			color: #ccc;
+		}
+			cmp-film .section4 .hashtag:hover {
+				background: var( --bg-t );
+				color: #fff;
+			}
+
+
+	cmp-film .section5 {
+		margin: 0 0 20px 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

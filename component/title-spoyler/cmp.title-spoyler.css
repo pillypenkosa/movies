@@ -1,0 +1,25 @@
+cmp-title-spoyler {
+
+	display: flex;
+	justify-content: space-between;
+	padding: 3px 10px 6px 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: var( --bg-t );
+	cursor: pointer;
+} 
+	cmp-title-spoyler:hover {
+		color: #ff0;
+	} 
+
+
+
+
+
+
+
+
+
+
+
+
