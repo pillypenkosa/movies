@@ -141,6 +141,17 @@ const arrFilmSelectionBond222 = [
 
 
 
+const arrSetNation  = [
+
+	'the_mexican_2001', // нема в базі // https://www.imdb.com/title/tt0236493/
+	'',
+
+
+];
+
+
+
+
 
 
 

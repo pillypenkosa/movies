@@ -470,7 +470,7 @@ const arrFilms = [
 	id: 'beowulf_2007', title: { ua: 'Беовульф', en: 'Beowulf', }, year: 2007, country: { usa: 1, },
 	genre: { animation: 1, action: 1, adventure: 1, },
 	internet: { imdb: '0442933', wiki_ua: '%D0%91%D0%B5%D0%BE%D0%B2%D1%83%D0%BB%D1%8C%D1%84', },
-	cast: { angelina_jolie_04061975: 1, anthony_hopkins_31121937: 1, john_malkovich_09121953: 1, crispin_glover_20041964: 1, ray_winstone_19021957: 1, },
+	cast: { angelina_jolie_04061975: 1, anthony_hopkins_31121937: 1, john_malkovich_09121953: 1, crispin_glover_20041964: 1, ray_winstone_19021957: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'the_batman_2022', title: { ua: 'Бетмен', en: 'The Batman', }, year: 2022, country: { usa: 1, }, franchise: 'batman',
@@ -644,7 +644,7 @@ const arrFilms = [
 	id: 'van_helsing_2004', title: { ua: 'Ван Хелсінг', en: 'Van Helsing', }, year: 2004, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, }, hash: { vampire: 1, },
 	internet: { imdb: '0338526', wiki_ua: '%D0%92%D0%B0%D0%BD_%D0%A5%D0%B5%D0%BB%D1%81%D1%96%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '7281', },
-	cast: { hugh_jackman_12101968: 1, kate_beckinsale_26071973: 1, },
+	cast: { hugh_jackman_12101968: 1, kate_beckinsale_26071973: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'vanilla_sky_2001', title: { ua: 'Ванільне небо', en: 'Vanilla Sky', }, year: 2001, country: { usa: 1, },
@@ -783,7 +783,7 @@ const arrFilms = [
 	id: 'cast_away_2000', title: { ua: 'Вигнанець', en: 'Cast Away', }, year: 2000, country: { usa: 1, }, rating: 5,
 	genre: { adventure: 1, }, hash: { oneman: 1, island: 1, surviving: 1, tropic: 1, },
 	internet: { imdb: '0162222', wiki_ua: '%D0%92%D0%B8%D0%B3%D0%BD%D0%B0%D0%BD%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { tom_hanks_09071956: 1, },
+	cast: { tom_hanks_09071956: 1, }, director: { robert_zemeckis_14051952: 1, },  composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'a_view_to_a_kill_1985', title: { ua: 'Вид на вбивство', en: 'A View to a Kill', }, year: 1985, country: { gbr: 1, }, franchise: 'agent_007',
@@ -1025,7 +1025,7 @@ const arrFilms = [
 	id: 'volcano_1997', title: { ua: 'Вулкан', en: 'Volcano', }, year: 1997, country: { usa: 1, },
 	genre: { disaster: 1, },
 	internet: { imdb: '0120461', wiki_ru: '%D0%92%D1%83%D0%BB%D0%BA%D0%B0%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1997)', },
-	cast: { tommy_lee_jones_15091946: 1, don_cheadle_29111964: 1, },
+	cast: { tommy_lee_jones_15091946: 1, don_cheadle_29111964: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'corrective_measures_2022', title: { ua: 'В\'язниця суперлиходіїв', en: 'Corrective Measures', }, year: 2022, country: { usa: 1, },
@@ -2281,7 +2281,7 @@ const arrFilms = [
 	id: 'identity_2003', title: { ua: 'Ідентифікація', en: 'Identity', }, year: 2003, country: { usa: 1, },
 	genre: { mystic: 1, thriller: 1, },
 	internet: { imdb: '0309698', wiki_ua: '%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2003)', },
-	cast: { john_cusack_28061966: 1, rebecca_de_mornay_29081959: 1, },
+	cast: { john_cusack_28061966: 1, rebecca_de_mornay_29081959: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'the_bourne_identity_2002', title: { ua: 'Ідентифікація Борна', en: 'The Bourne Identity', }, year: 2002, country: { usa: 1, }, rating: 5, franchise: 'bourne',
@@ -2716,6 +2716,12 @@ const arrFilms = [
 	cast: { keanu_reeves_02091964: 1, shia_labeouf_11061986: 1, tilda_swinton_05111960: 1, },
 },
 {
+	id: 'contact_1997', title: { ua: 'Контакт', en: 'Contact', }, year: 1997, country: { usa: 1, },
+	genre: { sci_fi: 1, }, hash: { aliens: 1, },
+	internet: { imdb: '0118884', wiki_ua: '%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jodie_foster_19111962: 1, matthew_mcconaughey_04111969: 1, david_morse_11101953: 1, }, composer: { alan_silvestri_26031950: 1, },
+},
+{
 	id: 'control_2023', title: { ua: 'Контроль', en: 'Control', }, year: 2023, country: { gbr: 1, },
 	genre: { thriller: 1, }, hash: { cars: 1, phone: 1, },
 	internet: { imdb: '23952252', wiki_ru: '%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2023)', },
@@ -2952,6 +2958,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0102045', wiki_ua: '%D0%9B%D1%96%D0%BA%D0%B2%D1%96%D0%B4%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { chuck_norris_10031940: 1, },
+},
+{
+	id: 'lilo_stitch_2002', title: { ua: 'Ліло та Стіч', en: 'Lilo & Stitch', }, year: 2002, country: { usa: 1, jpn: 1, },
+	genre: { cartoon: 1, }, hash: { aliens: 1, },
+	internet: { imdb: '0275847', wiki_ua: '%D0%9B%D1%96%D0%BB%D0%BE_%D1%96_%D0%A1%D1%82%D1%96%D1%87', },
+	composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'split_second_1992', title: { ua: 'Лічені секунди', en: 'Split Second', }, year: 1992, country: { gbr: 1, usa: 1, },
@@ -3200,7 +3212,7 @@ const arrFilms = [
 	id: 'avengers_endgame_2019', title: { ua: 'Месники: Завершення', en: 'Avengers: Endgame', }, year: 2019, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '4154796', wiki_ua: '%D0%9C%D0%B5%D1%81%D0%BD%D0%B8%D0%BA%D0%B8:_%D0%97%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D1%8F', },
-	cast: { chris_evans_13061981: 1, chris_hemsworth_11081983: 1, scarlett_johansson_22111984: 1, brie_larson_01101989: 1, gwyneth_paltrow_27091972: 1, zoe_saldana_19061978: 1, vin_diesel_18071967: 1, samuel_l_jackson_21121948: 1, rene_russo_17021954: 1, tilda_swinton_05111960: 1, michael_douglas_25091944: 1, michelle_pfeiffer_29041958: 1, natalie_portman_09061981: 1, don_cheadle_29111964: 1, },
+	cast: { chris_evans_13061981: 1, chris_hemsworth_11081983: 1, scarlett_johansson_22111984: 1, brie_larson_01101989: 1, gwyneth_paltrow_27091972: 1, zoe_saldana_19061978: 1, vin_diesel_18071967: 1, samuel_l_jackson_21121948: 1, rene_russo_17021954: 1, tilda_swinton_05111960: 1, michael_douglas_25091944: 1, michelle_pfeiffer_29041958: 1, natalie_portman_09061981: 1, don_cheadle_29111964: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'papillon_2017', title: { ua: 'Метелик', en: 'Papillon', }, year: 2017, country: { usa: 1, cze: 1, esp: 1, },
@@ -3840,7 +3852,7 @@ const arrFilms = [
 	id: 'night_at_the_museum_2006', title: { ua: 'Ніч у музеї', en: 'Night at the Museum', }, year: 2006, country: { usa: 1, },
 	genre: { comedy: 1, fantasy: 1, }, 
 	internet: { imdb: '0477347', wiki_ua: '%D0%9D%D1%96%D1%87_%D1%83_%D0%BC%D1%83%D0%B7%D0%B5%D1%97', },
-	cast: { ben_stiller_30111965: 1, },
+	cast: { ben_stiller_30111965: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'night_train_2023', title: { ua: 'Нічний поїзд', en: 'Night Train', }, year: 2023, country: { usa: 1, },
@@ -4266,7 +4278,7 @@ const arrFilms = [
 {
 	id: 'ready_player_one_2018', title: { ua: 'Першому гравцю приготуватися', en: 'Ready Player One', }, year: 2018, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, world: 1, young: 1, },
-	internet: { imdb: '1677720', wiki_ua: '%D0%9F%D0%B5%D1%80%D1%88%D0%BE%D0%BC%D1%83_%D0%B3%D1%80%D0%B0%D0%B2%D1%86%D1%8E_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8%D1%81%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '1677720', wiki_ua: '%D0%9F%D0%B5%D1%80%D1%88%D0%BE%D0%BC%D1%83_%D0%B3%D1%80%D0%B0%D0%B2%D1%86%D1%8E_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8%D1%81%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', }, director: { steven_spielberg_18121946: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'looper_2012', title: { ua: 'Петля часу', en: 'Looper', }, year: 2012, country: { usa: 1, },
@@ -4674,6 +4686,12 @@ const arrFilms = [
 	cast: { sean_connery_25081930: 1, alec_baldwin_03041958: 1, tim_curry_19041946: 1, },
 },
 {
+	id: 'the_polar_express_2004', title: { ua: 'Полярний Експрес', en: 'The Polar Express', }, year: 2004, country: { usa: 1, aus: 1, },
+	genre: { cartoon: 1, }, hash: { new_year: 1, train: 1, },
+	internet: { imdb: '0338348', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%8F%D1%80%D0%BD%D0%B8%D0%B9_%D0%B5%D0%BA%D1%81%D0%BF%D1%80%D0%B5%D1%81', },
+	director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
+},
+{
 	id: 'time_lapse_2014', title: { ua: 'Помилка часу', en: 'Time Lapse', }, year: 2014, country: { usa: 1, },
 	genre: { mystic: 1, thriller: 1, }, hash: { time: 1, photo: 1, },
 	internet: { imdb: '2669336', wiki_ua: '%D0%9F%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B0_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4958,7 +4976,7 @@ const arrFilms = [
 	id: 'red_2_2013', title: { ua: 'РЕД - 2', en: 'RED 2', }, year: 2013, country: { usa: 1, fra: 1, can: 1, },
 	genre: { action: 1, crime: 1, comedy: 1, },
 	internet: { imdb: '1821694', wiki_ua: '%D0%A0%D0%95%D0%94_2', },
-	cast: { bruce_willis_19031955: 1, john_malkovich_09121953: 1, catherine_zeta_jones_25091969: 1, anthony_hopkins_31121937: 1, },
+	cast: { bruce_willis_19031955: 1, john_malkovich_09121953: 1, catherine_zeta_jones_25091969: 1, anthony_hopkins_31121937: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'serbuan_maut_2011', title: { ua: 'Рейд', en: 'Serbuan maut', }, year: 2011, country: { usa: 1, fra: 1, idn: 1,}, 
@@ -4969,7 +4987,7 @@ const arrFilms = [
 	id: 'flight_2012', title: { ua: 'Рейс', en: 'Flight', }, year: 2012, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, disaster: 1, }, hash: { plane: 1, justice: 1, },
 	internet: { imdb: '1907668', wiki_ua: '%D0%A0%D0%B5%D0%B9%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2012)', ashdivip: '10060', },
-	cast: { denzel_washington_28121954: 1, don_cheadle_29111964: 1, },
+	cast: { denzel_washington_28121954: 1, don_cheadle_29111964: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'plane_2023', title: { ua: 'Рейс', en: 'Plane', }, year: 2023, country: { usa: 1, },
@@ -5273,6 +5291,7 @@ const arrFilms = [
 	id: 'sgt_bilko_1996', title: { ua: 'Сержант Білко', en: 'Sgt. Bilko', }, year: 1996, country: { usa: 1, },
 	genre: { comedy: 1, }, hash: { army: 1, },
 	internet: { imdb: '0117608', wiki_ua: '%D0%A1%D0%B5%D1%80%D0%B6%D0%B0%D0%BD%D1%82_%D0%91%D1%96%D0%BB%D0%BA%D0%BE', },
+	composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'soul_surfer_2011', title: { ua: 'Серфер души', en: 'Soul Surfer', }, year: 2011, country: { usa: 1, },
@@ -5557,7 +5576,7 @@ const arrFilms = [
 	id: 'eraser_1996', title: { ua: 'Стирач', en: 'Eraser', }, year: 1996, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0116213', wiki_ua: '%D0%A1%D1%82%D0%B8%D1%80%D0%B0%D1%87', },
-	cast: { arnold_schwarzenegger_30071947: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'stop_or_my_mom_will_shoot_1992', title: { ua: 'Стій бо моя мама стрілятиме', en: 'Stop! Or My Mom Will Shoot', }, year: 1992, country: { usa: 1, },
@@ -6618,7 +6637,7 @@ const arrFilms = [
 	id: 'what_women_want_2000', title: { ua: 'Чого хочуть жінки', en: 'What Women Want', }, year: 2000, country: { usa: 1, },
 	genre: { fantasy: 1, comedy: 1, },
 	internet: { imdb: '0207201', wiki_ua: '%D0%A7%D0%BE%D0%B3%D0%BE_%D1%85%D0%BE%D1%87%D1%83%D1%82%D1%8C_%D0%B6%D1%96%D0%BD%D0%BA%D0%B8', ashdivip: '2068', },
-	cast: { mel_gibson_03011956: 1, },
+	cast: { mel_gibson_03011956: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'nuts_1987', title: { ua: 'Чокнуті', en: 'Nuts', }, year: 1987, country: { usa: 1, },
