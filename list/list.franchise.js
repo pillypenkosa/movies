@@ -28,6 +28,7 @@ fast_furious 			: [ 'fast_&_furious_2001', 'fast_&_furious_2_2003', 'fast_&_furi
 Freddy_Krueger 			: [ 'a_nightmare_on_Elm_street_1984', 'a_nightmare_on_Elm_street_2_1985', 'a_nightmare_on_Elm_street_3_1987', 'a_nightmare_on_Elm_street_4_1988', 'a_nightmare_on_Elm_street_5_1989', 'a_nightmare_on_Elm_street_6_1991', 'a_nightmare_on_Elm_street_7_1994', ],
 home_alone 				: [ 'home_alone_1990', 'home_alone_2_1992', 'home_alone_3_1997', ],
 Indiana_Johns			: [ 'Indiana_Johns_1981', 'Indiana_Johns_2_1984', 'Indiana_Johns_3_1989', 'Indiana_Johns_4_2008', ],
+mad_max					: [ 'mad_max_1979', 'mad_max_2_1981', 'mad_max_3_1985', 'mad_max_4_2015', 'mad_max_5_2024', ],
 mission_impossible 		: [ 'mission_impossible_1996', 'mission_impossible_2_2000', 'mission_impossible_3_2006', 'mission_impossible_4_2011', 'mission_impossible_5_2015', 'mission_impossible_6_2018', 'mission_impossible_7_2023', ],
 nemesis 				: [ 'nemesis_1992', 'nemesis_2_1995', ],
 neverending_story 		: [ 'the_neverending_story_1984', 'the_neverending_story_2_1990', ],
@@ -49,7 +50,11 @@ transformers 			: [ 'transformers_2007', 'transformers_2_2009', 'transformers_3_
 transporter 			: [ 'the_transporter_2002', 'the_transporter_2_2005', 'the_transporter_3_2008', ],
 twister 				: [ 'twister_1996', 'twisters_2024', ],
 undisputed 				: [ 'undisputed_2002', 'undisputed_2_2006', 'undisputed_3_2010', 'undisputed_4_2016', ],
+venom 					: [ 'venom_2018', 'venom_let_there_be_carnage_2021', 'venom_the_last_dance_2024', ],
 you_see_me 				: [ 'now_you_see_me_2013', 'now_you_see_me_2_2016', ],
+
+
+
 
 
 
