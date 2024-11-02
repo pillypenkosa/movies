@@ -844,7 +844,7 @@ const arrFilms = [
 	cast: { tom_cruise_03071962: 1, dakota_fanning_23021994: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
-	id: 'Willow_1988', title: { ua: 'Віллоу', en: 'Willow', }, year: 1988, country: { gbr: 1, usa: 1, }, rating: 5,
+	id: 'willow_1988', title: { ua: 'Віллоу', en: 'Willow', }, year: 1988, country: { gbr: 1, usa: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0096446', wiki_ua: '%D0%92%D1%96%D0%BB%D0%BB%D0%BE%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { val_kilmer_31121959: 1, kevin_pollak_30101957: 1, },
@@ -1384,7 +1384,7 @@ const arrFilms = [
 	internet: { imdb: '0905372', wiki_ua: '%D0%94%D0%B5%D1%89%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
 },
 {
-	id: 'Jay_and_silent_Bob_strike_back_2001', title: { ua: 'Джей та Мовчазний Боб завдають удар у відповідь', en: 'Jay and Silent Bob Strike Back', }, year: 2001, country: { usa: 1, },
+	id: 'jay_and_silent_bob_strike_back_2001', title: { ua: 'Джей та Мовчазний Боб завдають удар у відповідь', en: 'Jay and Silent Bob Strike Back', }, year: 2001, country: { usa: 1, },
 	genre: { comedy: 1, },
 	internet: { imdb: '0261392', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9_%D1%96_%D0%BC%D0%BE%D0%B2%D1%87%D0%B0%D0%B7%D0%BD%D0%B8%D0%B9_%D0%91%D0%BE%D0%B1_%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D1%8E%D1%82%D1%8C_%D1%83%D0%B4%D0%B0%D1%80%D1%83_%D1%83_%D0%B2%D1%96%D0%B4%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D1%8C', },
 	cast: { ben_affleck_15081972: 1, seann_william_scott_03101976: 1, jason_lee_25041970: 1, matt_damon_08101970: 1, },
@@ -2609,7 +2609,7 @@ const arrFilms = [
 	cast: { audrey_tautou_09081976: 1, },
 },
 {
-	id: 'when_Harry_met_Sally_1989', title: { ua: 'Коли Гаррі зустрів Саллі', en: 'When Harry Met Sally', }, year: 1989, country: { usa: 1, },
+	id: 'when_harry_met_sally_1989', title: { ua: 'Коли Гаррі зустрів Саллі', en: 'When Harry Met Sally', }, year: 1989, country: { usa: 1, },
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '0098635', wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%B8_%D0%93%D0%B0%D1%80%D1%80%D1%96_%D0%B7%D1%83%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%A1%D0%B0%D0%BB%D0%BB%D1%96', },
 	cast: { billy_crystal_14031948: 1, meg_ryan_19111961: 1, },
@@ -4762,7 +4762,7 @@ const arrFilms = [
 	internet: { imdb: '0077083', wiki_ru: '%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%BA%D0%B0%D0%BD%D0%B8%D0%BA%D1%83%D0%BB%D1%8B', youtube: 'Im2lD9l7zlg', },
 },
 {
-	id: 'what_happens_in_Vegas_2008', title: { ua: 'Пригоди у Вегасі', en: 'What Happens in Vegas', }, year: 2008, country: { usa: 1, },
+	id: 'what_happens_in_vegas_2008', title: { ua: 'Пригоди у Вегасі', en: 'What Happens in Vegas', }, year: 2008, country: { usa: 1, },
 	genre: { comedy: 1, },
 	internet: { imdb: '1033643', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B8_%D1%83_%D0%92%D0%B5%D2%91%D0%B0%D1%81%D1%96', },
 	cast: { cameron_diaz_30081972: 1, ashton_kutcher_07021978: 1, },
