@@ -558,7 +558,7 @@ const arrFilms = [
 	cast: { seann_william_scott_03101976: 1, },
 },
 {
-	id: 'Brazil_1985', title: { ua: 'Бразилія', en: 'Brazil', }, year: 1985, country: { gbr: 1, },
+	id: 'brazil_1985', title: { ua: 'Бразилія', en: 'Brazil', }, year: 1985, country: { gbr: 1, },
 	genre: { sci_fi: 1, drama: 1, thriller: 1, },
 	internet: { imdb: '0088846', wiki_ua: '%D0%91%D1%80%D0%B0%D0%B7%D0%B8%D0%BB%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { robert_de_niro_17081943: 1, },
@@ -2692,7 +2692,7 @@ const arrFilms = [
 	internet: { imdb: '32200215', wiki_ua: '%D0%9A%D0%BE%D0%BD%D0%BE%D1%82%D0%BE%D0%BF%D1%81%D1%8C%D0%BA%D0%B0_%D0%B2%D1%96%D0%B4%D1%8C%D0%BC%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)',  },
 },
 {
-	id: 'Constantine_2005', title: { ua: 'Константин', en: 'Constantine', }, year: 2005, country: { usa: 1, },
+	id: 'constantine_2005', title: { ua: 'Константин', en: 'Constantine', }, year: 2005, country: { usa: 1, },
 	genre: { action: 1, mystic: 1, horror: 1, },
 	internet: { imdb: '0360486', wiki_ua: '%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD:_%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B0%D1%80_%D1%82%D0%B5%D0%BC%D1%80%D1%8F%D0%B2%D0%B8', },
 	cast: { keanu_reeves_02091964: 1, shia_labeouf_11061986: 1, tilda_swinton_05111960: 1, },
@@ -2815,7 +2815,7 @@ const arrFilms = [
 	cast: { paul_hogan_08101939: 1, },
 },
 {
-	id: 'crocodile_Dundee_2_1988', title: { ua: 'Крокодил Данді - 2', en: 'Crocodile Dundee 2', }, year: 1988, country: { aus: 1, usa: 1, },
+	id: 'crocodile_dundee_2_1988', title: { ua: 'Крокодил Данді - 2', en: 'Crocodile Dundee 2', }, year: 1988, country: { aus: 1, usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { crocodile: 1, newyork: 1, },
 	internet: { imdb: '0092493', wiki_ua: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D1%96_2', ashdivip: '21767', },
 	cast: { paul_hogan_08101939: 1, },
@@ -2879,7 +2879,7 @@ const arrFilms = [
 	cast: { angelina_jolie_04061975: 1, gerard_butler_13111969: 1, }, director: { jan_de_bont_22101943: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
-	id: 'laroy_texas_2023_2023', title: { ua: 'ЛаРой Техас', en: 'LaRoy, Texas', }, year: 2023, country: { usa: 1, fra: 1, },
+	id: 'laroy_texas_2023', title: { ua: 'ЛаРой Техас', en: 'LaRoy, Texas', }, year: 2023, country: { usa: 1, fra: 1, },
 	genre: { crime: 1, comedy: 1, }, 
 	internet: { imdb: '20102596', },
 },
@@ -4062,7 +4062,7 @@ const arrFilms = [
 	internet: { imdb: '15558362',  },
 },
 {
-	id: 'London_has_fallen_2016', title: { ua: 'Падіння Лондону', en: 'London Has Fallen', }, year: 2016, country: { usa: 1, gbr: 1, bul: 1, },
+	id: 'london_has_fallen_2016', title: { ua: 'Падіння Лондону', en: 'London Has Fallen', }, year: 2016, country: { usa: 1, gbr: 1, bul: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '3300542', wiki_ua: '%D0%9F%D0%B0%D0%B4%D1%96%D0%BD%D0%BD%D1%8F_%D0%9B%D0%BE%D0%BD%D0%B4%D0%BE%D0%BD%D0%B0', },
 	cast: { gerard_butler_13111969: 1, morgan_freeman_01061937: 1, aaron_eckhart_12031968: 1, },
