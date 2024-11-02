@@ -1618,6 +1618,12 @@ const arrFilms = [
 	cast: { rutger_hauer_23011944: 1, },
 },
 {
+	id: 'exposed_2016', title: { ua: 'Дочка Бога', en: 'Exposed', }, year: 2016, country: { usa: 1, },
+	genre: { drama: 1, thriller: 1, crime: 1, },
+	internet: { imdb: '4019560', wiki_ua: '%D0%94%D0%BE%D1%87%D0%BA%D0%B0_%D0%91%D0%BE%D0%B3%D0%B0', },
+	cast: { keanu_reeves_02091964: 1, ana_de_armas_30041988: 1, },
+},
+{
 	id: 'the_marsh_kings_daughter_2023', title: { ua: 'Дочка болотного короля', en: 'The Marsh King\'s Daughter', }, year: 2023, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '8002382', wiki_ua: '%D0%94%D0%BE%D1%87%D0%BA%D0%B0_%D0%B1%D0%BE%D0%BB%D0%BE%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%8F', },
