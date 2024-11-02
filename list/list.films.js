@@ -257,7 +257,7 @@ const arrFilms = [
 	cast: { becky_g_02031997: 1, },
 },
 {
-	id: 'Alan_Quatermain_1986', title: { ua: 'Аллан Квотермейн і загублене Золоте місто', en: 'Allan Quatermain and the Lost City of Gold', }, year: 1986, country: { usa: 1, },
+	id: 'alan_quatermain_1986', title: { ua: 'Аллан Квотермейн і загублене Золоте місто', en: 'Allan Quatermain and the Lost City of Gold', }, year: 1986, country: { usa: 1, },
 	studio: { mgm: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0092534', wiki_ru: '%D0%90%D0%BB%D0%BB%D0%B0%D0%BD_%D0%9A%D1%83%D0%BE%D1%82%D0%B5%D1%80%D0%BC%D0%B5%D0%B9%D0%BD_%D0%B8_%D0%BF%D0%BE%D1%82%D0%B5%D1%80%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4_%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%B0', },
@@ -331,7 +331,7 @@ const arrFilms = [
 	internet: { imdb: '8511466', },
 },
 {
-	id: 'Arabela_1979', title: { ua: 'Арабелла', en: 'Arabela', }, year: 1979, country: { usa: 1, },
+	id: 'arabela_1979', title: { ua: 'Арабелла', en: 'Arabela', }, year: 1979, country: { usa: 1, },
 	genre: { serial: 1, fantasy: 1, comedy: 1, }, hash: { young: 1, children: 1, },
 	internet: { imdb: '0175381', wiki_ua: '%D0%90%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D0%BB%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
@@ -564,7 +564,7 @@ const arrFilms = [
 	cast: { robert_de_niro_17081943: 1, },
 },
 {
-	id: 'a_Bronx_tale_1993', title: { ua: 'Бронкська історія', en: 'A Bronx Tale', }, year: 1993, country: { usa: 1, },
+	id: 'a_bronx_tale_1993', title: { ua: 'Бронкська історія', en: 'A Bronx Tale', }, year: 1993, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { newyork: 1, },
 	internet: { imdb: '0106489', wiki_ua: '%D0%91%D1%80%D0%BE%D0%BD%D0%BA%D1%81%D1%8C%D0%BA%D0%B0_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F', },
 	cast: { robert_de_niro_17081943: 1, joe_pesci_09021943: 1, },
@@ -3236,7 +3236,7 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, },
 },
 {
-	id: '4_50_from_Paddington_1987', title: { ua: 'Міс Марпл: Точно за розкладом', en: 'Miss Marple: 4.50 from Paddington', }, year: 1987, country: { gbr: 1, },
+	id: '4_50_from_paddington_1987', title: { ua: 'Міс Марпл: Точно за розкладом', en: 'Miss Marple: 4.50 from Paddington', }, year: 1987, country: { gbr: 1, },
 	genre: { detective: 1, },
 	internet: { imdb: '0092497', wiki_ua: '', },
 },
@@ -4626,6 +4626,12 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, }, hash: { police: 1, cars: 1, },
 	internet: { imdb: '4558200', wiki_ru: '%D0%9F%D0%BE%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D0%B5%D0%B4%D0%B0%D0%BD', ashdivip: '49131', },
 	cast: { bridget_moynahan_28041971: 1, },
+},
+{
+	id: 'captives_2023', title: { ua: 'Полонянки', en: 'Captives', }, year: 2023, country: { fra: 1, },
+	genre: { drama: 1, }, hash: { police: 1, },
+	internet: { imdb: '13482796', },
+	cast: { carole_bouquet_18081957: 1, },
 },
 {
 	id: 'poltergeist_1982', title: { ua: 'Полтергейст', en: 'Poltergeist', }, year: 1982, country: { usa: 1, },

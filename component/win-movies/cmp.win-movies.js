@@ -196,15 +196,27 @@ class ComponentWinMovies {
 
 
 
+		let html2 = '';
+
 
 
 		arrSelected.forEach( k => {
+
+			html2 += `<div style="display: inline-block; color: #fff; ">
+
+				<div>${ k.title.ua }</div>
+				<img src="img/poster/${ k.id }.jpg">
+
+
+			</div>`;
+
+
 
 			html += Component( 'Spoyler', { key: 'movie', data: k, } ); 
 
 		});
 
-
+		html = html2 + html;
  
  
 		setMeta ({ 
