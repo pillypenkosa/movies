@@ -165,6 +165,12 @@ const arrFilms = [
 	cast: { sam_worthington_02081976: 1, zoe_saldana_19061978: 1, sigourney_weaver_08101949: 1, kate_winslet_05101975: 1, }, director: { james_cameron_16081954: 1, }, 
 },
 {
+	id: 'august_rush_2007', title: { ua: 'Август Раш', en: 'August Rush', }, year: 2007, country: { usa: 1,  }, 
+	genre: { drama: 1, }, 
+	internet: { imdb: '0426931', wiki_ua: '%D0%90%D0%B2%D0%B3%D1%83%D1%81%D1%82_%D0%A0%D0%B0%D1%88', },
+	cast: { robin_williams_21071951: 1, william_sadler_13041950: 1, }, composer: { mark_mancina_09031957: 1, }, 
+},
+{
 	id: 'the_aviator_2004', title: { ua: 'Авіатор', en: 'The Aviator', }, year: 2004, country: { usa: 1, },
 	studio: { warner: 1, miramax: 1, },
 	genre: { drama: 1, biography: 1, },
@@ -378,6 +384,12 @@ const arrFilms = [
 	cast: { pierce_brosnan_16051953: 1, }, composer: { Bill_Conti_13041942: 1, },
 },
 {
+	id: 'richie_rich_1994', title: { ua: 'Багатенький Річі', en: 'Richie Rich', }, year: 1994, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '0110989', wiki_ua: '%D0%91%D0%B0%D0%B3%D0%B0%D1%82%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B9_%D0%A0%D1%96%D1%87%D1%96', },
+	cast: { macaulay_culkin_26081980: 1, claudia_schiffer_25081970: 1, }, composer: { alan_silvestri_26031950: 1, },
+},
+{
 	id: 'much_ado_about_1993', title: { ua: 'Багато галасу з нічого', en: 'Much Ado About', }, year: 1993, country: { gbr: 1, usa: 1, },
 	genre: { drama: 1, comedy: 1, },
 	internet: { imdb: '0107616', wiki_ua: '%D0%91%D0%B0%D0%B3%D0%B0%D1%82%D0%BE_%D0%B3%D0%B0%D0%BB%D0%B0%D1%81%D1%83_%D0%B7_%D0%BD%D1%96%D1%87%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1993)', },
@@ -446,7 +458,7 @@ const arrFilms = [
 	id: 'the_abyss_1989', title: { ua: 'Безодня', en: 'The Abyss', }, year: 1989, country: { usa: 1, }, rating: 5,
 	genre: { sci_fi: 1, adventure: 1, }, hash: { underwater: 1, aliens: 1, },
 	internet: { imdb: '0096754', wiki_ua: '%D0%91%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14910', },
-	cast: { ed_harris_28111950: 1, michael_biehn_31071956: 1, },
+	cast: { ed_harris_28111950: 1, michael_biehn_31071956: 1, }, director: { james_cameron_16081954: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'immortal_beloved_1994', title: { ua: 'Безсмертна кохана', en: 'Immortal Beloved', }, year: 1994, country: { usa: 1, },
@@ -479,13 +491,13 @@ const arrFilms = [
 	cast: { george_clooney_06051961: 1, alicia_silverstone_04101976: 1, arnold_schwarzenegger_30071947: 1, uma_thurman_29041970: 1, },
 },
 {
-	id: 'beethoven_1992', title: { ua: 'Бетховен', en: 'Beethoven', }, year: 1992, country: { usa: 1, }, franchise: 'Beethoven',
+	id: 'beethoven_1992', title: { ua: 'Бетховен', en: 'Beethoven', }, year: 1992, country: { usa: 1, }, franchise: 'beethoven',
 	genre: { comedy: 1, animal: 1, }, hash: { dog: 1, children: 1, },
 	internet: { imdb: '0103786', wiki_ua: '%D0%91%D0%B5%D1%82%D1%85%D0%BE%D0%B2%D0%B5%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bonnie_hunt_22091961: 1, david_duchovny_07081960: 1, },
 },
 {
-	id: 'beethoven_2_1993', title: { ua: 'Бетховен - 2', en: 'Beethoven\'s 2nd', }, year: 1993, country: { usa: 1, }, franchise: 'Beethoven',
+	id: 'beethoven_2_1993', title: { ua: 'Бетховен - 2', en: 'Beethoven\'s 2nd', }, year: 1993, country: { usa: 1, }, franchise: 'beethoven',
 	genre: { comedy: 1, animal: 1, }, hash: { dog: 1, children: 1, },
 	internet: { imdb: '0106375', wiki_ua: '%D0%91%D0%B5%D1%82%D1%85%D0%BE%D0%B2%D0%B5%D0%BD_2', },
 	cast: { bonnie_hunt_22091961: 1, },
@@ -507,7 +519,7 @@ const arrFilms = [
 	id: 'bill_ted_2020', title: { ua: 'Білл і Тед', en: 'Bill & Ted Face the Music', }, year: 2020, country: { usa: 1, },
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '1086064', wiki_ua: '%D0%91%D1%96%D0%BB%D0%BB_%D1%96_%D0%A2%D0%B5%D0%B4', },
-	cast: { keanu_reeves_02091964: 1, },
+	cast: { keanu_reeves_02091964: 1, william_sadler_13041950: 1, },
 },
 {
 	id: 'eight_below_2006', title: { ua: 'Білий полон', en: 'Eight Below', }, year: 2006, country: { usa: 1, }, rating: 5,
@@ -568,6 +580,12 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, }, hash: { newyork: 1, },
 	internet: { imdb: '0106489', wiki_ua: '%D0%91%D1%80%D0%BE%D0%BD%D0%BA%D1%81%D1%8C%D0%BA%D0%B0_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F', },
 	cast: { robert_de_niro_17081943: 1, joe_pesci_09021943: 1, },
+},
+{
+	id: 'dirty_dancing_1987', title: { ua: 'Брудні танці', en: 'Dirty Dancing', }, year: 1987, country: { usa: 1, },
+	genre: { drama: 1, }, 
+	internet: { imdb: '0092890', wiki_ua: '%D0%91%D1%80%D1%83%D0%B4%D0%BD%D1%96_%D1%82%D0%B0%D0%BD%D1%86%D1%96', },
+	cast: { patrick_swayze_18081952: 1, },
 },
 {
 	id: 'the_lake_house_2006', title: { ua: 'Будинок біля озера', en: 'The Lake House', }, year: 2006, country: { usa: 1, },
@@ -851,7 +869,7 @@ const arrFilms = [
 },
 {
 	id: 'the_wolf_of_wall_street_2013', title: { ua: 'Вовк з Уолл-стріт', en: 'The Wolf of Wall Street', }, year: 2013, country: { usa: 1, },
-	genre: { comedy: 1, biography: 1, crime: 1, },
+	genre: { comedy: 1, biography: 1, crime: 1, }, hash: { finance: 1, },
 	internet: { imdb: '0993846', wiki_ua: '%D0%92%D0%BE%D0%B2%D0%BA_%D0%B7_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82', },
 	cast: { leonardo_dicaprio_11111974: 1, margot_robbie_02071990: 1, },
 },
@@ -890,13 +908,13 @@ const arrFilms = [
 },
 {
 	id: 'Wall_street_1987', title: { ua: 'Волл-стріт', en: 'Wall Street', }, year: 1987, country: { usa: 1, },
-	genre: { drama: 1, crime: 1, }, 
+	genre: { drama: 1, crime: 1, }, hash: { finance: 1, },
 	internet: { imdb: '0094291', wiki_ua: '%D0%92%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { charlie_sheen_03091965: 1, martin_sheen_03081940: 1, michael_douglas_25091944: 1, sean_young_20111959: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
 	id: 'Wall_street_2010', title: { ua: 'Волл-стріт: Гроші не сплять', en: 'Wall Street: Money Never Sleeps', }, year: 2010, country: { usa: 1, },
-	genre: { drama: 1, crime: 1, }, 
+	genre: { drama: 1, crime: 1, }, hash: { finance: 1, },
 	internet: { imdb: '1027718', wiki_ua: '%D0%92%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82:_%D0%B3%D1%80%D0%BE%D1%88%D1%96_%D0%BD%D0%B5_%D1%81%D0%BF%D0%BB%D1%8F%D1%82%D1%8C', },
 	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, }, director: { oliver_stone_15091946: 1, },
 },
@@ -1001,7 +1019,7 @@ const arrFilms = [
 	id: 'the_shawshank_redemption_1994', title: { ua: 'Втеча з Шоушенка', en: 'The Shawshank Redemption', }, year: 1994, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, horror: 1, }, hash: { prison: 1, escape: 1, },
 	internet: { imdb: '0111161', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%A8%D0%BE%D1%83%D1%88%D0%B5%D0%BD%D0%BA%D0%B0',	},
-	cast: { morgan_freeman_01061937: 1, },
+	cast: { morgan_freeman_01061937: 1, william_sadler_13041950: 1, },
 },
 {
 	id: 'volcano_1997', title: { ua: 'Вулкан', en: 'Volcano', }, year: 1997, country: { usa: 1, },
@@ -1396,7 +1414,7 @@ const arrFilms = [
 	cast: { chris_hemsworth_11081983: 1, jason_lee_25041970: 1, },
 },
 {
-	id: 'jason_bourne_2016', title: { ua: 'Джейсон Борн', en: 'Jason Bourne', }, year: 2016, country: { usa: 1, }, franchise: 'Born',
+	id: 'jason_bourne_2016', title: { ua: 'Джейсон Борн', en: 'Jason Bourne', }, year: 2016, country: { usa: 1, }, franchise: 'bourne',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '4196776', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D1%81%D0%BE%D0%BD_%D0%91%D0%BE%D1%80%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { matt_damon_08101970: 1, },
@@ -1793,43 +1811,43 @@ const arrFilms = [
 	cast: { ryan_reynolds_23101976: 1, },
 },
 {
-	id: 'a_nightmare_on_Elm_street_1984', title: { ua: 'Жах на вулиці В\'язів', en: 'A Nightmare on Elm Street', }, year: 1984, country: { usa: 1, }, franchise: 'Freddy_Krueger',
+	id: 'a_nightmare_on_Elm_street_1984', title: { ua: 'Жах на вулиці В\'язів', en: 'A Nightmare on Elm Street', }, year: 1984, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0087800', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1984)', ashdivip: '10902', },
 	cast: { robert_englund_06061947: 1, johnny_depp_09061963: 1, },
 },
 {
-	id: 'a_nightmare_on_Elm_street_2_1985', title: { ua: 'Жах на вулиці В\'язів - 2', en: 'A Nightmare on Elm Street Part 2: Freddy\'s Revenge', }, year: 1985, country: { usa: 1, }, franchise: 'Freddy_Krueger',
+	id: 'a_nightmare_on_Elm_street_2_1985', title: { ua: 'Жах на вулиці В\'язів - 2', en: 'A Nightmare on Elm Street Part 2: Freddy\'s Revenge', }, year: 1985, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0089686', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_2:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0_%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D1%96', },
 	cast: { robert_englund_06061947: 1,  },
 },
 {
-	id: 'a_nightmare_on_Elm_street_3_1987', title: { ua: 'Жах на вулиці В\'язів - 3', en: 'A Nightmare on Elm Street 3: Dream Warriors', }, year: 1987, country: { usa: 1, }, franchise: 'Freddy_Krueger',
+	id: 'a_nightmare_on_Elm_street_3_1987', title: { ua: 'Жах на вулиці В\'язів - 3', en: 'A Nightmare on Elm Street 3: Dream Warriors', }, year: 1987, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0093629', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_3:_%D0%92%D0%BE%D1%97%D0%BD%D0%B8_%D1%81%D0%BD%D1%83', },
 	cast: { robert_englund_06061947: 1,  },
 },
 {
-	id: 'a_nightmare_on_Elm_street_4_1988', title: { ua: 'Жах на вулиці В\'язів - 4', en: 'A Nightmare on Elm Street 4: The Dream Master', }, year: 1988, country: { usa: 1, }, franchise: 'Freddy_Krueger',
+	id: 'a_nightmare_on_Elm_street_4_1988', title: { ua: 'Жах на вулиці В\'язів - 4', en: 'A Nightmare on Elm Street 4: The Dream Master', }, year: 1988, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0095742', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_4:_%D0%9F%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D1%81%D0%BD%D1%83', },
 	cast: { robert_englund_06061947: 1,  },
 },
 {
-	id: 'a_nightmare_on_Elm_street_5_1989', title: { ua: 'Жах на вулиці В\'язів - 5', en: 'A Nightmare on Elm Street: The Dream Child', }, year: 1989, country: { usa: 1, }, franchise: 'Freddy_Krueger',
+	id: 'a_nightmare_on_Elm_street_5_1989', title: { ua: 'Жах на вулиці В\'язів - 5', en: 'A Nightmare on Elm Street: The Dream Child', }, year: 1989, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0097981', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_5:_%D0%94%D0%B8%D1%82%D1%8F_%D1%81%D0%BD%D1%83', },
 	cast: { robert_englund_06061947: 1,  },
 },
 {
-	id: 'a_nightmare_on_Elm_street_6_1991', title: { ua: 'Жах на вулиці В\'язів - 6', en: 'Freddy\'s Dead: The Final Nightmare', }, year: 1991, country: { usa: 1, }, franchise: 'Freddy_Krueger',
+	id: 'a_nightmare_on_Elm_street_6_1991', title: { ua: 'Жах на вулиці В\'язів - 6', en: 'Freddy\'s Dead: The Final Nightmare', }, year: 1991, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0101917', wiki_ua: '%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D1%96_%D0%BC%D0%B5%D1%80%D1%82%D0%B2%D0%B8%D0%B9._%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D0%BA%D0%BE%D1%88%D0%BC%D0%B0%D1%80', ashdivip: '70062', },
 	cast: { robert_englund_06061947: 1, johnny_depp_09061963: 1, },
 },
 {
-	id: 'a_nightmare_on_Elm_street_7_1994', title: { ua: 'Жах на вулиці В\'язів - 7', en: 'Wes Craven\'s New Nightmare', }, year: 1994, country: { usa: 1, }, franchise: 'Freddy_Krueger',
+	id: 'a_nightmare_on_Elm_street_7_1994', title: { ua: 'Жах на вулиці В\'язів - 7', en: 'Wes Craven\'s New Nightmare', }, year: 1994, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0111686', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_7:_%D0%9D%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BA%D0%BE%D1%88%D0%BC%D0%B0%D1%80', },
 	cast: { robert_englund_06061947: 1, },
@@ -1871,7 +1889,7 @@ const arrFilms = [
 	id: 'overboard_1987', title: { ua: 'За бортом', en: 'Overboard', }, year: 1987, country: { usa: 1, },
 	genre: { comedy: 1, }, hash: { ship: 1, beach: 1, },
 	internet: { imdb: '0093693', wiki_ua: '%D0%97%D0%B0_%D0%B1%D0%BE%D1%80%D1%82%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { kurt_russell_17031951: 1, goldie_hawn_21111945: 1, },
+	cast: { kurt_russell_17031951: 1, goldie_hawn_21111945: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'fly_me_to_the_Moon_2024', title: { ua: 'Забери мене на Місяць', en: 'Fly Me to the Moon', }, year: 2024, country: { usa: 1, },
@@ -1906,7 +1924,7 @@ const arrFilms = [
 	id: 'the_delta_force_1986', title: { ua: 'Загін Дельта', en: 'The Delta Force', }, year: 1986, country: { usa: 1, }, rating: 5, franchise: 'the_delta_force',
 	genre: { action: 1, }, hash: { plane: 1, terrorist: 1, hostage: 1, army: 1, fight: 1, },
 	internet: { imdb: '0090927', wiki_ua: '%D0%97%D0%B0%D0%B3%D1%96%D0%BD_%C2%AB%D0%94%D0%B5%D0%BB%D1%8C%D1%82%D0%B0%C2%BB', ashdivip: '19889', },
-	cast: { chuck_norris_10031940: 1, },
+	cast: { chuck_norris_10031940: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'the_delta_force_2_1990', title: { ua: 'Загін Дельта - 2', en: 'Delta Force 2: The Colombian Connection', }, year: 1990, country: { usa: 1, }, franchise: 'the_delta_force',
@@ -2075,7 +2093,7 @@ const arrFilms = [
 	id: 'the_green_mile_1999', title: { ua: 'Зелена миля', en: 'The Green Mile', }, year: 1999, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, crime: 1, fantasy: 1, }, hash: { justice: 1, prison: 1, },
 	internet: { imdb: '0120689', wiki_ua: '%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0_%D0%BC%D0%B8%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { tom_hanks_09071956: 1, michael_clarke_duncan_10121957: 1, david_morse_11101953: 1, bonnie_hunt_22091961: 1, barry_pepper_04041970: 1, },
+	cast: { tom_hanks_09071956: 1, michael_clarke_duncan_10121957: 1, david_morse_11101953: 1, bonnie_hunt_22091961: 1, barry_pepper_04041970: 1, william_sadler_13041950: 1, },
 },
 {
 	id: 'tomorrowland_2015', title: { ua: 'Земля майбутнього', en: 'Tomorrowland', }, year: 2015, country: { usa: 1, }, 
@@ -2266,7 +2284,7 @@ const arrFilms = [
 	cast: { john_cusack_28061966: 1, rebecca_de_mornay_29081959: 1, },
 },
 {
-	id: 'the_bourne_identity_2002', title: { ua: 'Ідентифікація Борна', en: 'The Bourne Identity', }, year: 2002, country: { usa: 1, }, rating: 5, franchise: 'Born',
+	id: 'the_bourne_identity_2002', title: { ua: 'Ідентифікація Борна', en: 'The Bourne Identity', }, year: 2002, country: { usa: 1, }, rating: 5, franchise: 'bourne',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '0258463', wiki_ua: '%D0%86%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F_%D0%91%D0%BE%D1%80%D0%BD%D0%B0', },
 	cast: { matt_damon_08101970: 1, },
@@ -2319,25 +2337,25 @@ const arrFilms = [
 	cast: { sean_connery_25081930: 1, ron_perlman_13041950: 1, christian_slater_18081969: 1, },
 },
 {
-	id: 'indiana_johns_1981', title: { ua: 'Індіана Джонс', en: 'Raiders of the Lost Ark', }, year: 1981, country: { usa: 1, }, franchise: 'Indiana_Johns',
+	id: 'indiana_johns_1981', title: { ua: 'Індіана Джонс', en: 'Raiders of the Lost Ark', }, year: 1981, country: { usa: 1, }, franchise: 'indiana_johns',
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0082971', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81:_%D0%A3_%D0%BF%D0%BE%D1%88%D1%83%D0%BA%D0%B0%D1%85_%D0%B2%D1%82%D1%80%D0%B0%D1%87%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%B2%D1%87%D0%B5%D0%B3%D0%B0', },
 	cast: { harrison_ford_13071942: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
-	id: 'indiana_johns_2_1984', title: { ua: 'Індіана Джонс - 2', en: 'Indiana Jones and the Temple of Doom', }, year: 1984, country: { usa: 1, }, franchise: 'Indiana_Johns',
+	id: 'indiana_johns_2_1984', title: { ua: 'Індіана Джонс - 2', en: 'Indiana Jones and the Temple of Doom', }, year: 1984, country: { usa: 1, }, franchise: 'indiana_johns',
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0087469', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%A5%D1%80%D0%B0%D0%BC_%D0%94%D0%BE%D0%BB%D1%96', },
 	cast: { harrison_ford_13071942: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
-	id: 'indiana_johns_3_1989', title: { ua: 'Індіана Джонс - 3', en: 'Indiana Jones and the Last Crusade', }, year: 1989, country: { usa: 1, }, franchise: 'Indiana_Johns',
+	id: 'indiana_johns_3_1989', title: { ua: 'Індіана Джонс - 3', en: 'Indiana Jones and the Last Crusade', }, year: 1989, country: { usa: 1, }, franchise: 'indiana_johns',
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0097576', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D1%85%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D0%BE%D1%85%D1%96%D0%B4', },
 	cast: { harrison_ford_13071942: 1, sean_connery_25081930: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
-	id: 'indiana_johns_4_2008', title: { ua: 'Індіана Джонс - 4', en: 'Indiana Jones and the Kingdom of the Crystal Skull', }, year: 2008, country: { usa: 1, }, franchise: 'Indiana_Johns',
+	id: 'indiana_johns_4_2008', title: { ua: 'Індіана Джонс - 4', en: 'Indiana Jones and the Kingdom of the Crystal Skull', }, year: 2008, country: { usa: 1, }, franchise: 'indiana_johns',
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0367882', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D0%BA%D1%80%D0%B8%D1%88%D1%82%D0%B0%D0%BB%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE_%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0', },
 	cast: { harrison_ford_13071942: 1, shia_labeouf_11061986: 1, cate_blanchett_14051969: 1, }, director: { steven_spielberg_18121946: 1, },
@@ -2913,6 +2931,12 @@ const arrFilms = [
 	internet: { imdb: '0100631', },
 },
 {
+	id: 'the_pacifier_2005', title: { ua: 'Лисий нянька', en: 'The Pacifier', }, year: 2005, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, }, hash: { children: 1, },
+	internet: { imdb: '0395699', wiki_ua: '%D0%9B%D0%B8%D1%81%D0%B0_%D0%BD%D1%8F%D0%BD%D1%8C%D0%BA%D0%B0', },
+	cast: { vin_diesel_18071967: 1, },
+},
+{
 	id: 'knight_and_day_2010', title: { ua: 'Лицар дня', en: 'Knight and Day', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, 
 	internet: { imdb: '1013743', wiki_ua: '%D0%9B%D0%B8%D1%86%D0%B0%D1%80_%D0%B4%D0%BD%D1%8F', },
@@ -2934,6 +2958,11 @@ const arrFilms = [
 	genre: { action: 1, horror: 1, }, hash: { future: 1, aliens: 1, },
 	internet: { imdb: '0105459', wiki_ua: '%D0%9B%D1%96%D1%87%D0%B5%D0%BD%D1%96_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B8', },
 	cast: { rutger_hauer_23011944: 1, },
+},
+{
+	id: 'the_lobster_2015', title: { ua: 'Лобстер', en: 'The Lobster', }, year: 2015, country: { usa: 1, gbr: 1, fra: 1, gbr: 1, nld: 1, irl: 1, grc: 1, bel: 1, },
+	genre: { sci_fi: 1, drama: 1, }, 
+	internet: { imdb: '3464902', wiki_ua: '%D0%9B%D0%BE%D0%B1%D1%81%D1%82%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'la_story_1991', title: { ua: 'Лос-Анджелеська історія', en: 'L.A. Story', }, year: 1991, country: { usa: 1, },
@@ -3358,7 +3387,7 @@ const arrFilms = [
 	id: 'die_hard_2_1990', title: { ua: 'Міцний горішок - 2', en: 'Die Hard 2', }, year: 1990, country: { usa: 1, }, rating: 5, franchise: 'die_hard',
 	genre: { action: 1, thriller: 1,  }, hash: { terrorist: 1, plane: 1, },
 	internet: { imdb: '0099423', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA_2', },
-	cast: { bruce_willis_19031955: 1, robert_patrick_05111958: 1, },
+	cast: { bruce_willis_19031955: 1, william_sadler_13041950: 1, robert_patrick_05111958: 1, },
 },
 {
 	id: 'die_hard_3_1995', title: { ua: 'Міцний горішок - 3', en: 'Die Hard: With a Vengeance', }, year: 1995, country: { usa: 1, }, rating: 5, franchise: 'die_hard',
@@ -3429,7 +3458,7 @@ const arrFilms = [
 	id: 'my_stepmother_is_an_alien_1988', title: { ua: 'Моя мачуха іншопланетянка', en: 'My Stepmother Is an Alien', }, year: 1988, country: { usa: 1, },
 	genre: { comedy: 1, sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0095687', wiki_ua: '%D0%9C%D0%BE%D1%8F_%D0%BC%D0%B0%D1%87%D1%83%D1%85%D0%B0_%E2%80%94_%D1%96%D0%BD%D1%88%D0%BE%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%8F%D0%BD%D0%BA%D0%B0', },
-	cast: { kim_basinger_08121953: 1, },
+	cast: { kim_basinger_08121953: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'the_bricklayer_2023', title: { ua: 'Муляр', en: 'The Bricklayer', }, year: 2023, country: { usa: 1, },
@@ -3481,7 +3510,7 @@ const arrFilms = [
 	id: 'man_on_a_ledge_2012', title: { ua: 'На межі', en: 'Man on a Ledge', }, year: 2012, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '1568338', wiki_ua: '%D0%9D%D0%B0_%D0%BC%D0%B5%D0%B6%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2012)', },
-	cast: { sam_worthington_02081976: 1, ed_harris_28111950: 1, },
+	cast: { sam_worthington_02081976: 1, ed_harris_28111950: 1, william_sadler_13041950: 1, },
 },
 {
 	id: 'live_die_repeat_edge_of_tomorrow_2014', title: { ua: 'На межі майбутнього', en: 'Live Die Repeat: Edge of Tomorrow', }, year: 2014, country: { usa: 1, }, rating: '5+',
@@ -3522,18 +3551,18 @@ const arrFilms = [
 	id: 'back_to_the_future_1985', title: { ua: 'Назад у майбутнє', en: 'Back to the Future', }, year: 1985, country: { usa: 1, }, rating: 5, franchise: 'back_to_the_future',
 	genre: { adventure: 1, sci_fi: 1, }, hash: { time: 1, young: 1, },
 	internet: { imdb: '0088763', wiki_ua: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D1%83_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%94', ashdivip: '289', moviestape: 'Nazad.u.majbutnje', },
-	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, },
+	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'back_to_the_future_2_1989', title: { ua: 'Назад у майбутнє - 2', en: 'Back to the Future Part II', }, year: 1989, country: { usa: 1, }, rating: '5+', franchise: 'back_to_the_future',
 	genre: { adventure: 1, sci_fi: 1, }, hash: { time: 1, young: 1, },
 	internet: { imdb: '0096874', wiki_ua: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D1%83_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%94_2', ashdivip: '290', moviestape: 'Nazad.u.majbutnje.2', },
-	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, elisabeth_shue_06101963: 1, billy_zane_24021966: 1, jason_scott_lee_19111966: 1, },
+	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, elisabeth_shue_06101963: 1, billy_zane_24021966: 1, jason_scott_lee_19111966: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'back_to_the_future_3_1990', title: { ua: 'Назад у майбутнє - 3', en: 'Back to the Future Part III', }, year: 1990, country: { usa: 1, }, rating: '5+', franchise: 'back_to_the_future',
 	genre: { adventure: 1, sci_fi: 1, western: 1, }, hash: { time: 1, young: 1, cowboy: 1, },
-	internet: { imdb: '0099088', wiki_ua: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D1%83_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%94_3', ashdivip: '291', moviestape: 'Nazad.u.majbutnje.3', },
+	internet: { imdb: '0099088', wiki_ua: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D1%83_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%94_3', ashdivip: '291', moviestape: 'Nazad.u.majbutnje.3', }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, elisabeth_shue_06101963: 1, },
 },
 {
@@ -3823,7 +3852,7 @@ const arrFilms = [
 	id: 'bill_ted_1991', title: { ua: 'Нові пригоди Білла і Теда', en: 'Bill & Ted\'s Bogus Journey', }, year: 1991, country: { usa: 1, }, rating: 5,
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0101452', wiki_ua: '%D0%9D%D0%BE%D0%B2%D1%96_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B8_%D0%91%D1%96%D0%BB%D0%BB%D0%B0_%D1%96_%D0%A2%D0%B5%D0%B4%D0%B0', },
-	cast: { keanu_reeves_02091964: 1, },
+	cast: { keanu_reeves_02091964: 1, william_sadler_13041950: 1, },
 },
 {
 	id: 'les_bidasses_en_folie_1971', title: { ua: 'Новобранці божеволіють', en: 'Les Bidasses en folie', }, year: 1971, country: { fra: 1, }, rating: 5,
@@ -4157,7 +4186,7 @@ const arrFilms = [
 	internet: { imdb: '0300523', },
 },
 {
-	id: 'the_bourne_supremacy_2004', title: { ua: 'Перевага Борна', en: 'The Bourne Supremacy', }, year: 2004, country: { usa: 1, deu: 1, }, rating: 5, franchise: 'Born',
+	id: 'the_bourne_supremacy_2004', title: { ua: 'Перевага Борна', en: 'The Bourne Supremacy', }, year: 2004, country: { usa: 1, deu: 1, }, rating: 5, franchise: 'bourne',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '0372183', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%B3%D0%B0_%D0%91%D0%BE%D1%80%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { matt_damon_08101970: 1, },
@@ -4286,31 +4315,31 @@ const arrFilms = [
 	cast: { megan_fox_16051986: 1, whoopi_goldberg_13111955: 1, },
 },
 {
-	id: 'pirates_of_the_Caribbean_2003', title: { ua: 'Пірати Карибського моря', en: 'Pirates of the Caribbean: The Curse of the Black Pearl', }, year: 2003, country: { usa: 1, }, rating: 5, franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_2003', title: { ua: 'Пірати Карибського моря', en: 'Pirates of the Caribbean: The Curse of the Black Pearl', }, year: 2003, country: { usa: 1, }, rating: 5, franchise: 'Caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0325980', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D1%8F%D1%82%D1%82%D1%8F_%C2%AB%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D1%97_%D0%BF%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D0%B8%C2%BB', },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
-	id: 'pirates_of_the_Caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+', franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+', franchise: 'Caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0383574', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8F_%D0%BC%D0%B5%D1%80%D1%86%D1%8F', ashdivip: '308', auliki7: 'Pirates.of.the.Caribbean.Dead.Mans.Chest', },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
-	id: 'pirates_of_the_Caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'Caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0449088', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%BA%D1%80%D0%B0%D1%8E_%D1%81%D0%B2%D1%96%D1%82%D1%83',  },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
-	id: 'pirates_of_the_Caribbean_4_2011', title: { ua: 'Пірати Карибського моря - 4', en: 'Pirates of the Caribbean: On Stranger Tides', }, year: 2011, country: { usa: 1, }, franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_4_2011', title: { ua: 'Пірати Карибського моря - 4', en: 'Pirates of the Caribbean: On Stranger Tides', }, year: 2011, country: { usa: 1, }, franchise: 'Caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '1298650', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%B4%D0%B8%D0%B2%D0%BD%D0%B8%D1%85_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%B0%D1%85',  },
 	cast: { johnny_depp_09061963: 1, penelope_cruz_28041974: 1, },
 },
 {
-	id: 'pirates_of_the_Caribbean_5_2017', title: { ua: 'Пірати Карибського моря - 5', en: 'Pirates of the Caribbean: Dead Men Tell No Tales', }, year: 2017, country: { usa: 1, }, franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_5_2017', title: { ua: 'Пірати Карибського моря - 5', en: 'Pirates of the Caribbean: Dead Men Tell No Tales', }, year: 2017, country: { usa: 1, }, franchise: 'Caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '1790809', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0_%D0%A1%D0%B0%D0%BB%D0%B0%D0%B7%D0%B0%D1%80%D0%B0',  },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, },
@@ -4536,7 +4565,7 @@ const arrFilms = [
 {
 	id: 'flight_of_the_navigator_1986', title: { ua: 'Політ навігатора', en: 'Flight of the Navigator', }, year: 1986, country: { usa: 1, },
 	genre: { adventure: 1, sci_fi: 1, }, hash: { children: 1,aliens: 1, },
-	internet: { imdb: '0091059', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%82_%D0%BD%D0%B0%D0%B2%D1%96%D0%B3%D0%B0%D1%82%D0%BE%D1%80%D0%B0', ashdivip: '17032', },
+	internet: { imdb: '0091059', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%82_%D0%BD%D0%B0%D0%B2%D1%96%D0%B3%D0%B0%D1%82%D0%BE%D1%80%D0%B0', ashdivip: '17032', }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'flight_of_the_phoenix_2004', title: { ua: 'Політ Фенікса', en: 'Flight of the Phoenix', }, year: 2004, country: { usa: 1, },
@@ -4592,25 +4621,25 @@ const arrFilms = [
 	cast: { kevin_bacon_08071958: 1, },
 },
 {
-	id: 'beverly_hills_cop_1984', title: { ua: 'Поліцейський із Беверлі-Гіллз', en: 'Beverly Hills Cop', }, year: 1984, country: { usa: 1, }, franchise: 'Beverly_Hills_cop',
+	id: 'beverly_hills_cop_1984', title: { ua: 'Поліцейський із Беверлі-Гіллз', en: 'Beverly Hills Cop', }, year: 1984, country: { usa: 1, }, franchise: 'beverly_hills_cop',
 	genre: { action: 1, comedy: 1, }, hash: { police: 1, cop: 1, },
 	internet: { imdb: '0086960', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%96%D0%B7_%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96-%D0%93%D1%96%D0%BB%D0%BB%D0%B7', },
 	cast: { eddie_murphy_03041961: 1, },
 },
 {
-	id: 'beverly_hills_cop_2_1987', title: { ua: 'Поліцейський із Беверлі-Гіллз - 2', en: 'Beverly Hills Cop II', }, year: 1987, country: { usa: 1, }, franchise: 'Beverly_Hills_cop',
+	id: 'beverly_hills_cop_2_1987', title: { ua: 'Поліцейський із Беверлі-Гіллз - 2', en: 'Beverly Hills Cop II', }, year: 1987, country: { usa: 1, }, franchise: 'beverly_hills_cop',
 	genre: { action: 1, comedy: 1, }, hash: { police: 1, cop: 1, },
 	internet: { imdb: '0092644', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%96%D0%B7_%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96-%D0%93%D1%96%D0%BB%D0%BB%D0%B7_2', },
 	cast: { eddie_murphy_03041961: 1, },
 },
 {
-	id: 'beverly_hills_cop_3_1994', title: { ua: 'Поліцейський із Беверлі-Гіллз - 3', en: 'Beverly Hills Cop III', }, year: 1994, country: { usa: 1, }, franchise: 'Beverly_Hills_cop',
+	id: 'beverly_hills_cop_3_1994', title: { ua: 'Поліцейський із Беверлі-Гіллз - 3', en: 'Beverly Hills Cop III', }, year: 1994, country: { usa: 1, }, franchise: 'beverly_hills_cop',
 	genre: { action: 1, comedy: 1, }, hash: { police: 1, cop: 1, },
 	internet: { imdb: '0109254', },
 	cast: { eddie_murphy_03041961: 1, },
 },
 {
-	id: 'beverly_hills_cop_4_2024', title: { ua: 'Поліцейський із Беверлі-Гіллз - 4', en: 'Beverly Hills Cop: Axel F', }, year: 2024, country: { usa: 1, }, franchise: 'Beverly_Hills_cop',
+	id: 'beverly_hills_cop_4_2024', title: { ua: 'Поліцейський із Беверлі-Гіллз - 4', en: 'Beverly Hills Cop: Axel F', }, year: 2024, country: { usa: 1, }, franchise: 'beverly_hills_cop',
 	genre: { action: 1, comedy: 1, }, hash: { police: 1, cop: 1, },
 	internet: { imdb: '3083016', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%96%D0%B7_%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96-%D0%93%D1%96%D0%BB%D0%BB%D0%B7:_%D0%90%D0%BA%D1%81%D0%B5%D0%BB%D1%8C_%D0%A4.', },
 	cast: { eddie_murphy_03041961: 1, kevin_bacon_08071958: 1, },
@@ -4967,31 +4996,31 @@ const arrFilms = [
 	cast: { al_pacino_25041940: 1, bridget_moynahan_28041971: 1, },
 },
 {
-	id: 'rambo_1982', title: { ua: 'Рембо', en: 'First Blood', }, year: 1982, country: { usa: 1, }, rating: 5, franchise: 'Rambo',
+	id: 'rambo_1982', title: { ua: 'Рембо', en: 'First Blood', }, year: 1982, country: { usa: 1, }, rating: 5, franchise: 'rambo',
 	genre: { action: 1, thriller: 1, }, hash: { army: 1, police: 1, },
 	internet: { imdb: '0083944', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE:_%D0%9F%D0%B5%D1%80%D1%88%D0%B0_%D0%BA%D1%80%D0%BE%D0%B2', ashdivip: '985', },
 	cast: { sylvester_stallone_06071946: 1, richard_crenna_30111926: 1, },
 },
 {
-	id: 'rambo_2_1985', title: { ua: 'Рембо - 2', en: 'Rambo: First Blood Part II', }, year: 1985, country: { usa: 1, }, rating: 5, franchise: 'Rambo',
+	id: 'rambo_2_1985', title: { ua: 'Рембо - 2', en: 'Rambo: First Blood Part II', }, year: 1985, country: { usa: 1, }, rating: 5, franchise: 'rambo',
 	genre: { action: 1, thriller: 1, }, hash: { army: 1, jungle: 1, },
 	internet: { imdb: '0089880', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE:_%D0%9F%D0%B5%D1%80%D1%88%D0%B0_%D0%BA%D1%80%D0%BE%D0%B2,_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_II', ashdivip: '984', },
 	cast: { sylvester_stallone_06071946: 1, richard_crenna_30111926: 1, },
 },
 {
-	id: 'rambo_3_1988', title: { ua: 'Рембо - 3', en: 'Rambo III', }, year: 1988, country: { usa: 1, }, franchise: 'Rambo',
+	id: 'rambo_3_1988', title: { ua: 'Рембо - 3', en: 'Rambo III', }, year: 1988, country: { usa: 1, }, franchise: 'rambo',
 	genre: { action: 1, thriller: 1, }, hash: { army: 1, desert: 1, },
 	internet: { imdb: '0095956', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE_%D0%86%D0%86%D0%86', ashdivip: '983', },
 	cast: { sylvester_stallone_06071946: 1, richard_crenna_30111926: 1, },
 },
 {
-	id: 'rambo_4_2008', title: { ua: 'Рембо - 4', en: 'Rambo', }, year: 2008, country: { usa: 1, }, rating: '5+', franchise: 'Rambo',
+	id: 'rambo_4_2008', title: { ua: 'Рембо - 4', en: 'Rambo', }, year: 2008, country: { usa: 1, }, rating: '5+', franchise: 'rambo',
 	genre: { action: 1, thriller: 1, }, hash: { army: 1, team: 1, },
 	internet: { imdb: '0462499', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE_IV', 	ashdivip: '14184', },
 	cast: { sylvester_stallone_06071946: 1, },
 },
 {
-	id: 'rambo_5_2019', title: { ua: 'Рембо - 5', en: 'Rambo: Last Blood', }, year: 2019, country: { usa: 1, }, franchise: 'Rambo',
+	id: 'rambo_5_2019', title: { ua: 'Рембо - 5', en: 'Rambo: Last Blood', }, year: 2019, country: { usa: 1, }, franchise: 'rambo',
 	genre: { action: 1, thriller: 1, crime: 1, },
 	internet: { imdb: '1206885', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE:_%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BA%D1%80%D0%BE%D0%B2', ashdivip: '458', },
 	cast: { sylvester_stallone_06071946: 1, },
@@ -5060,39 +5089,39 @@ const arrFilms = [
 	internet: { imdb: '13786042', },
 },
 {
-	id: 'rocky_1976', title: { ua: 'Роккі', en: 'Rocky', }, year: 1976, country: { usa: 1, }, franchise: 'Rocky',
+	id: 'rocky_1976', title: { ua: 'Роккі', en: 'Rocky', }, year: 1976, country: { usa: 1, }, franchise: 'rocky',
 	studio: { netflix: 1, },
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0075148', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96', },
 	cast: { sylvester_stallone_06071946: 1, }, composer: { Bill_Conti_13041942: 1, },
 },
 {
-	id: 'rocky_2_1979', title: { ua: 'Роккі - 2', en: 'Rocky II', }, year: 1979, country: { usa: 1, }, franchise: 'Rocky',
+	id: 'rocky_2_1979', title: { ua: 'Роккі - 2', en: 'Rocky II', }, year: 1979, country: { usa: 1, }, franchise: 'rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0079817', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_2', },
 	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
 },
 {
-	id: 'rocky_3_1982', title: { ua: 'Роккі - 3', en: 'Rocky III', }, year: 1982, country: { usa: 1, }, franchise: 'Rocky',
+	id: 'rocky_3_1982', title: { ua: 'Роккі - 3', en: 'Rocky III', }, year: 1982, country: { usa: 1, }, franchise: 'rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0084602', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_3', },
 	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
 },
 {
-	id: 'rocky_4_1985', title: { ua: 'Роккі - 4', en: 'Роккі IV', }, year: 1985, country: { usa: 1, }, franchise: 'Rocky',
+	id: 'rocky_4_1985', title: { ua: 'Роккі - 4', en: 'Роккі IV', }, year: 1985, country: { usa: 1, }, franchise: 'rocky',
 	studio: { mgm: 1, }, 
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0089927', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_4', },
 	cast: { sylvester_stallone_06071946: 1, dolph_lundgren_03111957: 1, },
 },
 {
-	id: 'rocky_5_1990', title: { ua: 'Роккі - 5', en: 'Роккі V', }, year: 1990, country: { usa: 1, }, franchise: 'Rocky',
+	id: 'rocky_5_1990', title: { ua: 'Роккі - 5', en: 'Роккі V', }, year: 1990, country: { usa: 1, }, franchise: 'rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0100507', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_5', },
 	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
 },
 {
-	id: 'rocky_6_2006', title: { ua: 'Роккі Бальбоа', en: 'Rocky Balboa', }, year: 2006, country: { usa: 1, }, franchise: 'Rocky',
+	id: 'rocky_6_2006', title: { ua: 'Роккі Бальбоа', en: 'Rocky Balboa', }, year: 2006, country: { usa: 1, }, franchise: 'rocky',
 	studio: { mgm: 1, columbia: 1, _20_century: 1, netflix: 1, }, 
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0479143', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_%D0%91%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -5107,7 +5136,7 @@ const arrFilms = [
 	id: 'romancing_the_stone_1984', title: { ua: 'Роман з каменем', en: 'Romancing the Stone', }, year: 1984, country: { usa: 1, mex: 1, }, rating: 5, franchise: 'romancing_the_stone',
 	genre: { action: 1, adventure: 1, comedy: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0088011', wiki_ua: '%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD_%D0%B7_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%B5%D0%BC', ashdivip: '8662', },
-	cast: { michael_douglas_25091944: 1, danny_devito_17111944: 1, },
+	cast: { michael_douglas_25091944: 1, danny_devito_17111944: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, }, 
 },
 {
 	id: 'ronin_1998', title: { ua: 'Ронін', en: 'Ronin', }, year: 1998, country: { gbr: 1, usa: 1, },
@@ -5410,7 +5439,7 @@ const arrFilms = [
 	id: 'death_becomes_her_1992', title: { ua: 'Смерть їй личить', en: 'Death Becomes Her', }, year: 1992, country: { usa: 1, },
 	genre: { comedy: 1, horror: 1, fantasy: 1, },
 	internet: { imdb: '0104070', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D1%8C_%D1%97%D0%B9_%D0%BB%D0%B8%D1%87%D0%B8%D1%82%D1%8C', },
-	cast: { bruce_willis_19031955: 1, goldie_hawn_21111945: 1, },
+	cast: { bruce_willis_19031955: 1, goldie_hawn_21111945: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'twister_1996', title: { ua: 'Смерч', en: 'Twister', }, year: 1996, country: { usa: 1, }, franchise: 'twister',
@@ -5434,7 +5463,6 @@ const arrFilms = [
 	id: 'la_sociedad_de_la_nieve_2023', title: { ua: 'Снігова спільнота', en: 'La sociedad de la nieve', }, year: 2023, country: { usa: 1, esp: 1, },
 	genre: { disaster: 1, drama: 1, }, hash: { plane: 1, winter: 1, surviving: 1,  },
 	internet: { imdb: '16277242', wiki_ua: '%D0%A1%D0%BD%D1%96%D0%B3%D0%BE%D0%B2%D0%B0_%D1%81%D0%BF%D1%96%D0%BB%D1%8C%D0%BD%D0%BE%D1%82%D0%B0', },
-	cast: { bruce_willis_19031955: 1, goldie_hawn_21111945: 1, },
 },
 {
 	id: 'soldier_1998', title: { ua: 'Солдат', en: 'Soldier', }, year: 1998, country: { gbr: 1, usa: 1, },
@@ -5535,7 +5563,7 @@ const arrFilms = [
 	id: 'stop_or_my_mom_will_shoot_1992', title: { ua: 'Стій бо моя мама стрілятиме', en: 'Stop! Or My Mom Will Shoot', }, year: 1992, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { police: 1, },
 	internet: { imdb: '0105477', wiki_ua: '%D0%A1%D1%82%D1%96%D0%B9,_%D0%B0%D0%B1%D0%BE_%D0%BC%D0%BE%D1%8F_%D0%BC%D0%B0%D0%BC%D0%B0_%D1%81%D1%82%D1%80%D1%96%D0%BB%D1%8F%D1%82%D0%B8%D0%BC%D0%B5', ashdivip: '14024', },
-	cast: { sylvester_stallone_06071946: 1, ving_rhames_12051959: 1, },
+	cast: { sylvester_stallone_06071946: 1, ving_rhames_12051959: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'cellular_2004', title: { ua: 'Стільниковий', en: 'Cellular', }, year: 2004, country: { usa: 1, deu: 1, },
@@ -5580,13 +5608,25 @@ const arrFilms = [
 	cast: { morgan_freeman_01061937: 1, },
 },
 {
+	id: 'snitch_2013', title: { ua: 'Стукач', en: 'Snitch', }, year: 2013, country: { usa: 1, gbr: 1, are: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '0882977',  wiki_ua: '%D0%A1%D1%82%D1%83%D0%BA%D0%B0%D1%87_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { dwayne_johnson_02051972: 1, barry_pepper_04041970: 1, },
+}, 
+{
 	id: 'the_substance_2024', title: { ua: 'Субстанція', en: 'The Substance', }, year: 2024, country: { usa: 1, fra: 1, gbr: 1,}, 	
 	genre: { horror: 1, trash: 1, }, 
 	internet: { imdb: '17526714', wiki_ua: '%D0%A1%D1%83%D0%B1%D1%81%D1%82%D0%B0%D0%BD%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { demi_moore_11111962: 1, },
 },
 {
-	id: 'Dredd_2012', title: { ua: 'Суддя Дредд', en: 'Dredd', }, year: 2012, country: { usa: 1, }, rating: 5,
+	id: 'judge_dredd_1995', title: { ua: 'Суддя Дредд', en: ' Judge Dredd', }, year: 1995, country: { usa: 1, gbr: 1, ndl: 1, }, franchise: 'dredd',
+	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, police: 1, justice: 1, drugs: 1, },
+	internet: { imdb: '0113492', wiki_ua: '%D0%A1%D1%83%D0%B4%D0%B4%D1%8F_%D0%94%D1%80%D0%B5%D0%B4%D0%B4', },
+	cast: { sylvester_stallone_06071946: 1, }, composer: { alan_silvestri_26031950: 1, },
+},
+{
+	id: 'dredd_2012', title: { ua: 'Суддя Дредд', en: 'Dredd', }, year: 2012, country: { usa: 1, }, franchise: 'dredd', rating: 5,
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, utopia: 1, police: 1, justice: 1, drugs: 1, },
 	internet: { imdb: '1343727', wiki_ua: '%D0%A1%D1%83%D0%B4%D0%B4%D1%8F_%D0%94%D1%80%D0%B5%D0%B4%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2012)', ashdivip: '3444', },
 	cast: { karl_urban_07061972: 1, lena_headey_03101973: 1, },
@@ -5712,6 +5752,7 @@ const arrFilms = [
 	id: 'the_creator_2023', title: { ua: 'Творець', en: 'The Creator', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, }, hash: { future: 1, cyber: 1, techno: 1, world: 1, },
 	internet: { imdb: '11858890', wiki_ua: '%D0%A2%D0%B2%D0%BE%D1%80%D0%B5%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
+	composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'phone_booth_2002', title: { ua: 'Телефонна будка', en: 'Phone Booth', }, year: 2002, country: { usa: 1, }, rating: 5,
@@ -5819,6 +5860,11 @@ const arrFilms = [
 	internet: { imdb: '0072271', wiki_ua: '%D0%A2%D0%B5%D1%85%D0%B0%D1%81%D1%8C%D0%BA%D0%B0_%D1%80%D1%96%D0%B7%D0%B0%D0%BD%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B5%D0%BD%D0%B7%D0%BE%D0%BF%D0%B8%D0%BB%D0%BE%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1974)', },
 },
 {
+	id: 'you_re_killing_me_2023', title: { ua: 'Ти мене вбиваєш', en: 'You\'re Killing Me', }, year: 2023, country: { usa: 1, },
+	genre: { action: 1, horror: 1, crime: 1, },
+	internet: { imdb: '20222202', },
+},
+{
 	id: 'you_can_t_run_forever_2024', title: { ua: 'Ти не можеш бігти завжди', en: 'You Can\'t Run Forever', }, year: 2024, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { maniac: 1, },
 	internet: { imdb: '15451150', },
@@ -5891,13 +5937,13 @@ const arrFilms = [
 	internet: { imdb: '4500922', wiki_ua: '%D0%A2%D0%BE%D0%B9,_%D1%89%D0%BE_%D0%B1%D1%96%D0%B6%D0%B8%D1%82%D1%8C_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82%D0%BE%D0%BC:_%D0%9B%D1%96%D0%BA%D0%B8_%D0%B2%D1%96%D0%B4_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
-	id: 'thor_2011', title: { ua: 'Тор', en: 'Thor', }, year: 2011, country: { usa: 1, }, franchise: 'Thor',
+	id: 'thor_2011', title: { ua: 'Тор', en: 'Thor', }, year: 2011, country: { usa: 1, }, franchise: 'thor',
 	genre: { action: 1, fantasy: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '0800369', wiki_ua: '%D0%A2%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { chris_hemsworth_11081983: 1, natalie_portman_09061981: 1, rene_russo_17021954: 1, anthony_hopkins_31121937: 1, samuel_l_jackson_21121948: 1, },
 },
 {
-	id: 'thor_2_2013', title: { ua: 'Тор - 2', en: 'Thor: The Dark World', }, year: 2013, country: { usa: 1, }, franchise: 'Thor',
+	id: 'thor_2_2013', title: { ua: 'Тор - 2', en: 'Thor: The Dark World', }, year: 2013, country: { usa: 1, }, franchise: 'thor',
 	genre: { action: 1, fantasy: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '1981115', wiki_ua: '%D0%A2%D0%BE%D1%80:_%D0%A6%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D1%82%D0%B5%D0%BC%D1%80%D1%8F%D0%B2%D0%B8', },
 	cast: { chris_hemsworth_11081983: 1, natalie_portman_09061981: 1, rene_russo_17021954: 1, anthony_hopkins_31121937: 1, chris_evans_13061981: 1, },
@@ -5991,6 +6037,12 @@ const arrFilms = [
 	internet: { imdb: '0070832', wiki_ua: '%D0%A2%D1%80%D0%B8_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BA%D0%B8_%D0%B4%D0%BB%D1%8F_%D0%9F%D0%BE%D0%BF%D0%B5%D0%BB%D1%8E%D1%88%D0%BA%D0%B8',	},
 },
 {
+	id: 'xxx_2002', title: { ua: 'Три ікси', en: 'xXx', }, year: 2002, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '0295701', wiki_ua: '%D0%A2%D1%80%D0%B8_%D1%96%D0%BA%D1%81%D0%B8', },
+	cast: { vin_diesel_18071967: 1, samuel_l_jackson_21121948: 1, danny_trejo_16051944: 1, },
+},
+{
 	id: 'the_informer_2019', title: { ua: 'Три секунди', en: 'The Informer', }, year: 2019, country: { gbr: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1833116', wiki_ua: '%D0%A2%D1%80%D0%B8_%D1%81%D0%B5%D0%BA%D1%83%D0%BD%D0%B4%D0%B8', },
@@ -6061,6 +6113,12 @@ const arrFilms = [
 	cast: { jean_claude_van_damme_18101960: 1, roger_moore_14101927: 1, },
 },
 {
+	id: 'boiler_room_2000', title: { ua: 'У топці', en: ' Boiler Room', }, year: 2000, country: { usa: 1, },
+	genre: { drama: 1, }, hash: { finance: 1, },
+	internet: { imdb: '0181984', wiki_ua: '%D0%A3_%D1%82%D0%BE%D0%BF%D1%86%D1%96', ashdivip: '17726', },
+	cast: { vin_diesel_18071967: 1, ben_affleck_15081972: 1, },
+},
+{
 	id: 'kill_em_all_2017', title: { ua: 'Убий їх усіх', en: 'Kill\'em All', }, year: 2017, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '5767628', ashdivip: '21554', },
@@ -6079,7 +6137,7 @@ const arrFilms = [
 	cast: { pierre_richard_16081934: 1, },
 },
 {
-	id: 'the_bourne_ultimatum_2007', title: { ua: 'Ультиматум Борна', en: 'The Bourne Ultimatum', }, year: 2007, country: { usa: 1, }, franchise: 'Born',
+	id: 'the_bourne_ultimatum_2007', title: { ua: 'Ультиматум Борна', en: 'The Bourne Ultimatum', }, year: 2007, country: { usa: 1, }, franchise: 'bourne',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '0440963', wiki_ua: '%D0%A3%D0%BB%D1%8C%D1%82%D0%B8%D0%BC%D0%B0%D1%82%D1%83%D0%BC_%D0%91%D0%BE%D1%80%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { matt_damon_08101970: 1, },
@@ -6099,6 +6157,12 @@ const arrFilms = [
 	id: 'smile_2022', title: { ua: 'Усміхайся', en: 'Smile', }, year: 2022, country: { usa: 1, },
 	genre: { horror: 1, }, 
 	internet: { imdb: '15474916', wiki_ua: '%D0%A3%D1%81%D0%BC%D1%96%D1%85%D0%B0%D0%B9%D1%81%D1%8F', ashdivip: '81049', },
+},
+{
+	id: 'hard_to_kill_1990', title: { ua: 'Усупереч смерті', en: 'Hard to Kill', }, year: 1990, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0099739', wiki_ua: '%D0%A3%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%B5%D1%87_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96', },
+	cast: { steven_seagal_10041952: 1, william_sadler_13041950: 1, dean_norris_08041963: 1, },
 },
 {
 	id: 'the_fugitive_1993', title: { ua: 'Утікач', en: 'The Fugitive', }, year: 1993, country: { usa: 1, }, rating: 5,
@@ -6211,7 +6275,7 @@ const arrFilms = [
 	id: 'forrest_gump_1994', title: { ua: 'Форрест Ґамп', en: 'Forrest Gump', }, year: 1994, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, },
 	internet: { imdb: '0109830', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%80%D0%B5%D1%81%D1%82_%D2%90%D0%B0%D0%BC%D0%BF', },
-	cast: { tom_hanks_09071956: 1, kurt_russell_17031951: 1, },
+	cast: { tom_hanks_09071956: 1, kurt_russell_17031951: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'fast_furious_2001', title: { ua: 'Форсаж', en: 'The Fast and the Furious', }, year: 2001, country: { usa: 1, deu: 1, }, rating: 5, franchise: 'fast_furious',
@@ -6318,13 +6382,13 @@ const arrFilms = [
 	id: 'predator_1987', title: { ua: 'Хижак', en: 'Predator', }, year: 1987, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, fantasy: 1, }, hash: { aliens: 1, army: 1, jungle: 1, },
 	internet: { imdb: '0093773', wiki_ua: '%D0%A5%D0%B8%D0%B6%D0%B0%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1987)', ashdivip: '4462', },
-	cast: { arnold_schwarzenegger_30071947: 1, bill_duke_26021943: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, bill_duke_26021943: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'predator_2_1990', title: { ua: 'Хижак - 2', en: 'Predator 2', }, year: 1990, country: { usa: 1, },
 	genre: { action: 1, fantasy: 1, }, hash: { aliens: 1, police: 1, },
 	internet: { imdb: '0100403', wiki_ua: '%D0%A5%D0%B8%D0%B6%D0%B0%D0%BA_2', ashdivip: '14027', },
-	cast: { gary_busey_29061944: 1, bill_paxton_17051955: 1, danny_glover_22071946: 1, },
+	cast: { gary_busey_29061944: 1, bill_paxton_17051955: 1, danny_glover_22071946: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'never_let_go_2024', title: { ua: 'Хижий ліс', en: 'Never Let Go', }, year: 2024, country: { usa: 1, can: 1, fra: 1,},
@@ -6366,6 +6430,12 @@ const arrFilms = [
 	internet: { imdb: '1706593', wiki_ua: '%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',  },
 },
 {
+	id: 'the_chronicles_of_riddick_2004', title: { ua: 'Хроніки Ріддіка', en: 'The Chronicles of Riddick', }, year: 2004, country: { usa: 1, }, 
+	genre: { sci_fi: 1, action: 1, }, hash: { space: 1, utopia: 1, planet: 1, },
+	internet: { imdb: '0296572', wiki_ua: '%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B8_%D0%A0%D1%96%D0%B4%D0%B4%D1%96%D0%BA%D0%B0', },
+	cast: { vin_diesel_18071967: 1, },
+},
+{
 	id: 'terminator_the_Sarah_Connor_chronicles_2008', title: { ua: 'Хроніки Сари Коннор', en: 'Terminator: The Sarah Connor Chronicles', }, year: 2008, country: { usa: 1, }, franchise: 'terminator',
 	genre: { serial: 1, action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, young: 1, police: 1, },
 	internet: { imdb: '0851851', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B8_%D0%A1%D0%B0%D1%80%D0%B8_%D0%9A%D0%BE%D0%BD%D0%BD%D0%BE%D1%80', },
@@ -6381,7 +6451,7 @@ const arrFilms = [
 	id: 'who_framed_Roger_rabbit_1988', title: { ua: 'Хто підставив кролика Роджера', en: 'Who Framed Roger Rabbit', }, year: 1988, country: { usa: 1, },
 	genre: { comedy: 1, fantasy: 1, },
 	internet: { imdb: '0096438', wiki_ua: '%D0%A5%D1%82%D0%BE_%D0%BF%D1%96%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%B2_%D0%BA%D1%80%D0%BE%D0%BB%D0%B8%D0%BA%D0%B0_%D0%A0%D0%BE%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%3F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { christopher_lloyd_22101938: 1, },
+	cast: { christopher_lloyd_22101938: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'it_s_what_s_inside_2024', title: { ua: 'Хто ти всередині', en: 'It\'s What\'s Inside', }, year: 2024, country: { usa: 1, },
@@ -6821,14 +6891,14 @@ const arrFilms = [
 	studio: { paramount: 1, dream_works: 1, netflix: 1, hasbro: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, team: 1, },
 	internet: { imdb: '1046173', wiki_ua: '%D0%94%D0%B6%D1%96_%D0%90%D0%B9_%D0%94%D0%B6%D0%BE:_%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%9A%D0%BE%D0%B1%D1%80%D0%B8', },
-	composer: { alan_silvestri_26031950: 1, },
+	cast: { arnold_vosloo_16061962: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'g_i_joe_2_2013', title: { ua: 'G.I. Joe: Атака кобри - 2', en: 'G.I. Joe: Retaliation', }, year: 2013, country: { usa: 1, },
 	studio: { paramount: 1, mgm: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, team: 1, },
 	internet: { imdb: '1583421', wiki_ua: 'G.I._Joe:_%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%9A%D0%BE%D0%B1%D1%80%D0%B8_2', },
-	cast: { dwayne_johnson_02051972: 1, bruce_willis_19031955: 1, },
+	cast: { dwayne_johnson_02051972: 1, bruce_willis_19031955: 1, arnold_vosloo_16061962: 1, },
 },
 {
 	id: 'swat_2003', title: { ua: 'S.W.A.T.: Спецназ міста янголів', en: 'S.W.A.T.', }, year: 2003, country: { usa: 1, },

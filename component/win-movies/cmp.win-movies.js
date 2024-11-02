@@ -225,8 +225,7 @@ class ComponentWinMovies {
 			image 			: 'img/pic/logoDJS.png', 
 		}); 
  
- 
- 
+
 		return { tagParam, html };  
 	} 
  
@@ -245,7 +244,8 @@ class ComponentWinMovies {
  
  
  
- 
+
+
  
 } 
  

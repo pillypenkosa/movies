@@ -150,6 +150,7 @@ const arrHashTags = [
 	{ id: 'fashion' 		, title: 'мода' 						, app: { films: 1, }, },
 	{ id: 'politic' 		, title: 'політика' 					, app: { films: 1, }, },
 	{ id: 'psycho' 			, title: 'психо' 						, app: { films: 1, }, }, // зламай мозок
+	{ id: 'finance' 		, title: 'фінанси' 						, app: { films: 1, }, }, // зламай мозок
 
 
 
