@@ -196,12 +196,12 @@ class ComponentWinMovies {
 
 
 
-		let html2 = '';
+		//let html2 = '';
 
 
 
 		arrSelected.forEach( k => {
-
+/*
 			html2 += `<div style="display: inline-block; color: #fff; ">
 
 				<div>${ k.title.ua }</div>
@@ -209,14 +209,14 @@ class ComponentWinMovies {
 
 
 			</div>`;
-
+*/
 
 
 			html += Component( 'Spoyler', { key: 'movie', data: k, } ); 
 
 		});
 
-		html = html2 + html;
+		//html = html2 + html;
  
  
 		setMeta ({ 
