@@ -827,6 +827,12 @@ const arrFilms = [
 	cast: { nicolas_cage_07011964: 1, angelina_jolie_04061975: 1, timothy_olyphant_20051968: 1, },
 },
 {
+	id: 'ransom_1996', title: { ua: 'Викуп', en: 'Ransom', }, year: 1996, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '0117438', wiki_ua: '%D0%92%D0%B8%D0%BA%D1%83%D0%BF_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
+	cast: { mel_gibson_03011956: 1, rene_russo_17021954: 1, }, director: { ron_howard_31031954: 1, },
+},
+{
 	id: 'den_skyldige_2018', title: { ua: 'Винний', en: 'Den skyldige', }, year: 2018, country: { dnk: 1, }, rating: 5,
 	genre: { thriller: 1, crime: 1, }, hash: { police: 1, phone: 1, },
 	internet: { imdb: '6742252', wiki_ru: '%D0%92%D0%B8%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B9_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2018)', ashdivip: '42113', },
@@ -888,7 +894,7 @@ const arrFilms = [
 	id: 'willow_1988', title: { ua: 'Віллоу', en: 'Willow', }, year: 1988, country: { gbr: 1, usa: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0096446', wiki_ua: '%D0%92%D1%96%D0%BB%D0%BB%D0%BE%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { val_kilmer_31121959: 1, kevin_pollak_30101957: 1, },
+	cast: { val_kilmer_31121959: 1, kevin_pollak_30101957: 1, }, director: { ron_howard_31031954: 1, },
 },
 {
 	id: 'the_wolf_of_wall_street_2013', title: { ua: 'Вовк з Уолл-стріт', en: 'The Wolf of Wall Street', }, year: 2013, country: { usa: 1, },
@@ -1119,7 +1125,7 @@ const arrFilms = [
 	id: 'gladiator_2000', title: { ua: 'Гладіатор', en: 'Gladiator', }, year: 2000, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { ancient: 1, },
 	internet: { imdb: '0172495', wiki_ua: '%D0%93%D0%BB%D0%B0%D0%B4%D1%96%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { russell_crowe_07041964: 1, connie_nielsen_03071965: 1, },
+	cast: { russell_crowe_07041964: 1, connie_nielsen_03071965: 1, }, director: { ridley_scott_30111937: 1, },
 },
 {
 	id: 'gueules_noires_2023', title: { ua: 'Глибока темрява', en: 'Gueules noires', }, year: 2023, country: { fra: 1, },
@@ -1598,7 +1604,7 @@ const arrFilms = [
 	id: 'house_of_Gucci_2021', title: { ua: 'Дім Ґуччі', en: 'House of Gucci', }, year: 2021, country: { usa: 1, },
 	genre: { drama: 1, }, hash: { fashion: 1, },
 	internet: { imdb: '11214590', wiki_ua: '%D0%94%D1%96%D0%BC_%D2%90%D1%83%D1%87%D1%87%D1%96', },
-	cast: { lady_gaga_28031986: 1, al_pacino_25041940: 1, salma_hayek_02091966: 1, },
+	cast: { lady_gaga_28031986: 1, al_pacino_25041940: 1, salma_hayek_02091966: 1, }, director: { ridley_scott_30111937: 1, },
 },
 {
 	id: 'the_children_of_Times_Square_1986', title: { ua: 'Діти Таймс-Скверу', en: 'The Children of Times Square', }, year: 1986, country: { usa: 1, }, rating: 5,
@@ -2304,7 +2310,7 @@ const arrFilms = [
 	id: 'a_beautiful_mind_2001', title: { ua: 'Ігри розуму', en: 'A Beautiful Mind', }, year: 2001, country: { usa: 1, },
 	genre: { drama: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0268978', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B8_%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%83', },
-	cast: { russell_crowe_07041964: 1, ed_harris_28111950: 1, jennifer_connelly_12121970: 1, christopher_plummer_13121929: 1, },
+	cast: { russell_crowe_07041964: 1, ed_harris_28111950: 1, jennifer_connelly_12121970: 1, christopher_plummer_13121929: 1, }, director: { ron_howard_31031954: 1, },
 },
 {
 	id: 'a_perfect_getaway_2009', title: { ua: 'Ідеальна втеча', en: 'A Perfect Getaway', }, year: 2009, country: { usa: 1, },
@@ -2568,7 +2574,7 @@ const arrFilms = [
 	id: 'king_kong_2005', title: { ua: 'Кінг-Конг', en: 'King Kong', }, year: 2005, country: { usa: 1, }, rating: '5+',
 	genre: { horror: 1, adventure: 1, }, hash: { monkey: 1, animal: 1, sea: 1, island: 1, jungle: 1, dinosaur: 1, newyork: 1, },
 	internet: { imdb: '0360717', wiki_ua: '%D0%9A%D1%96%D0%BD%D0%B3-%D0%9A%D0%BE%D0%BD%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', ashdivip: '5707', },
-	cast: { naomi_watts_28091968: 1, jack_black_28081969: 1, adrien_brody_14041973: 1, kyle_chandler_17091965: 1, },
+	cast: { naomi_watts_28091968: 1, jack_black_28081969: 1, adrien_brody_14041973: 1, kyle_chandler_17091965: 1, }, director: { peter_jackson_31101961: 1, }, 
 },
 {
 	id: 'kingsajz_1988', title: { ua: 'Кінґсайз', en: 'Kingsajz', }, year: 1988, country: { usa: 1, }, rating: 5,
@@ -2621,6 +2627,11 @@ const arrFilms = [
 	internet: { imdb: '0397101', wiki_ua: '%D0%9A%D0%BB%D1%8E%D1%87_%D0%B2%D1%96%D0%B4_%D1%83%D1%81%D1%96%D1%85_%D0%B4%D0%B2%D0%B5%D1%80%D0%B5%D0%B9', },
 },
 {
+	id: 'the_jungle_book_1967', title: { ua: 'Книга джунглів', en: 'The Jungle Book', }, year: 1967, country: { usa: 1, },
+	genre: { cartoon: 1, }, hash: { animal: 1, },
+	internet: { imdb: '0061852', wiki_ua: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D0%B4%D0%B6%D1%83%D0%BD%D0%B3%D0%BB%D1%96%D0%B2_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '79873', },
+},
+{
 	id: 'the_book_of_Eli_2010', title: { ua: 'Книга Ілая', en: 'The Book of Eli', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { utopia: 1, },
 	internet: { imdb: '1037705', wiki_ua: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D0%86%D0%BB%D0%B0%D1%8F', },
@@ -2648,7 +2659,7 @@ const arrFilms = [
 	id: 'the_da_vinci_code_2006', title: { ua: 'Код да Винчи', en: 'The Da Vinci Code', }, year: 2006, country: { usa: 1, },
 	genre: { thriller: 1, mystic: 1, },
 	internet: { imdb: '0382625', wiki_ua: '%D0%9A%D0%BE%D0%B4_%D0%B4%D0%B0_%D0%92%D1%96%D0%BD%D1%87%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { tom_hanks_09071956: 1, audrey_tautou_09081976: 1, jean_reno_30071948: 1, },
+	cast: { tom_hanks_09071956: 1, audrey_tautou_09081976: 1, jean_reno_30071948: 1, }, director: { ron_howard_31031954: 1, },
 },
 {
 	id: 'safe_house_2012', title: { ua: 'Код доступу Кейптаун', en: 'Safe House', }, year: 2012, country: { usa: 1, },
@@ -2766,7 +2777,7 @@ const arrFilms = [
 	id: 'contact_1997', title: { ua: 'Контакт', en: 'Contact', }, year: 1997, country: { usa: 1, },
 	genre: { sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0118884', wiki_ua: '%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { jodie_foster_19111962: 1, matthew_mcconaughey_04111969: 1, david_morse_11101953: 1, }, composer: { alan_silvestri_26031950: 1, },
+	cast: { jodie_foster_19111962: 1, matthew_mcconaughey_04111969: 1, david_morse_11101953: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
 	id: 'control_2023', title: { ua: 'Контроль', en: 'Control', }, year: 2023, country: { gbr: 1, },
@@ -2872,7 +2883,7 @@ const arrFilms = [
 	id: 'pulp_fiction_1994', title: { ua: 'Кримінальне чтиво', en: 'Pulp Fiction', }, year: 1994, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '0110912', wiki_ua: '%D0%9A%D1%80%D0%B8%D0%BC%D1%96%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D1%87%D1%82%D0%B8%D0%B2%D0%BE', },
-	cast: { john_travolta_18021954: 1, samuel_l_jackson_21121948: 1, bruce_willis_19031955: 1, uma_thurman_29041970: 1, ving_rhames_12051959: 1, quentin_tarantino_27031963: 1, peter_greene_08101965: 1, steve_buscemi_13121957: 1, },
+	cast: { john_travolta_18021954: 1, samuel_l_jackson_21121948: 1, bruce_willis_19031955: 1, uma_thurman_29041970: 1, ving_rhames_12051959: 1, quentin_tarantino_27031963: 1, peter_greene_08101965: 1, steve_buscemi_13121957: 1, }, director: { quentin_tarantino_27031963: 1, },
 },
 {
 	id: 'christine_1983', title: { ua: 'Крістіна', en: 'Christine', }, year: 1983, country: { usa: 1, }, rating: 5,
@@ -3173,7 +3184,7 @@ const arrFilms = [
 	id: 'the_martian_2015', title: { ua: 'Марсіянин', en: 'The Martian', }, year: 2015, country: { usa: 1, },
 	genre: { adventure: 1, sci_fi: 1, }, hash: { oneman: 1, space: 1, planet: 1, surviving: 1, },
 	internet: { imdb: '3659388', wiki_ua: '%D0%9C%D0%B0%D1%80%D1%81%D1%96%D1%8F%D0%BD%D0%B8%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { matt_damon_08101970: 1, sean_bean_17041959: 1, },
+	cast: { matt_damon_08101970: 1, sean_bean_17041959: 1, }, director: { ridley_scott_30111937: 1, },
 },
 {
 	id: 'the_mask_1994', title: { ua: 'Маска', en: 'The Mask', }, year: 1994, country: { usa: 1, },
@@ -5552,7 +5563,7 @@ const arrFilms = [
 	id: 'g_i_jane_1997', title: { ua: 'Солдат Джейн', en: 'G.I. Jane', }, year: 1997, country: { usa: 1, },
 	genre: { action: 1, }, hash: { army: 1, },
 	internet: { imdb: '0119173', wiki_ua: '%D0%A1%D0%BE%D0%BB%D0%B4%D0%B0%D1%82_%D0%94%D0%B6%D0%B5%D0%B9%D0%BD', },
-	cast: { demi_moore_11111962: 1, },
+	cast: { demi_moore_11111962: 1, }, director: { ridley_scott_30111937: 1, },
 },
 {
 	id: 'salt_2010', title: { ua: 'Солт', en: 'Salt', }, year: 2010, country: { usa: 1, },
@@ -6003,7 +6014,7 @@ const arrFilms = [
 	id: 'blade_runner_1982', title: { ua: 'Той хто біжить по лезу', en: 'Blade Runner', }, year: 1982, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, },
 	internet: { imdb: '0083658', wiki_ua: '%D0%A2%D0%BE%D0%B9,_%D1%85%D1%82%D0%BE_%D0%B1%D1%96%D0%B6%D0%B8%D1%82%D1%8C_%D0%BF%D0%BE_%D0%BB%D0%B5%D0%B7%D1%83', },
-	cast: { harrison_ford_13071942: 1, rutger_hauer_23011944: 1, sean_young_20111959: 1, brion_james_20021945: 1, },
+	cast: { harrison_ford_13071942: 1, rutger_hauer_23011944: 1, sean_young_20111959: 1, brion_james_20021945: 1, }, director: { ridley_scott_30111937: 1, },
 },
 {
 	id: 'the_maze_runner_2014', title: { ua: 'Той що біжить лабіринтом', en: 'The Maze Runner', }, year: 2014, country: { usa: 1, }, franchise: 'the_maze_runner',
@@ -6219,6 +6230,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '6549510', },
 	cast: { jean_claude_van_damme_18101960: 1, },
+},
+{
+	id: 'kill_bill_vol_1', title: { ua: 'Убити Білла', en: 'Kill Bill: Vol. 1', }, year: 2003, country: { usa: 1, chn: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '0266697', wiki_ua: '%D0%A3%D0%B1%D0%B8%D1%82%D0%B8_%D0%91%D1%96%D0%BB%D0%BB%D0%B0._%D0%A4%D1%96%D0%BB%D1%8C%D0%BC_1', },
+	cast: { uma_thurman_29041970: 1, }, director: { quentin_tarantino_27031963: 1, },
 },
 {
 	id: 'le_coup_du_parapluie_1980', title: { ua: 'Укол парасолькою', en: 'Le coup du parapluie', }, year: 1980, country: { fra: 1, },
@@ -6736,7 +6753,7 @@ const arrFilms = [
 	id: 'four_rooms_1995', title: { ua: 'Чотири кімнати', en: 'Four Rooms', }, year: 1995, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, }, 
 	internet: { imdb: '0113101', wiki_ua: '%D0%A7%D0%BE%D1%82%D0%B8%D1%80%D0%B8_%D0%BA%D1%96%D0%BC%D0%BD%D0%B0%D1%82%D0%B8', },
-	cast: { quentin_tarantino_27031963: 1, bruce_willis_19031955: 1, antonio_banderas_10081960: 1, valeria_golino_22101965: 1, madonna_16081958: 1, salma_hayek_02091966: 1, },
+	cast: { quentin_tarantino_27031963: 1, bruce_willis_19031955: 1, antonio_banderas_10081960: 1, valeria_golino_22101965: 1, madonna_16081958: 1, salma_hayek_02091966: 1, }, director: { quentin_tarantino_27031963: 1, },
 },
 {
 	id: 'weird_science_1985', title: { ua: 'Чудернацька наука', en: 'Weird Science', }, year: 1985, country: { usa: 1, }, rating: 5,
@@ -6748,7 +6765,7 @@ const arrFilms = [
 	id: 'alien_1979', title: { ua: 'Чужий', en: 'Alien', }, year: 1979, country: { usa: 1, gbr: 1, }, franchise: 'alien',
 	genre: { sci_fi: 1, horror: 1, }, hash: { space: 1, aliens: 1, },
 	internet: { imdb: '0078748', wiki_ua: '%D0%A7%D1%83%D0%B6%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { sigourney_weaver_08101949: 1, },
+	cast: { sigourney_weaver_08101949: 1, }, director: { ridley_scott_30111937: 1, },
 },
 {
 	id: 'alien_3_1992', title: { ua: 'Чужий - 3', en: 'Alien - 3', }, year: 1992, country: { usa: 1, }, franchise: 'alien',
