@@ -197,7 +197,7 @@ const arrFilms = [
 	cast: { james_spader_07021960: 1, },
 },
 {
-	id: 'runaway_car_1996', title: { ua: 'Автомобіль-утікач', en: 'Runaway Car', }, year: 1996, country: { usa: 1, }, rating: '5+',
+	id: 'runaway_car_1997', title: { ua: 'Автомобіль-утікач', en: 'Runaway Car', }, year: 1997, country: { usa: 1, }, rating: '5+',
 	genre: { thriller: 1, }, hash: { trap: 1, cars: 1, road: 1, },
 	internet: { imdb: '0120041', ashdivip: '127571', },
 	cast: { nina_siemaszko_14071970: 1, },

@@ -20,6 +20,18 @@ cmp-spoyler {
 
 
 
+	cmp-spoyler .title {
+
+	}
+		cmp-spoyler .title .txt-rating5 {
+			color: #0f0;
+		}
+		cmp-spoyler .title .txt-rating5p {
+			/*font-weight: bold;*/
+			color: #ff0;
+		}
+
+
 
 
 

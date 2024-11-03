@@ -52,6 +52,20 @@ class ComponentSpoyler {
 
 								if ( film.year )
 									title += ` (${ film.year })`;
+
+								if ( film.rating ) {
+									let htmlRating = '';
+
+									console.log( film );
+
+									if ( film.rating == '5' )
+										htmlRating = ' <span class="txt-rating5">&#10003;</span>';
+
+									if ( film.rating == '5+' )
+										htmlRating = ' <span class="txt-rating5p">&#10030;</span>';
+
+									title = title + htmlRating;
+								}
 							}
 						}
 					}
