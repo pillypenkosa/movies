@@ -1239,6 +1239,11 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, robert_de_niro_17081943: 1, kim_basinger_08121953: 1, mike_tyson_30061966: 1, },
 },
 {
+	id: 'le_comte_de_monte_cristo_2024', title: { ua: 'Граф Монте-Крісто', en: 'Le Comte de Monte-Cristo', }, year: 2024, country: { fra: 1, bel: 1, },
+	genre: { history: 1, drama: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '26446278', wiki_ua: '%D0%93%D1%80%D0%B0%D1%84_%D0%9C%D0%BE%D0%BD%D1%82%D0%B5-%D0%9A%D1%80%D1%96%D1%81%D1%82%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
+},
+{
 	id: 'pik_lik_foh_1995', title: { ua: 'Громобій', en: 'Pik lik foh', }, year: 1995, country: { hkg: 1, },
 	genre: { action: 1, crime: 1, }, hash: { sport: 1, fight: 1, cars: 1, },
 	internet: { imdb: '0114126', wiki_ua: '%D0%93%D1%80%D0%BE%D0%BC%D0%BE%D0%B1%D1%96%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', },
