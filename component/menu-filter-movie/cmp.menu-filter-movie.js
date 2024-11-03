@@ -45,14 +45,17 @@ class ComponentMenuFilterMovie {
  		//console.log( arrFilmsYear );
 
  		let optionYear = '<option value="all">- Рік ---</option>';
+ 		let colorYear = '';
  		arrFilmsYear.forEach( k => {
 
  			let attrSelected = '';
 	 		if ( Router.urlGET ) {
 	 			if ( Router.urlGET.win == 'movies' ) {
 	 				if ( Router.urlGET.year ) {
-			 			if ( k == +Router.urlGET.year ) 
+			 			if ( k == +Router.urlGET.year ) {
 			 				attrSelected = 'selected';
+			 				colorYear = 'color';
+			 			}
 	 				}
 	 			}
 	 		}
@@ -123,6 +126,7 @@ class ComponentMenuFilterMovie {
 
 
  		let optionStudio = '<option value="all">- Кінокомпанії ---</option>';
+ 		let colorStudio = '';
 		arrFilmStudio.forEach( k => {
 
  			let attrSelected = '';
@@ -130,8 +134,10 @@ class ComponentMenuFilterMovie {
 	 		if ( Router.urlGET ) {
 	 			if ( Router.urlGET.win == 'movies' ) {
 	 				if ( Router.urlGET.studio ) {
-			 			if ( k.id && k.id == Router.urlGET.studio ) 
+			 			if ( k.id && k.id == Router.urlGET.studio ) {
 			 				attrSelected = 'selected';
+				 			colorStudio = 'color';
+			 			}
 			 		}
 			 	}
 			}
@@ -168,6 +174,7 @@ class ComponentMenuFilterMovie {
 
 
  		let optionLetter = '<option value="all">- Літера ---</option>';
+ 		let colorLetter = '';
  		[ 'eng', '123', 'А', 'Б', 'В', 'Г', 'Ґ', 'Д', 'Е', 'Є', 'Ж', 'З', 'И', 'І', 'Ї', 'Й', 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф', 'Х', 'Ц', 'Ч', 'Ш', 'Щ', 'Ю', 'Я', ].forEach( k => {
 	 		
  			let attrSelected = '';
@@ -175,8 +182,10 @@ class ComponentMenuFilterMovie {
 	 		if ( Router.urlGET ) {
 	 			if ( Router.urlGET.win == 'movies' ) {
 	 				if ( Router.urlGET.letter ) {
-			 			if ( k == decodeURI( Router.urlGET.letter )) 
+			 			if ( k == decodeURI( Router.urlGET.letter )) {
 			 				attrSelected = 'selected';
+				 			colorLetter = 'color';
+			 			}
 			 		}
 			 	}
 			}
@@ -188,7 +197,32 @@ class ComponentMenuFilterMovie {
 
 
 
+ 		let optionFranchise = '<option value="all">- Франшизи ---</option>';
+ 		let colorFranchise = '';
+ 		arrFilmFranchise.forEach( k => {
+
+ 			let attrSelected = '';
+			let name = '';
+	 		if ( Router.urlGET ) {
+	 			if ( Router.urlGET.win == 'movies' ) {
+	 				if ( Router.urlGET.franchise ) {
+			 			if ( k.id && k.id == Router.urlGET.franchise ) {
+			 				attrSelected = 'selected';
+				 			colorFranchise = 'color';
+			 			}
+			 		}
+			 	}
+			}
+
+ 			optionFranchise += `<option value="${ k.id }" ${ attrSelected }>${ k.title }</option>`;
+ 		});
+
+
+
+
+
  		let optionSet = '<option value="all">Підбірки ---</option>';
+ 		let colorSet = '';
  		arrMovieSet.forEach( k => {
 
  			let attrSelected = '';
@@ -196,8 +230,10 @@ class ComponentMenuFilterMovie {
 	 		if ( Router.urlGET ) {
 	 			if ( Router.urlGET.win == 'movies' ) {
 	 				if ( Router.urlGET.set ) {
-			 			if ( k.id && k.id == Router.urlGET.set ) 
+			 			if ( k.id && k.id == Router.urlGET.set ) {
 			 				attrSelected = 'selected';
+				 			colorSet = 'color';
+			 			}
 			 		}
 			 	}
 			}
@@ -210,6 +246,7 @@ class ComponentMenuFilterMovie {
 
 
  		let optionSort = '<option value="all">Сортування ---</option>';
+ 		let colorSort = '';
  		arrMovieSort.forEach( k => {
 
  			let attrSelected = '';
@@ -217,8 +254,10 @@ class ComponentMenuFilterMovie {
 	 		if ( Router.urlGET ) {
 	 			if ( Router.urlGET.win == 'movies' ) {
 	 				if ( Router.urlGET.sort ) {
-			 			if ( k.id && k.id == Router.urlGET.sort ) 
+			 			if ( k.id && k.id == Router.urlGET.sort ) {
 			 				attrSelected = 'selected';
+				 			colorSort = 'color';
+			 			}
 			 		}
 			 	}
 			}
@@ -238,10 +277,10 @@ class ComponentMenuFilterMovie {
  		let html = `
  			<div class="divSelectFilter">
 	 			<div>
-	 				<select data-id="letter" onchange="${ this.name }.changeFilter( this )">${ optionLetter }</select>
+	 				<select class="${ colorLetter }" data-id="letter" onchange="${ this.name }.changeFilter( this )">${ optionLetter }</select>
 	 			</div>
 	 			<div>
-	 				<select data-id="year" onchange="${ this.name }.changeFilter( this )">${ optionYear }</select>
+	 				<select class="${ colorYear }" data-id="year" onchange="${ this.name }.changeFilter( this )">${ optionYear }</select>
 	 			</div>
 	 			<div>
 	 				<select class="${ colorGenre }" data-id="genre" onchange="${ this.name }.changeFilter( this )">${ optionGenre }</select>
@@ -250,19 +289,22 @@ class ComponentMenuFilterMovie {
 	 				<select class="${ colorCountry }" data-id="country" onchange="${ this.name }.changeFilter( this )">${ optionCountry }</select>
 	 			</div>
 	 			<div>
-	 				<select data-id="studio" onchange="${ this.name }.changeFilter( this )">${ optionStudio }</select>
+	 				<select class="${ colorStudio }" data-id="studio" onchange="${ this.name }.changeFilter( this )">${ optionStudio }</select>
+	 			</div>
+	 			<div>
+	 				<select class="${ colorFranchise }" data-id="franchise" onchange="${ this.name }.changeFilter( this )">${ optionFranchise }</select>
 	 			</div>
 	 			<div>
 	 				<select class="${ colorHash }" data-id="hash" onchange="${ this.name }.changeFilter( this )">${ optionHash }</select>
 	 			</div>
 	 			<div>
-	 				<select data-id="set" onchange="${ this.name }.changeFilter( this )">${ optionSet }</select>
+	 				<select class="${ colorSet }" data-id="set" onchange="${ this.name }.changeFilter( this )">${ optionSet }</select>
 	 			</div>
  			</div>
 
 	 		<div class="divSelectSort">
 	 			<div>
-	 				<select data-id="sort" onchange="${ this.name }.changeSort( this )">${ optionSort }</select>
+	 				<select class="${ colorSort }" data-id="sort" onchange="${ this.name }.changeSort( this )">${ optionSort }</select>
 	 			</div>
  			</div>
  		`;

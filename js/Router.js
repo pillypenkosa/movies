@@ -102,6 +102,7 @@ class Router {
 			composer 		: 1,
 			country 		: 1,
 			director 		: 1,
+			franchise		: 1,
 			genre 			: 1,
 			hash 			: 1,
 			id 				: 1,

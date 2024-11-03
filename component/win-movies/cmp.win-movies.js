@@ -86,6 +86,14 @@ class ComponentWinMovies {
 				});
 			}
 
+			if ( objData.franchise ) {
+
+				arrSelected = arrSelected.filter( k => {
+					if ( k.franchise && k.franchise == objData.franchise ) 
+						return true;
+				});
+			}
+
 			if ( objData.letter ) {
 				if ( objData.letter != 'all' ) {
 

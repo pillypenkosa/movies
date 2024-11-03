@@ -1152,19 +1152,19 @@ const arrFilms = [
 	cast: { keira_knightley_26031985: 1, donald_sutherland_17071935: 1, rosamund_pike_27011979: 1, judi_dench_09121934: 1, },
 },
 {
-	id: 'highlander_1986', title: { ua: 'Горець', en: 'Highlander', }, year: 1986, country: { gbr: 1, usa: 1, },
+	id: 'highlander_1986', title: { ua: 'Горець', en: 'Highlander', }, year: 1986, country: { gbr: 1, usa: 1, }, franchise: 'highlander',
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0091203', wiki_ua: '%D0%93%D0%BE%D1%80%D0%B5%D1%86%D1%8C', },
 	cast: { christopher_lambert_29031957: 1, sean_connery_25081930: 1, },
 },
 {
-	id: 'highlander_2_1991', title: { ua: 'Горець - 2', en: 'Highlander 2: The Quickening', }, year: 1991, country: { usa: 1, fra: 1, },
+	id: 'highlander_2_1991', title: { ua: 'Горець - 2', en: 'Highlander 2: The Quickening', }, year: 1991, country: { usa: 1, fra: 1, }, franchise: 'highlander',
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0102034', wiki_ua: '%D0%93%D0%BE%D1%80%D0%B5%D1%86%D1%8C_2', },
 	cast: { christopher_lambert_29031957: 1, sean_connery_25081930: 1, },
 },
 {
-	id: 'highlander_3_1994', title: { ua: 'Горець - 3', en: 'Highlander 3: The Sorcerer', }, year: 1994, country: { can: 1, fra: 1, gbr: 1, },
+	id: 'highlander_3_1994', title: { ua: 'Горець - 3', en: 'Highlander 3: The Sorcerer', }, year: 1994, country: { can: 1, fra: 1, gbr: 1, }, franchise: 'highlander',
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0110027', wiki_ua: '%D0%93%D0%BE%D1%80%D0%B5%D1%86%D1%8C_3:_%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D0%B2%D0%B8%D0%BC%D1%96%D1%80', },
 	cast: { christopher_lambert_29031957: 1, },
@@ -2366,6 +2366,12 @@ const arrFilms = [
 	cast: { harrison_ford_13071942: 1, shia_labeouf_11061986: 1, cate_blanchett_14051969: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
+	id: 'indiana_johns_5_2023', title: { ua: 'Індіана Джонс - 5', en: ' Indiana Jones and the Dial of Destiny', }, year: 2023, country: { usa: 1, }, franchise: 'indiana_johns',
+	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
+	internet: { imdb: '1462764', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D1%80%D0%B5%D0%BB%D1%96%D0%BA%D0%B2%D1%96%D1%8F_%D0%B4%D0%BE%D0%BB%D1%96', },	
+	cast: { harrison_ford_13071942: 1, antonio_banderas_10081960: 1, },
+},
+{
 	id: 'the_engineer_2023', title: { ua: 'Інженер', en: 'The Engineer ', }, year: 2023, country: { usa: 1, isr: 1, },
 	genre: { action: 1, }, hash: { terrorist: 1, },
 	internet: { imdb: '26450742', },
@@ -3224,6 +3230,12 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, }, hash: { prison: 1, },
 	internet: { imdb: '5093026', wiki_ua: '%D0%9C%D0%B5%D1%82%D0%B5%D0%BB%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', },
 	cast: { rami_malek_12051981: 1, },
+},
+{
+	id: 'the_mechanic_2011', title: { ua: 'Механік', en: 'The Mechanic', }, year: 2011, country: { usa: 1, deu: 1, },
+	genre: { action: 1, crime: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0472399', wiki_ua: '%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
+	cast: { jason_statham_26071967: 1, donald_sutherland_17071935: 1, },
 },
 {
 	id: 'we_were_soldiers_2002', title: { ua: 'Ми були солдатами', en: 'We Were Soldiers', }, year: 2002, country: { usa: 1, },
@@ -4332,31 +4344,31 @@ const arrFilms = [
 	cast: { megan_fox_16051986: 1, whoopi_goldberg_13111955: 1, },
 },
 {
-	id: 'pirates_of_the_caribbean_2003', title: { ua: 'Пірати Карибського моря', en: 'Pirates of the Caribbean: The Curse of the Black Pearl', }, year: 2003, country: { usa: 1, }, rating: 5, franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_2003', title: { ua: 'Пірати Карибського моря', en: 'Pirates of the Caribbean: The Curse of the Black Pearl', }, year: 2003, country: { usa: 1, }, rating: 5, franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0325980', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9F%D1%80%D0%BE%D0%BA%D0%BB%D1%8F%D1%82%D1%82%D1%8F_%C2%AB%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D1%97_%D0%BF%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D0%B8%C2%BB', },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
-	id: 'pirates_of_the_caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+', franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+', franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0383574', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8F_%D0%BC%D0%B5%D1%80%D1%86%D1%8F', ashdivip: '308', auliki7: 'Pirates.of.the.Caribbean.Dead.Mans.Chest', },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
-	id: 'pirates_of_the_caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0449088', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%BA%D1%80%D0%B0%D1%8E_%D1%81%D0%B2%D1%96%D1%82%D1%83',  },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
 },
 {
-	id: 'pirates_of_the_caribbean_4_2011', title: { ua: 'Пірати Карибського моря - 4', en: 'Pirates of the Caribbean: On Stranger Tides', }, year: 2011, country: { usa: 1, }, franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_4_2011', title: { ua: 'Пірати Карибського моря - 4', en: 'Pirates of the Caribbean: On Stranger Tides', }, year: 2011, country: { usa: 1, }, franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '1298650', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%B4%D0%B8%D0%B2%D0%BD%D0%B8%D1%85_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%B0%D1%85',  },
 	cast: { johnny_depp_09061963: 1, penelope_cruz_28041974: 1, },
 },
 {
-	id: 'pirates_of_the_caribbean_5_2017', title: { ua: 'Пірати Карибського моря - 5', en: 'Pirates of the Caribbean: Dead Men Tell No Tales', }, year: 2017, country: { usa: 1, }, franchise: 'Caribbean',
+	id: 'pirates_of_the_caribbean_5_2017', title: { ua: 'Пірати Карибського моря - 5', en: 'Pirates of the Caribbean: Dead Men Tell No Tales', }, year: 2017, country: { usa: 1, }, franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '1790809', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0_%D0%A1%D0%B0%D0%BB%D0%B0%D0%B7%D0%B0%D1%80%D0%B0',  },
 	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, },
@@ -4861,6 +4873,16 @@ const arrFilms = [
 	internet: { imdb: '13016388', wiki_ru: '%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0_%D1%82%D1%80%D1%91%D1%85_%D1%82%D0%B5%D0%BB_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB,_2024)', },
 },
 {
+	id: 'problem_child_1990', title: { ua: 'Проблемна дитина', en: 'Problem Child', }, year: 1990, country: { usa: 1, }, franchise: 'problem_child',
+	genre: { comedy: 1, }, hash: { children: 1, }, 
+	internet: { imdb: '0100419', wiki_ua: '%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%BD%D0%B0_%D0%B4%D0%B8%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1990)', ashdivip: '1349', },
+},
+{
+	id: 'problem_child_2_1991', title: { ua: 'Проблемна дитина - 2', en: 'Problem Child 2', }, year: 1991, country: { usa: 1, }, franchise: 'problem_child',
+	genre: { comedy: 1, }, hash: { children: 1, }, 
+	internet: { imdb: '0102719', wiki_ua: '%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%BD%D0%B0_%D0%B4%D0%B8%D1%82%D0%B8%D0%BD%D0%B0_2', ashdivip: '6079', },
+},
+{
 	id: 'passengers_2016', title: { ua: 'Пробудження', en: 'Passengers', }, year: 2016, country: { usa: 1, }, rating: 5,
 	genre: { sci_fi: 1, }, hash: { space: 1, love: 1, }, 
 	internet: { imdb: '1355644', wiki_ua: '%D0%9F%D1%80%D0%BE%D0%B1%D1%83%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', ashdivip: '6588', },
@@ -4908,10 +4930,16 @@ const arrFilms = [
 	internet: { imdb: '0105183', youtube: 'tdMW9z9ieQw', },
 },
 {
-	id: 'le_professionnel_1981', title: { ua: 'Профессионал', en: 'Le professionnel', }, year: 1981, country: { fra: 1, },
+	id: 'le_professionnel_1981', title: { ua: 'Професіонал', en: 'Le professionnel', }, year: 1981, country: { fra: 1, },
 	genre: { action: 1, crime: 1, }, 
 	internet: { imdb: '0082949', wiki_ua: '%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%96%D0%BE%D0%BD%D0%B0%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1981)', },
 	cast: { jean_paul_belmondo_09041933: 1, },
+},
+{
+	id: 'killer_elite_2011', title: { ua: 'Професіонал', en: 'Killer Elite', }, year: 2011, country: { usa: 1, gbr: 1, aus: 1, jor: 1, mar: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '1448755', wiki_ua: '%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%96%D0%BE%D0%BD%D0%B0%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
+	cast: { robert_de_niro_17081943: 1, jason_statham_26071967: 1, },
 },
 {
 	id: 'psycho_1960', title: { ua: 'Психо', en: 'Psycho', }, year: 1960, country: { usa: 1, },
@@ -5342,36 +5370,6 @@ const arrFilms = [
 	genre: { drama: 1, }, hash: { sport: 1, box: 1, },
 	internet: { imdb: '0081398', wiki_ua: '%D0%A1%D0%BA%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9_%D0%B1%D0%B8%D0%BA', },
 	cast: { robert_de_niro_17081943: 1, joe_pesci_09021943: 1, },
-},
-{
-	id: 'mad_max_1979', title: { ua: 'Скажений Макс', en: 'Mad Max', }, year: 1979, country: { aus: 1, }, franchise: 'mad_max',
-	genre: { action: 1, sci_fi: 1, crime: 1, }, hash: { utopia: 1, future: 1, police: 1, },
-	internet: { imdb: '0079501', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81', },
-	cast: { mel_gibson_03011956: 1, },
-},
-{
-	id: 'mad_max_2_1981', title: { ua: 'Скажений Макс - 2', en: 'Mad Max 2', }, year: 1981, country: { aus: 1, }, franchise: 'mad_max', rating: '5+',
-	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, cars: 1, },
-	internet: { imdb: '0082694', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81_2', ashdivip: '14262', },
-	cast: { mel_gibson_03011956: 1,  bruce_spence_17091945: 1, },
-},
-{
-	id: 'mad_max_3_1985', title: { ua: 'Скажений Макс - 3', en: 'Mad Max Beyond Thunderdome', }, year: 1985, country: { aus: 1, }, franchise: 'mad_max',
-	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, },
-	internet: { imdb: '0089530', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81_3', },
-	cast: { mel_gibson_03011956: 1, tina_turner_26111939: 1, bruce_spence_17091945: 1, },
-},
-{
-	id: 'mad_max_4_2015', title: { ua: 'Скажений Макс - 4', en: 'Mad Max: Fury Road', }, year: 2015, country: { usa: 1, aus: 1, }, franchise: 'mad_max',
-	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, },
-	internet: { imdb: '1392190', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81:_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0_%D0%B3%D0%BD%D1%96%D0%B2%D1%83', },
-	cast: { tom_hardy_15091977: 1, charlize_theron_07081975: 1, },
-},
-{
-	id: 'mad_max_5_2024', title: { ua: 'Скажений Макс - 5', en: 'Furiosa: A Mad Max Saga', }, year: 2024, country: { usa: 1, aus: 1, }, franchise: 'mad_max',
-	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, },
-	internet: { imdb: '12037194', wiki_ua: '%D0%A4%D1%83%D1%80%D1%96%D0%BE%D0%B7%D0%B0:_%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81._%D0%A1%D0%B0%D0%B3%D0%B0', },
-	cast: { chris_hemsworth_11081983: 1, },
 },
 {
 	id: 'the_rundown_2003', title: { ua: 'Скарб Амазонки', en: 'The Rundown', }, year: 2003, country: { usa: 1, },
@@ -6361,7 +6359,7 @@ const arrFilms = [
 	cast: { vin_diesel_18071967: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, charlize_theron_07081975: 1, kurt_russell_17031951: 1, john_cena_23071977: 1, },
 },
 {
-	id: 'fast_furious_10_2023', title: { ua: 'Форсаж - 10', en: 'F9', }, year: 2023, country: { usa: 1, }, rating: 5, franchise: 'fast_furious',
+	id: 'fast_furious_10_2023', title: { ua: 'Форсаж - 10', en: 'Fast X', }, year: 2023, country: { usa: 1, }, rating: 5, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '5433140', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_10', },
 	cast: { vin_diesel_18071967: 1, jason_statham_26071967: 1, michelle_rodriguez_12071978: 1, jason_momoa_01081979: 1, charlize_theron_07081975: 1, brie_larson_01101989: 1, john_cena_23071977: 1, },
@@ -6373,13 +6371,13 @@ const arrFilms = [
 	cast: { dwayne_johnson_02051972: 1, jason_statham_26071967: 1, ryan_reynolds_23101976: 1, },
 },
 {
-	id: 'fortress_1992', title: { ua: 'Фортеця', en: 'Fortress', }, year: 1992, country: { aus: 1, usa: 1, },
+	id: 'fortress_1992', title: { ua: 'Фортеця', en: 'Fortress', }, year: 1992, country: { aus: 1, usa: 1, }, franchise: 'fortress',
 	genre: { action: 1, crime: 1, sci_fi: 1, }, hash: { future: 1, prison: 1, techno: 1, },
 	internet: { imdb: '0106950', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { christopher_lambert_29031957: 1, },
 },
 {
-	id: 'fortress_2_1999', title: { ua: 'Фортеця - 2', en: 'Fortress 2', }, year: 1999, country: { usa: 1, }, rating: 5,
+	id: 'fortress_2_1999', title: { ua: 'Фортеця - 2', en: 'Fortress 2', }, year: 1999, country: { usa: 1, }, rating: 5, franchise: 'fortress',
 	genre: { action: 1, crime: 1, sci_fi: 1, }, hash: { future: 1, prison: 1, techno: 1, space: 1, },
 	internet: { imdb: '0179183', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%82%D0%B5%D1%86%D1%8F_2:_%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F', },
 	cast: { christopher_lambert_29031957: 1, },
@@ -6395,6 +6393,12 @@ const arrFilms = [
 	genre: { action: 1, comedy: 1, }, hash: { travel: 1, },
 	internet: { imdb: '15744298', wiki_ru: '%D0%A2%D0%B5%D0%BB%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_%D1%84%D1%80%D0%B8%D0%BB%D0%B0%D0%BD%D1%81%D0%B5', },
 	cast: { john_cena_23071977: 1, christian_slater_18081969: 1, },
+},
+{
+	id: 'mad_max_5_2024', title: { ua: 'Фуріоза: Шалений Макс. Сага', en: 'Furiosa: A Mad Max Saga', }, year: 2024, country: { usa: 1, aus: 1, }, franchise: 'mad_max',
+	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, },
+	internet: { imdb: '12037194', wiki_ua: '%D0%A4%D1%83%D1%80%D1%96%D0%BE%D0%B7%D0%B0:_%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81._%D0%A1%D0%B0%D0%B3%D0%B0', },
+	cast: { chris_hemsworth_11081983: 1, },
 },
 {
 	id: 'Hachi_a_dog_s_tale_2009', title: { ua: 'Хатіко', en: 'Hachi: A Dog\'s Tale', }, year: 2009, country: { usa: 1, }, rating: 5,
@@ -6712,6 +6716,30 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0068767', wiki_ru: '%D0%9A%D1%83%D0%BB%D0%B0%D0%BA_%D1%8F%D1%80%D0%BE%D1%81%D1%82%D0%B8', },
 	cast: { bruce_lee_27111940: 1, },
+},
+{
+	id: 'mad_max_1979', title: { ua: 'Шалений Макс', en: 'Mad Max', }, year: 1979, country: { aus: 1, }, franchise: 'mad_max',
+	genre: { action: 1, sci_fi: 1, crime: 1, }, hash: { utopia: 1, future: 1, police: 1, },
+	internet: { imdb: '0079501', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81', },
+	cast: { mel_gibson_03011956: 1, },
+},
+{
+	id: 'mad_max_2_1981', title: { ua: 'Шалений Макс: Воїн Дороги', en: 'Mad Max 2', }, year: 1981, country: { aus: 1, }, franchise: 'mad_max', rating: '5+',
+	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, cars: 1, },
+	internet: { imdb: '0082694', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81_2', ashdivip: '14262', },
+	cast: { mel_gibson_03011956: 1,  bruce_spence_17091945: 1, },
+},
+{
+	id: 'mad_max_3_1985', title: { ua: 'Шалений Макс: Під Куполом грому', en: 'Mad Max Beyond Thunderdome', }, year: 1985, country: { aus: 1, }, franchise: 'mad_max',
+	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, },
+	internet: { imdb: '0089530', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81_3', },
+	cast: { mel_gibson_03011956: 1, tina_turner_26111939: 1, bruce_spence_17091945: 1, },
+},
+{
+	id: 'mad_max_4_2015', title: { ua: 'Шалений Макс: Дорога гніву', en: 'Mad Max: Fury Road', }, year: 2015, country: { usa: 1, aus: 1, }, franchise: 'mad_max',
+	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, },
+	internet: { imdb: '1392190', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81:_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0_%D0%B3%D0%BD%D1%96%D0%B2%D1%83', },
+	cast: { tom_hardy_15091977: 1, charlize_theron_07081975: 1, },
 },
 {
 	id: 'the_best_man_2023', title: { ua: 'Шафер', en: 'The Best Man', }, year: 2023, country: { usa: 1, },

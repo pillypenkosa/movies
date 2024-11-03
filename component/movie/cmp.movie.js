@@ -125,11 +125,57 @@ class ComponentMovie {
 
 		let htmlFranchise = '';
 		if ( film.franchise ) {
+
+			let arrFranchiseFilms = [];
+			let arrFilmIDs = [];
+
+			//console.log( 'film.franchise: ', film.franchise );
+
+			arrFranchiseFilms = arrFilms.filter( k => {
+				if ( k.franchise && k.franchise == film.franchise ) {
+					//arrFranchiseFilms.push( k.id );
+					return true;
+				}
+
+
+			});
+
+			//console.log( 'arrFranchiseFilms: ', arrFranchiseFilms );
+
+			(function() {
+
+
+	    		function sortUp( a, b ) { return ( a.year > b.year ) ? 1 : -1; }     
+	    		arrFranchiseFilms.sort( sortUp );
+
+			})();
+
+			//console.log( 'arrFranchiseFilms: ', arrFranchiseFilms );
+
+			arrFilmIDs = arrFranchiseFilms.map( k => k.id );
+
+
+
+
+			//console.log( 'arrFilmIDs: ', arrFilmIDs );
+
+			htmlFranchise = `<div class="section5">
+				<div class="txt">Франшиза:</div>
+				${ Component( 'Posters-List', { arrFilms: arrFilmIDs, } ) }
+			</div>`;
+
+				//${ Component( 'Posters-List', { arrFilms: objFilmFranchise[ film.franchise ], } ) }
+
+
+
+
+			/*
 			if ( objFilmFranchise[ film.franchise ] ) 
 				htmlFranchise = `<div class="section5">
 					<div class="txt">Франшиза:</div>
 					${ Component( 'Posters-List', { arrFilms: objFilmFranchise[ film.franchise ], } ) }
 				</div>`;
+			*/
 		}
 		
 

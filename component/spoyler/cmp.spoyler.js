@@ -56,7 +56,7 @@ class ComponentSpoyler {
 								if ( film.rating ) {
 									let htmlRating = '';
 
-									console.log( film );
+									//console.log( film );
 
 									if ( film.rating == '5' )
 										htmlRating = ' <span class="txt-rating5">&#10003;</span>';
