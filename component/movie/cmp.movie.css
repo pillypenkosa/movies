@@ -55,6 +55,7 @@ cmp-movie {
 		background: var( --bg-b );
 	} 
 		cmp-movie .section1 .title-en {
+			margin: 0 5px;
 			font-size: 30px;
 			font-weight: bold;
 		} 

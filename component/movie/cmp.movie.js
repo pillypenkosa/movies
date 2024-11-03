@@ -106,7 +106,7 @@ class ComponentMovie {
 				if ( objHashTags[ k ] ) {
 					if ( objHashTags[ k ].title ) {
 
-						htmlHash += `<div class="hashtag pointer">#${ objHashTags[ k ].title }</div>`;
+						htmlHash += `<div class="hashtag pointer" onclick="${ this.name }.clcHashTag( '${ objHashTags[ k ].id }' )">#${ objHashTags[ k ].title }</div>`;
 					}
 				}
 			}
@@ -222,6 +222,9 @@ class ComponentMovie {
 
 
 
+
+
+
 		let elemParnet = elem.closest( 'cmp-movie' );
 		let filmID = elemParnet.dataset.id;
 
@@ -232,16 +235,19 @@ class ComponentMovie {
 		//Router.urlGET = {}; 	
 
 		// скидання фільтрів
-		ComponentMenu.resetFilter();
+		//ComponentMenu.resetFilter();
 
 		// приховати меню
-		ComponentHeader.hide()
+		//ComponentHeader.hide()
 
 
 		// приховування меню
 		//ComponentHeader.clc();
 
 		//Router.urlGET = {};
+		ComponentHeader.delHtmlMenu();
+		
+		Router.urlGET = {};
 
 
 		Router.link([
@@ -256,6 +262,33 @@ class ComponentMovie {
 
 
 
+
+
+	// перехід на конкретний фільм
+	static clcHashTag( hashID ) {
+
+		const fooName = this.name + '.clcPoster()'; 
+ 
+		//console.log( 'fooName: ', fooName ); 
+		//console.log( 'hashID: ', hashID ); 
+ 
+
+
+		// скидання фільтрів
+		//ComponentMenu.resetFilter();
+
+		// приховати меню
+		//ComponentHeader.hide()
+
+		ComponentHeader.delHtmlMenu();
+
+		Router.urlGET = {};
+
+		Router.link([
+			{ k: 'win' 		, v: 'movies' 	, },
+			{ k: 'hash' 	, v: hashID		, },
+		]);
+	}
 
 
 

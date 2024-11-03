@@ -89,10 +89,14 @@ class ComponentPostersList {
 
 
 
-		// скидання фільтрів
-		ComponentMenu.resetFilter();
-		// приховування меню
-		ComponentHeader.hide();
+
+
+
+		ComponentHeader.delHtmlMenu();
+		
+		Router.urlGET = {};
+
+
 
 
 		Router.link([

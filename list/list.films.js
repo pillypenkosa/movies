@@ -276,7 +276,7 @@ const arrFilms = [
 	cast: { justin_timberlake_31011981: 1, sharon_stone_10031958: 1, bruce_willis_19031955: 1, },
 },
 {
-	id: 'Amelie_2001', title: { ua: 'Амелі', en: 'Le fabuleux destin d`Amélie Poulain', }, year: 2001, country: { usa: 1, }, rating: 5,
+	id: 'amelie_2001', title: { ua: 'Амелі', en: 'Le fabuleux destin d`Amélie Poulain', }, year: 2001, country: { usa: 1, }, rating: 5,
 	studio: { miramax: 1, },
 	genre: { drama: 1, comedy: 1, }, hash: { psycho: 1, young: 1, },
 	internet: { imdb: '0211915', wiki_ua: '%D0%90%D0%BC%D0%B5%D0%BB%D1%96', },
@@ -1010,7 +1010,7 @@ const arrFilms = [
 	internet: { imdb: '8337264', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%BA%D1%83%D1%80%D0%BD%D0%B8%D0%BA%D0%B0_2', ashdivip: '111862', },
 },
 {
-	id: 'escape_from_New_York_1981', title: { ua: 'Втеча з Нью-Йорка', en: 'Escape from New York', }, year: 1981, country: { usa: 1, },
+	id: 'escape_from_new_york_1981', title: { ua: 'Втеча з Нью-Йорка', en: 'Escape from New York', }, year: 1981, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, },
 	internet: { imdb: '0082340', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D0%B0', },
 	cast: { kurt_russell_17031951: 1, },
@@ -1291,7 +1291,7 @@ const arrFilms = [
 	internet: { imdb: '0087363', wiki_ua: '%D0%93%D1%80%D0%B5%D0%BC%D0%BB%D1%96%D0%BD%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },	
 },
 {
-	id: 'Ocean_s_twelve_2004', title: { ua: 'Дванадцять друзів Оушена', en: 'Ocean\'s Twelve', }, year: 2004, country: { usa: 1, },
+	id: 'ocean_s_twelve_2004', title: { ua: 'Дванадцять друзів Оушена', en: 'Ocean\'s Twelve', }, year: 2004, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0349903', wiki_ua: '%D0%94%D0%B2%D0%B0%D0%BD%D0%B0%D0%B4%D1%86%D1%8F%D1%82%D1%8C_%D0%B4%D1%80%D1%83%D0%B7%D1%96%D0%B2_%D0%9E%D1%83%D1%88%D0%B5%D0%BD%D0%B0', },
 	cast: { george_clooney_06051961: 1, brad_pitt_18121963: 1, matt_damon_08101970: 1, julia_roberts_28101967: 1, andy_garcia_12041956: 1, casey_affleck_12081975: 1, bruce_willis_19031955: 1, don_cheadle_29111964: 1, },
@@ -1391,7 +1391,7 @@ const arrFilms = [
 	cast: { dolph_lundgren_03111957: 1, },
 },
 {
-	id: 'Destiny_turns_on_the_radio_1995', title: { ua: 'Дестіні вмикає радіо', en: 'Destiny Turns on the Radio', }, year: 1995, country: { usa: 1, },
+	id: 'destiny_turns_on_the_radio_1995', title: { ua: 'Дестіні вмикає радіо', en: 'Destiny Turns on the Radio', }, year: 1995, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '0112854', wiki_ru: '%D0%94%D0%B5%D1%81%D1%82%D0%B8%D0%BD%D0%B8_%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%D0%B5%D1%82_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE', },
 	cast: { quentin_tarantino_27031963: 1, james_belushi_15061954: 1, },
@@ -1811,43 +1811,43 @@ const arrFilms = [
 	cast: { ryan_reynolds_23101976: 1, },
 },
 {
-	id: 'a_nightmare_on_Elm_street_1984', title: { ua: 'Жах на вулиці В\'язів', en: 'A Nightmare on Elm Street', }, year: 1984, country: { usa: 1, }, franchise: 'freddy_krueger',
+	id: 'a_nightmare_on_elm_street_1984', title: { ua: 'Жах на вулиці В\'язів', en: 'A Nightmare on Elm Street', }, year: 1984, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0087800', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1984)', ashdivip: '10902', },
 	cast: { robert_englund_06061947: 1, johnny_depp_09061963: 1, },
 },
 {
-	id: 'a_nightmare_on_Elm_street_2_1985', title: { ua: 'Жах на вулиці В\'язів - 2', en: 'A Nightmare on Elm Street Part 2: Freddy\'s Revenge', }, year: 1985, country: { usa: 1, }, franchise: 'freddy_krueger',
+	id: 'a_nightmare_on_elm_street_2_1985', title: { ua: 'Жах на вулиці В\'язів - 2', en: 'A Nightmare on Elm Street Part 2: Freddy\'s Revenge', }, year: 1985, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0089686', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_2:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0_%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D1%96', },
 	cast: { robert_englund_06061947: 1,  },
 },
 {
-	id: 'a_nightmare_on_Elm_street_3_1987', title: { ua: 'Жах на вулиці В\'язів - 3', en: 'A Nightmare on Elm Street 3: Dream Warriors', }, year: 1987, country: { usa: 1, }, franchise: 'freddy_krueger',
+	id: 'a_nightmare_on_elm_street_3_1987', title: { ua: 'Жах на вулиці В\'язів - 3', en: 'A Nightmare on Elm Street 3: Dream Warriors', }, year: 1987, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0093629', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_3:_%D0%92%D0%BE%D1%97%D0%BD%D0%B8_%D1%81%D0%BD%D1%83', },
 	cast: { robert_englund_06061947: 1,  },
 },
 {
-	id: 'a_nightmare_on_Elm_street_4_1988', title: { ua: 'Жах на вулиці В\'язів - 4', en: 'A Nightmare on Elm Street 4: The Dream Master', }, year: 1988, country: { usa: 1, }, franchise: 'freddy_krueger',
+	id: 'a_nightmare_on_elm_street_4_1988', title: { ua: 'Жах на вулиці В\'язів - 4', en: 'A Nightmare on Elm Street 4: The Dream Master', }, year: 1988, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0095742', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_4:_%D0%9F%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D1%81%D0%BD%D1%83', },
 	cast: { robert_englund_06061947: 1,  },
 },
 {
-	id: 'a_nightmare_on_Elm_street_5_1989', title: { ua: 'Жах на вулиці В\'язів - 5', en: 'A Nightmare on Elm Street: The Dream Child', }, year: 1989, country: { usa: 1, }, franchise: 'freddy_krueger',
+	id: 'a_nightmare_on_elm_street_5_1989', title: { ua: 'Жах на вулиці В\'язів - 5', en: 'A Nightmare on Elm Street: The Dream Child', }, year: 1989, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0097981', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_5:_%D0%94%D0%B8%D1%82%D1%8F_%D1%81%D0%BD%D1%83', },
 	cast: { robert_englund_06061947: 1,  },
 },
 {
-	id: 'a_nightmare_on_Elm_street_6_1991', title: { ua: 'Жах на вулиці В\'язів - 6', en: 'Freddy\'s Dead: The Final Nightmare', }, year: 1991, country: { usa: 1, }, franchise: 'freddy_krueger',
+	id: 'a_nightmare_on_elm_street_6_1991', title: { ua: 'Жах на вулиці В\'язів - 6', en: 'Freddy\'s Dead: The Final Nightmare', }, year: 1991, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0101917', wiki_ua: '%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D1%96_%D0%BC%D0%B5%D1%80%D1%82%D0%B2%D0%B8%D0%B9._%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D0%BA%D0%BE%D1%88%D0%BC%D0%B0%D1%80', ashdivip: '70062', },
 	cast: { robert_englund_06061947: 1, johnny_depp_09061963: 1, },
 },
 {
-	id: 'a_nightmare_on_Elm_street_7_1994', title: { ua: 'Жах на вулиці В\'язів - 7', en: 'Wes Craven\'s New Nightmare', }, year: 1994, country: { usa: 1, }, franchise: 'freddy_krueger',
+	id: 'a_nightmare_on_elm_street_7_1994', title: { ua: 'Жах на вулиці В\'язів - 7', en: 'Wes Craven\'s New Nightmare', }, year: 1994, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0111686', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_7:_%D0%9D%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BA%D0%BE%D1%88%D0%BC%D0%B0%D1%80', },
 	cast: { robert_englund_06061947: 1, },
@@ -1864,7 +1864,7 @@ const arrFilms = [
 	internet: { imdb: '0102303', wiki_ru: '%D0%96%D0%B8%D0%B7%D0%BD%D1%8C_%E2%80%94_%D0%B4%D0%B5%D1%80%D1%8C%D0%BC%D0%BE', },
 },
 {
-	id: 'life_of_Pi_2012', title: { ua: 'Життя Пі', en: 'Life of Pi', }, year: 2012, country: { usa: 1, }, 
+	id: 'life_of_pi_2012', title: { ua: 'Життя Пі', en: 'Life of Pi', }, year: 2012, country: { usa: 1, }, 
 	genre: { adventure: 1, }, hash: { sea: 1, animal: 1, surviving: 1, travel: 1, },
 	internet: { imdb: '0454876', wiki_ua: '%D0%96%D0%B8%D1%82%D1%82%D1%8F_%D0%9F%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
@@ -2331,7 +2331,7 @@ const arrFilms = [
 	cast: { jodie_foster_19111962: 1, sean_bean_17041959: 1, },
 },
 {
-	id: 'der_name_der_Rose_1986', title: { ua: 'Ім\'я троянди', en: 'Der Name der Rose', }, year: 1986, country: { fra: 1, ita: 1, deu: 1, },
+	id: 'der_name_der_rose_1986', title: { ua: 'Ім\'я троянди', en: 'Der Name der Rose', }, year: 1986, country: { fra: 1, ita: 1, deu: 1, },
 	genre: { thriller: 1, mystic: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0091605', wiki_ru: '%D0%98%D0%BC%D1%8F_%D1%80%D0%BE%D0%B7%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 	cast: { sean_connery_25081930: 1, ron_perlman_13041950: 1, christian_slater_18081969: 1, },
@@ -2401,7 +2401,7 @@ const arrFilms = [
 	cast: { tom_selleck_29011945: 1, },
 },
 {
-	id: 'once_upon_a_time_in_Venice', title: { ua: 'Його собаче діло', en: 'Once Upon a Time in Venice', }, year: 1989, country: { usa: 1, }, 
+	id: 'once_upon_a_time_in_venice_2017', title: { ua: 'Його собаче діло', en: 'Once Upon a Time in Venice', }, year: 2017, country: { usa: 1, }, 
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '4694544', wiki_ua: '%D0%99%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%B5_%D0%B4%D1%96%D0%BB%D0%BE', },
 	cast: { bruce_willis_19031955: 1, jason_momoa_01081979: 1, },
@@ -2734,7 +2734,7 @@ const arrFilms = [
 	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, },
 },
 {
-	id: 'king_Solomon_s_mines_1985', title: { ua: 'Копальні царя Соломона', en: 'King Solomon\'s Mines', }, year: 1985, country: { usa: 1, }, rating: '5+',
+	id: 'king_solomon_s_mines_1985', title: { ua: 'Копальні царя Соломона', en: 'King Solomon\'s Mines', }, year: 1985, country: { usa: 1, }, rating: '5+',
 	genre: { adventure: 1, }, hash: { travel: 1, treasure: 1, },
 	internet: { imdb: '0089421', wiki_ru: '%D0%9A%D0%BE%D0%BF%D0%B8_%D1%86%D0%B0%D1%80%D1%8F_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1985)', ashdivip: '18724', },
 	cast: { sharon_stone_10031958: 1, },
@@ -3384,7 +3384,7 @@ const arrFilms = [
 	cast: { christian_bale_30011974: 1, igor_yasulovich_24091941: 1, },
 },
 {
-	id: 'die_Hart_2023', title: { ua: 'Міцний Гарт: Фільм', en: 'Die Hart', }, year: 2023, country: { usa: 1, }, 
+	id: 'die_hart_2023', title: { ua: 'Міцний Гарт: Фільм', en: 'Die Hart', }, year: 2023, country: { usa: 1, }, 
 	genre: { comedy: 1, }, 
 	internet: { imdb: '27116016', },
 	cast: { john_travolta_18021954: 1, nathalie_emmanuel_02031989: 1, jean_reno_30071948: 1, josh_hartnett_21071978: 1, },
@@ -3952,7 +3952,7 @@ const arrFilms = [
 	cast: { jean_paul_belmondo_09041933: 1, alain_delon_08111935: 1, vanessa_paradis_22121972: 1, },
 },
 {
-	id: 'Ocean_s_eleven_2001', title: { ua: 'Одинадцять друзів Оушена', en: 'Ocean\'s Eleven', }, year: 2001, country: { usa: 1, },
+	id: 'ocean_s_eleven_2001', title: { ua: 'Одинадцять друзів Оушена', en: 'Ocean\'s Eleven', }, year: 2001, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0240772', wiki_ua: '%D0%9E%D0%B4%D0%B8%D0%BD%D0%B0%D0%B4%D1%86%D1%8F%D1%82%D1%8C_%D0%B4%D1%80%D1%83%D0%B7%D1%96%D0%B2_%D0%9E%D1%83%D1%88%D0%B5%D0%BD%D0%B0', },
 	cast: { george_clooney_06051961: 1, brad_pitt_18121963: 1, matt_damon_08101970: 1, julia_roberts_28101967: 1, andy_garcia_12041956: 1, casey_affleck_12081975: 1, don_cheadle_29111964: 1, },
@@ -4109,7 +4109,7 @@ const arrFilms = [
 	cast: { gerard_butler_13111969: 1, morgan_freeman_01061937: 1, aaron_eckhart_12031968: 1, },
 },
 {
-	id: 'Olympus_has_fallen_2013', title: { ua: 'Падіння Олімпу', en: 'Olympus Has Fallen', }, year: 2013, country: { usa: 1, },
+	id: 'olympus_has_fallen_2013', title: { ua: 'Падіння Олімпу', en: 'Olympus Has Fallen', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '2302755', wiki_ua: '%D0%9F%D0%B0%D0%B4%D1%96%D0%BD%D0%BD%D1%8F_%D0%9E%D0%BB%D1%96%D0%BC%D0%BF%D1%83', },
 	cast: { gerard_butler_13111969: 1, morgan_freeman_01061937: 1, ashley_judd_19041968: 1, aaron_eckhart_12031968: 1, },
@@ -4177,7 +4177,7 @@ const arrFilms = [
 	internet: { imdb: '0179955', wiki_ua: '%D0%9F%D0%B0%D1%81%D1%82%D0%BA%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%BE%D1%82%D1%96%D0%B2', },
 },
 {
-	id: 'la_habitacion_de_Fermat_2007', title: { ua: 'Пастка Ферма', en: 'La habitación de Fermat', }, year: 2007, country: { esp: 1, },
+	id: 'la_habitacion_de_fermat_2007', title: { ua: 'Пастка Ферма', en: 'La habitación de Fermat', }, year: 2007, country: { esp: 1, },
 	genre: { thriller: 1, }, hash: { quest: 1, },
 	internet: { imdb: '1016301', wiki_ru: '%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8F_%D0%A4%D0%B5%D1%80%D0%BC%D0%B0', },
 },
@@ -4563,7 +4563,7 @@ const arrFilms = [
 	cast: { jon_voight_29121938: 1, danny_trejo_16051944: 1, rebecca_de_mornay_29081959: 1, },
 },
 {
-	id: 'coming_to_America_1988', title: { ua: 'Поїздка до Америки', en: 'Coming to America', }, year: 1988, country: { usa: 1, }, 
+	id: 'coming_to_america_1988', title: { ua: 'Поїздка до Америки', en: 'Coming to America', }, year: 1988, country: { usa: 1, }, 
 	genre: { comedy: 1, }, hash: { prince: 1, },
 	internet: { imdb: '0094898', wiki_ua: '%D0%9F%D0%BE%D1%97%D0%B7%D0%B4%D0%BA%D0%B0_%D0%B4%D0%BE_%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8', ashdivip: '14297', },
 	cast: { eddie_murphy_03041961: 1, samuel_l_jackson_21121948: 1, cuba_gooding_jr_02011968: 1, },
@@ -5235,7 +5235,7 @@ const arrFilms = [
 	cast: { george_clooney_06051961: 1, brad_pitt_18121963: 1, },
 },
 {
-	id: 'lone_wolf_McQuade_1983', title: { ua: 'Самотній вовк МакКвейд', en: 'Lone Wolf McQuade', }, year: 1983, country: { usa: 1, },
+	id: 'lone_wolf_mcquade_1983', title: { ua: 'Самотній вовк МакКвейд', en: 'Lone Wolf McQuade', }, year: 1983, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0085862', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%B2%D0%BE%D0%B2%D0%BA_%D0%9C%D0%B0%D0%BA%D0%BA%D1%83%D0%B5%D0%B9%D0%B4', },
 	cast: { chuck_norris_10031940: 1, },
@@ -5299,7 +5299,7 @@ const arrFilms = [
 	internet: { imdb: '1596346', wiki_ua: '%D0%A1%D0%B5%D1%80%D1%84%D0%B5%D1%80_%D0%B4%D1%83%D1%88%D1%96', },
 },
 {
-	id: 'Siberia_2018', title: { ua: 'Сибір', en: 'Siberia', }, year: 2018, country: { can: 1, usa: 1, deu: 1, },
+	id: 'siberia_2018', title: { ua: 'Сибір', en: 'Siberia', }, year: 2018, country: { can: 1, usa: 1, deu: 1, },
 	genre: { drama: 1, crime: 1, }, 
 	internet: { imdb: '6494418', wiki_ua: '%D0%A1%D0%B8%D0%B1%D1%96%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
 	cast: { keanu_reeves_02091964: 1, },
@@ -5597,7 +5597,7 @@ const arrFilms = [
 	cast: { michael_pare_09101958: 1,  },
 },
 {
-	id: 'fear_and_loathing_in_Las_Vegas_1998', title: { ua: 'Страх і огида в Лас-Вегасі', en: 'Fear and Loathing in Las Vegas', }, year: 1998, country: { usa: 1, },
+	id: 'fear_and_loathing_in_las_vegas_1998', title: { ua: 'Страх і огида в Лас-Вегасі', en: 'Fear and Loathing in Las Vegas', }, year: 1998, country: { usa: 1, },
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0120669', wiki_ua: '%D0%A1%D1%82%D1%80%D0%B0%D1%85_%D1%96_%D0%BE%D0%B3%D0%B8%D0%B4%D0%B0_%D0%B2_%D0%9B%D0%B0%D1%81-%D0%92%D0%B5%D0%B3%D0%B0%D1%81%D1%96',	},
 	cast: { johnny_depp_09061963: 1, gary_busey_29061944: 1, cameron_diaz_30081972: 1, },
@@ -5762,7 +5762,7 @@ const arrFilms = [
 	internet: { imdb: '0255798', wiki_ua: '%D0%A2%D0%B2%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2001)', },
 },
 {
-	id: 'Twin_Peaks_1990', title: { ua: 'Твін Пікс', en: 'Twin Peaks', }, year: 1990, country: { usa: 1, },
+	id: 'twin_peaks_1990', title: { ua: 'Твін Пікс', en: 'Twin Peaks', }, year: 1990, country: { usa: 1, },
 	genre: { serial: 1, mystic: 1, psycho: 1, },
 	internet: { imdb: '0098936', wiki_ua: '%D0%A2%D0%B2%D1%96%D0%BD_%D0%9F%D1%96%D0%BA%D1%81', },
 	cast: { kyle_maclachlan_22021959: 1, },
@@ -6028,7 +6028,7 @@ const arrFilms = [
 	cast: { denzel_washington_28121954: 1, tom_berenger_31051949: 1, snoop_dogg_20101971: 1, },
 },
 {
-	id: 'Ted_2012', title: { ua: 'Третій зайвий', en: 'Ted', }, year: 2012, country: { usa: 1, },
+	id: 'ted_2012', title: { ua: 'Третій зайвий', en: 'Ted', }, year: 2012, country: { usa: 1, },
 	genre: { comedy: 1, fantasy: 1, }, hash: { bear: 1, },
 	internet: { imdb: '1637725', wiki_ua: '%D0%A2%D1%80%D0%B5%D1%82%D1%96%D0%B9_%D0%B7%D0%B0%D0%B9%D0%B2%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { mark_wahlberg_05061971: 1, },
@@ -6051,7 +6051,7 @@ const arrFilms = [
 	cast: { charlie_sheen_03091965: 1, tim_curry_19041946: 1, kiefer_sutherland_21121966: 1, rebecca_de_mornay_29081959: 1, },
 },
 {
-	id: 'tri_orísky_pro_Popelku_1973', title: { ua: 'Три горішки для Попелюшки', en: 'Tri orísky pro Popelku', }, year: 1973, country: { cze: 1, deu: 1, }, rating: 5,
+	id: 'tri_orísky_pro_popelku_1973', title: { ua: 'Три горішки для Попелюшки', en: 'Tri orísky pro Popelku', }, year: 1973, country: { cze: 1, deu: 1, }, rating: 5,
 	genre: { fantasy: 1, },
 	internet: { imdb: '0070832', wiki_ua: '%D0%A2%D1%80%D0%B8_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BA%D0%B8_%D0%B4%D0%BB%D1%8F_%D0%9F%D0%BE%D0%BF%D0%B5%D0%BB%D1%8E%D1%88%D0%BA%D0%B8',	},
 },
@@ -6068,7 +6068,7 @@ const arrFilms = [
 	cast: { rosamund_pike_27011979: 1, ana_de_armas_30041988: 1, },
 },
 {
-	id: 'Ocean_s_thirteen_2007', title: { ua: 'Тринадцять друзів Оушена', en: 'Ocean\'s Thirteen', }, year: 2007, country: { usa: 1, },
+	id: 'ocean_s_thirteen_2007', title: { ua: 'Тринадцять друзів Оушена', en: 'Ocean\'s Thirteen', }, year: 2007, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0496806', wiki_ua: '%D0%A2%D1%80%D0%B8%D0%BD%D0%B0%D0%B4%D1%86%D1%8F%D1%82%D1%8C_%D0%B4%D1%80%D1%83%D0%B7%D1%96%D0%B2_%D0%9E%D1%83%D1%88%D0%B5%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { george_clooney_06051961: 1, brad_pitt_18121963: 1, matt_damon_08101970: 1, andy_garcia_12041956: 1, al_pacino_25041940: 1, casey_affleck_12081975: 1, don_cheadle_29111964: 1, },
@@ -6089,6 +6089,12 @@ const arrFilms = [
 	id: 'vlci_bouda_1987', title: { ua: 'Турбаза Вовча', en: 'Vlci bouda', }, year: 1987, country: { csk: 1, }, rating: 5,
 	genre: { horror: 1, thriller: 1, fantasy: 1, }, hash: { winter: 1, mountains: 1, aliens: 1, },
 	internet: { imdb: '0090271', wiki_ua: '%D0%A2%D1%83%D1%80%D0%B1%D0%B0%D0%B7%D0%B0_%C2%AB%D0%92%D0%BE%D0%B2%D1%87%D0%B0%C2%BB', },
+},
+{
+	id: 'the_tourist_2010', title: { ua: 'Турист', en: 'The Tourist', }, year: 2010, country: { usa: 1, gbr: 1, fra: 1, ita: 1, },
+	genre: { action: 1, }, 
+	internet: { imdb: '1243957', wiki_ua: '%D0%A2%D1%83%D1%80%D0%B8%D1%81%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { johnny_depp_09061963: 1, angelina_jolie_04061975: 1, timothy_dalton_21031946: 1, igor_zhizhikin_08101965: 1, },
 },
 {
 	id: 'tootsie_1982', title: { ua: 'Тутсі', en: 'Tootsie', }, year: 1982, country: { usa: 1, },
@@ -6467,7 +6473,7 @@ const arrFilms = [
 	cast: { kevin_costner_18011955: 1, demi_moore_11111962: 1, },
 },
 {
-	id: 'who_framed_Roger_rabbit_1988', title: { ua: 'Хто підставив кролика Роджера', en: 'Who Framed Roger Rabbit', }, year: 1988, country: { usa: 1, },
+	id: 'who_framed_roger_rabbit_1988', title: { ua: 'Хто підставив кролика Роджера', en: 'Who Framed Roger Rabbit', }, year: 1988, country: { usa: 1, },
 	genre: { comedy: 1, fantasy: 1, },
 	internet: { imdb: '0096438', wiki_ua: '%D0%A5%D1%82%D0%BE_%D0%BF%D1%96%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%B2_%D0%BA%D1%80%D0%BE%D0%BB%D0%B8%D0%BA%D0%B0_%D0%A0%D0%BE%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%3F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { christopher_lloyd_22101938: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },

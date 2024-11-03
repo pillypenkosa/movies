@@ -41,7 +41,6 @@ const dependences = [
 
 
 	{ cmp: 'Spoyler' 			, },
-	//{ cmp: 'Title-Spoyler' 		, },
 	{ cmp: 'Posters-List' 		, },
 	{ cmp: 'Each-People' 		, },
 	{ cmp: 'Movie' 				, },

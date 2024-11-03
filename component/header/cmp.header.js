@@ -52,8 +52,9 @@ class ComponentHeader {
 					<img src="img/pic/menu.png" alt="menu">
 				</div>
 			</div>
-			<div class="nav-menu ${ clsUnvisible }">${ Component( 'Menu' ) }</div>
+			<div class="nav-menu"></div>
 		`;
+			//<div class="nav-menu ${ clsUnvisible }">${ Component( 'Menu' ) }</div>
 
 		return { tagParam, html };
 	}
@@ -67,10 +68,36 @@ class ComponentHeader {
 		//console.log( 'data', data );
 
 
-		document.querySelector( '.nav-menu' ).classList.toggle( 'unvisible' );
+		//document.querySelector( '.nav-menu' ).classList.toggle( 'unvisible' );
 
 
+		let bodyMenu = document.querySelector( 'cmp-header .nav-menu' );
+
+		if ( bodyMenu.innerHTML ) 
+			this.delHtmlMenu();
+
+		else 
+			this.addHtmlMenu();
 	}
+
+
+
+
+
+
+	static addHtmlMenu() {
+		document.querySelector( 'cmp-header .nav-menu' ).innerHTML = Component( 'Menu' );
+	}
+
+	static delHtmlMenu() {
+		document.querySelector( 'cmp-header .nav-menu' ).innerHTML = '';
+	}
+
+
+
+
+
+
 
 
 

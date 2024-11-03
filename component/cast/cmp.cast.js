@@ -144,8 +144,9 @@ class ComponentCast {
 		//console.log( 'data: ', data ); 
 
 
-
 		if ( data ) {
+
+			ComponentHeader.delHtmlMenu();
 
 			Router.urlGET = {};
 
@@ -154,20 +155,11 @@ class ComponentCast {
 				{ k: 'uid' 	, v: data 			, },
 			]);
 		}
-
-
-
-
-
-
-
-
-
-
- 
 	} 
  
  
+
+
  
  
  

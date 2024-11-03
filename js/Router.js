@@ -161,6 +161,7 @@ class Router {
 
 
 		document.getElementById( 'content' ).innerHTML = html;
+
 		this.lightActive();
 	}
 
@@ -353,6 +354,10 @@ class Router {
 
 		// загрузка контентк
 		this.loadContent();
+
+
+
+		window.scrollTo( 0, 0 );
 	}
 
 

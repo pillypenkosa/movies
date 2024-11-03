@@ -16,6 +16,12 @@ class ComponentMenuFilterMovie {
 		this.args = objData.args ? objData.args : {}; 
  
  
+		//console.log( 'fooName: ', fooName );
+		//console.log( 'objData: ', objData );
+		//console.log( 'Router.urlGET: ', Router.urlGET );
+
+
+
  
 		let tagParam = { 
 			//'class' 		: '', 
@@ -59,6 +65,7 @@ class ComponentMenuFilterMovie {
 
 
  		let optionGenre = '<option value="all">- Жанр ---</option>';
+ 		let colorGenre = '';
  		arrGenres.forEach( k => {
 
  			let attrSelected = '';
@@ -66,8 +73,10 @@ class ComponentMenuFilterMovie {
 	 			if ( Router.urlGET.win == 'movies' ) {
 	 				if ( Router.urlGET.genre ) {
 	 					if ( k.id ) {
-				 			if ( k.id == Router.urlGET.genre ) 
+				 			if ( k.id == Router.urlGET.genre ) {
 				 				attrSelected = 'selected';
+				 				colorGenre = 'color';
+				 			}
 	 					}
 	 				}
 	 			}
@@ -81,6 +90,7 @@ class ComponentMenuFilterMovie {
 
 
  		let optionCountry = '<option value="all">- Країна ---</option>';
+ 		let colorCountry = '';
  		arrCountry.forEach( k => {
  			
  			let attrSelected = '';
@@ -88,8 +98,13 @@ class ComponentMenuFilterMovie {
 	 			if ( Router.urlGET.win == 'movies' ) {
 	 				if ( Router.urlGET.country ) {
 	 					if ( k.id ) {
-				 			if ( k.id == Router.urlGET.country )
+				 			if ( k.id == Router.urlGET.country ) {
 				 				attrSelected = 'selected';
+				 				colorCountry = 'color';
+
+				 				//alert();
+
+				 			}
 	 					}
 	 				}
 	 			}
@@ -102,6 +117,7 @@ class ComponentMenuFilterMovie {
  				}
  			}
  		});
+
 
 
 
@@ -128,6 +144,7 @@ class ComponentMenuFilterMovie {
 
 
  		let optionHash = '<option value="all">- Хештеги ---</option>';
+ 		let colorHash = '';
  		arrHashTags.forEach( k => {
 
  			let attrSelected = '';
@@ -135,8 +152,10 @@ class ComponentMenuFilterMovie {
 	 		if ( Router.urlGET ) {
 	 			if ( Router.urlGET.win == 'movies' ) {
 	 				if ( Router.urlGET.hash ) {
-			 			if ( k.id && k.id == Router.urlGET.hash ) 
+			 			if ( k.id && k.id == Router.urlGET.hash ) {
 			 				attrSelected = 'selected';
+				 			colorHash = 'color';
+			 			}
 			 		}
 			 	}
 			}
@@ -225,16 +244,16 @@ class ComponentMenuFilterMovie {
 	 				<select data-id="year" onchange="${ this.name }.changeFilter( this )">${ optionYear }</select>
 	 			</div>
 	 			<div>
-	 				<select data-id="genre" onchange="${ this.name }.changeFilter( this )">${ optionGenre }</select>
+	 				<select class="${ colorGenre }" data-id="genre" onchange="${ this.name }.changeFilter( this )">${ optionGenre }</select>
 	 			</div>
 	 			<div>
-	 				<select data-id="country" onchange="${ this.name }.changeFilter( this )">${ optionCountry }</select>
+	 				<select class="${ colorCountry }" data-id="country" onchange="${ this.name }.changeFilter( this )">${ optionCountry }</select>
 	 			</div>
 	 			<div>
 	 				<select data-id="studio" onchange="${ this.name }.changeFilter( this )">${ optionStudio }</select>
 	 			</div>
 	 			<div>
-	 				<select data-id="hash" onchange="${ this.name }.changeFilter( this )">${ optionHash }</select>
+	 				<select class="${ colorHash }" data-id="hash" onchange="${ this.name }.changeFilter( this )">${ optionHash }</select>
 	 			</div>
 	 			<div>
 	 				<select data-id="set" onchange="${ this.name }.changeFilter( this )">${ optionSet }</select>

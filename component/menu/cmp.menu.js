@@ -119,7 +119,15 @@ class ComponentMenu {
 
 		//console.log( parentID );
 
-		this.resetFilter();
+
+
+
+		document.querySelectorAll( 'select' ).forEach( k => {
+			k.value = 'all';
+		});
+
+		// скидання усіх GET-параметрів
+		Router.urlGET = {}; 
 
 		Router.link([
 			{ k: 'win', v: parentID, },
@@ -130,14 +138,9 @@ class ComponentMenu {
 
 
 	// скидання усіх select-option
-	static resetFilter() {
+	static resetFilter222() {
 	
-		document.querySelectorAll( 'select' ).forEach( k => {
-			k.value = 'all';
-		});
 
-		// скидання усіх GET-параметрів
-		Router.urlGET = {}; 
 	}
 
 
