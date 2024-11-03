@@ -2638,6 +2638,12 @@ const arrFilms = [
 	cast: { denzel_washington_28121954: 1, gary_oldman_21031958: 1, },
 },
 {
+	id: 'bookworm_2024', title: { ua: 'Книжковий хробак', en: 'Bookworm', }, year: 2024, country: { nzl: 1, },
+	genre: { drama: 1, adventure: 1, }, hash: { children: 1, mountains: 1, },
+	internet: { imdb: '23472210', },
+	cast: { elijah_wood_28011981: 1, },
+},
+{
 	id: 'cobra_1986', title: { ua: 'Кобра', en: 'Cobra', }, year: 1986, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0090859', wiki_ua: '%D0%9A%D0%BE%D0%B1%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
