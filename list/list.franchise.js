@@ -35,6 +35,7 @@ const arrFilmFranchise = [
 { id: 'police_academy' 			, title: 'Поліцейська академія' 			, },
 { id: 'beverly_hills_cop' 		, title: 'Поліцейський із Беверлі-Гіллз' 	, },
 { id: 'problem_child' 			, title: 'Проблемна дитина' 				, },
+{ id: 'psycho' 					, title: 'Психо' 							, },
 { id: 'rambo' 					, title: 'Рембо' 							, },
 { id: 'robocop' 				, title: 'Робокоп' 							, },
 { id: 'rocky' 					, title: 'Роккі' 							, },
