@@ -53,6 +53,16 @@ const arrFilms = [
 
 
 
+
+
+
+
+
+{
+	id: '2_22_2017', title: { ua: '2:22', en: '2:22', }, year: 2017, country: { usa: 1, aus: 1, },
+	genre: { sci_fi: 1, drama: 1, }, hash: { plane: 1, },
+	internet: { imdb: '1131724', wiki_ua: '2:22', ashdivip: '149217', },
+},
 {
 	id: '2_guns_2013', title: { ua: '2 стволи', en: '2 Guns', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
@@ -2734,13 +2744,13 @@ const arrFilms = [
 },
 {
 	id: 'flatliners_1990', title: { ua: 'Коматозники', en: 'Flatliners', }, year: 1990, country: { usa: 1, },
-	genre: { sci_fi: 1, mystic: 1, }, hash: { psycho: 1, },
+	genre: { sci_fi: 1, mystic: 1, }, hash: { psycho: 1, coma: 1, },
 	internet: { imdb: '0099582', wiki_ua: '%D0%9A%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%B8', },
 	cast: { julia_roberts_28101967: 1, kevin_bacon_08071958: 1, william_baldwin_21021963: 1, kiefer_sutherland_21121966: 1, },
 },
 {
 	id: 'flatliners_2017', title: { ua: 'Коматозники', en: 'Flatliners', }, year: 2017, country: { usa: 1, }, rating: 5,
-	genre: { sci_fi: 1, mystic: 1, }, hash: { psycho: 1, young: 1, },
+	genre: { sci_fi: 1, mystic: 1, }, hash: { psycho: 1, young: 1, coma: 1, },
 	internet: { imdb: '2039338', wiki_ua: '%D0%9A%D0%BE%D0%BC%D0%B0%D1%82%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', ashdivip: '14393', },
 	cast: { kiefer_sutherland_21121966: 1, },
 },
@@ -3714,6 +3724,12 @@ const arrFilms = [
 	genre: { comedy: 1, }, 
 	internet: { imdb: '0163187', wiki_ua: '%D0%9D%D0%B0%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D0%B0-%D0%B2%D1%82%D1%96%D0%BA%D0%B0%D1%87%D0%BA%D0%B0', },
 	cast: { richard_gere_31081949: 1, julia_roberts_28101967: 1, },
+},
+{
+	id: 'awake_2007', title: { ua: 'Наркоз', en: 'Awake', }, year: 2007, country: { usa: 1, },
+	genre: { mystic: 1, thriller: 1, crime: 1, }, hash: { coma: 1, },
+	internet: { imdb: '0211933', wiki_ua: '%D0%9D%D0%B0%D1%80%D0%BA%D0%BE%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jessica_alba_28041981: 1, },
 },
 {
 	id: 'the_mule_2018', title: { ua: 'Наркокур\'єр', en: 'The Mule', }, year: 2018, country: { usa: 1, },
@@ -5575,7 +5591,7 @@ const arrFilms = [
 	id: 'salt_2010', title: { ua: 'Солт', en: 'Salt', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '0944835', wiki_ua: '%D0%A1%D0%BE%D0%BB%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { angelina_jolie_04061975: 1, },
+	cast: { angelina_jolie_04061975: 1, }, composer: { james_newton_howard_09061951: 1, },
 },
 {
 	id: 'sleepy_hollow_1999', title: { ua: 'Сонна Лощина', en: 'Sleepy Hollow', }, year: 1999, country: { usa: 1, deu: 1, },
@@ -6635,7 +6651,7 @@ const arrFilms = [
 	cast: { angelina_jolie_04061975: 1, },
 },
 {
-	id: 'in_time_2011', title: { ua: 'Чaс', en: 'In Time', }, year: 2011, country: { usa: 1, }, rating: 5,
+	id: 'in_time_2011', title: { ua: 'Час', en: 'In Time', }, year: 2011, country: { usa: 1, }, rating: 5,
 	genre: { thriller: 1, sci_fi: 1, crime: 1, }, hash: { utopia: 1, },
 	internet: { imdb: '1637688', wiki_ua: '%D0%A7%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', ashdivip: '6544', },
 	cast: { justin_timberlake_31011981: 1, },
