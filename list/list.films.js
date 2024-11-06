@@ -402,7 +402,7 @@ const arrFilms = [
 	studio: { mgm: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0155267', wiki_ua: '%D0%90%D1%84%D0%B5%D1%80%D0%B0_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81%D0%B0_%D0%9A%D1%80%D0%B0%D1%83%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', ashdivip: '16225', },
-	cast: { pierce_brosnan_16051953: 1, }, composer: { Bill_Conti_13041942: 1, },
+	cast: { pierce_brosnan_16051953: 1, }, composer: { bill_conti_13041942: 1, },
 },
 {
 	id: 'richie_rich_1994', title: { ua: 'Багатенький Річі', en: 'Richie Rich', }, year: 1994, country: { usa: 1, },
@@ -2062,6 +2062,12 @@ const arrFilms = [
 	cast: { aaron_eckhart_12031968: 1, },
 },
 {
+	id: 'detained_2024', title: { ua: 'Затримана', en: 'Detained', }, year: 2024, country: { bul: 1, },
+	genre: { thriller: 1, }, hash: { psycho: 1, police: 1, },
+	internet: { imdb: '8178762', },
+	cast: { moon_bloodgood_20081975: 1, },
+},
+{
 	id: 'zathura_2005', title: { ua: 'Затура', en: 'Zathura: A Space Adventure', }, year: 2005, country: { usa: 1, }, rating: 5,
 	genre: { fantasy: 1, adventure: 1, }, 
 	internet: { imdb: '0406375', wiki_ua: '%D0%97%D0%B0%D1%82%D1%83%D1%80%D0%B0:_%D0%9A%D0%BE%D1%81%D0%BC%D1%96%D1%87%D0%BD%D0%B0_%D0%BF%D1%80%D0%B8%D0%B3%D0%BE%D0%B4%D0%B0', ashdivip: '16057', },
@@ -2441,7 +2447,7 @@ const arrFilms = [
 	cast: { jackie_chan_07041954: 1, pierce_brosnan_16051953: 1, },
 },
 {
-	id: 'interstellar_2014', title: { ua: 'Інтерстеллар', en: 'Interstellar ', }, year: 2014, country: { usa: 1, gbr: 1, },
+	id: 'interstellar_2014', title: { ua: 'Інтерстеллар', en: 'Interstellar', }, year: 2014, country: { usa: 1, gbr: 1, },
 	genre: { sci_fi: 1, }, hash: { space: 1, time: 1, },
 	internet: { imdb: '0816692', wiki_ua: '%D0%86%D0%BD%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B5%D0%BB%D0%BB%D0%B0%D1%80', ashdivip: '2', moviestape: 'Interstellar', },
 	cast: { matthew_mcconaughey_04111969: 1, matt_damon_08101970: 1, casey_affleck_12081975: 1, },
@@ -5233,19 +5239,19 @@ const arrFilms = [
 	studio: { netflix: 1, },
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0075148', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96', },
-	cast: { sylvester_stallone_06071946: 1, }, composer: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, }, composer: { bill_conti_13041942: 1, },
 },
 {
 	id: 'rocky_2_1979', title: { ua: 'Роккі - 2', en: 'Rocky II', }, year: 1979, country: { usa: 1, }, franchise: 'rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0079817', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_2', },
-	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { bill_conti_13041942: 1, },
 },
 {
 	id: 'rocky_3_1982', title: { ua: 'Роккі - 3', en: 'Rocky III', }, year: 1982, country: { usa: 1, }, franchise: 'rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0084602', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_3', },
-	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { bill_conti_13041942: 1, },
 },
 {
 	id: 'rocky_4_1985', title: { ua: 'Роккі - 4', en: 'Роккі IV', }, year: 1985, country: { usa: 1, }, franchise: 'rocky',
@@ -5258,14 +5264,14 @@ const arrFilms = [
 	id: 'rocky_5_1990', title: { ua: 'Роккі - 5', en: 'Роккі V', }, year: 1990, country: { usa: 1, }, franchise: 'rocky',
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0100507', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_5', },
-	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { bill_conti_13041942: 1, },
 },
 {
 	id: 'rocky_6_2006', title: { ua: 'Роккі Бальбоа', en: 'Rocky Balboa', }, year: 2006, country: { usa: 1, }, franchise: 'rocky',
 	studio: { mgm: 1, columbia: 1, _20_century: 1, netflix: 1, }, 
 	genre: { drama: 1, }, hash: { fight: 1, sport: 1, box: 1, },
 	internet: { imdb: '0479143', wiki_ua: '%D0%A0%D0%BE%D0%BA%D0%BA%D1%96_%D0%91%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { sylvester_stallone_06071946: 1, mike_tyson_30061966: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { Bill_Conti_13041942: 1, },
+	cast: { sylvester_stallone_06071946: 1, mike_tyson_30061966: 1, }, director: { sylvester_stallone_06071946: 1, },  composer: { bill_conti_13041942: 1, },
 },
 {
 	id: 'role_play_2024', title: { ua: 'Рольові ігри', en: 'Role Play', }, year: 2024, country: { usa: 1, },
@@ -5952,7 +5958,7 @@ const arrFilms = [
 	id: 'terminator_4_2009', title: { ua: 'Термінатор - 4', en: 'Terminator Salvation', }, year: 2009, country: { usa: 1, }, rating: 5, franchise: 'terminator',
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, apocalypse: 1, techno: 1, robot: 1, battle: 1, },
 	internet: { imdb: '6450804', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%A1%D0%BF%D0%B0%D1%81%D1%96%D0%BD%D0%BD%D1%8F_%D0%BF%D1%80%D0%B8%D0%B9%D0%B4%D0%B5', ashdivip: '3576', moviestape: 'Terminator.Salvation', },
-	cast: { christian_bale_30011974: 1, sam_worthington_02081976: 1, anthon_yelchin_11031989: 1, },
+	cast: { christian_bale_30011974: 1, sam_worthington_02081976: 1, anthon_yelchin_11031989: 1, moon_bloodgood_20081975: 1, },
 },
 {
 	id: 'terminator_5_2015', title: { ua: 'Термінатор - 5', en: 'Terminator Genisys', }, year: 2015, country: { usa: 1, }, rating: 5, franchise: 'terminator',
@@ -6205,7 +6211,7 @@ const arrFilms = [
 	studio: { carolco: 1, netflix: 1, }, 
 	genre: { drama: 1, crime: 1, }, hash: { prison: 1, },
 	internet: { imdb: '0097770', wiki_ua: '%D0%A2%D1%8E%D1%80%D1%8F%D0%B3%D0%B0', },
-	cast: { sylvester_stallone_06071946: 1, donald_sutherland_17071935: 1, tom_sizemore_29111961: 1, danny_trejo_16051944: 1, }, composer: { Bill_Conti_13041942: 1, }, 
+	cast: { sylvester_stallone_06071946: 1, donald_sutherland_17071935: 1, tom_sizemore_29111961: 1, danny_trejo_16051944: 1, }, composer: { bill_conti_13041942: 1, }, 
 },
 {
 	id: 'into_the_white_2012', title: { ua: 'У білому полоні', en: 'Into the White', }, year: 2012, country: { nor: 1, swe: 1, }, 
