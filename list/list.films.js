@@ -5,8 +5,10 @@
 
 const arrGenres = [
 
+
+
+	{ id: '_3d' 		, title: '3D-анімація' 	, },
 	{ id: 'sci_fi' 		, title: 'Sci-Fi' 		, },
-	{ id: 'animation' 	, title: 'Анімація' 	, },
 	{ id: 'biography' 	, title: 'Біографія' 	, },
 	{ id: 'action' 		, title: 'Бойовик' 		, },
 	{ id: 'western' 	, title: 'Вестерн' 		, },
@@ -122,7 +124,7 @@ const arrFilms = [
 	studio: { _20_century: 1, warner: 1, netflix: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '2006295', wiki_ua: '33_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { antonio_banderas_10081960: 1, juliette_binoche_09031964: 1, },
+	cast: { antonio_banderas_10081960: 1, juliette_binoche_09031964: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: '57_seconds_2023', title: { ua: '57 секунд', en: '57 Seconds', }, year: 2023, country: { usa: 1, },
@@ -501,7 +503,7 @@ const arrFilms = [
 },
 {
 	id: 'beowulf_2007', title: { ua: 'Беовульф', en: 'Beowulf', }, year: 2007, country: { usa: 1, },
-	genre: { animation: 1, action: 1, adventure: 1, },
+	genre: { _3d: 1, action: 1, adventure: 1, },
 	internet: { imdb: '0442933', wiki_ua: '%D0%91%D0%B5%D0%BE%D0%B2%D1%83%D0%BB%D1%8C%D1%84', },
 	cast: { angelina_jolie_04061975: 1, anthony_hopkins_31121937: 1, john_malkovich_09121953: 1, crispin_glover_20041964: 1, ray_winstone_19021957: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
@@ -840,7 +842,7 @@ const arrFilms = [
 	id: 'ransom_1996', title: { ua: 'Викуп', en: 'Ransom', }, year: 1996, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, 
 	internet: { imdb: '0117438', wiki_ua: '%D0%92%D0%B8%D0%BA%D1%83%D0%BF_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
-	cast: { mel_gibson_03011956: 1, rene_russo_17021954: 1, }, director: { ron_howard_31031954: 1, },
+	cast: { mel_gibson_03011956: 1, rene_russo_17021954: 1, }, director: { ron_howard_31031954: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'den_skyldige_2018', title: { ua: 'Винний', en: 'Den skyldige', }, year: 2018, country: { dnk: 1, }, rating: 5,
@@ -904,7 +906,13 @@ const arrFilms = [
 	id: 'willow_1988', title: { ua: 'Віллоу', en: 'Willow', }, year: 1988, country: { gbr: 1, usa: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0096446', wiki_ua: '%D0%92%D1%96%D0%BB%D0%BB%D0%BE%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { val_kilmer_31121959: 1, kevin_pollak_30101957: 1, }, director: { ron_howard_31031954: 1, },
+	cast: { val_kilmer_31121959: 1, kevin_pollak_30101957: 1, }, director: { ron_howard_31031954: 1, }, composer: { james_horner_14081953: 1, },
+},
+{
+	id: 'virus_1999', title: { ua: 'Вірус', en: 'Virus', }, year: 1999, country: { usa: 1, gbr: 1, fra: 1, deu: 1, jpn: 1, }, 
+	genre: { sci_fi: 1, action: 1, horror: 1, }, 
+	internet: { imdb: '0120458', wiki_ua: '%D0%92%D1%96%D1%80%D1%83%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', },
+	cast: { jamie_lee_curtis_22111958: 1, william_baldwin_21021963: 1, donald_sutherland_17071935: 1, }, 
 },
 {
 	id: 'the_wolf_of_wall_street_2013', title: { ua: 'Вовк з Уолл-стріт', en: 'The Wolf of Wall Street', }, year: 2013, country: { usa: 1, },
@@ -1141,7 +1149,7 @@ const arrFilms = [
 	id: 'gladiator_2000', title: { ua: 'Гладіатор', en: 'Gladiator', }, year: 2000, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { ancient: 1, },
 	internet: { imdb: '0172495', wiki_ua: '%D0%93%D0%BB%D0%B0%D0%B4%D1%96%D0%B0%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { russell_crowe_07041964: 1, connie_nielsen_03071965: 1, }, director: { ridley_scott_30111937: 1, },
+	cast: { russell_crowe_07041964: 1, connie_nielsen_03071965: 1, }, director: { ridley_scott_30111937: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'gueules_noires_2023', title: { ua: 'Глибока темрява', en: 'Gueules noires', }, year: 2023, country: { fra: 1, },
@@ -1183,6 +1191,12 @@ const arrFilms = [
 	genre: { comedy: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0110622', wiki_ua: '%D0%93%D0%BE%D0%BB%D0%B8%D0%B9_%D0%BF%D1%96%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82_33%E2%85%93:_%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%B0', },
 	cast: { leslie_nielsen_11021926: 1, anna_nicole_smith_28111967: 1, },
+},
+{
+	id: 'rush_2013', title: { ua: 'Гонка', en: 'Rush', }, year: 2013, country: { usa: 1, gbr: 1, },
+	genre: { drama: 1, }, hash: { race: 1, sport: 1, cars: 1, },
+	internet: { imdb: '1979320', wiki_ua: '%D0%93%D0%BE%D0%BD%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2013)', },
+	cast: { chris_hemsworth_11081983: 1, natalie_dormer_11021982: 1, }, director: { ron_howard_31031954: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'driven_2001', title: { ua: 'Гонщик', en: 'Driven', }, year: 2001, country: { usa: 1, can: 1, aus: 1, }, rating: 5,
@@ -1257,7 +1271,7 @@ const arrFilms = [
 	id: 'game_of_thrones_2011', title: { ua: 'Гра престолів', en: 'Game of Thrones', }, year: 2011, country: { usa: 1, },
 	genre: { serial: 1, drama: 1, adventure: 1, }, hash: { middleAges: 1, battle: 1, },
 	internet: { imdb: '0944947', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB%D1%96%D0%B2', },
-	cast: { emilia_clarke_23101986: 1, lena_headey_03101973: 1, peter_dinklage_11061969: 1, sophie_turner_21021996: 1, jason_momoa_01081979: 1, sean_bean_17041959: 1, natalie_dormer_11021982: 1, rose_leslie_09021987: 1, },
+	cast: { emilia_clarke_23101986: 1, lena_headey_03101973: 1, peter_dinklage_11061969: 1, sophie_turner_21021996: 1, jason_momoa_01081979: 1, sean_bean_17041959: 1, natalie_dormer_11021982: 1, rose_leslie_09021987: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'game_of_death_1978', title: { ua: 'Гра смерті', en: 'Game of Death', }, year: 1978, country: { hkg: 1, },
@@ -1531,7 +1545,7 @@ const arrFilms = [
 	id: 'jumanji_1995', title: { ua: 'Джуманджи', en: 'Jumanji', }, year: 1995, country: { usa: 1, }, rating: 5,
 	genre: { fantasy: 1, adventure: 1, comedy: 1, },
 	internet: { imdb: '0113497', wiki_ua: '%D0%94%D0%B6%D1%83%D0%BC%D0%B0%D0%BD%D0%B4%D0%B6%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', },
-	cast: { robin_williams_21071951: 1, bonnie_hunt_22091961: 1, },
+	cast: { robin_williams_21071951: 1, bonnie_hunt_22091961: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'jumanji_2017', title: { ua: 'Джуманджи', en: 'Jumanji: Welcome to the Jungle', }, year: 2017, country: { usa: 1, }, rating: 5,
@@ -1772,7 +1786,7 @@ const arrFilms = [
 	id: 'dune_2021', title: { ua: 'Дюна', en: 'Dune', }, year: 2021, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { battle: 1, },
 	internet: { imdb: '1160419', wiki_ua: '%D0%94%D1%8E%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2021)', },
-	cast: { jason_momoa_01081979: 1, },
+	cast: { jason_momoa_01081979: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'edward_scissorhands_1990', title: { ua: 'Едвард Руки-ножиці', en: 'Edward Scissorhands', }, year: 1990, country: { usa: 1, },
@@ -2034,7 +2048,7 @@ const arrFilms = [
 	id: 'iron_man_2008', title: { ua: 'Залізна людина', en: 'Iron Man', }, year: 2008, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '0371746', wiki_ua: '%D0%97%D0%B0%D0%BB%D1%96%D0%B7%D0%BD%D0%B0_%D0%BB%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { robert_downey_jr_01041965: 1, gwyneth_paltrow_27091972: 1, samuel_l_jackson_21121948: 1, },
+	cast: { robert_downey_jr_01041965: 1, gwyneth_paltrow_27091972: 1, samuel_l_jackson_21121948: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'chill_factor_1999', title: { ua: 'Заморожений жах', en: 'Chill Factor', }, year: 1999, country: { usa: 1, },
@@ -2331,13 +2345,13 @@ const arrFilms = [
 	id: 'patriot_games_1992', title: { ua: 'Ігри патріотів', en: 'Patriot Games', }, year: 1992, country: { usa: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '0105112', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B8_%D0%BF%D0%B0%D1%82%D1%80%D1%96%D0%BE%D1%82%D1%96%D0%B2', },
-	cast: { harrison_ford_13071942: 1, sean_bean_17041959: 1, samuel_l_jackson_21121948: 1, },
+	cast: { harrison_ford_13071942: 1, sean_bean_17041959: 1, samuel_l_jackson_21121948: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'a_beautiful_mind_2001', title: { ua: 'Ігри розуму', en: 'A Beautiful Mind', }, year: 2001, country: { usa: 1, },
 	genre: { drama: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '0268978', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B8_%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%83', },
-	cast: { russell_crowe_07041964: 1, ed_harris_28111950: 1, jennifer_connelly_12121970: 1, christopher_plummer_13121929: 1, }, director: { ron_howard_31031954: 1, },
+	cast: { russell_crowe_07041964: 1, ed_harris_28111950: 1, jennifer_connelly_12121970: 1, christopher_plummer_13121929: 1, }, director: { ron_howard_31031954: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'a_perfect_getaway_2009', title: { ua: 'Ідеальна втеча', en: 'A Perfect Getaway', }, year: 2009, country: { usa: 1, },
@@ -2408,7 +2422,7 @@ const arrFilms = [
 	id: 'der_name_der_rose_1986', title: { ua: 'Ім\'я троянди', en: 'Der Name der Rose', }, year: 1986, country: { fra: 1, ita: 1, deu: 1, },
 	genre: { thriller: 1, mystic: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0091605', wiki_ru: '%D0%98%D0%BC%D1%8F_%D1%80%D0%BE%D0%B7%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
-	cast: { sean_connery_25081930: 1, ron_perlman_13041950: 1, christian_slater_18081969: 1, },
+	cast: { sean_connery_25081930: 1, ron_perlman_13041950: 1, christian_slater_18081969: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'indiana_johns_1981', title: { ua: 'Індіана Джонс', en: 'Raiders of the Lost Ark', }, year: 1981, country: { usa: 1, }, franchise: 'indiana_johns',
@@ -2432,7 +2446,7 @@ const arrFilms = [
 	id: 'indiana_johns_4_2008', title: { ua: 'Індіана Джонс - 4', en: 'Indiana Jones and the Kingdom of the Crystal Skull', }, year: 2008, country: { usa: 1, }, franchise: 'indiana_johns',
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0367882', wiki_ua: '%D0%86%D0%BD%D0%B4%D1%96%D0%B0%D0%BD%D0%B0_%D0%94%D0%B6%D0%BE%D0%BD%D1%81_%D1%96_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D0%BA%D1%80%D0%B8%D1%88%D1%82%D0%B0%D0%BB%D0%B5%D0%B2%D0%BE%D0%B3%D0%BE_%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0', },
-	cast: { harrison_ford_13071942: 1, shia_labeouf_11061986: 1, cate_blanchett_14051969: 1, }, director: { steven_spielberg_18121946: 1, },
+	cast: { harrison_ford_13071942: 1, shia_labeouf_11061986: 1, cate_blanchett_14051969: 1, ray_winstone_19021957: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
 	id: 'indiana_johns_5_2023', title: { ua: 'Індіана Джонс - 5', en: ' Indiana Jones and the Dial of Destiny', }, year: 2023, country: { usa: 1, }, franchise: 'indiana_johns',
@@ -2461,7 +2475,19 @@ const arrFilms = [
 	id: 'interstellar_2014', title: { ua: 'Інтерстеллар', en: 'Interstellar', }, year: 2014, country: { usa: 1, gbr: 1, },
 	genre: { sci_fi: 1, }, hash: { space: 1, time: 1, },
 	internet: { imdb: '0816692', wiki_ua: '%D0%86%D0%BD%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B5%D0%BB%D0%BB%D0%B0%D1%80', ashdivip: '2', moviestape: 'Interstellar', },
-	cast: { matthew_mcconaughey_04111969: 1, matt_damon_08101970: 1, casey_affleck_12081975: 1, },
+	cast: { matthew_mcconaughey_04111969: 1, matt_damon_08101970: 1, casey_affleck_12081975: 1, }, composer: { hans_zimmer_12091957: 1, },
+},
+{
+	id: 'desert_heat_1999', title: { ua: 'Інферно', en: 'Desert Heat', }, year: 1999, country: { usa: 1, fra: 1, },
+	genre: { action: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0139151', wiki_ua: '%D0%86%D0%BD%D1%84%D0%B5%D1%80%D0%BD%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1999)', },
+	cast: { jean_claude_van_damme_18101960: 1, danny_trejo_16051944: 1, }, composer: { bill_conti_13041942: 1, },
+},
+{
+	id: 'inferno_2016', title: { ua: 'Інферно', en: 'Inferno', }, year: 2016, country: { usa: 1, hun: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '3062096', wiki_ua: '%D0%86%D0%BD%D1%84%D0%B5%D1%80%D0%BD%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
+	cast: { tom_hanks_09071956: 1,  }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'another_end_2024', title: { ua: 'Інший фінал', en: 'Another End', }, year: 2024, country: { ita: 1, },
@@ -2525,7 +2551,7 @@ const arrFilms = [
 	id: 'casper_1995', title: { ua: 'Каспер', en: 'Casper', }, year: 1995, country: { usa: 1, }, rating: 5,
 	genre: { fantasy: 1, comedy: 1, }, hash: { ghost: 1, },
 	internet: { imdb: '0112642', wiki_ua: '%D0%9A%D0%B0%D1%81%D0%BF%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { bill_pullman_17121953: 1, },
+	cast: { bill_pullman_17121953: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'cassino_in_ischia_2024', title: { ua: 'Кассіно на острові Іскія', en: 'Cassino in Ischia', }, year: 2024, country: { usa: 1, ita: 1, }, 
@@ -2692,13 +2718,13 @@ const arrFilms = [
 	id: 'the_da_vinci_code_2006', title: { ua: 'Код да Винчи', en: 'The Da Vinci Code', }, year: 2006, country: { usa: 1, },
 	genre: { thriller: 1, mystic: 1, },
 	internet: { imdb: '0382625', wiki_ua: '%D0%9A%D0%BE%D0%B4_%D0%B4%D0%B0_%D0%92%D1%96%D0%BD%D1%87%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { tom_hanks_09071956: 1, audrey_tautou_09081976: 1, jean_reno_30071948: 1, }, director: { ron_howard_31031954: 1, },
+	cast: { tom_hanks_09071956: 1, audrey_tautou_09081976: 1, jean_reno_30071948: 1, }, director: { ron_howard_31031954: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'safe_house_2012', title: { ua: 'Код доступу Кейптаун', en: 'Safe House', }, year: 2012, country: { usa: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '1599348', wiki_ua: '%D0%9A%D0%BE%D0%B4_%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D1%83_%C2%AB%D0%9A%D0%B5%D0%B9%D0%BF%D1%82%D0%B0%D1%83%D0%BD%C2%BB', },
-	cast: { denzel_washington_28121954: 1, ryan_reynolds_23101976: 1, robert_patrick_05111958: 1,  },
+	cast: { denzel_washington_28121954: 1, ryan_reynolds_23101976: 1, robert_patrick_05111958: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'amber_alert_2024', title: { ua: 'Код жовтий', en: 'Amber Alert', }, year: 2024, country: { usa: 1, },
@@ -2757,7 +2783,7 @@ const arrFilms = [
 	id: 'commando_1985', title: { ua: 'Командо', en: 'Commando', }, year: 1985, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, }, hash: { army: 1, terrorist: 1, children: 1, },
 	internet: { imdb: '0088944', wiki_ua: '%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '1825', },
-	cast: { arnold_schwarzenegger_30071947: 1, alyssa_milano_19121972: 1, bill_duke_26021943: 1, bill_paxton_17051955: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, alyssa_milano_19121972: 1, bill_duke_26021943: 1, bill_paxton_17051955: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'flatliners_1990', title: { ua: 'Коматозники', en: 'Flatliners', }, year: 1990, country: { usa: 1, },
@@ -2844,10 +2870,11 @@ const arrFilms = [
 	id: 'the_lion_king_1994', title: { ua: 'Король-лев', en: 'The Lion King', }, year: 1994, country: { usa: 1, }, rating: '5+',
 	genre: { cartoon: 1, }, 
 	internet: { imdb: '0110357', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2', ashdivip: '3310', },
+	composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'the_lion_king_2019', title: { ua: 'Король-лев', en: 'The Lion King', }, year: 2019, country: { usa: 1, },
-	genre: { cartoon: 1, }, 
+	genre: { _3d: 1, }, 
 	internet: { imdb: '6105098', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', ashdivip: '118711', },
 },
 {
@@ -2880,7 +2907,7 @@ const arrFilms = [
 {
 	id: 'honey_i_shrunk_the_kids_1989', title: { ua: 'Кохана, я зменшив дітей', en: 'Honey I Shrunk the Kids', }, year: 1989, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, sci_fi: 1, adventure: 1, },
-	internet: { imdb: '0097523', wiki_ua: '%D0%9B%D1%8E%D0%B1%D0%B0,_%D1%8F_%D0%B7%D0%BC%D0%B5%D0%BD%D1%88%D0%B8%D0%B2_%D0%B4%D1%96%D1%82%D0%B5%D0%B9', },
+	internet: { imdb: '0097523', wiki_ua: '%D0%9B%D1%8E%D0%B1%D0%B0,_%D1%8F_%D0%B7%D0%BC%D0%B5%D0%BD%D1%88%D0%B8%D0%B2_%D0%B4%D1%96%D1%82%D0%B5%D0%B9', }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'pretty_woman_1990', title: { ua: 'Красуня', en: 'Pretty Woman', }, year: 1990, country: { usa: 1, }, rating: 5,
@@ -2940,6 +2967,12 @@ const arrFilms = [
 	genre: { action: 1, adventure: 1, }, hash: { crocodile: 1, newyork: 1, },
 	internet: { imdb: '0092493', wiki_ua: '%D0%9A%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB_%D0%94%D0%B0%D0%BD%D0%B4%D1%96_2', ashdivip: '21767', },
 	cast: { paul_hogan_08101939: 1, },
+},
+{
+	id: 'jungle_cruise_2021', title: { ua: 'Круїз у джунглях', en: 'Jungle Cruise', }, year: 2021, country: { usa: 1, can: 1, hun: 1, },
+	genre: { action: 1, adventure: 1, comedy: 1, }, hash: { justice: 1, travel: 1, },
+	internet: { imdb: '0870154', wiki_ua: '%D0%9A%D1%80%D1%83%D1%97%D0%B7_%D0%BF%D0%BE_%D0%B4%D0%B6%D1%83%D0%BD%D0%B3%D0%BB%D1%8F%D1%85', },
+	cast: { dwayne_johnson_02051972: 1, emily_blunt_23021983: 1, }, composer: { james_newton_howard_09061951: 1, },
 },
 {
 	id: 'lat_sau_san_taam_1992', title: { ua: 'Круто зварені', en: 'Lat sau san taam', }, year: 1992, country: { hkg: 1, },
@@ -3015,7 +3048,7 @@ const arrFilms = [
 	id: 'the_legend_of_Zorro_2005', title: { ua: 'Легенда Зорро', en: 'The Legend of Zorro', }, year: 2005, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, },
 	internet: { imdb: '0386140', wiki_ua: '%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE', },
-	cast: { antonio_banderas_10081960: 1, catherine_zeta_jones_25091969: 1, },
+	cast: { antonio_banderas_10081960: 1, catherine_zeta_jones_25091969: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'lake_Placid_1999', title: { ua: 'Лейк Плесід: Озеро страху', en: 'Lake Placid', }, year: 1999, country: { usa: 1, }, rating: 1,
@@ -3102,13 +3135,13 @@ const arrFilms = [
 	id: 'rain_man_1988', title: { ua: 'Людина дощу', en: 'Rain Man', }, year: 1988, country: { usa: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '0095953', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0_%D0%B4%D0%BE%D1%89%D1%83', },
-	cast: { tom_cruise_03071962: 1, dustin_hoffman_08081937: 1, valeria_golino_22101965: 1, bonnie_hunt_22091961: 1, },
+	cast: { tom_cruise_03071962: 1, dustin_hoffman_08081937: 1, valeria_golino_22101965: 1, bonnie_hunt_22091961: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'renaissance_man_1994', title: { ua: 'Людина епохи Відродження', en: 'Renaissance Man', }, year: 1994, country: { usa: 1, },
 	genre: { comedy: 1, }, hash: { army: 1, },
 	internet: { imdb: '0110971', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0_%D0%B5%D0%BF%D0%BE%D1%85%D0%B8_%D0%92%D1%96%D0%B4%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F',	},
-	cast: { danny_devito_17111944: 1, },
+	cast: { danny_devito_17111944: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'the_running_man_1987', title: { ua: 'Людина що біжить', en: 'The Running Man', }, year: 1987, country: { usa: 1, },
@@ -3229,7 +3262,7 @@ const arrFilms = [
 	id: 'the_mask_of_Zorro_1998', title: { ua: 'Маска Зорро', en: 'The Mask of Zorro', }, year: 1998, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, },
 	internet: { imdb: '0120746', wiki_ua: '%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE', },
-	cast: { antonio_banderas_10081960: 1, anthony_hopkins_31121937: 1, catherine_zeta_jones_25091969: 1, },
+	cast: { antonio_banderas_10081960: 1, anthony_hopkins_31121937: 1, catherine_zeta_jones_25091969: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'the_matrix_1999', title: { ua: 'Матриця', en: 'The Matrix', }, year: 1999, country: { usa: 1, aus: 1, },
@@ -3552,7 +3585,7 @@ const arrFilms = [
 	id: 'mighty_joe_young_1998', title: { ua: 'Могутній Джо Янґ', en: 'Mighty Joe Young', }, year: 1998, country: { usa: 1, },
 	genre: { action: 1, adventure: 1,  }, hash: { monkey: 1, },
 	internet: { imdb: '0120751', wiki_ua: '%D0%9C%D0%BE%D0%B3%D1%83%D1%82%D0%BD%D1%96%D0%B9_%D0%94%D0%B6%D0%BE_%D0%AF%D0%BD%D0%B3_%E2%80%8B%E2%80%8B(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
-	cast: { charlize_theron_07081975: 1, bill_paxton_17051955: 1, },
+	cast: { charlize_theron_07081975: 1, bill_paxton_17051955: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'morbius_2022', title: { ua: 'Морбіус', en: 'Morbius', }, year: 2022, country: { usa: 1, },
@@ -4204,6 +4237,11 @@ const arrFilms = [
 	cast: { vin_diesel_18071967: 1, rose_leslie_09021987: 1, elijah_wood_28011981: 1, },
 },
 {
+	id: 'final_fantasy_2001', title: { ua: 'Остання фантазія', en: 'Final Fantasy: The Spirits Within', }, year: 2001, country: { usa: 1, jpn: 1, },
+	genre: { _3d: 1, }, 
+	internet: { imdb: '0173840', wiki_ua: '%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D0%B7%D1%96%D1%8F:_%D0%94%D1%83%D1%85%D0%B8_%D0%B2%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%D0%BD%D1%96', },
+},
+{
 	id: 'austin_powers_1997', title: { ua: 'Остін Паверс: Міжнародний таємний агент', en: 'Austin Powers', }, year: 1997, country: { usa: 1, },
 	genre: { comedy: 1, adventure: 1, },
 	internet: { imdb: '0118655', wiki_ua: '%D0%9E%D1%81%D1%82%D1%96%D0%BD_%D0%9F%D0%B0%D0%B2%D0%B5%D1%80%D1%81:_%D0%9C%D1%96%D0%B6%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B0_%D0%BB%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%B7%D0%B0%D0%B3%D0%B0%D0%B4%D0%BA%D0%B0', },
@@ -4310,6 +4348,12 @@ const arrFilms = [
 	internet: { imdb: '1016301', wiki_ru: '%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8F_%D0%A4%D0%B5%D1%80%D0%BC%D0%B0', },
 },
 {
+	id: 'the_patriot_2000', title: { ua: 'Патріот', en: 'The Patriot', }, year: 2000, country: { usa: 1, deu: 1, },
+	genre: { history: 1, war: 1, }, hash: { war: 1, },
+	internet: { imdb: '0187393', wiki_ua: '%D0%9F%D0%B0%D1%82%D1%80%D1%96%D0%BE%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2000)', },
+	cast: { mel_gibson_03011956: 1, },
+},
+{
 	id: 'the_baker_2022', title: { ua: 'Пекар', en: 'The Baker', }, year: 2022, country: { usa: 1, deu: 1, gbr: 1, },
 	genre: { action: 1, crime: 1, }, hash: { children: 1, },
 	internet: { imdb: '3917710', wiki_ua: '%D0%9F%D0%B5%D0%BA%D0%B0%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', ashdivip: '104284', },
@@ -4389,7 +4433,7 @@ const arrFilms = [
 	id: 'pearl_harbor_2001', title: { ua: 'Перл Гарбор', en: 'Pearl Harbor', }, year: 2001, country: { usa: 1, },
 	genre: { war: 1, history: 1, }, hash: { real: 1, war: 1, war2w: 1, plane: 1, battle: 1, love: 1, },
 	internet: { imdb: '0213149', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%BB-%D0%93%D0%B0%D1%80%D0%B1%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
-	cast: { ben_affleck_15081972: 1, josh_hartnett_21071978: 1, kate_beckinsale_26071973: 1, tom_sizemore_29111961: 1, jon_voight_29121938: 1, alec_baldwin_03041958: 1, cuba_gooding_jr_02011968: 1, }, director: { michael_bay_17021965: 1, },
+	cast: { ben_affleck_15081972: 1, josh_hartnett_21071978: 1, kate_beckinsale_26071973: 1, tom_sizemore_29111961: 1, jon_voight_29121938: 1, alec_baldwin_03041958: 1, cuba_gooding_jr_02011968: 1, }, director: { michael_bay_17021965: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'the_jewel_of_the_Nile_1985', title: { ua: 'Перлина Нілу', en: 'The Jewel of the Nile', }, year: 1985, country: { usa: 1, fra: 1, }, rating: 5, franchise: 'romancing_the_stone',
@@ -4464,19 +4508,19 @@ const arrFilms = [
 	id: 'pirates_of_the_caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+', franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0383574', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8F_%D0%BC%D0%B5%D1%80%D1%86%D1%8F', ashdivip: '308', auliki7: 'Pirates.of.the.Caribbean.Dead.Mans.Chest', },
-	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
+	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'pirates_of_the_caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0449088', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%BA%D1%80%D0%B0%D1%8E_%D1%81%D0%B2%D1%96%D1%82%D1%83',  },
-	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, },
+	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'pirates_of_the_caribbean_4_2011', title: { ua: 'Пірати Карибського моря - 4', en: 'Pirates of the Caribbean: On Stranger Tides', }, year: 2011, country: { usa: 1, }, franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '1298650', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%B4%D0%B8%D0%B2%D0%BD%D0%B8%D1%85_%D0%B1%D0%B5%D1%80%D0%B5%D0%B3%D0%B0%D1%85',  },
-	cast: { johnny_depp_09061963: 1, penelope_cruz_28041974: 1, },
+	cast: { johnny_depp_09061963: 1, penelope_cruz_28041974: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'pirates_of_the_caribbean_5_2017', title: { ua: 'Пірати Карибського моря - 5', en: 'Pirates of the Caribbean: Dead Men Tell No Tales', }, year: 2017, country: { usa: 1, }, franchise: 'caribbean',
@@ -4858,7 +4902,7 @@ const arrFilms = [
 	id: 'inception_2010', title: { ua: 'Початок', en: 'Inception', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { world: 1, },
 	internet: { imdb: '1375666', wiki_ua: '%D0%9F%D0%BE%D1%87%D0%B0%D1%82%D0%BE%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', moviestape: 'Inception', },
-	cast: { leonardo_dicaprio_11111974: 1, tom_hardy_15091977: 1, tom_berenger_31051949: 1, },
+	cast: { leonardo_dicaprio_11111974: 1, tom_hardy_15091977: 1, tom_berenger_31051949: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'damaged_2024', title: { ua: 'Почерк кілера', en: 'Damaged', }, year: 2024, country: { usa: 1, gbr: 1, },
@@ -5388,7 +5432,7 @@ const arrFilms = [
 	id: 'the_lone_ranger_2013', title: { ua: 'Самотній рейнджер', en: 'The Lone Ranger', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, western: 1, adventure: 1, }, hash: { cowboy: 1, middleAges: 1, },
 	internet: { imdb: '1210819', wiki_ua: '%D0%A1%D0%B0%D0%BC%D0%BE%D1%82%D0%BD%D1%96%D0%B9_%D0%A0%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { johnny_depp_09061963: 1, barry_pepper_04041970: 1, },
+	cast: { johnny_depp_09061963: 1, barry_pepper_04041970: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'sanctum_2011', title: { ua: 'Санктум', en: 'Sanctum', }, year: 2011, country: { usa: 1, },
@@ -5452,7 +5496,7 @@ const arrFilms = [
 	id: 'a_force_of_one_1979', title: { ua: 'Сила одного', en: 'A Force of One', }, year: 1979, country: { usa: 1, },
 	genre: { action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0079168', wiki_ua: '%D0%A1%D0%B8%D0%BB%D0%B0_%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE', },
-	cast: { chuck_norris_10031940: 1, },
+	cast: { chuck_norris_10031940: 1, }, composer: { hans_zimmer_12091957: 1 , },
 },
 {
 	id: 'blue_beetle_2023', title: { ua: 'Синій Жук', en: 'Blue Beetle', }, year: 2023, country: { usa: 1, can: 1, deu: 1, mex: 1, },
@@ -5504,7 +5548,7 @@ const arrFilms = [
 	id: 'the_rock_1996', title: { ua: 'Скеля', en: 'The Rock', }, year: 1996, country: { usa: 1, }, rating: '5+',
 	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, hostage: 1, army: 1, prison: 1, },
 	internet: { imdb: '0117500', wiki_ua: '%D0%A1%D0%BA%D0%B5%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13859', },
-	cast: { sean_connery_25081930: 1, nicolas_cage_07011964: 1, ed_harris_28111950: 1, david_morse_11101953: 1, michael_biehn_31071956: 1, claire_forlani_01071972: 1, }, director: { michael_bay_17021965: 1, },
+	cast: { sean_connery_25081930: 1, nicolas_cage_07011964: 1, ed_harris_28111950: 1, david_morse_11101953: 1, michael_biehn_31071956: 1, claire_forlani_01071972: 1, }, director: { michael_bay_17021965: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'fraggle_rock_1983', title: { ua: 'Скеля Фрегглів', en: 'Fraggle Rock', }, year: 1983, country: { usa: 1, can: 1, gbr: 1, }, 
@@ -5539,7 +5583,7 @@ const arrFilms = [
 	id: 'tears_of_the_sun_2003', title: { ua: 'Сльози сонця', en: 'Tears of the Sun', }, year: 2003, country: { usa: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '0314353', wiki_ua: '%D0%A1%D0%BB%D1%8C%D0%BE%D0%B7%D0%B8_%D1%81%D0%BE%D0%BD%D1%86%D1%8F', },
-	cast: { bruce_willis_19031955: 1, monica_bellucci_30091964: 1, },
+	cast: { bruce_willis_19031955: 1, monica_bellucci_30091964: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'lethal_weapon_1987', title: { ua: 'Смертельна зброя', en: 'Lethal Weapon', }, year: 1987, country: { usa: 1, },
@@ -5643,7 +5687,7 @@ const arrFilms = [
 	id: 'deception_2008', title: { ua: 'Список контактів', en: 'Deception', }, year: 2008, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, crime: 1, mystic: 1, },
 	internet: { imdb: '0800240', wiki_ua: '%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%96%D0%B2', ashdivip: '111023', },
-	cast: { hugh_jackman_12101968: 1, maggie_q_22051979: 1, },
+	cast: { hugh_jackman_12101968: 1, maggie_q_22051979: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'schindler_s_list_1993', title: { ua: 'Список Шиндлера', en: 'Schindler\'s List', }, year: 1993, country: { usa: 1, },
@@ -6145,7 +6189,7 @@ const arrFilms = [
 	id: 'training_day_2001', title: { ua: 'Тренувальний день', en: 'Training Day', }, year: 2001, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0139654', wiki_ua: '%D0%A2%D1%80%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { denzel_washington_28121954: 1, tom_berenger_31051949: 1, snoop_dogg_20101971: 1, },
+	cast: { denzel_washington_28121954: 1, tom_berenger_31051949: 1, snoop_dogg_20101971: 1, }, composer: { mark_mancina_09031957: 1, },
 },
 {
 	id: 'ted_2012', title: { ua: 'Третій зайвий', en: 'Ted', }, year: 2012, country: { usa: 1, },
@@ -6203,7 +6247,7 @@ const arrFilms = [
 	id: 'troy_2004', title: { ua: 'Троя', en: 'Troy', }, year: 2004, country: { usa: 1, mlt: 1, gbr: 1, },
 	genre: { action: 1, }, hash: { ancient: 1, },
 	internet: { imdb: '0332452', wiki_ua: '%D0%A2%D1%80%D0%BE%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { brad_pitt_18121963: 1, orlando_bloom_13011977: 1, sean_bean_17041959: 1, },
+	cast: { brad_pitt_18121963: 1, orlando_bloom_13011977: 1, sean_bean_17041959: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'vlci_bouda_1987', title: { ua: 'Турбаза Вовча', en: 'Vlci bouda', }, year: 1987, country: { csk: 1, }, rating: 5,
@@ -6414,7 +6458,7 @@ const arrFilms = [
 	id: 'fallout_2024', title: { ua: 'Фолаут', en: 'Fallout', }, year: 2024, country: { usa: 1, },
 	genre: { serial: 1, sci_fi: 1, }, hash: { utopia: 1, apocalypse: 1, },
 	internet: { imdb: '12637874',},
-	cast: { kyle_maclachlan_22021959: 1, },
+	cast: { kyle_maclachlan_22021959: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'ford_v_ferrari_2019', title: { ua: 'Форд проти Феррарі', en: 'Ford v Ferrari', }, year: 2019, country: { usa: 1, },
@@ -6579,7 +6623,7 @@ const arrFilms = [
 	id: 'braveheart_1995', title: { ua: 'Хоробре серце', en: 'Braveheart', }, year: 1995, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, history: 1, }, hash: { battle: 1, },
 	internet: { imdb: '0112573', wiki_ua: '%D0%A5%D0%BE%D1%80%D0%BE%D0%B1%D1%80%D0%B5_%D1%81%D0%B5%D1%80%D1%86%D0%B5', ashdivip: '4088', },
-	cast: { mel_gibson_03011956: 1, catherine_mccormack_03041972: 1, sophie_marceau_17111966: 1, },
+	cast: { mel_gibson_03011956: 1, catherine_mccormack_03041972: 1, sophie_marceau_17111966: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'chronicle_2012', title: { ua: 'Хроніка', en: 'Chronicle', }, year: 2012, country: { gbr: 1, usa: 1, },
@@ -6602,7 +6646,7 @@ const arrFilms = [
 	id: 'mr_brooks_2007', title: { ua: 'Хто Ви містере Брукс', en: 'Mr. Brooks', }, year: 2007, country: { usa: 1, },
 	genre: { thriller: 1, drama: 1, crime: 1, },
 	internet: { imdb: '0780571', wiki_ua: '%D0%A5%D1%82%D0%BE_%D0%B2%D0%B8,_%D0%BC%D1%96%D1%81%D1%82%D0%B5%D1%80%D0%B5_%D0%91%D1%80%D1%83%D0%BA%D1%81%3F', },
-	cast: { kevin_costner_18011955: 1, demi_moore_11111962: 1, },
+	cast: { kevin_costner_18011955: 1, demi_moore_11111962: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'who_framed_roger_rabbit_1988', title: { ua: 'Хто підставив кролика Роджера', en: 'Who Framed Roger Rabbit', }, year: 1988, country: { usa: 1, },
@@ -6710,7 +6754,7 @@ const arrFilms = [
 	id: 'red_heat_1988', title: { ua: 'Червона спека', en: 'Red Heat', }, year: 1988, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0095963', wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0_%D1%81%D0%BF%D0%B5%D0%BA%D0%B0', },
-	cast: { arnold_schwarzenegger_30071947: 1, james_belushi_15061954: 1, gina_gershon_10061962: 1, laurence_fishburne_30071961: 1, savely_kramarov_13101934: 1, oleg_vidov_11061943: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, james_belushi_15061954: 1, gina_gershon_10061962: 1, laurence_fishburne_30071961: 1, savely_kramarov_13101934: 1, oleg_vidov_11061943: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'red_notice_2021', title: { ua: 'Червоне повідомлення', en: 'Red Notice', }, year: 2021, country: { usa: 1, },
@@ -6826,7 +6870,7 @@ const arrFilms = [
 	id: 'aliens_1986', title: { ua: 'Чужі', en: 'Aliens', }, year: 1986, country: { usa: 1, }, franchise: 'alien',
 	genre: { sci_fi: 1, horror: 1, }, hash: { space: 1, aliens: 1, },
 	internet: { imdb: '0090605', wiki_ua: '%D0%A7%D1%83%D0%B6%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { sigourney_weaver_08101949: 1, michael_biehn_31071956: 1, bill_paxton_17051955: 1, }, director: { james_cameron_16081954: 1, },
+	cast: { sigourney_weaver_08101949: 1, michael_biehn_31071956: 1, bill_paxton_17051955: 1, }, director: { james_cameron_16081954: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'the_jackal_1997', title: { ua: 'Шакал', en: 'The Jackal', }, year: 1997, country: { usa: 1, },
@@ -6906,7 +6950,7 @@ const arrFilms = [
 	id: 'sherlock_holmes_2009', title: { ua: 'Шерлок Холмс', en: 'Sherlock Holmes', }, year: 2009, country: { usa: 1, gbr: 1, },
 	genre: { detective: 1, },
 	internet: { imdb: '0988045', wiki_ua: '%D0%A8%D0%B5%D1%80%D0%BB%D0%BE%D0%BA_%D0%A5%D0%BE%D0%BB%D0%BC%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { robert_downey_jr_01041965: 1, }, director: { guy_ritchie_10091968: 1, },
+	cast: { robert_downey_jr_01041965: 1, }, director: { guy_ritchie_10091968: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'six_days_seven_nights_1998', title: { ua: 'Шість днів сім ночей', en: 'Six Days Seven Nights', }, year: 1998, country: { usa: 1, }, rating: 5,
