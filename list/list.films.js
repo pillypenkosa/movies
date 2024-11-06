@@ -958,6 +958,12 @@ const arrFilms = [
 	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
+	id: 'they_cloned_tyrone_2023', title: { ua: 'Вони клонували Тайрона', en: 'They Cloned Tyrone', }, year: 2023, country: { usa: 1, },
+	genre: { fantasy: 1, comedy: 1, crime: 1, }, hash: { biomedlab: 1, },
+	internet: { imdb: '9873892', wiki_ua: '%D0%92%D0%BE%D0%BD%D0%B8_%D0%BA%D0%BB%D0%BE%D0%BD%D1%83%D0%B2%D0%B0%D0%BB%D0%B8_%D0%A2%D0%B0%D0%B9%D1%80%D0%BE%D0%BD%D0%B0', },
+	cast: { kiefer_sutherland_21121966: 1, },
+},
+{
 	id: 'afraid_2024', title: { ua: 'Воно слухає', en: 'AfrAId', }, year: 2024, country: { usa: 1, },
 	genre: { sci_fi: 1, thriller: 1, }, hash: { cyber: 1, },
 	internet: { imdb: '24577462', },
@@ -1756,6 +1762,11 @@ const arrFilms = [
 	genre: { action: 1, horror: 1, },
 	internet: { imdb: '0092240', wiki_ru: '%D0%94%D1%83%D1%85_%D0%BC%D1%89%D0%B5%D0%BD%D0%B8%D1%8F', },
 	cast: { charlie_sheen_03091965: 1, },
+},
+{
+	id: 'soul_2020', title: { ua: 'Душа', en: 'Soul', }, year: 2020, country: { usa: 1, },
+	genre: { cartoon: 1, },
+	internet: { imdb: '2948372', wiki_ua: '%D0%94%D1%83%D1%88%D0%B0_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'dune_2021', title: { ua: 'Дюна', en: 'Dune', }, year: 2021, country: { usa: 1, },
@@ -3730,6 +3741,11 @@ const arrFilms = [
 	genre: { comedy: 1, }, 
 	internet: { imdb: '0163187', wiki_ua: '%D0%9D%D0%B0%D1%80%D0%B5%D1%87%D0%B5%D0%BD%D0%B0-%D0%B2%D1%82%D1%96%D0%BA%D0%B0%D1%87%D0%BA%D0%B0', },
 	cast: { richard_gere_31081949: 1, julia_roberts_28101967: 1, },
+},
+{
+	id: 'home_2015', title: { ua: 'Нарешті вдома', en: 'Home', }, year: 2015, country: { usa: 1, ind: 1, },
+	genre: { cartoon: 1, }, 
+	internet: { imdb: '2224026', wiki_ua: '%D0%9D%D0%B0%D1%80%D0%B5%D1%88%D1%82%D1%96_%D0%B2%D0%B4%D0%BE%D0%BC%D0%B0', },
 },
 {
 	id: 'awake_2007', title: { ua: 'Наркоз', en: 'Awake', }, year: 2007, country: { usa: 1, },
@@ -7019,6 +7035,12 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { robot: 1, },
 	internet: { imdb: '0343818', wiki_ua: '%D0%AF,_%D1%80%D0%BE%D0%B1%D0%BE%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { will_smith_25091968: 1, bridget_moynahan_28041971: 1, shia_labeouf_11061986: 1, },
+},
+{
+	id: 'the_happening_2008', title: { ua: 'Явище', en: 'The Happening', }, year: 2008, country: { usa: 1, ind: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, 
+	internet: { imdb: '0949731', wiki_ua: '%D0%AF%D0%B2%D0%B8%D1%89%D0%B5_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2008)', },
+	cast: { mark_wahlberg_05061971: 1, }, composer: { james_newton_howard_09061951: 1, },
 },
 {
 	id: 'coneheads_1993', title: { ua: 'Яйцеголові', en: 'Coneheads', }, year: 1993, country: { usa: 1, },
