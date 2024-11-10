@@ -788,7 +788,7 @@ const arrFilms = [
 	id: 'headless_horseman_1973', title: { ua: 'Вершник без голови', en: 'Headless horseman', }, year: 1973, country: { sun: 1, cub: 1, }, 
 	genre: { western: 1, }, hash: { cowboy: 1, },
 	internet: { imdb: '0202080', wiki_ua: '%D0%92%D0%B5%D1%80%D1%88%D0%BD%D0%B8%D0%BA_%D0%B1%D0%B5%D0%B7_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1973)', },
-	cast: { oleg_vidov_11061943: 1, },
+	cast: { oleg_borys_vidov_11061943: 1, },
 },
 {
 	id: 'my_best_friend_s_wedding_1997', title: { ua: 'Весілля найкращого друга', en: 'My Best Friend\'s Wedding', }, year: 1997, country: { usa: 1, },
@@ -1599,7 +1599,7 @@ const arrFilms = [
 	id: 'wild_orchid_1989', title: { ua: 'Дика орхідея', en: 'Wild Orchid', }, year: 1989, country: { usa: 1, },
 	genre: { drama: 1, erotica: 1, },
 	internet: { imdb: '0100934', wiki_ua: '%D0%94%D0%B8%D0%BA%D0%B0_%D0%BE%D1%80%D1%85%D1%96%D0%B4%D0%B5%D1%8F', },
-	cast: { mickey_rourke_16091952: 1, oleg_vidov_11061943: 1, },
+	cast: { mickey_rourke_16091952: 1, oleg_borys_vidov_11061943: 1, },
 },
 {
 	id: 'wild_orchid_2_1991', title: { ua: 'Дика орхідея - 2', en: 'Wild Orchid II: Two Shades of Blue', }, year: 1991, country: { usa: 1, },
@@ -6766,7 +6766,7 @@ const arrFilms = [
 	id: 'red_heat_1988', title: { ua: 'Червона спека', en: 'Red Heat', }, year: 1988, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0095963', wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0_%D1%81%D0%BF%D0%B5%D0%BA%D0%B0', },
-	cast: { arnold_schwarzenegger_30071947: 1, james_belushi_15061954: 1, gina_gershon_10061962: 1, laurence_fishburne_30071961: 1, savely_kramarov_13101934: 1, oleg_vidov_11061943: 1, }, composer: { james_horner_14081953: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, james_belushi_15061954: 1, gina_gershon_10061962: 1, laurence_fishburne_30071961: 1, savely_kramarov_13101934: 1, oleg_borys_vidov_11061943: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'red_notice_2021', title: { ua: 'Червоне повідомлення', en: 'Red Notice', }, year: 2021, country: { usa: 1, },

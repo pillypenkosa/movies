@@ -17,9 +17,6 @@ const arrFilmFranchise = [
 { id: 'highlander' 				, title: 'Горець' 							, },
 { id: 'bourne' 					, title: 'Джейсон Борн' 					, },
 { id: 'joker' 					, title: 'Джокер' 							, },
-
-
-
 { id: 'the_delta_force' 		, title: 'Загін Дельта' 					, },
 { id: 'backdraft' 				, title: 'Зворотна тяга' 					, },
 { id: 'star_wars' 				, title: 'Зоряні війни' 					, },
