@@ -1070,7 +1070,7 @@ const arrFilms = [
 },
 {
 	id: 'the_shawshank_redemption_1994', title: { ua: 'Втеча з Шоушенка', en: 'The Shawshank Redemption', }, year: 1994, country: { usa: 1, },
-	genre: { action: 1, adventure: 1, horror: 1, }, hash: { prison: 1, escape: 1, },
+	genre: { drama: 1, }, hash: { prison: 1, escape: 1, },
 	internet: { imdb: '0111161', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%A8%D0%BE%D1%83%D1%88%D0%B5%D0%BD%D0%BA%D0%B0',	},
 	cast: { morgan_freeman_01061937: 1, william_sadler_13041950: 1, },
 },
@@ -2916,6 +2916,12 @@ const arrFilms = [
 	internet: { imdb: '0097523', wiki_ua: '%D0%9B%D1%8E%D0%B1%D0%B0,_%D1%8F_%D0%B7%D0%BC%D0%B5%D0%BD%D1%88%D0%B8%D0%B2_%D0%B4%D1%96%D1%82%D0%B5%D0%B9', }, composer: { james_horner_14081953: 1, },
 },
 {
+	id: 'kramer_vs_kramer_1979', title: { ua: 'Крамер проти Крамера', en: 'Kramer vs. Kramer', }, year: 1979, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0079417', wiki_ua: '%D0%9A%D1%80%D0%B0%D0%BC%D0%B5%D1%80_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%9A%D1%80%D0%B0%D0%BC%D0%B5%D1%80%D0%B0', },
+	cast: { dustin_hoffman_08081937: 1, },
+},
+{
 	id: 'pretty_woman_1990', title: { ua: 'Красуня', en: 'Pretty Woman', }, year: 1990, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, }, hash: { love: 1, },
 	internet: { imdb: '0100405', wiki_ua: '%D0%9A%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%8F', },
@@ -2955,6 +2961,12 @@ const arrFilms = [
 	id: 'christine_1983', title: { ua: 'Крістіна', en: 'Christine', }, year: 1983, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, thriller: 1, }, hash: { cars: 1, },
 	internet: { imdb: '0085333', wiki_ua: '%D0%9A%D1%80%D1%96%D1%81%D1%82%D1%96%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1983)', },
+},
+{
+	id: 'snowpiercer_2013', title: { ua: 'Крізь сніг', en: 'Snowpiercer', }, year: 2013, country: { kor: 1, cze: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, hash: { train: 1, },
+	internet: { imdb: '1706620', wiki_ua: '%D0%9A%D1%80%D1%96%D0%B7%D1%8C_%D1%81%D0%BD%D1%96%D0%B3', },
+	cast: { chris_evans_13061981: 1, tilda_swinton_05111960: 1, ed_harris_28111950: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'pain_gain_2013', title: { ua: 'Кров\'ю і потом: Анаболіки', en: 'Pain & Gain', }, year: 2013, country: { usa: 1, },
@@ -4917,7 +4929,7 @@ const arrFilms = [
 	cast: { samuel_l_jackson_21121948: 1, },
 },
 {
-	id: 'truth_or_dare_2018', title: { ua: 'Правда або дія', en: 'Truth or Dare', }, year: 2018, country: { usa: 1, },
+	id: 'truth_or_dare_2018', title: { ua: 'Правда або дія', en: 'Truth or Dare', }, year: 2018, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, thriller: 1, mystic: 1, }, hash: { young: 1, },
 	internet: { imdb: '6772950', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B4%D0%B0_%D0%B0%D0%B1%D0%BE_%D0%B4%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', ashdivip: '1451', },
 },
