@@ -297,7 +297,7 @@ const arrFilms = [
 	id: 'amelie_2001', title: { ua: 'Амелі', en: 'Le fabuleux destin d`Amélie Poulain', }, year: 2001, country: { usa: 1, }, rating: 5,
 	studio: { miramax: 1, },
 	genre: { drama: 1, comedy: 1, }, hash: { psycho: 1, young: 1, },
-	internet: { imdb: '0211915', wiki_ua: '%D0%90%D0%BC%D0%B5%D0%BB%D1%96', },
+	internet: { imdb: '0211915', wiki_ua: '%D0%90%D0%BC%D0%B5%D0%BB%D1%96', ashdivip: '11602', },
 	cast: { audrey_tautou_09081976: 1, jamel_debbouze_18061975: 1, }, composer: { yann_tiersen_23071970: 1, },
 },
 {
@@ -559,7 +559,7 @@ const arrFilms = [
 {
 	id: 'eight_below_2006', title: { ua: 'Білий полон', en: 'Eight Below', }, year: 2006, country: { usa: 1, }, rating: 5,
 	genre: { adventure: 1, drama: 1, }, hash: { dog: 1, winter: 1, animal: 1, },
-	internet: { imdb: '0397313', wiki_ua: '%D0%91%D1%96%D0%BB%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD', },
+	internet: { imdb: '0397313', wiki_ua: '%D0%91%D1%96%D0%BB%D0%B8%D0%B9_%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD', ashdivip: '13686', },
 	cast: { paul_walker_12091973: 1, },
 },
 {
@@ -5289,6 +5289,12 @@ const arrFilms = [
 	cast: { sylvester_stallone_06071946: 1, },
 },
 {
+	id: 'reminiscence_2021', title: { ua: 'Ремінісценція', en: 'Reminiscence', }, year: 2021, country: { usa: 1, },
+	genre: { sci_fi: 1, thriller: 1, },
+	internet: { imdb: '3272066', wiki_ua: '%D0%A0%D0%B5%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%86%D0%B5%D0%BD%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2021)', },
+	cast: { hugh_jackman_12101968: 1, thandie_newton_06111972: 1, },
+},
+{
 	id: 'rampage_2018', title: { ua: 'Ремпейдж', en: 'Rampage', }, year: 2018, country: { usa: 1, },
 	genre: { sci_fi: 1, action: 1, }, hash: { animal: 1, },
 	internet: { imdb: '2231461', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%BF%D0%B5%D0%B9%D0%B4%D0%B6', ashdivip: '455', },
@@ -6451,6 +6457,11 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { army: 1, },
 	internet: { imdb: '1091191', wiki_ua: '%D0%A3%D1%86%D1%96%D0%BB%D1%96%D0%BB%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { mark_wahlberg_05061971: 1, },
+},
+{
+	id: 'the_apprentice_2024', title: { ua: 'Учень. Історія Трампа', en: 'The Apprentice', }, year: 2024, country: { can: 1, den: 1, irl: 1, },
+	genre: { drama: 1, history: 1, biography: 1, },
+	internet: { imdb: '8368368', wiki_ua: '%D0%A3%D1%87%D0%B5%D0%BD%D1%8C._%D0%86%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%A2%D1%80%D0%B0%D0%BC%D0%BF%D0%B0', },
 },
 {
 	id: 'bad_teacher_2011', title: { ua: 'Училка', en: 'Bad Teacher', }, year: 2011, country: { usa: 1, },
