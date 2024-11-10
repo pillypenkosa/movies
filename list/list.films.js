@@ -1996,20 +1996,6 @@ const arrFilms = [
 	internet: { imdb: '0058461', wiki_ua: '%D0%97%D0%B0_%D0%B6%D0%BC%D0%B5%D0%BD%D1%8E_%D0%B4%D0%BE%D0%BB%D0%B0%D1%80%D1%96%D0%B2', },
 	cast: { clint_eastwood_31051930: 1, }, composer: { ennio_morricone_10111928: 1, },
 },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'fly_me_to_the_Moon_2024', title: { ua: 'Забери мене на Місяць', en: 'Fly Me to the Moon', }, year: 2024, country: { usa: 1, },
 	genre: { comedy: 1, }, hash: { space: 1, },
@@ -6709,6 +6695,12 @@ const arrFilms = [
 	cast: { mel_gibson_03011956: 1, catherine_mccormack_03041972: 1, sophie_marceau_17111966: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
+	id: 'il_buono_il_brutto_il_cattivo_1966', title: { ua: 'Хороший поганий злий', en: ' Il buono, il brutto, il cattivo', }, year: 1966, country: { ita: 1, esp: 1, deu: 1, },
+	genre: { western: 1, }, hash: { cowboy: 1, },
+	internet: { imdb: '0060196', wiki_ua: '%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B9,_%D0%BF%D0%BE%D0%B3%D0%B0%D0%BD%D0%B8%D0%B9,_%D0%B7%D0%BB%D0%B8%D0%B9', },
+	cast: { clint_eastwood_31051930: 1, }, composer: { ennio_morricone_10111928: 1, },
+},
+{
 	id: 'chronicle_2012', title: { ua: 'Хроніка', en: 'Chronicle', }, year: 2012, country: { gbr: 1, usa: 1, },
 	genre: { sci_fi: 1, },
 	internet: { imdb: '1706593', wiki_ua: '%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',  },
@@ -6720,7 +6712,7 @@ const arrFilms = [
 	cast: { vin_diesel_18071967: 1, },
 },
 {
-	id: 'terminator_the_Sarah_Connor_chronicles_2008', title: { ua: 'Хроніки Сари Коннор', en: 'Terminator: The Sarah Connor Chronicles', }, year: 2008, country: { usa: 1, }, franchise: 'terminator',
+	id: 'terminator_the_sarah_connor_chronicles_2008', title: { ua: 'Хроніки Сари Коннор', en: 'Terminator: The Sarah Connor Chronicles', }, year: 2008, country: { usa: 1, }, franchise: 'terminator',
 	genre: { serial: 1, action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, young: 1, police: 1, },
 	internet: { imdb: '0851851', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B8_%D0%A1%D0%B0%D1%80%D0%B8_%D0%9A%D0%BE%D0%BD%D0%BD%D0%BE%D1%80', },
 	cast: { lena_headey_03101973: 1, },
