@@ -1660,7 +1660,7 @@ const arrFilms = [
 	cast: { lady_gaga_28031986: 1, al_pacino_25041940: 1, salma_hayek_02091966: 1, }, director: { ridley_scott_30111937: 1, },
 },
 {
-	id: 'the_children_of_Times_Square_1986', title: { ua: 'Діти Таймс-Скверу', en: 'The Children of Times Square', }, year: 1986, country: { usa: 1, }, rating: 5,
+	id: 'the_children_of_times_square_1986', title: { ua: 'Діти Таймс-Скверу', en: 'The Children of Times Square', }, year: 1986, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, crime: 1, }, hash: { children: 1, newyork: 1, },
 	internet: { imdb: '0090829', },
 },
@@ -2009,7 +2009,7 @@ const arrFilms = [
 	cast: { mickey_rourke_16091952: 1, kevin_bacon_08071958: 1, daniel_stern_28081957: 1, },
 },
 {
-	id: 'dimenticare_Palermo_1990', title: { ua: 'Забути Палермо', en: 'Dimenticare Palermo', }, year: 1990, country: { usa: 1, },
+	id: 'dimenticare_palermo_1990', title: { ua: 'Забути Палермо', en: 'Dimenticare Palermo', }, year: 1990, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { politic: 1, },
 	internet: { imdb: '0099430', wiki_ru: '%D0%97%D0%B0%D0%B1%D1%8B%D1%82%D1%8C_%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 	cast: { james_belushi_15061954: 1, philippe_noiret_01101930: 1, },
@@ -2719,7 +2719,7 @@ const arrFilms = [
 	internet: { imdb: '0061852', wiki_ua: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D0%B4%D0%B6%D1%83%D0%BD%D0%B3%D0%BB%D1%96%D0%B2_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '79873', },
 },
 {
-	id: 'the_book_of_Eli_2010', title: { ua: 'Книга Ілая', en: 'The Book of Eli', }, year: 2010, country: { usa: 1, },
+	id: 'the_book_of_eli_2010', title: { ua: 'Книга Ілая', en: 'The Book of Eli', }, year: 2010, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { utopia: 1, },
 	internet: { imdb: '1037705', wiki_ua: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0_%D0%86%D0%BB%D0%B0%D1%8F', },
 	cast: { denzel_washington_28121954: 1, gary_oldman_21031958: 1, },
@@ -3310,7 +3310,7 @@ const arrFilms = [
 	cast: { jim_carrey_17011962: 1, cameron_diaz_30081972: 1, peter_greene_08101965: 1, },
 },
 {
-	id: 'the_mask_of_Zorro_1998', title: { ua: 'Маска Зорро', en: 'The Mask of Zorro', }, year: 1998, country: { usa: 1, },
+	id: 'the_mask_of_zorro_1998', title: { ua: 'Маска Зорро', en: 'The Mask of Zorro', }, year: 1998, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, },
 	internet: { imdb: '0120746', wiki_ua: '%D0%9C%D0%B0%D1%81%D0%BA%D0%B0_%D0%97%D0%BE%D1%80%D1%80%D0%BE', },
 	cast: { antonio_banderas_10081960: 1, anthony_hopkins_31121937: 1, catherine_zeta_jones_25091969: 1, }, composer: { james_horner_14081953: 1, },
@@ -3946,7 +3946,7 @@ const arrFilms = [
 	cast: { jon_voight_29121938: 1, },
 },
 {
-	id: 'the_incredible_Hulk_2008', title: { ua: 'Неймовірний Халк', en: ' The Incredible Hulk', }, year: 2008, country: { usa: 1, },
+	id: 'the_incredible_hulk_2008', title: { ua: 'Неймовірний Халк', en: ' The Incredible Hulk', }, year: 2008, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '0800080', wiki_ua: '%D0%9D%D0%B5%D0%B9%D0%BC%D0%BE%D0%B2%D1%96%D1%80%D0%BD%D0%B8%D0%B9_%D0%A5%D0%B0%D0%BB%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { bruce_willis_19031955: 1, samuel_l_jackson_21121948: 1, },
@@ -4309,7 +4309,7 @@ const arrFilms = [
 	internet: { imdb: '0112760', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B3%D0%BE%D1%80%D0%BB%D0%BE%D1%80%D1%96%D0%B7%D1%96%D0%B2', },
 },
 {
-	id: 'the_island_of_dr_Moreau_1996', title: { ua: 'Острів доктора Моро', en: 'The Island of Dr. Moreau', }, year: 1996, country: { usa: 1, }, rating: 1,
+	id: 'the_island_of_dr_moreau_1996', title: { ua: 'Острів доктора Моро', en: 'The Island of Dr. Moreau', }, year: 1996, country: { usa: 1, }, rating: 1,
 	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { world: 1, animal: 1, island: 1, mutant: 1, },
 	internet: { imdb: '0116654', wiki_ua: '%D0%9E%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%B4%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%B0_%D0%9C%D0%BE%D1%80%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
 	cast: { marlon_brando_03041924: 1, val_kilmer_31121959: 1, mark_dacascos_26021964: 1, ron_perlman_13041950: 1, },
@@ -4493,7 +4493,7 @@ const arrFilms = [
 	cast: { ben_affleck_15081972: 1, josh_hartnett_21071978: 1, kate_beckinsale_26071973: 1, tom_sizemore_29111961: 1, jon_voight_29121938: 1, alec_baldwin_03041958: 1, cuba_gooding_jr_02011968: 1, }, director: { michael_bay_17021965: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
-	id: 'the_jewel_of_the_Nile_1985', title: { ua: 'Перлина Нілу', en: 'The Jewel of the Nile', }, year: 1985, country: { usa: 1, fra: 1, }, rating: 5, franchise: 'romancing_the_stone',
+	id: 'the_jewel_of_the_nile_1985', title: { ua: 'Перлина Нілу', en: 'The Jewel of the Nile', }, year: 1985, country: { usa: 1, fra: 1, }, rating: 5, franchise: 'romancing_the_stone',
 	genre: { action: 1, comedy: 1, adventure: 1, }, hash: { travel: 1, },
 	internet: { imdb: '0089370', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%BB%D0%B8%D0%BD%D0%B0_%D0%9D%D1%96%D0%BB%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '8663', },
 	cast: { michael_douglas_25091944: 1, danny_devito_17111944: 1, },
@@ -6874,7 +6874,7 @@ const arrFilms = [
 	cast: { liam_neeson_07061952: 1, jai_courtney_15031986: 1, robert_patrick_05111958: 1, },
 },
 {
-	id: 'things_to_do_in_Denver_when_you_re_dead_1995', title: { ua: 'Чим зайнятися мерцю в Денвері', en: 'Things to Do in Denver When You\'re Dead', }, year: 1995, country: { usa: 1, },
+	id: 'things_to_do_in_denver_when_you_re_dead_1995', title: { ua: 'Чим зайнятися мерцю в Денвері', en: 'Things to Do in Denver When You\'re Dead', }, year: 1995, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '0114660', wiki_ua: '%D0%A7%D0%B8%D0%BC_%D0%B7%D0%B0%D0%B9%D0%BD%D1%8F%D1%82%D0%B8%D1%81%D1%8F_%D0%BC%D0%B5%D1%80%D1%86%D1%8E_%D0%B2_%D0%94%D0%B5%D0%BD%D0%B2%D0%B5%D1%80%D1%96',	},
 	cast: { andy_garcia_12041956: 1, christopher_lloyd_22101938: 1, steve_buscemi_13121957: 1, don_cheadle_29111964: 1, },
