@@ -2093,6 +2093,11 @@ const arrFilms = [
 	cast: { aaron_eckhart_12031968: 1, },
 },
 {
+	id: 'zatoichi_2003', title: { ua: 'Затоічі', en: 'Zatôichi', }, year: 2003, country: { jpn: 1, },
+	genre: { action: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0363226', wiki_ua: '%D0%94%D0%B7%D0%B0%D1%82%D0%BE%D1%96%D1%82%D1%96', },
+},
+{
 	id: 'detained_2024', title: { ua: 'Затримана', en: 'Detained', }, year: 2024, country: { bul: 1, },
 	genre: { thriller: 1, }, hash: { psycho: 1, police: 1, },
 	internet: { imdb: '8178762', },
@@ -3136,6 +3141,11 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { cars: 1, },
 	internet: { imdb: '3758814', wiki_ua: '%D0%9B%D1%8C%D0%BE%D0%B4%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B4%D1%80%D0%B8%D1%84%D1%82', ashdivip: '47839', },
 	cast: { liam_neeson_07061952: 1, },
+},
+{
+	id: 'ice_age_2002', title: { ua: 'Льодовиковий період', en: 'Ice Age', }, year: 2002, country: { usa: 1, },
+	genre: { cartoon: 1, }, 
+	internet: { imdb: '0268380', wiki_ua: '%D0%9B%D1%8C%D0%BE%D0%B4%D0%BE%D0%B2%D0%B8%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D0%B5%D1%80%D1%96%D0%BE%D0%B4_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '1682', },
 },
 {
 	id: 'men_in_black_1997', title: { ua: 'Люди в чорному', en: 'Men in Black', }, year: 1997, country: { gbr: 1, },
@@ -4388,6 +4398,12 @@ const arrFilms = [
 	internet: { imdb: '0300523', },
 },
 {
+	id: 'penthouse_north_2013', title: { ua: 'Пентхаус із видом на північ', en: 'Penthouse North', }, year: 2013, country: { usa: 1, can: 1, }, 
+	genre: { thriller: 1, crime: 1, }, hash: { blind: 1, },
+	internet: { imdb: '2055709',  },
+	cast: { michelle_monaghan_23031976: 1, },
+},
+{
 	id: 'the_bourne_supremacy_2004', title: { ua: 'Перевага Борна', en: 'The Bourne Supremacy', }, year: 2004, country: { usa: 1, deu: 1, }, rating: 5, franchise: 'bourne',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '0372183', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%D0%B3%D0%B0_%D0%91%D0%BE%D1%80%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -5599,7 +5615,7 @@ const arrFilms = [
 },
 {
 	id: 'blind_fury_1989', title: { ua: 'Сліпа лють', en: 'Blind Fury', }, year: 1989, country: { usa: 1, }, rating: 5,
-	genre: { action: 1, }, hash: { fight: 1, children: 1, },
+	genre: { action: 1, }, hash: { blind: 1, fight: 1, children: 1, },
 	internet: { imdb: '0096945', wiki_ua: '%D0%A1%D0%BB%D1%96%D0%BF%D0%B0_%D0%BB%D1%8E%D1%82%D1%8C', },
 	cast: { rutger_hauer_23011944: 1, },
 },

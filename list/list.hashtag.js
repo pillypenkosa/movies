@@ -23,11 +23,10 @@ const arrHashTags = [
 	{ id: 'pirates' 		, title: 'пірати' 						, app: { movies: 1, }, },
 	{ id: 'cop' 			, title: 'поліцейські' 					, app: { movies: 1, }, },
 	{ id: 'prince' 			, title: 'принц' 						, app: { movies: 1, }, }, 
+	{ id: 'blind' 			, title: 'сліпі' 						, app: { movies: 1, }, },
 	{ id: 'superhero' 		, title: 'супергерої' 					, app: { movies: 1, }, },
 	{ id: 'terrorist' 		, title: 'терористи' 					, app: { movies: 1, }, },
 	{ id: 'coma' 			, title: 'уКомі' 						, app: { movies: 1, }, },
-
-
 
 
 
