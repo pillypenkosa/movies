@@ -16,11 +16,16 @@ const arrFilmFranchise = [
 { id: 'the_crow' 				, title: 'Ворон' 							, },
 { id: 'highlander' 				, title: 'Горець' 							, },
 { id: 'bourne' 					, title: 'Джейсон Борн' 					, },
+{ id: 'joker' 					, title: 'Джокер' 							, },
+
+
+
 { id: 'the_delta_force' 		, title: 'Загін Дельта' 					, },
 { id: 'backdraft' 				, title: 'Зворотна тяга' 					, },
 { id: 'star_wars' 				, title: 'Зоряні війни' 					, },
 { id: 'you_see_me' 				, title: 'Ілюзія обману' 					, },
 { id: 'indiana_johns' 			, title: 'Індіана Джонс' 					, },
+{ id: 'da_vinci' 				, title: 'Код да Вінчі' 					, },
 { id: 'mission_impossible' 		, title: 'Місія неможлива' 					, },
 { id: 'die_hard' 				, title: 'Міцний горішок' 					, },
 { id: 'back_to_the_future' 		, title: 'Назад у майбутнє' 				, },

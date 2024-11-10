@@ -1524,10 +1524,16 @@ const arrFilms = [
 	cast: { tom_hanks_09071956: 1, meg_ryan_19111961: 1, },
 },
 {
-	id: 'joker_2019', title: { ua: 'Джокер', en: 'Joker', }, year: 2019, country: { usa: 1, },
+	id: 'joker_2019', title: { ua: 'Джокер', en: 'Joker', }, year: 2019, country: { usa: 1, }, franchise: 'joker',
 	genre: { drama: 1, crime: 1, },
 	internet: { imdb: '7286456', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', },
 	cast: { robert_de_niro_17081943: 1, },
+},
+{
+	id: 'joker_folie_a_deux_2024', title: { ua: 'Джокер: Божевілля на двох', en: 'Joker: Folie à Deux', }, year: 2024, country: { usa: 1, can: 1, }, franchise: 'joker',
+	genre: { drama: 1, crime: 1, },
+	internet: { imdb: '11315808', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%BA%D0%B5%D1%80:_%D0%91%D0%BE%D0%B6%D0%B5%D0%B2%D1%96%D0%BB%D0%BB%D1%8F_%D0%BD%D0%B0_%D0%B4%D0%B2%D0%BE%D1%85', },
+	cast: { lady_gaga_28031986: 1, },
 },
 {
 	id: 'john_wick_2014', title: { ua: 'Джон Вік', en: 'John Wick', }, year: 2014, country: { chn: 1, can: 1, usa: 1, },
@@ -2484,8 +2490,8 @@ const arrFilms = [
 	cast: { jean_claude_van_damme_18101960: 1, danny_trejo_16051944: 1, }, composer: { bill_conti_13041942: 1, },
 },
 {
-	id: 'inferno_2016', title: { ua: 'Інферно', en: 'Inferno', }, year: 2016, country: { usa: 1, hun: 1, },
-	genre: { action: 1, crime: 1, }, 
+	id: 'inferno_2016', title: { ua: 'Інферно', en: 'Inferno', }, year: 2016, country: { usa: 1, hun: 1, }, franchise: 'da_vinci',
+	genre: { thriller: 1, mystic: 1, },
 	internet: { imdb: '3062096', wiki_ua: '%D0%86%D0%BD%D1%84%D0%B5%D1%80%D0%BD%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
 	cast: { tom_hanks_09071956: 1,  }, composer: { hans_zimmer_12091957: 1, },
 },
@@ -2715,7 +2721,7 @@ const arrFilms = [
 	cast: { kari_matchett_25031970: 1, },
 },
 {
-	id: 'the_da_vinci_code_2006', title: { ua: 'Код да Винчи', en: 'The Da Vinci Code', }, year: 2006, country: { usa: 1, },
+	id: 'the_da_vinci_code_2006', title: { ua: 'Код да Вінчі', en: 'The Da Vinci Code', }, year: 2006, country: { usa: 1, }, franchise: 'da_vinci',
 	genre: { thriller: 1, mystic: 1, },
 	internet: { imdb: '0382625', wiki_ua: '%D0%9A%D0%BE%D0%B4_%D0%B4%D0%B0_%D0%92%D1%96%D0%BD%D1%87%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { tom_hanks_09071956: 1, audrey_tautou_09081976: 1, jean_reno_30071948: 1, }, director: { ron_howard_31031954: 1, }, composer: { hans_zimmer_12091957: 1, },
@@ -7101,6 +7107,12 @@ const arrFilms = [
 	id: 'how_to_steal_a_million_1966', title: { ua: 'Як украсти мільйон', en: 'How to Steal a Million', }, year: 1966, country: { usa: 1, }, rating: 5,
 	genre: { comedy: 1, crime: 1, }, hash: { robbery: 1, },
 	internet: { imdb: '0060522', wiki_ua: '%D0%AF%D0%BA_%D1%83%D0%BA%D1%80%D0%B0%D1%81%D1%82%D0%B8_%D0%BC%D1%96%D0%BB%D1%8C%D0%B9%D0%BE%D0%BD', },
+},
+{
+	id: 'angels_demons_2009', title: { ua: 'Янголи та Демони', en: 'Angels & Demons', }, year: 2009, country: { usa: 1, ita: 1, }, franchise: 'da_vinci',
+	genre: { thriller: 1, mystic: 1, },
+	internet: { imdb: '0808151', wiki_ua: '%D0%90%D0%BD%D0%B3%D0%B5%D0%BB%D0%B8_%D1%96_%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { tom_hanks_09071956nks: 1, },
 },
 {
 	id: 'charlies_angels_2000', title: { ua: 'Янголи Чарлі', en: 'Charlie\'s Angels', }, year: 2000, country: { usa: 1, },
