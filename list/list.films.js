@@ -1006,7 +1006,7 @@ const arrFilms = [
 	cast: { jamie_lee_curtis_22111958: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
-	id: 'octopussy_1983', title: { ua: 'Восьминiжка', en: 'Octopussy', }, year: 1983, country: { gbr: 1, },
+	id: 'octopussy_1983', title: { ua: 'Восьминiжка', en: 'Octopussy', }, year: 1983, country: { gbr: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0086034', wiki_ua: '%D0%92%D0%BE%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D1%96%D0%B6%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2701', },
 	cast: { roger_moore_14101927: 1, },
@@ -2848,7 +2848,7 @@ const arrFilms = [
 	id: 'skyfall_2012', title: { ua: 'Координати Скайфолл', en: 'Skyfall', }, year: 2012, country: { gbr: 1, }, rating: 5, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '1074638', wiki_ua: '007:_%D0%9A%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B0%D1%82%D0%B8_%C2%AB%D0%A1%D0%BA%D0%B0%D0%B9%D1%84%D0%BE%D0%BB%D0%BB%C2%BB', ashdivip: '2534', },
-	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, },
+	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, naomie_harris_06091976: 1, },
 },
 {
 	id: 'king_solomon_s_mines_1985', title: { ua: 'Копальні царя Соломона', en: 'King Solomon\'s Mines', }, year: 1985, country: { usa: 1, }, rating: '5+',
@@ -3998,7 +3998,7 @@ const arrFilms = [
 	internet: { imdb: '15789472', ashdivip: '113186', },
 },
 {
-	id: 'never_say_never_again_1983', title: { ua: 'Ніколи не кажи ніколи', en: 'Never Say Never Again', }, year: 1983, country: { usa: 1, gbr: 1, deu: 1, },
+	id: 'never_say_never_again_1983', title: { ua: 'Ніколи не кажи ніколи', en: 'Never Say Never Again', }, year: 1983, country: { usa: 1, gbr: 1, deu: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0086006', wiki_ua: '%D0%9D%D1%96%D0%BA%D0%BE%D0%BB%D0%B8_%D0%BD%D0%B5_%D0%BA%D0%B0%D0%B6%D0%B8_%D0%BD%D1%96%D0%BA%D0%BE%D0%BB%D0%B8', ashdivip: '3307', },
 	cast: { sean_connery_25081930: 1, kim_basinger_08121953: 1, },
@@ -4338,7 +4338,7 @@ const arrFilms = [
 	cast: { sean_connery_25081930: 1, catherine_zeta_jones_25091969: 1, ving_rhames_12051959: 1, },
 },
 {
-	id: 'macskafogo_1986', title: { ua: 'Пастка для котів', en: 'Macskafogo', }, year: 1986, country: { usa: 1, }, rating: 5,
+	id: 'macskafogo_1986', title: { ua: 'Пастка для котів', en: 'Macskafogo', }, year: 1986, country: { can: 1, deu: 1, hun: 1, }, rating: 5,
 	genre: { cartoon: 1, },
 	internet: { imdb: '0179955', wiki_ua: '%D0%9F%D0%B0%D1%81%D1%82%D0%BA%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BA%D0%BE%D1%82%D1%96%D0%B2', },
 },
@@ -4514,7 +4514,7 @@ const arrFilms = [
 	id: 'pirates_of_the_caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0449088', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%9D%D0%B0_%D0%BA%D1%80%D0%B0%D1%8E_%D1%81%D0%B2%D1%96%D1%82%D1%83',  },
-	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, }, composer: { hans_zimmer_12091957: 1, },
+	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, naomie_harris_06091976: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'pirates_of_the_caribbean_4_2011', title: { ua: 'Пірати Карибського моря - 4', en: 'Pirates of the Caribbean: On Stranger Tides', }, year: 2011, country: { usa: 1, }, franchise: 'caribbean',
@@ -5230,6 +5230,12 @@ const arrFilms = [
 	genre: { action: 1, thriller: 1, crime: 1, },
 	internet: { imdb: '1206885', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE:_%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BA%D1%80%D0%BE%D0%B2', ashdivip: '458', },
 	cast: { sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'rampage_2018', title: { ua: 'Ремпейдж', en: 'Rampage', }, year: 2018, country: { usa: 1, },
+	genre: { sci_fi: 1, action: 1, }, hash: { animal: 1, },
+	internet: { imdb: '2231461', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%BF%D0%B5%D0%B9%D0%B4%D0%B6', ashdivip: '455', },
+	cast: { dwayne_johnson_02051972: 1, naomie_harris_06091976: 1, },
 },
 {
 	id: 'robinson_crusoe_1997', title: { ua: 'Робінзон Крузо', en: 'Robinson Crusoe', }, year: 1997, country: { usa: 1, }, rating: 5,
