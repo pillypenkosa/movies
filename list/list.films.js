@@ -611,6 +611,12 @@ const arrFilms = [
 	cast: { robert_de_niro_17081943: 1, },
 },
 {
+	id: 'liar_liar_1997', title: { ua: 'Брехун брехун', en: 'Liar Liar', }, year: 1997, country: { usa: 1, },
+	genre: { comedy: 1, fantasy: 1, drama: 1, }, hash: { children: 1, },
+	internet: { imdb: '0119528', wiki_ua: '%D0%91%D1%80%D0%B5%D1%85%D1%83%D0%BD,_%D0%B1%D1%80%D0%B5%D1%85%D1%83%D0%BD', },	
+	cast: { jim_carrey_17011962: 1, },
+},
+{
 	id: 'a_bronx_tale_1993', title: { ua: 'Бронкська історія', en: 'A Bronx Tale', }, year: 1993, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { newyork: 1, },
 	internet: { imdb: '0106489', wiki_ua: '%D0%91%D1%80%D0%BE%D0%BD%D0%BA%D1%81%D1%8C%D0%BA%D0%B0_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F', },
@@ -621,6 +627,12 @@ const arrFilms = [
 	genre: { drama: 1, }, 
 	internet: { imdb: '0092890', wiki_ua: '%D0%91%D1%80%D1%83%D0%B4%D0%BD%D1%96_%D1%82%D0%B0%D0%BD%D1%86%D1%96', },
 	cast: { patrick_swayze_18081952: 1, },
+},
+{
+	id: 'bruce_almighty_2003', title: { ua: 'Брюс Всемогутній', en: 'Bruce Almighty', }, year: 2003, country: { usa: 1, },
+	genre: { comedy: 1, fantasy: 1, },
+	internet: { imdb: '0315327', wiki_ua: '%D0%91%D1%80%D1%8E%D1%81_%D0%92%D1%81%D0%B5%D0%BC%D0%BE%D0%B3%D1%83%D1%82%D0%BD%D1%96%D0%B9', },	
+	cast: { jim_carrey_17011962: 1, morgan_freeman_01061937: 1, jennifer_aniston_11021969: 1, },
 },
 {
 	id: 'the_lake_house_2006', title: { ua: 'Будинок біля озера', en: 'The Lake House', }, year: 2006, country: { usa: 1, },
@@ -1161,6 +1173,11 @@ const arrFilms = [
 	genre: { action: 1, fantasy: 1, }, hash: { workd: 1, },
 	internet: { imdb: '1646987', wiki_ua: '%D0%93%D0%BD%D1%96%D0%B2_%D0%A2%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D0%B2', },
 	cast: { sam_worthington_02081976: 1, liam_neeson_07061952: 1, rosamund_pike_27011979: 1, },
+},
+{
+	id: 'the_silent_hour_2024', title: { ua: 'Година тиші', en: 'The Silent Hour', }, year: 2024, country: { usa: 1, can: 1, mlt: 1,},
+	genre: { thriller: 1, crime: 1, }, hash: { police: 1, },
+	internet: { imdb: '22874848', },	
 },
 {
 	id: 'ticker_2001', title: { ua: 'Годинниковий механізм', en: 'Ticker', }, year: 2001, country: { usa: 1, },
@@ -1973,6 +1990,26 @@ const arrFilms = [
 	internet: { imdb: '0093693', wiki_ua: '%D0%97%D0%B0_%D0%B1%D0%BE%D1%80%D1%82%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { kurt_russell_17031951: 1, goldie_hawn_21111945: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
+{
+	id: 'per_un_pugno_di_dollari_1964', title: { ua: 'За жменю доларів', en: 'Per un pugno di dollari', }, year: 1964, country: { ita: 1, esp: 1, deu: 1, },
+	genre: { western: 1, }, hash: { cowboy: 1, },
+	internet: { imdb: '0058461', wiki_ua: '%D0%97%D0%B0_%D0%B6%D0%BC%D0%B5%D0%BD%D1%8E_%D0%B4%D0%BE%D0%BB%D0%B0%D1%80%D1%96%D0%B2', },
+	cast: { clint_eastwood_31051930: 1, }, composer: { ennio_morricone_10111928: 1, },
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'fly_me_to_the_Moon_2024', title: { ua: 'Забери мене на Місяць', en: 'Fly Me to the Moon', }, year: 2024, country: { usa: 1, },
 	genre: { comedy: 1, }, hash: { space: 1, },
@@ -6288,6 +6325,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { ancient: 1, },
 	internet: { imdb: '0332452', wiki_ua: '%D0%A2%D1%80%D0%BE%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { brad_pitt_18121963: 1, orlando_bloom_13011977: 1, sean_bean_17041959: 1, }, composer: { james_horner_14081953: 1, },
+},
+{
+	id: 'dumb_and_dumber_1994', title: { ua: 'Тупий та ще тупіший', en: 'Dumb and Dumber', }, year: 1994, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '0109686', wiki_ua: '%D0%A2%D1%83%D0%BF%D0%B8%D0%B9_%D1%82%D0%B0_%D1%89%D0%B5_%D1%82%D1%83%D0%BF%D1%96%D1%88%D0%B8%D0%B9', },
+	cast: { jim_carrey_17011962: 1, jeff_daniels_19021955: 1, },
 },
 {
 	id: 'vlci_bouda_1987', title: { ua: 'Турбаза Вовча', en: 'Vlci bouda', }, year: 1987, country: { csk: 1, }, rating: 5,
