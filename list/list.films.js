@@ -4508,7 +4508,7 @@ const arrFilms = [
 	id: 'pirates_of_the_caribbean_2_2006', title: { ua: 'Пірати Карибського моря - 2', en: 'Pirates of the Caribbean: Dead Man\'s Chest', }, year: 2006, country: { usa: 1, }, rating: '5+', franchise: 'caribbean',
 	genre: { adventure: 1, fantasy: 1, }, hash: { sea: 1, ship: 1, pirates: 1, middleAges: 1, },
 	internet: { imdb: '0383574', wiki_ua: '%D0%9F%D1%96%D1%80%D0%B0%D1%82%D0%B8_%D0%9A%D0%B0%D1%80%D0%B8%D0%B1%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D1%80%D1%8F:_%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%8F_%D0%BC%D0%B5%D1%80%D1%86%D1%8F', ashdivip: '308', auliki7: 'Pirates.of.the.Caribbean.Dead.Mans.Chest', },
-	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, }, composer: { hans_zimmer_12091957: 1, },
+	cast: { johnny_depp_09061963: 1, orlando_bloom_13011977: 1, keira_knightley_26031985: 1, naomie_harris_06091976: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'pirates_of_the_caribbean_3_2007', title: { ua: 'Пірати Карибського моря - 3', en: 'Pirates of the Caribbean: At World\'s End', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'caribbean',
