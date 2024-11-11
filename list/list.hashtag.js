@@ -102,6 +102,7 @@ const arrHashTags = [
 	{ id: 'hostage' 		, title: 'заручники' 					, app: { movies: 1, }, },
 	{ id: 'killer' 			, title: 'кілери' 						, app: { movies: 1, }, },
 	{ id: 'maniac' 			, title: 'маніяки' 						, app: { movies: 1, }, },
+	{ id: 'mafia' 			, title: 'мафія' 						, app: { movies: 1, }, },
 	{ id: 'drugs' 			, title: 'наркотики' 					, app: { movies: 1, }, },
 	{ id: 'pirates' 		, title: 'пірати' 						, app: { movies: 1, }, },
 	{ id: 'robbery' 		, title: 'пограбування' 				, app: { movies: 1, }, },

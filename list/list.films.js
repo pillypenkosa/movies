@@ -2454,6 +2454,11 @@ const arrFilms = [
 	cast: { jodie_foster_19111962: 1, sean_bean_17041959: 1, },
 },
 {
+	id: 'l_empire_2024', title: { ua: 'Імперія', en: 'L\'empire', }, year: 2024, country: { fra: 1, ita: 1, deu: 1, bel: 1, prt: 1, },
+	genre: { sci_fi: 1, }, hash: { space: 1, },
+	internet: { imdb: '17375596', },	
+},
+{
 	id: 'der_name_der_rose_1986', title: { ua: 'Ім\'я троянди', en: 'Der Name der Rose', }, year: 1986, country: { fra: 1, ita: 1, deu: 1, },
 	genre: { thriller: 1, mystic: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0091605', wiki_ru: '%D0%98%D0%BC%D1%8F_%D1%80%D0%BE%D0%B7%D1%8B_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
@@ -3742,7 +3747,7 @@ const arrFilms = [
 	id: 'in_the_line_of_fire_1993', title: { ua: 'На лінії вогню', en: 'In the Line of Fire', }, year: 1993, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0107206', 	wiki_ua: '%D0%9D%D0%B0_%D0%BB%D1%96%D0%BD%D1%96%D1%97_%D0%B2%D0%BE%D0%B3%D0%BD%D1%8E', },
-	cast: { clint_eastwood_31051930: 1, john_malkovich_09121953: 1, rene_russo_17021954: 1, },
+	cast: { clint_eastwood_31051930: 1, john_malkovich_09121953: 1, rene_russo_17021954: 1, }, composer: { ennio_morricone_10111928: 1, },
 },
 {
 	id: 'around_the_world_in_80_days_2004', title: { ua: 'Навколо світу за 80 днів', en: 'Around the World in 80 Days', }, year: 2004, country: { usa: 1, gbr: 1, deu: 1, irl: 1, },
@@ -5153,7 +5158,7 @@ const arrFilms = [
 	id: 'le_professionnel_1981', title: { ua: 'Професіонал', en: 'Le professionnel', }, year: 1981, country: { fra: 1, },
 	genre: { action: 1, crime: 1, }, 
 	internet: { imdb: '0082949', wiki_ua: '%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%96%D0%BE%D0%BD%D0%B0%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1981)', },
-	cast: { jean_paul_belmondo_09041933: 1, },
+	cast: { jean_paul_belmondo_09041933: 1, }, composer: { ennio_morricone_10111928: 1, },
 },
 {
 	id: 'killer_elite_2011', title: { ua: 'Професіонал', en: 'Killer Elite', }, year: 2011, country: { usa: 1, gbr: 1, aus: 1, jor: 1, mar: 1, },
@@ -5801,6 +5806,12 @@ const arrFilms = [
 	genre: { thriller: 1, crime: 1, }, hash: { robbery: 1, },
 	internet: { imdb: '0107927', wiki_ua: '%D0%A1%D0%BF%D1%80%D0%B0%D0%B2%D0%B6%D0%BD%D1%8F_%D0%9C%D0%B0%D0%BA%D0%BA%D0%BE%D0%B9', ashdivip: '17052', },
 	cast: { kim_basinger_08121953: 1, val_kilmer_31121959: 1, }, composer: { brad_fiedel_10031951: 1, },
+},
+{
+	id: 'la_piovra_1984', title: { ua: 'Спрут', en: 'La piovra', }, year: 1984, country: { ita: 1, fra: 1, aus: 1, gbr: 1, deu: 1, esp: 1, swe: 1, },
+	genre: { serial: 1, detective: 1, crime: 1, drama: 1, }, hash: { mafia: 1, police: 1, },
+	internet: { imdb: '0086779', wiki_ua: '%D0%A1%D0%BF%D1%80%D1%83%D1%82_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
+	cast: { michele_placido_19051946: 1, remo_girone_01121948: 1, }, composer: { ennio_morricone_10111928: 1, },
 },
 {
 	id: 'stealth_2005', title: { ua: 'Стелс', en: 'Stealth', }, year: 2005, country: { usa: 1, },
@@ -7162,7 +7173,7 @@ const arrFilms = [
 	id: 'the_thing_1982', title: { ua: 'Щось', en: 'The Thing', }, year: 1982, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, sci_fi: 1, }, hash: { winter: 1, },
 	internet: { imdb: '0084787', wiki_ua: '%D0%A9%D0%BE%D1%81%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1982)', },
-	cast: { kurt_russell_17031951: 1, },
+	cast: { kurt_russell_17031951: 1, }, composer: { ennio_morricone_10111928: 1, },
 },
 {
 	id: 'rat_race_2001', title: { ua: 'Щурячі перегони', en: 'Rat Race', }, year: 2001, country: { usa: 1, can: 1, }, rating: 5,
