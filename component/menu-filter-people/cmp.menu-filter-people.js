@@ -41,6 +41,8 @@ class ComponentMenuFilterPeople {
 
 
  		let optionCat = '<option value="all">- Всі ---</option>';
+ 		let colorCat = '';
+
  		arrMoviePeople.forEach( k => {
 
  			let attrSelected = '';
@@ -48,8 +50,10 @@ class ComponentMenuFilterPeople {
 	 			if ( Router.urlGET.win == 'people' ) {
 	 				if ( Router.urlGET.cat ) {
 	 					if ( k.id ) {
-				 			if ( k.id == Router.urlGET.cat ) 
+				 			if ( k.id == Router.urlGET.cat ) {
 				 				attrSelected = 'selected';
+				 				colorCat = 'color';
+				 			}
 	 					}
 	 				}
 	 			}
@@ -64,7 +68,7 @@ class ComponentMenuFilterPeople {
  		let html = `
  			<div class="divSelectFilter">
 	 			<div>
-	 				<select data-id="cat" onchange="${ this.name }.changeFilter( this )">${ optionCat }</select>
+	 				<select  class="${ colorCat }" data-id="cat" onchange="${ this.name }.changeFilter( this )">${ optionCat }</select>
 	 			</div>
  			</div>
  		`;

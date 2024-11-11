@@ -782,7 +782,7 @@ const arrFilms = [
 	id: 'venom_let_there_be_carnage_2021', title: { ua: 'Веном - 2: Карнаж', en: 'Venom: Let There Be Carnage', }, year: 2021, country: { usa: 1, }, franchise: 'venom',
 	genre: { fantasy: 1, action: 1, comedy: 1, }, hash: { superhero: 1, aliens: 1, },
 	internet: { imdb: '7097896', wiki_ua: '%D0%92%D0%B5%D0%BD%D0%BE%D0%BC_2:_%D0%9A%D0%B0%D1%80%D0%BD%D0%B0%D0%B6', },
-	cast: { tom_hardy_15091977: 1, woody_harrelson_23071961: 1, },
+	cast: { tom_hardy_15091977: 1, woody_harrelson_23071961: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'venom_the_last_dance_2024', title: { ua: 'Веном - 3: Останній танець', en: 'Venom: The Last Dance', }, year: 2024, country: { usa: 1, can: 1, gbr: 1, mex: 1,}, franchise: 'venom',
@@ -1044,7 +1044,7 @@ const arrFilms = [
 	id: 'world_war_z_2013', title: { ua: 'Всесвітня війна Z', en: 'World War Z', }, year: 2013, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, horror: 1, }, hash: { apocalypse: 1, zombie: 1, },
 	internet: { imdb: '0816711', wiki_ua: '%D0%92%D1%81%D0%B5%D1%81%D0%B2%D1%96%D1%82%D0%BD%D1%8F_%D0%B2%D1%96%D0%B9%D0%BD%D0%B0_Z', },
-	cast: { brad_pitt_18121963: 1, david_morse_11101953: 1, },
+	cast: { brad_pitt_18121963: 1, david_morse_11101953: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'the_getaway_1994', title: { ua: 'Втеча', en: 'The Getaway', }, year: 1994, country: { usa: 1, jpn: 1, },
@@ -1481,6 +1481,7 @@ const arrFilms = [
 	id: 'the_thing_2011', title: { ua: 'Дещо', en: 'The Thing', }, year: 2011, country: { usa: 1, can: 1, }, rating: 5,
 	genre: { horror: 1, sci_fi: 1, }, hash: { winter: 1, },
 	internet: { imdb: '0905372', wiki_ua: '%D0%94%D0%B5%D1%89%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
+	composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'jay_and_silent_bob_strike_back_2001', title: { ua: 'Джей та Мовчазний Боб завдають удар у відповідь', en: 'Jay and Silent Bob Strike Back', }, year: 2001, country: { usa: 1, },
@@ -2814,6 +2815,12 @@ const arrFilms = [
 	cast: { emma_watson_15041990: 1, },
 },
 {
+	id: 'the_clean_up_crew_2024', title: { ua: 'Команда прибиральників', en: 'The Clean Up Crew', }, year: 2024, country: { usa: 1, },
+	genre: { comedy: 1, crime: 1, }, 
+	internet: { imdb: '21614558', },	
+	cast: { antonio_banderas_10081960: 1, },
+},
+{
 	id: 'commando_1985', title: { ua: 'Командо', en: 'Commando', }, year: 1985, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, }, hash: { army: 1, terrorist: 1, children: 1, },
 	internet: { imdb: '0088944', wiki_ua: '%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '1825', },
@@ -3446,7 +3453,7 @@ const arrFilms = [
 	id: 'the_shallows_2016', title: { ua: 'Мілина', en: 'The Shallows', }, year: 2016, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, drama: 1, }, hash: { trap: 1, shark: 1, surfing: 1, beach: 1, surviving: 1, },
 	internet: { imdb: '4052882', wiki_ua: '%D0%9C%D1%96%D0%BB%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { lively_blake_25081987: 1, },
+	cast: { lively_blake_25081987: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'mine_2016', title: { ua: 'Міна', en: 'Mine', }, year: 2016, country: { usa: 1, }, rating: '5+',
@@ -3606,13 +3613,13 @@ const arrFilms = [
 	id: 'die_hard_4_2007', title: { ua: 'Міцний горішок - 4', en: 'Live Free or Die Hard', }, year: 2007, country: { usa: 1, }, rating: 5, franchise: 'die_hard',
 	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, cyber: 1, },
 	internet: { imdb: '0337978', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA_4.0', },
-	cast: { bruce_willis_19031955: 1, timothy_olyphant_20051968: 1, maggie_q_22051979: 1, },
+	cast: { bruce_willis_19031955: 1, timothy_olyphant_20051968: 1, maggie_q_22051979: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'die_hard_5_2013', title: { ua: 'Міцний горішок - 5', en: 'A Good Day to Die Hard', }, year: 2013, country: { usa: 1, }, franchise: 'die_hard',
 	genre: { action: 1, thriller: 1, },hash: { terrorist: 1, },
 	internet: { imdb: '1606378', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA._%D0%93%D0%B0%D1%80%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C,_%D0%B0%D0%B1%D0%B8_%D0%BF%D0%BE%D0%BC%D0%B5%D1%80%D1%82%D0%B8', },
-	cast: { bruce_willis_19031955: 1, jai_courtney_15031986: 1, },
+	cast: { bruce_willis_19031955: 1, jai_courtney_15031986: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'cell_2016', title: { ua: 'Мобільник', en: 'Cell', }, year: 2023, country: { usa: 1, },
@@ -4219,7 +4226,7 @@ const arrFilms = [
 	id: 'resident_evil_2002', title: { ua: 'Оселя зла', en: 'Resident Evil', }, year: 2002, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, sci_fi: 1, horror: 1, },
 	internet: { imdb: '0120804', wiki_ua: '%D0%9E%D1%81%D0%B5%D0%BB%D1%8F_%D0%B7%D0%BB%D0%B0', },
-	cast: { milla_jovovich_17121975: 1, michelle_rodriguez_12071978: 1, },
+	cast: { milla_jovovich_17121975: 1, michelle_rodriguez_12071978: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'unit_234_2024', title: { ua: 'Осередок 234', en: 'Unit 234', }, year: 2024, country: { usa: 1, },
@@ -4767,7 +4774,7 @@ const arrFilms = [
 	id: '3_10_to_Yuma_2007', title: { ua: 'Поїзд до Юми', en: '3:10 to Yuma', }, year: 2007, country: { usa: 1, }, 
 	genre: { action: 1, western: 1, }, hash: { train: 1, },
 	internet: { imdb: '0381849', wiki_ua: '%D0%9F%D0%BE%D1%82%D1%8F%D0%B3_%D0%B4%D0%BE_%D0%AE%D0%BC%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { russell_crowe_07041964: 1, christian_bale_30011974: 1, peter_fonda_23021940: 1, },
+	cast: { russell_crowe_07041964: 1, christian_bale_30011974: 1, peter_fonda_23021940: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'kraljevski_voz_1981', title: { ua: 'Поїзд на Кралєво', en: 'Kraljevski voz', }, year: 1981, country: { yug: 1, },
@@ -4812,6 +4819,7 @@ const arrFilms = [
 	id: 'flight_of_the_phoenix_2004', title: { ua: 'Політ Фенікса', en: 'Flight of the Phoenix', }, year: 2004, country: { usa: 1, },
 	genre: { drama: 1, adventure: 1, }, hash: { planet: 1, },
 	internet: { imdb: '0377062', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%82_%D0%A4%D0%B5%D0%BD%D1%96%D0%BA%D1%81%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2004)', ashdivip: '16261', },
+	composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'police_academy_1984', title: { ua: 'Поліцейська академія', en: 'Police Academy', }, year: 1984, country: { usa: 1, }, franchise: 'police_academy',
@@ -5292,7 +5300,7 @@ const arrFilms = [
 	id: 'reminiscence_2021', title: { ua: 'Ремінісценція', en: 'Reminiscence', }, year: 2021, country: { usa: 1, },
 	genre: { sci_fi: 1, thriller: 1, },
 	internet: { imdb: '3272066', wiki_ua: '%D0%A0%D0%B5%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%86%D0%B5%D0%BD%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2021)', },
-	cast: { hugh_jackman_12101968: 1, thandie_newton_06111972: 1, },
+	cast: { hugh_jackman_12101968: 1, thandie_newton_06111972: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'rampage_2018', title: { ua: 'Ремпейдж', en: 'Rampage', }, year: 2018, country: { usa: 1, },
@@ -5554,6 +5562,7 @@ const arrFilms = [
 	id: 'soul_surfer_2011', title: { ua: 'Серфер души', en: 'Soul Surfer', }, year: 2011, country: { usa: 1, },
 	genre: { drama: 1, biography: 1, }, hash: { surfing: 1, young: 1, },
 	internet: { imdb: '1596346', wiki_ua: '%D0%A1%D0%B5%D1%80%D1%84%D0%B5%D1%80_%D0%B4%D1%83%D1%88%D1%96', },
+	composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'siberia_2018', title: { ua: 'Сибір', en: 'Siberia', }, year: 2018, country: { can: 1, usa: 1, deu: 1, },
@@ -6081,7 +6090,7 @@ const arrFilms = [
 	id: 'terminator_3_2003', title: { ua: 'Термінатор - 3', en: 'Terminator 3: Rise of the Machines', }, year: 2003, country: { usa: 1, }, rating: '5+', franchise: 'terminator',
 	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, young: 1, police: 1, },
 	internet: { imdb: '0181852', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_3:_%D0%9F%D0%BE%D0%B2%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD', ashdivip: '3572', moviestape: 'Terminator.3', },
-	cast: { arnold_schwarzenegger_30071947: 1, kristanna_loken_08101979: 1, nick_stahl_05121979: 1, }, director: { jonathan_mostow_28111961: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, kristanna_loken_08101979: 1, nick_stahl_05121979: 1, }, director: { jonathan_mostow_28111961: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'terminator_4_2009', title: { ua: 'Термінатор - 4', en: 'Terminator Salvation', }, year: 2009, country: { usa: 1, }, rating: 5, franchise: 'terminator',
@@ -6143,6 +6152,12 @@ const arrFilms = [
 	id: 'silent_night_2023', title: { ua: 'Тиха ніч', en: 'Silent Night', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '15799866', wiki_ru: '%D0%9D%D0%B5%D0%BC%D0%B0%D1%8F_%D1%8F%D1%80%D0%BE%D1%81%D1%82%D1%8C', },
+},
+{
+	id: 'a_quiet_place_2018', title: { ua: 'Тихе місце', en: 'A Quiet Place', }, year: 2018, country: { usa: 1, },
+	genre: { horror: 1, sci_fi: 1, },
+	internet: { imdb: '6644200', wiki_ua: '%D0%A2%D0%B8%D1%85%D0%B5_%D0%BC%D1%96%D1%81%D1%86%D0%B5', },
+	cast: { emily_blunt_23021983: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'the_hitman_s_bodyguard_2017', title: { ua: 'Тілоохоронець кілера', en: 'The Hitman\'s Bodyguard', }, year: 2017, country: { usa: 1, },
@@ -6544,7 +6559,7 @@ const arrFilms = [
 	id: 'ford_v_ferrari_2019', title: { ua: 'Форд проти Феррарі', en: 'Ford v Ferrari', }, year: 2019, country: { usa: 1, },
 	genre: { drama: 1, }, hash: { cars: 1, },
 	internet: { imdb: '1950186', wiki_ua: '%D0%90%D1%83%D1%82%D1%81%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', },
-	cast: { christian_bale_30011974: 1, matt_damon_08101970: 1, remo_girone_01121948: 1, },
+	cast: { christian_bale_30011974: 1, matt_damon_08101970: 1, remo_girone_01121948: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'forrest_gump_1994', title: { ua: 'Форрест Ґамп', en: 'Forrest Gump', }, year: 1994, country: { usa: 1, }, rating: 5,
@@ -6693,6 +6708,7 @@ const arrFilms = [
 	id: 'hitman_agent_47_2015', title: { ua: 'Хітмен: Агент 47', en: 'Hitman: Agent 47', }, year: 2015, country: { usa: 1, deu: 1, gbr: 1, },
 	genre: { action: 1, crime: 1, }, hash: { killer: 1, biomedlab: 1, },
 	internet: { imdb: '2679042', wiki_ua: '%D0%A5%D1%96%D1%82%D0%BC%D0%B5%D0%BD:_%D0%90%D0%B3%D0%B5%D0%BD%D1%82_47', ashdivip: '1623', },
+	composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'hong_kil_dong_1986', title: { ua: 'Хон Гіль Дон', en: 'Hong Kil-dong', }, year: 1986, country: { prk: 1, },
@@ -7164,7 +7180,7 @@ const arrFilms = [
 	id: 'i_robot_2004', title: { ua: 'Я робот', en: 'I Robot', }, year: 2004, country: { deu: 1, usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { robot: 1, },
 	internet: { imdb: '0343818', wiki_ua: '%D0%AF,_%D1%80%D0%BE%D0%B1%D0%BE%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { will_smith_25091968: 1, bridget_moynahan_28041971: 1, shia_labeouf_11061986: 1, },
+	cast: { will_smith_25091968: 1, bridget_moynahan_28041971: 1, shia_labeouf_11061986: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'the_happening_2008', title: { ua: 'Явище', en: 'The Happening', }, year: 2008, country: { usa: 1, ind: 1, },
@@ -7273,10 +7289,13 @@ const arrFilms = [
 let objFilmsYear = {};
 let objFilmsCountry = {};
 
-let arrFilmsActors = [];
-let arrFilmsDirectors = [];
-let arrFilmsComposers = [];
+//let arrFilmsActorIDs = [];
+//let arrFilmsDirectorIDs = [];
+//let arrFilmsComposerIDs = [];
 
+let objFilmsActorIDs = {};
+let objFilmsDirectorIDs = {};
+let objFilmsComposerIDs = {};
 
 
 
@@ -7293,51 +7312,28 @@ arrFilms.forEach( k => {
 			objFilmsCountry[ k1 ] = 1;
 	}
 
+
+
+
+
 	if ( k.cast ) {
-		for ( let k2 in k.cast ) {
-
-			if (  arrFilmsActors.indexOf( k2 ) == -1 ) 
-				arrFilmsActors.push( k2 );
-
-		}
+		for ( let k2 in k.cast ) 
+			objFilmsActorIDs[ k2 ] = true;
 	}
 
 	if ( k.director ) {
-		for ( let k3 in k.director ) {
-
-			if ( arrFilmsDirectors.indexOf( k3 ) == -1 ) 
-				arrFilmsDirectors.push( k3 );
-
-		}
+		for ( let k2 in k.director ) 
+			objFilmsDirectorIDs[ k2 ] = true;
 	}
-
 
 
 	if ( k.composer ) {
-		for ( let k3 in k.composer ) {
-
-			if ( arrFilmsComposers.indexOf( k3 ) == -1 ) 
-				arrFilmsComposers.push( k3 );
-
-		}
+		for ( let k2 in k.composer ) 
+			objFilmsComposerIDs[ k2 ] = true;
 	}
 
 
-
-
-
-
-
-
-
-
-
-
 });
-
-
-
-//console.log( 'arrFilmsDirectors: ', arrFilmsDirectors );
 
 
 

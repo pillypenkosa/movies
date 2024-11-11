@@ -35,22 +35,8 @@ class ComponentWinPeople {
  
 		//console.log( fooName ); 
 		//console.log( objData ); 
- 
-
- 
 
 
-		let arrSelected = arrListPeople.filter( k => {
-
-			if ( k.hash ) {
-				if ( k.hash.movie ) 
-					return true;
-			}
-		});
-
-
-
-		//console.log( arrSelected );
 
 		if ( objData ) {
 			if ( objData.win && objData.win == 'people' ) {
@@ -60,6 +46,8 @@ class ComponentWinPeople {
 				if ( objData.uid ) {
 
 					//console.log( objData.uid );
+					//console.log( arrSelected );
+					//console.log( objListPeople );
 
 					let user = {};
 					if ( objListPeople[ objData.uid ] ) {
@@ -84,38 +72,10 @@ class ComponentWinPeople {
 							title 			: name, 
 							description 	: name,
 							keywords 		: name,
-							image 			: `https://pillypenkosa.github.io/media/img/people/${ objData.uid }/1.jpg`, 
+							image 			: `https://pillypenkosa.github.io/media/img/people/${ user.id }/1.jpg`, 
 						});
-
-
-
-
-
-
 					}
-
-
-					//arrSelected = arrSelected.filter( k => k.id == objData.uid  );
-
-
-					//console.log( arrSelected );
-/*
-
-
-*/
-
-
-/*
-
-					arrSelected.forEach( k => {
-						html += Component( 'Each-People', k ); 
-					});
-
-*/
-
 				}
-
-
 
 				if ( objData.cat ) {
 
@@ -135,46 +95,40 @@ class ComponentWinPeople {
 					}
 
 */
+					let arrSelected = [];
 
+					if ( objData.cat == 'actor' ) {
+						arrSelected = arrListPeople.filter( k => {
 
-
-					//console.log( objData.cat );
-
-					arrSelected = arrSelected.filter( k => {
-						if ( k.hash ) {
-							if ( k.hash[ objData.cat ] ) 
+							if ( k.id && objFilmsActorIDs[ k.id ] ) 
 								return true;
-						}
-					});
+						});
+					}
+
+					if ( objData.cat == 'director' ) {
+						arrSelected = arrListPeople.filter( k => {
+
+							if ( k.id && objFilmsDirectorIDs[ k.id ] ) 
+								return true;
+						});
+					}
+
+					if ( objData.cat == 'composer' ) {
+						arrSelected = arrListPeople.filter( k => {
+
+							if ( k.id && objFilmsComposerIDs[ k.id ] ) 
+								return true;
+						});
+					}
+
 
 					arrSelected.forEach( k => {
-						//html += Component( 'Each-People', { uid: k.id, pm: false, } ); 
-
-
-						//html += Component( 'Spoyler', { uid: k.id, pm: false, } ); 
-
+						
 						html += Component( 'Spoyler', { key: 'people', data: k, } ); 
-
-
-
 					});
-
-
-
-
-
-
-
-
-
-
-
-
-
 				}
 			}
 		}
-
 
 		return { tagParam, html };  
 	} 
