@@ -3213,6 +3213,11 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, },
 },
 {
+	id: 'l_homme_qui_rit_1971', title: { ua: 'Людина яка сміється', en: 'L\'Homme qui rit', }, year: 1971, country: { fra: 1, },
+	genre: { serial: 1, drama: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '1834254', wiki_ru: '%D0%A7%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA,_%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B9_%D1%81%D0%BC%D0%B5%D1%91%D1%82%D1%81%D1%8F_(%D0%BC%D0%B8%D0%BD%D0%B8-%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB)', },
+},
+{
 	id: 'ant_man_2015', title: { ua: 'Людина-мураха', en: 'Ant-Man', }, year: 2015, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '0478970', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BC%D1%83%D1%80%D0%B0%D1%85%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -5219,6 +5224,12 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, milla_jovovich_17121975: 1, gary_oldman_21031958: 1, chris_tucker_31081971: 1, brion_james_20021945: 1, }, director: { luc_besson_18031959: 1, },
 },
 {
+	id: 'escrava_isaura_1976', title: { ua: 'Рабиня Ізаура', en: 'Escrava Isaura', }, year: 1976, country: { bra: 1, },
+	genre: { serial: 1, drama: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '0142036', wiki_ua: '%D0%A0%D0%B0%D0%B1%D0%B8%D0%BD%D1%8F_%D0%86%D0%B7%D0%B0%D1%83%D1%80%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
+	cast: { lucelia_santos_20051957: 1, },
+},
+{
 	id: 'rebel_ridge_2024', title: { ua: 'Ребел-Ридж', en: 'Rebel Ridge', }, year: 2024, country: { fra: 1, },
 	genre: { action: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '11301886', },
@@ -6674,13 +6685,19 @@ const arrFilms = [
 	cast: { chris_hemsworth_11081983: 1, },
 },
 {
-	id: 'Hachi_a_dog_s_tale_2009', title: { ua: 'Хатіко', en: 'Hachi: A Dog\'s Tale', }, year: 2009, country: { usa: 1, }, rating: 5,
+	id: 'hachi_a_dog_s_tale_2009', title: { ua: 'Хатіко', en: 'Hachi: A Dog\'s Tale', }, year: 2009, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, }, hash: { animal: 1, dog: 1, },
 	internet: { imdb: '1028532', wiki_ua: '%D0%A5%D0%B0%D1%82%D1%96%D0%BA%D0%BE:_%D0%92%D1%96%D1%80%D0%BD%D0%B8%D0%B9_%D0%B4%D1%80%D1%83%D0%B3', },
 	cast: { richard_gere_31081949: 1,  },
 },
 {
-	id: 'Hancock_2008', title: { ua: 'Хенкок', en: 'Hancock', }, year: 2008, country: { usa: 1, },
+	id: 'halloween_2018', title: { ua: 'Хелловін', en: 'Halloween', }, year: 2018, country: { usa: 1, },
+	genre: { horror: 1, crime: 1, },
+	internet: { imdb: '1502407', wiki_ua: '%D0%A5%D0%B5%D0%BB%D0%BB%D0%BE%D0%B2%D1%96%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)',	},
+	cast: { jamie_lee_curtis_22111958: 1, },
+},
+{
+	id: 'hancock_2008', title: { ua: 'Хенкок', en: 'Hancock', }, year: 2008, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, fantasy: 1, }, 
 	internet: { imdb: '0448157', wiki_ua: '%D0%A5%D0%B5%D0%BD%D0%BA%D0%BE%D0%BA',	},
 	cast: { will_smith_25091968: 1, charlize_theron_07081975: 1, }, director: { jonathan_mostow_28111961: 1, },
@@ -6938,6 +6955,12 @@ const arrFilms = [
 	id: 'nuts_1987', title: { ua: 'Чокнуті', en: 'Nuts', }, year: 1987, country: { usa: 1, },
 	genre: { thriller: 1, },
 	internet: { imdb: '0093660', wiki_ua: '%D0%A7%D0%BE%D0%BA%D0%BD%D1%83%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'black_and_blue_2019', title: { ua: 'Чорне та синє', en: 'Black and Blue', }, year: 2019, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { police: 1, cop: 1, },
+	internet: { imdb: '7390646', wiki_ua: '%D0%A7%D0%BE%D1%80%D0%BD%D0%B5_%D1%82%D0%B0_%D1%81%D0%B8%D0%BD%D1%94', ashdivip: '39091', },
+	cast: { naomie_harris_06091976: 1, },
 },
 {
 	id: 'black_dog_1998', title: { ua: 'Чорний пес', en: 'Black Dog', }, year: 1998, country: { usa: 1, }, rating: 5,
