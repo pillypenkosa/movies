@@ -133,7 +133,7 @@ const arrFilms = [
 },
 {
 	id: '65_2023', title: { ua: '65', en: '65', }, year: 2023, country: { usa: 1, },
-	studio: { columbia: 1, },
+	studio: { columbia: 1, }, hash: { forest: 1, },
 	genre: { fantasy: 1, adventure: 1, drama: 1, },
 	internet: { imdb: '12261776', wiki_ua: '65_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
@@ -734,7 +734,7 @@ const arrFilms = [
 },
 {
 	id: 'cocaine_bear_2023', title: { ua: 'Ведмідь під кайфом', en: 'Cocaine Bear', }, year: 2023, country: { usa: 1, },
-	genre: { comedy: 1, }, hash: { animal: 1, bear: 1, drugs: 1, },
+	genre: { comedy: 1, }, hash: { animal: 1, bear: 1, drugs: 1, forest: 1, },
 	internet: { imdb: '14209916', wiki_ua: '%D0%92%D0%B5%D0%B4%D0%BC%D1%96%D0%B4%D1%8C_%D0%BF%D1%96%D0%B4_%D0%BA%D0%B0%D0%B9%D1%84%D0%BE%D0%BC', ashdivip: '91155', },
 },
 {
@@ -1280,7 +1280,7 @@ const arrFilms = [
 },
 {
 	id: 'surviving_the_game_1994', title: { ua: 'Гра на виживання', en: 'Surviving the Game', }, year: 1994, country: { usa: 1, }, rating: 5,
-	genre: { action: 1, crime: 1, adventure: 1, }, hash: { hunting: 1, surviving: 1, },
+	genre: { action: 1, crime: 1, adventure: 1, }, hash: { hunting: 1, surviving: 1, forest: 1, },
 	internet: { imdb: '0111323', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%BD%D0%B0_%D0%B2%D0%B8%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)', },
 	cast: { ice_t_16021958: 1, rutger_hauer_23011944: 1, gary_busey_29061944: 1, },
 },
@@ -1738,7 +1738,7 @@ const arrFilms = [
 },
 {
 	id: 'the_marsh_kings_daughter_2023', title: { ua: 'Дочка болотного короля', en: 'The Marsh King\'s Daughter', }, year: 2023, country: { usa: 1, },
-	genre: { drama: 1, crime: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { forest: 1, },
 	internet: { imdb: '8002382', wiki_ua: '%D0%94%D0%BE%D1%87%D0%BA%D0%B0_%D0%B1%D0%BE%D0%BB%D0%BE%D1%82%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D1%8F', },
 },
 {
@@ -2425,7 +2425,7 @@ const arrFilms = [
 },
 {
 	id: 'lazareth_2024', title: { ua: 'Ізоляція страху', en: 'Lazareth', }, year: 2024, country: { usa: 1, },
-	genre: { thriller: 1, drama: 1, }, hash: { apocalypse: 1, },
+	genre: { thriller: 1, drama: 1, }, hash: { apocalypse: 1, forest: 1, },
 	internet: { imdb: '27676959', },
 	cast: { ashley_judd_19041968: 1, },
 },
@@ -3045,7 +3045,7 @@ const arrFilms = [
 	cast: { kari_matchett_25031970: 1, },
 },
 {
-	id: 'strays_2023', title: { ua: 'Кудлаті перці', en: 'Strays', }, year: 2023, country: { usa: 1, }, rating: 5,
+	id: 'strays_2023', title: { ua: 'Кудлаті перці', en: 'Strays', }, year: 2023, country: { usa: 1, },
 	genre: { fantasy: 1, adventure: 1, comedy: 1, }, hash: { animal: 1, dog: 1, team: 1, },
 	internet: { imdb: '15153532', wiki_ua: '%D0%91%D1%80%D0%BE%D0%B4%D1%8F%D0%B3%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', ashdivip: '111951', },
 },
@@ -3762,7 +3762,7 @@ const arrFilms = [
 },
 {
 	id: 'the_watchers_2024', title: { ua: 'Наглядачі', en: 'The Watchers', }, year: 2024, country: { usa: 1, },
-	genre: { fantasy: 1, horror: 1, },
+	genre: { fantasy: 1, horror: 1, }, hash: { forest: 1, },
 	internet: { imdb: '26736843', wiki_ua: '%D0%9D%D0%B0%D0%B3%D0%BB%D1%8F%D0%B4%D0%B0%D1%87%D1%96', },
 },
 {
@@ -3952,7 +3952,7 @@ const arrFilms = [
 },
 {
 	id: 'stranger_in_the_woods_2024', title: { ua: 'Незнайомець у лісі', en: 'Stranger in the Woods', }, year: 2024, country: { usa: 1, },
-	genre: { thriller: 1, },
+	genre: { thriller: 1, }, hash: { forest: 1, },
 	internet: { imdb: '19316408', },
 },
 {
@@ -4193,7 +4193,7 @@ const arrFilms = [
 },
 {
 	id: 'caddo_lake_2024', title: { ua: 'Озеро Каддо', en: 'Caddo Lake', }, year: 2024, country: { usa: 1, },
-	genre: { thriller: 1, mystic: 1, }, hash: { time: 1, },
+	genre: { thriller: 1, mystic: 1, }, hash: { time: 1, forest: 1, },
 	internet: { imdb: '15552142', wiki_ru: '%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D0%9A%D0%B0%D0%B4%D0%B4%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', ashdivip: '146382', },
 },
 {
@@ -4939,6 +4939,11 @@ const arrFilms = [
 	director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
+	id: 'to_die_alone_2024', title: { ua: 'Померти на самоті', en: 'To Die Alone', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, }, hash: { surviving: 1, forest: 1, },
+	internet: { imdb: '8736506', },
+},
+{
 	id: 'time_lapse_2014', title: { ua: 'Помилка часу', en: 'Time Lapse', }, year: 2014, country: { usa: 1, },
 	genre: { mystic: 1, thriller: 1, }, hash: { time: 1, photo: 1, },
 	internet: { imdb: '2669336', wiki_ua: '%D0%9F%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B0_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -5284,7 +5289,7 @@ const arrFilms = [
 },
 {
 	id: 'rambo_1982', title: { ua: 'Рембо', en: 'First Blood', }, year: 1982, country: { usa: 1, }, rating: 5, franchise: 'rambo',
-	genre: { action: 1, thriller: 1, }, hash: { army: 1, police: 1, },
+	genre: { action: 1, thriller: 1, }, hash: { army: 1, police: 1, forest: 1, },
 	internet: { imdb: '0083944', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE:_%D0%9F%D0%B5%D1%80%D1%88%D0%B0_%D0%BA%D1%80%D0%BE%D0%B2', ashdivip: '985', },
 	cast: { sylvester_stallone_06071946: 1, richard_crenna_30111926: 1, },
 },
@@ -6716,7 +6721,7 @@ const arrFilms = [
 },
 {
 	id: 'never_let_go_2024', title: { ua: 'Хижий ліс', en: 'Never Let Go', }, year: 2024, country: { usa: 1, can: 1, fra: 1,},
-	genre: { horror: 1, thriller: 1, },
+	genre: { horror: 1, thriller: 1, }, hash: { forest: 1, },
 	internet: { imdb: '14415204', wiki_ua: '%D0%A5%D0%B8%D0%B6%D0%B8%D0%B9_%D0%BB%D1%96%D1%81', },
 	cast: { halle_berry_14081966: 1, },
 },

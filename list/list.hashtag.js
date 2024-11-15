@@ -70,9 +70,10 @@ const arrHashTags = [
 	{ id: '-' 				, title: '--- --- ГЕОГРАФІЯ --- ---' 	, app: { movies: 1, }, },
 	{ id: 'mountains' 		, title: 'гори' 						, app: { movies: 1, }, },
 	{ id: 'jungle' 			, title: 'джунглі' 						, app: { movies: 1, }, }, 
-	{ id: 'road' 			, title: 'дорога' 						, app: { movies: 1, }, }, // події в дорозі
+	{ id: 'road' 			, title: 'дорога' 						, app: { movies: 1, }, },
 	{ id: 'winter' 			, title: 'зима' 						, app: { movies: 1, }, },
-	{ id: 'travel' 			, title: 'мандри' 						, app: { movies: 1, }, }, // подорожі по світу
+	{ id: 'forest' 			, title: 'ліс' 							, app: { movies: 1, }, },
+	{ id: 'travel' 			, title: 'мандри' 						, app: { movies: 1, }, },
 	{ id: 'sea' 			, title: 'море'							, app: { movies: 1, }, },
 	{ id: 'newyork' 		, title: 'Нью-Йорк' 					, app: { movies: 1, }, },
 	{ id: 'island' 			, title: 'острів' 						, app: { movies: 1, }, }, 
