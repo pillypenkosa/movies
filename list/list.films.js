@@ -6698,13 +6698,13 @@ const arrFilms = [
 {
 	id: 'halloween_2018', title: { ua: 'Хелловін', en: 'Halloween', }, year: 2018, country: { usa: 1, },
 	genre: { horror: 1, crime: 1, },
-	internet: { imdb: '1502407', wiki_ua: '%D0%A5%D0%B5%D0%BB%D0%BB%D0%BE%D0%B2%D1%96%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)',	},
+	internet: { imdb: '1502407', wiki_ua: '%D0%A5%D0%B5%D0%BB%D0%BB%D0%BE%D0%B2%D1%96%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', ashdivip: '9429', },
 	cast: { jamie_lee_curtis_22111958: 1, },
 },
 {
 	id: 'hancock_2008', title: { ua: 'Хенкок', en: 'Hancock', }, year: 2008, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, fantasy: 1, }, 
-	internet: { imdb: '0448157', wiki_ua: '%D0%A5%D0%B5%D0%BD%D0%BA%D0%BE%D0%BA',	},
+	internet: { imdb: '0448157', wiki_ua: '%D0%A5%D0%B5%D0%BD%D0%BA%D0%BE%D0%BA', },
 	cast: { will_smith_25091968: 1, charlize_theron_07081975: 1, }, director: { jonathan_mostow_28111961: 1, },
 },
 {
