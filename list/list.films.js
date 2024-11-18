@@ -120,6 +120,12 @@ const arrFilms = [
 	cast: { sandra_bullock_26071964: 1, steve_buscemi_13121957: 1, },
 },
 {
+	id: '28_days_later_2002', title: { ua: '28 днів потому', en: '28 Days Later', }, year: 2002, country: { usa: 1, gbr: 1, },
+	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { zombie: 1, },
+	internet: { imdb: '0289043', wiki_ua: '28_%D0%B4%D0%BD%D1%96%D0%B2_%D0%BF%D0%BE%D1%82%D0%BE%D0%BC%D1%83', },
+	cast: { naomie_harris_06091976: 1, },
+},
+{
 	id: 'the_33_2015', title: { ua: '33', en: 'The 33', }, year: 2015, country: { usa: 1, chl: 1, col: 1, },
 	studio: { _20_century: 1, warner: 1, netflix: 1, },
 	genre: { drama: 1, },
@@ -648,7 +654,7 @@ const arrFilms = [
 },
 {
 	id: 'stonehearst_asylum_2014', title: { ua: 'Будинок проклятих', en: 'Stonehearst Asylum', }, year: 2014, country: { usa: 1, }, rating: 5,
-	genre: { mystic: 1, horror: 1, }, hash: { psycho: 1, },
+	genre: { mystic: 1, horror: 1, }, hash: { psycho: 1, madhouse: 1, },
 	internet: { imdb: '1772264', wiki_ua: '%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_%D0%BF%D1%80%D0%BE%D0%BA%D0%BB%D1%8F%D1%82%D0%B8%D1%85', ashdivip: '14334', },
 	cast: { kate_beckinsale_26071973: 1, },
 },
@@ -788,7 +794,7 @@ const arrFilms = [
 	id: 'venom_let_there_be_carnage_2021', title: { ua: 'Веном - 2: Карнаж', en: 'Venom: Let There Be Carnage', }, year: 2021, country: { usa: 1, }, franchise: 'venom',
 	genre: { fantasy: 1, action: 1, comedy: 1, }, hash: { superhero: 1, aliens: 1, },
 	internet: { imdb: '7097896', wiki_ua: '%D0%92%D0%B5%D0%BD%D0%BE%D0%BC_2:_%D0%9A%D0%B0%D1%80%D0%BD%D0%B0%D0%B6', },
-	cast: { tom_hardy_15091977: 1, woody_harrelson_23071961: 1, }, composer: { marco_beltrami_07101966: 1, },
+	cast: { tom_hardy_15091977: 1, woody_harrelson_23071961: 1, naomie_harris_06091976: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'venom_the_last_dance_2024', title: { ua: 'Веном - 3: Останній танець', en: 'Venom: The Last Dance', }, year: 2024, country: { usa: 1, can: 1, gbr: 1, mex: 1,}, franchise: 'venom',
@@ -2051,6 +2057,11 @@ const arrFilms = [
 	cast: { ben_affleck_15081972: 1, will_smith_25091968: 1, margot_robbie_02071990: 1, jai_courtney_15031986: 1, },
 },
 {
+	id: 'the_hunted_2024', title: { ua: 'Загнані', en: 'The Hunted', }, year: 2024, country: { fra: 1, gbr: 1, bel: 1, grc: 1,},
+	genre: { thriller: 1, crime: 1, }, hash: { hunting: 1, },
+	internet: { imdb: '22493538', },
+},
+{
 	id: 'gone_girl_2014', title: { ua: 'Загублена', en: 'Gone Girl', }, year: 2014, country: { usa: 1, },
 	genre: { thriller: 1, drama: 1, }, 
 	internet: { imdb: '2267998', wiki_ua: '%D0%97%D0%B0%D0%B3%D1%83%D0%B1%D0%BB%D0%B5%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -2534,6 +2545,11 @@ const arrFilms = [
 	genre: { thriller: 1, mystic: 1, },
 	internet: { imdb: '3062096', wiki_ua: '%D0%86%D0%BD%D1%84%D0%B5%D1%80%D0%BD%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
 	cast: { tom_hanks_09071956: 1,  }, composer: { hans_zimmer_12091957: 1, },
+},
+{
+	id: 'influencer_2022', title: { ua: 'Інфлюенсер', en: 'Influencer', }, year: 2022, country: { usa: 1, },
+	genre: { thriller: 1, horror: 1, },
+	internet: { imdb: '13309170', },	
 },
 {
 	id: 'another_end_2024', title: { ua: 'Інший фінал', en: 'Another End', }, year: 2024, country: { ita: 1, },
@@ -3770,6 +3786,7 @@ const arrFilms = [
 	id: 'the_watchers_2024', title: { ua: 'Наглядачі', en: 'The Watchers', }, year: 2024, country: { usa: 1, },
 	genre: { fantasy: 1, horror: 1, }, hash: { forest: 1, },
 	internet: { imdb: '26736843', wiki_ua: '%D0%9D%D0%B0%D0%B3%D0%BB%D1%8F%D0%B4%D0%B0%D1%87%D1%96', },
+	cast: { dakota_fanning_23021994: 1, },
 },
 {
 	id: 'above_the_law_1988', title: { ua: 'Над законом', en: 'Above the Law', }, year: 1988, country: { usa: 1, hkg: 1, },
@@ -3909,7 +3926,7 @@ const arrFilms = [
 	id: 'no_time_to_die_2021', title: { ua: 'Не час помирати', en: 'No Time to Die', }, year: 2021, country: { gbr: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '2382320', wiki_ua: '007:_%D0%9D%D0%B5_%D1%87%D0%B0%D1%81_%D0%BF%D0%BE%D0%BC%D0%B8%D1%80%D0%B0%D1%82%D0%B8', },
-	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, rami_malek_12051981: 1, ana_de_armas_30041988: 1, },
+	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, rami_malek_12051981: 1, ana_de_armas_30041988: 1, naomie_harris_06091976: 1, },
 },
 {
 	id: 'dangerous_waters_2023', title: { ua: 'Небезпечні води', en: 'Dangerous Waters', }, year: 2023, country: { usa: 1, },
@@ -5020,7 +5037,7 @@ const arrFilms = [
 	cast: { denzel_washington_28121954: 1, bill_pullman_17121953: 1, },
 },
 {
-	id: 'the_equalizer_3_2023', title: { ua: 'Праведник - 3', en: 'The Equalizer 2', }, year: 2023, country: { usa: 1, }, rating: 5,
+	id: 'the_equalizer_3_2023', title: { ua: 'Праведник - 3', en: 'The Equalizer 3', }, year: 2023, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, }, 
 	internet: { imdb: '17024450', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA_3', ashdivip: '107573', },
 	cast: { denzel_washington_28121954: 1, remo_girone_01121948: 1, dakota_fanning_23021994: 1, },
@@ -5239,6 +5256,11 @@ const arrFilms = [
 	genre: { serial: 1, drama: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0142036', wiki_ua: '%D0%A0%D0%B0%D0%B1%D0%B8%D0%BD%D1%8F_%D0%86%D0%B7%D0%B0%D1%83%D1%80%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 	cast: { lucelia_santos_20051957: 1, },
+},
+{
+	id: 'paradise_2023', title: { ua: 'Рай', en: 'Paradise', }, year: 2023, country: { deu: 1, },
+	genre: { sci_fi: 1, thriller: 1, },
+	internet: { imdb: '21308888', wiki_ua: '%D0%A0%D0%B0%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },	
 },
 {
 	id: 'rebel_ridge_2024', title: { ua: 'Ребел-Ридж', en: 'Rebel Ridge', }, year: 2024, country: { fra: 1, },
@@ -5591,36 +5613,11 @@ const arrFilms = [
 	internet: { imdb: '1596346', wiki_ua: '%D0%A1%D0%B5%D1%80%D1%84%D0%B5%D1%80_%D0%B4%D1%83%D1%88%D1%96', },
 	composer: { marco_beltrami_07101966: 1, },
 },
-
-
-
-
-
-
 {
 	id: 'dragon_heart_1996', title: { ua: 'Серце дракона', en: 'DragonHeart', }, year: 1996, country: { usa: 1, },
-
 	genre: { fantasy: 1, adventure: 1, }, hash: { dragon: 1, middleAges: 1, },
-
-
-
-
-	internet: { imdb: '', wiki_ua: '', },
-
-	composer: { marco_beltrami_07101966: 1, },
+	internet: { imdb: '0116136', wiki_ua: '%D0%A1%D0%B5%D1%80%D1%86%D0%B5_%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
 },
-
-
-
-
-
-
-
-
-
-
-
-
 {
 	id: 'siberia_2018', title: { ua: 'Сибір', en: 'Siberia', }, year: 2018, country: { can: 1, usa: 1, deu: 1, },
 	genre: { drama: 1, crime: 1, }, 
@@ -5815,7 +5812,7 @@ const arrFilms = [
 	id: 'spectre_2015', title: { ua: 'Спектр', en: 'Spectre', }, year: 2015, country: { gbr: 1, usa: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '2379713', wiki_ua: '007:_%D0%A1%D0%BF%D0%B5%D0%BA%D1%82%D1%80', },
-	cast: { daniel_craig_02031968: 1, monica_bellucci_30091964: 1, },
+	cast: { daniel_craig_02031968: 1, monica_bellucci_30091964: 1, naomie_harris_06091976: 1, },
 },
 {
 	id: 'the_specialist_1994', title: { ua: 'Спеціаліст', en: 'The Specialist', }, year: 1994, country: { usa: 1, }, rating: 5,
@@ -6125,6 +6122,12 @@ const arrFilms = [
 	cast: { whoopi_goldberg_13111955: 1, },
 },
 {
+	id: 'land_of_bad_2024', title: { ua: 'Територія зла', en: 'Land of Bad', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, }, hash: { army: 1, },
+	internet: { imdb: '19864802', wiki_ru: '%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%B7%D0%BB%D0%B0',  },
+	cast: { russell_crowe_07041964: 1, },
+},
+{
 	id: 'conspiracy_theory_1997', title: { ua: 'Теорія змови', en: 'Conspiracy Theory', }, year: 1997, country: { usa: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '0118883', wiki_ua: '%D0%A2%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D0%B7%D0%BC%D0%BE%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -6150,7 +6153,7 @@ const arrFilms = [
 },
 {
 	id: 'terminator_2_1991', title: { ua: 'Термінатор - 2', en: 'Terminator 2: Judgment Day', }, year: 1991, country: { usa: 1, }, rating: '5+', franchise: 'terminator',
-	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, robot: 1, children: 1, motorbike: 1, police: 1, madhouse: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, robot: 1, children: 1, motorbike: 1, police: 1, },
 	internet: { imdb: '0103064', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_2:_%D0%A1%D1%83%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C', ashdivip: '3314', moviestape: 'Terminator.2.Judgment.Day', },
 	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, edward_furlong_02081977: 1, robert_patrick_05111958: 1, joe_morton_18101947: 1, michael_biehn_31071956: 1, }, director: { james_cameron_16081954: 1, }, composer: { brad_fiedel_10031951: 1, },
 },

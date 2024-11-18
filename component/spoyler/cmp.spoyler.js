@@ -237,8 +237,8 @@ class ComponentSpoyler {
 	static linkTo( data = {} ) {
 		const fooName = this.name + '.linkTo()'; 
 
-		console.log( 'fooName: ', fooName ); 
-		console.log( 'data: ', data ); 
+		//console.log( 'fooName: ', fooName ); 
+		//console.log( 'data: ', data ); 
 
 
 

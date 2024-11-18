@@ -276,6 +276,8 @@ class ComponentEachPeople {
 
 			Router.urlGET = {};
 
+			ComponentHeader.delHtmlMenu();
+
 			Router.link([
 				{ k: 'win' 	, v: 'people' 		, },
 				{ k: 'uid' 	, v: data 			, },
