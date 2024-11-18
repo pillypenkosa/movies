@@ -490,6 +490,12 @@ const arrFilms = [
 	cast: { john_travolta_18021954: 1, nicolas_cage_07011964: 1, }, director: { john_woo_01051946: 1, },
 },
 {
+	id: 'no_hard_feelings_2023', title: { ua: 'Без образ', en: 'No Hard Feelings', }, year: 2023, country: { usa: 1, },
+	genre: { comedy: 1, drama: 1, },
+	internet: { imdb: '15671028', wiki_ua: '%D0%91%D0%B5%D0%B7_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
+	cast: { jennifer_lawrence_15081990: 1, nicolas_cage_07011964: 1, }, director: { john_woo_01051946: 1, },
+},
+{
 	id: 'the_abyss_1989', title: { ua: 'Безодня', en: 'The Abyss', }, year: 1989, country: { usa: 1, }, rating: 5,
 	genre: { sci_fi: 1, adventure: 1, }, hash: { underwater: 1, aliens: 1, },
 	internet: { imdb: '0096754', wiki_ua: '%D0%91%D0%B5%D0%B7%D0%BE%D0%B4%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14910', },
@@ -1286,7 +1292,7 @@ const arrFilms = [
 },
 {
 	id: 'game_of_thrones_2011', title: { ua: 'Гра престолів', en: 'Game of Thrones', }, year: 2011, country: { usa: 1, },
-	genre: { serial: 1, drama: 1, adventure: 1, }, hash: { middleAges: 1, battle: 1, },
+	genre: { serial: 1, drama: 1, adventure: 1, }, hash: { middleAges: 1, battle: 1, dragon: 1, },
 	internet: { imdb: '0944947', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB%D1%96%D0%B2', },
 	cast: { emilia_clarke_23101986: 1, lena_headey_03101973: 1, peter_dinklage_11061969: 1, sophie_turner_21021996: 1, jason_momoa_01081979: 1, sean_bean_17041959: 1, natalie_dormer_11021982: 1, rose_leslie_09021987: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
@@ -5585,6 +5591,36 @@ const arrFilms = [
 	internet: { imdb: '1596346', wiki_ua: '%D0%A1%D0%B5%D1%80%D1%84%D0%B5%D1%80_%D0%B4%D1%83%D1%88%D1%96', },
 	composer: { marco_beltrami_07101966: 1, },
 },
+
+
+
+
+
+
+{
+	id: 'dragon_heart_1996', title: { ua: 'Серце дракона', en: 'DragonHeart', }, year: 1996, country: { usa: 1, },
+
+	genre: { fantasy: 1, adventure: 1, }, hash: { dragon: 1, middleAges: 1, },
+
+
+
+
+	internet: { imdb: '', wiki_ua: '', },
+
+	composer: { marco_beltrami_07101966: 1, },
+},
+
+
+
+
+
+
+
+
+
+
+
+
 {
 	id: 'siberia_2018', title: { ua: 'Сибір', en: 'Siberia', }, year: 2018, country: { can: 1, usa: 1, deu: 1, },
 	genre: { drama: 1, crime: 1, }, 
@@ -5601,6 +5637,11 @@ const arrFilms = [
 	id: 'blue_beetle_2023', title: { ua: 'Синій Жук', en: 'Blue Beetle', }, year: 2023, country: { usa: 1, can: 1, deu: 1, mex: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '9362930', wiki_ua: '%D0%A1%D0%B8%D0%BD%D1%96%D0%B9_%D0%96%D1%83%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'signor_robinson_1976', title: { ua: 'Синьйор Робінзон', en: 'Il signor Robinson, mostruosa storia d\'amore e d\'avventure', }, year: 1976, country: { ita: 1, },
+	genre: { comedy: 1, adventure: 1, }, hash: { island: 1, surviving: 1, tropic: 1, },
+	internet: { imdb: '0076632', wiki_ru: '%D0%A1%D0%B8%D0%BD%D1%8C%D0%BE%D1%80_%D0%A0%D0%BE%D0%B1%D0%B8%D0%BD%D0%B7%D0%BE%D0%BD', },
 },
 {
 	id: 'salt_on_our_skin_1992', title: { ua: 'Сіль на нашій шкірі', en: 'Salt on Our Skin', }, year: 2010, country: { deu: 1, fra: 1, can: 1, },

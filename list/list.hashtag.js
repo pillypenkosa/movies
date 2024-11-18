@@ -49,6 +49,7 @@ const arrHashTags = [
 	{ id: 'bear' 			, title: 'ведмеді' 						, app: { movies: 1, }, }, 
 	{ id: 'virus' 			, title: 'вірус' 						, app: { movies: 1, }, },
 	{ id: 'dinosaur' 		, title: 'динозаври' 					, app: { movies: 1, }, },
+	{ id: 'dragon' 			, title: 'дракони' 						, app: { movies: 1, }, },
 	{ id: 'snake' 			, title: 'змії' 						, app: { movies: 1, }, },
 	{ id: 'crocodile' 		, title: 'крокодили' 					, app: { movies: 1, }, },
 	{ id: 'monkey' 			, title: 'мавпи' 						, app: { movies: 1, }, },
