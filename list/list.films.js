@@ -1072,9 +1072,9 @@ const arrFilms = [
 },
 {
 	id: 'deadlocked_escape_from_zone_14_1995', title: { ua: 'Втеча з зони 14', en: 'Deadlocked: Escape from Zone 14', }, year: 1995, country: { usa: 1, }, rating: '5+',
-	genre: { action: 1, adventure: 1, }, hash: { future: 1, prison: 1, escape: 1, techno: 1, },
+	genre: { sci_fi: 1, action: 1, adventure: 1, }, hash: { future: 1, prison: 1, escape: 1, techno: 1, },
 	internet: { imdb: '0112822', },
-	cast: { nia_peeples_10121961: 1, },
+	cast: { esai_morales_01101962: 1, nia_peeples_10121961: 1, },
 },
 {
 	id: 'chicken_run_2000', title: { ua: 'Втеча з курника', en: 'Chicken Run', }, year: 2000, country: { usa: 1, }, rating: 5,
@@ -6545,7 +6545,7 @@ const arrFilms = [
 	id: 'freejack_1992', title: { ua: 'Утікач із того світу', en: 'Freejack', }, year: 1992, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, sci_fi: 1, crime: 1, }, hash: { time: 1, future: 1, },
 	internet: { imdb: '0104299', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%86%D1%96%D1%8F_%C2%AB%D0%91%D0%B5%D0%B7%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%8F%C2%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '20376', },
-	cast: { emilio_estevez_12051962: 1, mick_jagger_26071943: 1, rene_russo_17021954: 1, anthony_hopkins_31121937: 1, },
+	cast: { emilio_estevez_12051962: 1, mick_jagger_26071943: 1, rene_russo_17021954: 1, anthony_hopkins_31121937: 1, esai_morales_01101962: 1, },
 },
 {
 	id: 'les_fugitifs_1986', title: { ua: 'Утікачі', en: 'Les fugitifs', }, year: 1986, country: { fra: 1, },
