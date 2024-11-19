@@ -124,6 +124,11 @@ class ComponentSpoyler {
 		//console.log( 'fooName: ', fooName ); 
 		//console.log( 'elem: ', elem );
 
+		ComponentHeader.delHtmlMenu();
+
+
+
+
 		let elemParent = elem.closest( 'cmp-spoyler' );
 
 
