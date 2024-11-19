@@ -391,7 +391,7 @@ const arrFilms = [
 {
 	id: 'atlas_2024', title: { ua: 'Атлас', en: 'Atlas', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { space: 1, robot: 1, battle: 1, },
-	internet: { imdb: '14856980', wiki_ua: '%D0%90%D1%82%D0%BB%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '14856980', wiki_ua: '%D0%90%D1%82%D0%BB%D0%B0%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '128280', },
 	cast: { jennifer_lopez_24071969: 1, },
 },
 {
@@ -480,7 +480,7 @@ const arrFilms = [
 {
 	id: 'the_beekeeper_2024', title: { ua: 'Бджоляр', en: 'The Beekeeper', }, year: 2024, country: { usa: 1, gbr: 1, },
 	genre: { action: 1, }, hash: { fight: 1, },
-	internet: { imdb: '15314262', wiki_ua: '%D0%91%D0%B4%D0%B6%D0%BE%D0%BB%D1%8F%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '15314262', wiki_ua: '%D0%91%D0%B4%D0%B6%D0%BE%D0%BB%D1%8F%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '116855', },
 	cast: { jason_statham_26071967: 1, },
 },
 {
@@ -499,7 +499,7 @@ const arrFilms = [
 	id: 'no_hard_feelings_2023', title: { ua: 'Без образ', en: 'No Hard Feelings', }, year: 2023, country: { usa: 1, },
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '15671028', wiki_ua: '%D0%91%D0%B5%D0%B7_%D0%BE%D0%B1%D1%80%D0%B0%D0%B7_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
-	cast: { jennifer_lawrence_15081990: 1, nicolas_cage_07011964: 1, }, director: { john_woo_01051946: 1, },
+	cast: { jennifer_lawrence_15081990: 1, }, 
 },
 {
 	id: 'the_abyss_1989', title: { ua: 'Безодня', en: 'The Abyss', }, year: 1989, country: { usa: 1, }, rating: 5,
@@ -731,7 +731,7 @@ const arrFilms = [
 {
 	id: 'killer_heat_2024', title: { ua: 'Вбивча спека', en: 'Killer Heat', }, year: 2024, country: { usa: 1, },
 	genre: { drama: 1, detective: 1, },
-	internet: { imdb: '27419292', },
+	internet: { imdb: '27419292', ashdivip: '145019', },
 },
 {
 	id: 'the_score_2001', title: { ua: 'Ведмежатник', en: 'The Score', }, year: 2001, country: { usa: 1, deu: 1, },
@@ -1189,7 +1189,7 @@ const arrFilms = [
 {
 	id: 'the_silent_hour_2024', title: { ua: 'Година тиші', en: 'The Silent Hour', }, year: 2024, country: { usa: 1, can: 1, mlt: 1,},
 	genre: { thriller: 1, crime: 1, }, hash: { police: 1, },
-	internet: { imdb: '22874848', },	
+	internet: { imdb: '22874848', ashdivip: '151650', },	
 },
 {
 	id: 'ticker_2001', title: { ua: 'Годинниковий механізм', en: 'Ticker', }, year: 2001, country: { usa: 1, },
@@ -1287,7 +1287,7 @@ const arrFilms = [
 {
 	id: 'the_killer_s_game_2024', title: { ua: 'Гра кілера', en: 'The Killer\'s Game', }, year: 2024, country: { usa: 1, }, 
 	genre: { action: 1, comedy: 1, crime: 1, },
-	internet: { imdb: '0327785', },
+	internet: { imdb: '0327785', ashdivip: '144915', },
 	cast: { scott_adkins_17061976: 1, sofia_boutella_03041982: 1, },
 },
 {
@@ -1906,7 +1906,7 @@ const arrFilms = [
 {
 	id: 'paradox_effect_2024', title: { ua: 'Ефект парадокса', en: 'Paradox Effect', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
-	internet: { imdb: '14416430', },
+	internet: { imdb: '14416430', ashdivip: '130205', },
 	cast: { olga_kurylenko_14111979: 1, },
 },
 {
@@ -2069,7 +2069,7 @@ const arrFilms = [
 {
 	id: 'the_hunted_2024', title: { ua: 'Загнані', en: 'The Hunted', }, year: 2024, country: { fra: 1, gbr: 1, bel: 1, grc: 1,},
 	genre: { thriller: 1, crime: 1, }, hash: { hunting: 1, },
-	internet: { imdb: '22493538', },
+	internet: { imdb: '22493538', ashdivip: '127131', },
 },
 {
 	id: 'gone_girl_2014', title: { ua: 'Загублена', en: 'Gone Girl', }, year: 2014, country: { usa: 1, },
@@ -2080,7 +2080,7 @@ const arrFilms = [
 {
 	id: 'the_lost_city_2022', title: { ua: 'Загублене місто', en: 'The Lost City', }, year: 2022, country: { usa: 1, },
 	genre: { adventure: 1, comedy: 1, }, hash: { travel: 1, treasure: 1, },
-	internet: { imdb: '13320622', wiki_ua: '%D0%97%D0%B0%D0%B3%D1%83%D0%B1%D0%BB%D0%B5%D0%BD%D0%B5_%D0%BC%D1%96%D1%81%D1%82%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', },
+	internet: { imdb: '13320622', wiki_ua: '%D0%97%D0%B0%D0%B3%D1%83%D0%B1%D0%BB%D0%B5%D0%BD%D0%B5_%D0%BC%D1%96%D1%81%D1%82%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', ashdivip: '72536', },
 	cast: { sandra_bullock_26071964: 1, brad_pitt_18121963: 1, },
 },
 {
@@ -2116,7 +2116,7 @@ const arrFilms = [
 {
 	id: 'trap_2024', title: { ua: 'Западня', en: 'Trap', }, year: 2024, country: { usa: 1, },
 	genre: { thriller: 1, },
-	internet: { imdb: '26753003', wiki_ua: '%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
+	internet: { imdb: '26753003', wiki_ua: '%D0%97%D0%B0%D0%BF%D0%B0%D0%B4%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', ashdivip: '140375', },
 	cast: { josh_hartnett_21071978: 1, },
 },
 {
@@ -2559,7 +2559,7 @@ const arrFilms = [
 {
 	id: 'influencer_2022', title: { ua: 'Інфлюенсер', en: 'Influencer', }, year: 2022, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { island: 1, },
-	internet: { imdb: '13309170', },	
+	internet: { imdb: '13309170', ashdivip: '96290', },	
 },
 {
 	id: 'another_end_2024', title: { ua: 'Інший фінал', en: 'Another End', }, year: 2024, country: { ita: 1, },
@@ -2801,7 +2801,13 @@ const arrFilms = [
 {
 	id: 'amber_alert_2024', title: { ua: 'Код жовтий', en: 'Amber Alert', }, year: 2024, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { children: 1, cars: 1, },
-	internet: { imdb: '31450182', },
+	internet: { imdb: '31450182', ashdivip: '146476', },
+},
+{
+	id: 'canary_black_2024', title: { ua: 'Код "Чорна канарка"', en: 'Canary Black', }, year: 2024, country: { usa: 1, gbr: 1, hrv: 1, },
+	genre: { action: 1, }, 
+	internet: { imdb: '20048582', wiki_ua: '%D0%9A%D0%BE%D0%B4_%C2%AB%D0%A7%D0%BE%D1%80%D0%BD%D0%B0_%D0%BA%D0%B0%D0%BD%D0%B0%D1%80%D0%BA%D0%B0%C2%BB', ashdivip: '151502', },
+	cast: { kate_beckinsale_26071973: 1, },
 },
 {
 	id: 'the_protege_2021', title: { ua: 'Кодекс кілера', en: 'The Protege', }, year: 2021, country: { usa: 1, },
@@ -2929,6 +2935,12 @@ const arrFilms = [
 	cast: { daniel_craig_02031968: 1, judi_dench_09121934: 1, naomie_harris_06091976: 1, },
 },
 {
+	id: 'muzzle_2023', title: { ua: 'Коп і Пес', en: 'Muzzle', }, year: 2023, country: { usa: 1, },
+	genre: { action: 1, crime: 1,  }, hash: { dog: 1, police: 1, },
+	internet: { imdb: '17663876', },
+	cast: { aaron_eckhart_12031968: 1, },	
+},
+{
 	id: 'king_solomon_s_mines_1985', title: { ua: 'Копальні царя Соломона', en: 'King Solomon\'s Mines', }, year: 1985, country: { usa: 1, }, rating: '5+',
 	genre: { adventure: 1, }, hash: { travel: 1, treasure: 1, },
 	internet: { imdb: '0089421', wiki_ru: '%D0%9A%D0%BE%D0%BF%D0%B8_%D1%86%D0%B0%D1%80%D1%8F_%D0%A1%D0%BE%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1985)', ashdivip: '18724', },
@@ -2937,7 +2949,7 @@ const arrFilms = [
 {
 	id: 'kingdom_of_the_planet_of_the_apes_2024', title: { ua: 'Королівство планети мавп', en: 'Kingdom of the Planet of the Apes', }, year: 2024, country: { fra: 1, bel: 1, },
 	genre: { sci_fi: 1, adventure: 1, }, hash: { monkey: 1, world: 1, planet: 1, animal: 1, },
-	internet: { imdb: '11389872', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B8_%D0%BC%D0%B0%D0%B2%D0%BF', },
+	internet: { imdb: '11389872', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%96%D0%B2%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B8_%D0%BC%D0%B0%D0%B2%D0%BF', ashdivip: '133403', },
 },
 {
 	id: 'le_regne_animal_2023', title: { ua: 'Королівство тварин', en: 'Le regne animal', }, year: 2023, country: { fra: 1, bel: 1, },
@@ -3314,7 +3326,7 @@ const arrFilms = [
 {
 	id: 'madame_web_2024', title: { ua: 'Мадам Павутина', en: 'Madame Web', }, year: 2024, country: { usa: 1, },
 	genre: { sci_fi: 1, action: 1, }, hash: { spider: 1, },
-	internet: { imdb: '11057302', wiki_ua: '%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC_%D0%9F%D0%B0%D0%B2%D1%83%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '11057302', wiki_ua: '%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC_%D0%9F%D0%B0%D0%B2%D1%83%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '123783', },
 },
 {
 	id: 'haunted_mansion_2023', title: { ua: 'Маєток з привидами', en: 'Haunted Mansion', }, year: 2023, country: { usa: 1, },
@@ -3577,7 +3589,7 @@ const arrFilms = [
 	id: 'mission_impossible_7_2023', title: { ua: 'Місія неможлива - 7', en: 'Mission: Impossible - Dead Reckoning Part One', }, year: 2023, country: { usa: 1, }, rating: '5+', franchise: 'mission_impossible',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '9603212', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%BD%D0%B5%D0%BC%D0%BE%D0%B6%D0%BB%D0%B8%D0%B2%D0%B0:_%D0%A0%D0%BE%D0%B7%D0%BF%D0%BB%D0%B0%D1%82%D0%B0._%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_%D0%BF%D0%B5%D1%80%D1%88%D0%B0', ashdivip: '105107', },
-	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, hayley_atwell_05041982: 1, },
+	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, hayley_atwell_05041982: 1, esai_morales_01101962: 1, },
 },
 {
 	id: 'mission_of_justice_1992', title: { ua: 'Місія правосуддя', en: 'Mission of Justice', }, year: 1992, country: { usa: 1, },
@@ -3691,12 +3703,6 @@ const arrFilms = [
 	id: 'morbius_2022', title: { ua: 'Морбіус', en: 'Morbius', }, year: 2022, country: { usa: 1, },
 	genre: { sci_fi: 1, action: 1,  },
 	internet: { imdb: '5108870', },
-},
-{
-	id: 'muzzle_2023', title: { ua: 'Морда', en: 'Muzzle', }, year: 2023, country: { usa: 1, },
-	genre: { action: 1, crime: 1,  }, hash: { dog: 1, police: 1, },
-	internet: { imdb: '17663876', },
-	cast: { aaron_eckhart_12031968: 1, },	
 },
 {
 	id: 'battleship_2012', title: { ua: 'Морський бій', en: 'Battleship', }, year: 2012, country: { usa: 1, },
@@ -4038,7 +4044,7 @@ const arrFilms = [
 {
 	id: 'subservience_2024', title: { ua: 'Непокірна Еліс', en: 'Subservience', }, year: 2024, country: { usa: 1, },
 	genre: { sci_fi: 1, thriller: 1, }, hash: { robot: 1, },
-	internet: { imdb: '24871974', },
+	internet: { imdb: '24871974', ashdivip: '142742', },
 	cast: { megan_fox_16051986: 1, },
 },
 {
@@ -4256,7 +4262,7 @@ const arrFilms = [
 {
 	id: 'the_wasp_2024', title: { ua: 'Оса', en: 'The Wasp', }, year: 2024, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { psycho: 1, },
-	internet: { imdb: '21958136', },
+	internet: { imdb: '21958136', ashdivip: '147936', },
 	cast: { natalie_dormer_11021982: 1, },
 },
 {
@@ -4584,7 +4590,7 @@ const arrFilms = [
 {
 	id: 'hypnotic_2023', title: { ua: 'Під гіпнозом', en: 'Hypnotic', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, mystic: 1, },
-	internet: { imdb: '8080204', wiki_ua: '%D0%9F%D1%96%D0%B4_%D0%B3%D1%96%D0%BF%D0%BD%D0%BE%D0%B7%D0%BE%D0%BC', },
+	internet: { imdb: '8080204', wiki_ua: '%D0%9F%D1%96%D0%B4_%D0%B3%D1%96%D0%BF%D0%BD%D0%BE%D0%B7%D0%BE%D0%BC', ashdivip: '125510', },
 	cast: { ben_affleck_15081972: 1, },
 },
 {
@@ -4762,7 +4768,7 @@ const arrFilms = [
 {
 	id: 'bad_boys_4_2024', title: { ua: 'Погані хлопці: Все або нічого', en: 'Bad Boys: Ride or Die', }, year: 2024, country: { usa: 1, }, franchise: 'bad_boys',
 	genre: { action: 1, comedy: 1, }, 
-	internet: { imdb: '4919268', wiki_ua: '%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96_%D1%85%D0%BB%D0%BE%D0%BF%D1%86%D1%96:_%D0%92%D1%81%D0%B5_%D0%B0%D0%B1%D0%BE_%D0%BD%D1%96%D1%87%D0%BE%D0%B3%D0%BE', },
+	internet: { imdb: '4919268', wiki_ua: '%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96_%D1%85%D0%BB%D0%BE%D0%BF%D1%86%D1%96:_%D0%92%D1%81%D0%B5_%D0%B0%D0%B1%D0%BE_%D0%BD%D1%96%D1%87%D0%BE%D0%B3%D0%BE', ashdivip: '134818', },
 	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, },
 },
 {
@@ -4780,7 +4786,7 @@ const arrFilms = [
 {
 	id: 'double_threat_2022', title: { ua: 'Подвійна загроза', en: 'Double Threat', }, year: 2022, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
-	internet: { imdb: '13302660', },
+	internet: { imdb: '13302660', ashdivip: '118783', },
 	cast: { daniel_c_ryan_09061993: 1, },
 },
 {
@@ -4933,7 +4939,7 @@ const arrFilms = [
 {
 	id: 'beverly_hills_cop_4_2024', title: { ua: 'Поліцейський із Беверлі-Гіллз - 4', en: 'Beverly Hills Cop: Axel F', }, year: 2024, country: { usa: 1, }, franchise: 'beverly_hills_cop',
 	genre: { action: 1, comedy: 1, }, hash: { police: 1, cop: 1, },
-	internet: { imdb: '3083016', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%96%D0%B7_%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96-%D0%93%D1%96%D0%BB%D0%BB%D0%B7:_%D0%90%D0%BA%D1%81%D0%B5%D0%BB%D1%8C_%D0%A4.', },
+	internet: { imdb: '3083016', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%96%D0%B7_%D0%91%D0%B5%D0%B2%D0%B5%D1%80%D0%BB%D1%96-%D0%93%D1%96%D0%BB%D0%BB%D0%B7:_%D0%90%D0%BA%D1%81%D0%B5%D0%BB%D1%8C_%D0%A4.', ashdivip: '132698', },
 	cast: { eddie_murphy_03041961: 1, kevin_bacon_08071958: 1, },
 },
 {
@@ -5270,7 +5276,7 @@ const arrFilms = [
 {
 	id: 'paradise_2023', title: { ua: 'Рай', en: 'Paradise', }, year: 2023, country: { deu: 1, },
 	genre: { sci_fi: 1, thriller: 1, },
-	internet: { imdb: '21308888', wiki_ua: '%D0%A0%D0%B0%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },	
+	internet: { imdb: '21308888', wiki_ua: '%D0%A0%D0%B0%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', ashdivip: '97602', },	
 },
 {
 	id: 'rebel_ridge_2024', title: { ua: 'Ребел-Ридж', en: 'Rebel Ridge', }, year: 2024, country: { fra: 1, },
@@ -5472,7 +5478,7 @@ const arrFilms = [
 {
 	id: 'role_play_2024', title: { ua: 'Рольові ігри', en: 'Role Play', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, crime: 1, },
-	internet: { imdb: '12964320', wiki_ua: '%D0%A0%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D1%96_%D1%96%D0%B3%D1%80%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '12964320', wiki_ua: '%D0%A0%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D1%96_%D1%96%D0%B3%D1%80%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '129335', },
 },
 {
 	id: 'romancing_the_stone_1984', title: { ua: 'Роман з каменем', en: 'Romancing the Stone', }, year: 1984, country: { usa: 1, mex: 1, }, rating: 5, franchise: 'romancing_the_stone',
@@ -5664,7 +5670,7 @@ const arrFilms = [
 {
 	id: 'the_family_plan_2023', title: { ua: 'Сімейний план', en: 'The Family Plan', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, },
-	internet: { imdb: '16431870', wiki_ua: '%D0%A1%D1%96%D0%BC%D0%B5%D0%B9%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BB%D0%B0%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
+	internet: { imdb: '16431870', wiki_ua: '%D0%A1%D1%96%D0%BC%D0%B5%D0%B9%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BB%D0%B0%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', ashdivip: '115930', },
 	cast: { mark_wahlberg_05061971: 1, michelle_monaghan_23031976: 1, maggie_q_22051979: 1, },
 },
 {
@@ -5851,7 +5857,7 @@ const arrFilms = [
 {
 	id: 'the_union_2024', title: { ua: 'Спілка', en: 'The Union', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, adventure: 1, }, 
-	internet: { imdb: '12610390', },
+	internet: { imdb: '12610390', ashdivip: '137706', },
 	cast: { mark_wahlberg_05061971: 1, halle_berry_14081966: 1,},
 },
 {
@@ -6709,7 +6715,7 @@ const arrFilms = [
 {
 	id: 'fast_furious_10_2023', title: { ua: 'Форсаж - 10', en: 'Fast X', }, year: 2023, country: { usa: 1, }, rating: 5, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
-	internet: { imdb: '5433140', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_10', },
+	internet: { imdb: '5433140', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_10', ashdivip: '95214', },
 	cast: { vin_diesel_18071967: 1, jason_statham_26071967: 1, michelle_rodriguez_12071978: 1, jason_momoa_01081979: 1, charlize_theron_07081975: 1, brie_larson_01101989: 1, john_cena_23071977: 1, },
 },
 {
@@ -6739,7 +6745,7 @@ const arrFilms = [
 {
 	id: 'freelance_2023', title: { ua: 'Фрілансер', en: 'Freelance', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, }, hash: { travel: 1, },
-	internet: { imdb: '15744298', wiki_ru: '%D0%A2%D0%B5%D0%BB%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%BD%D0%B0_%D1%84%D1%80%D0%B8%D0%BB%D0%B0%D0%BD%D1%81%D0%B5', },
+	internet: { imdb: '15744298', wiki_ua: '%D0%A4%D1%80%D1%96%D0%BB%D0%B0%D0%BD%D1%81%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { john_cena_23071977: 1, christian_slater_18081969: 1, },
 },
 {
@@ -6851,7 +6857,7 @@ const arrFilms = [
 {
 	id: 'it_s_what_s_inside_2024', title: { ua: 'Хто ти всередині', en: 'It\'s What\'s Inside', }, year: 2024, country: { usa: 1, },
 	genre: { sci_fi: 1, mystic:1 , comedy: 1, }, hash: { young: 1, bodyChange: 1, },	
-	internet: { imdb: '14577874', },
+	internet: { imdb: '14577874', ashdivip: '144918', },
 },
 {
 	id: 'the_godfather_1972', title: { ua: 'Хрещений батько', en: 'The Godfather', }, year: 1972, country: { usa: 1, },
@@ -7179,7 +7185,7 @@ const arrFilms = [
 {
 	id: 'trigger_warning_2024', title: { ua: 'Шлях відплати', en: 'Trigger Warning', }, year: 2024, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, 
-	internet: { imdb: '5834874', wiki_ua: '%D0%A8%D0%BB%D1%8F%D1%85_%D0%B2%D1%96%D0%B4%D0%BF%D0%BB%D0%B0%D1%82%D0%B8', },
+	internet: { imdb: '5834874', wiki_ua: '%D0%A8%D0%BB%D1%8F%D1%85_%D0%B2%D1%96%D0%B4%D0%BF%D0%BB%D0%B0%D1%82%D0%B8', ashdivip: '131429', },
 	cast: { jessica_alba_28041981: 1, },
 },
 {
@@ -7361,7 +7367,7 @@ const arrFilms = [
 	id: 'uncharted_2022', title: { ua: 'Uncharted: Незвідане', en: 'Uncharted', }, year: 2022, country: { usa: 1, },
 	studio: { columbia: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { travel: 1, },
-	internet: { imdb: '1464335', wiki_ua: 'Uncharted:_%D0%9D%D0%B5%D0%B7%D0%B2%D1%96%D0%B4%D0%B0%D0%BD%D0%B5', },
+	internet: { imdb: '1464335', wiki_ua: 'Uncharted:_%D0%9D%D0%B5%D0%B7%D0%B2%D1%96%D0%B4%D0%B0%D0%BD%D0%B5', ashdivip: '58328', },
 	cast: { antonio_banderas_10081960: 1, mark_wahlberg_05061971: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 
