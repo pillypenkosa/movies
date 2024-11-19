@@ -1813,6 +1813,11 @@ const arrFilms = [
 	cast: { robert_downey_jr_01041965: 1, antonio_banderas_10081960: 1, },
 },
 {
+	id: 'inside_out_2015', title: { ua: 'Думками навиворіт', en: 'Inside Out', }, year: 2015, country: { usa: 1, },
+	genre: { cartoon: 1, },
+	internet: { imdb: '2096673', wiki_ua: '%D0%94%D1%83%D0%BC%D0%BA%D0%B0%D0%BC%D0%B8_%D0%BD%D0%B0%D0%B2%D0%B8%D0%B2%D0%BE%D1%80%D1%96%D1%82', },
+},
+{
 	id: 'the_wraith_1986', title: { ua: 'Дух помсти', en: 'The Wraith', }, year: 1986, country: { usa: 1, },
 	genre: { action: 1, horror: 1, },
 	internet: { imdb: '0092240', wiki_ru: '%D0%94%D1%83%D1%85_%D0%BC%D1%89%D0%B5%D0%BD%D0%B8%D1%8F', },
@@ -5883,6 +5888,11 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0116213', wiki_ua: '%D0%A1%D1%82%D0%B8%D1%80%D0%B0%D1%87', },
 	cast: { arnold_schwarzenegger_30071947: 1, }, composer: { alan_silvestri_26031950: 1, },
+},
+{
+	id: 'elemental_2023', title: { ua: 'Стихії', en: 'Elemental', }, year: 2023, country: { usa: 1, },
+	genre: { cartoon: 1, },
+	internet: { imdb: '15789038', wiki_ru: '%D0%AD%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%BD%D0%BE_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'stop_or_my_mom_will_shoot_1992', title: { ua: 'Стій бо моя мама стрілятиме', en: 'Stop! Or My Mom Will Shoot', }, year: 1992, country: { usa: 1, },
