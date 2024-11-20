@@ -4064,6 +4064,12 @@ const arrFilms = [
 	internet: { imdb: '0100240', wiki_ua: '%D0%9D%D0%B5%D1%81%D0%BA%D1%96%D0%BD%D1%87%D0%B5%D0%BD%D0%BD%D0%B0_%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F_2:_%D0%9D%D0%BE%D0%B2%D0%B0_%D0%B3%D0%BB%D0%B0%D0%B2%D0%B0', },
 },
 {
+	id: 'infinite_2021', title: { ua: 'Нескінченність', en: 'Infinite', }, year: 2021, country: { usa: 1, },
+	genre: { sci_fi: 1, action: 1, },
+	internet: { imdb: '6654210', wiki_ua: '%D0%9D%D0%B5%D1%81%D0%BA%D1%96%D0%BD%D1%87%D0%B5%D0%BD%D0%BD%D1%96%D1%81%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2021)', },
+	cast: { mark_wahlberg_05061971: 1, },
+},
+{
 	id: 'intolerable_cruelty_2003', title: { ua: 'Нестерпна жорстокість', en: 'Intolerable Cruelty', }, year: 2003, country: { usa: 1, },
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '0138524', wiki_ua: '%D0%9D%D0%B5%D1%81%D1%82%D0%B5%D1%80%D0%BF%D0%BD%D0%B0_%D0%B6%D0%BE%D1%80%D1%81%D1%82%D0%BE%D0%BA%D1%96%D1%81%D1%82%D1%8C', },
@@ -4545,7 +4551,7 @@ const arrFilms = [
 {
 	id: 'pearl_harbor_2001', title: { ua: 'Перл Гарбор', en: 'Pearl Harbor', }, year: 2001, country: { usa: 1, },
 	genre: { war: 1, history: 1, }, hash: { real: 1, war: 1, war2w: 1, plane: 1, battle: 1, love: 1, },
-	internet: { imdb: '0213149', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%BB-%D0%93%D0%B0%D1%80%D0%B1%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
+	internet: { imdb: '0213149', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%BB-%D0%93%D0%B0%D1%80%D0%B1%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	ashdivip: '8425', },
 	cast: { ben_affleck_15081972: 1, josh_hartnett_21071978: 1, kate_beckinsale_26071973: 1, tom_sizemore_29111961: 1, jon_voight_29121938: 1, alec_baldwin_03041958: 1, cuba_gooding_jr_02011968: 1, }, director: { michael_bay_17021965: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
@@ -5214,6 +5220,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, 
 	internet: { imdb: '1448755', wiki_ua: '%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%96%D0%BE%D0%BD%D0%B0%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
 	cast: { robert_de_niro_17081943: 1, jason_statham_26071967: 1, },
+},
+{
+	id: 'absolution_2024', title: { ua: 'Прощення', en: 'Absolution', }, year: 2024, country: { usa: 1, },
+	genre: { drama: 1, crime: 1, }, 
+	internet: { imdb: '8337290', wiki_ru: '%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2024)', },
+	cast: { liam_neeson_07061952: 1, ron_perlman_13041950: 1, },
 },
 {
 	id: 'psycho_1960', title: { ua: 'Психо', en: 'Psycho', }, year: 1960, country: { usa: 1, }, franchise: 'psycho',
