@@ -6078,7 +6078,7 @@ const arrFilms = [
 	id: 'tango_cash_1989', title: { ua: 'Танго і Кеш', en: 'Tango & Cash', }, year: 1989, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '0098439', wiki_ua: '%D0%A2%D0%B0%D0%BD%D0%B3%D0%BE_%D1%96_%D0%9A%D0%B5%D1%88', },
-	cast: { sylvester_stallone_06071946: 1, kurt_russell_17031951: 1, savely_kramarov_13101934: 1, },
+	cast: { sylvester_stallone_06071946: 1, kurt_russell_17031951: 1, savely_viktor_kramarov_13101934: 1, },
 },
 {
 	id: 'disco_dancer_1982', title: { ua: 'Танцюрист диско', en: 'Disco Dancer', }, year: 1982, country: { ind: 1, },
@@ -6967,7 +6967,7 @@ const arrFilms = [
 	id: 'red_heat_1988', title: { ua: 'Червона спека', en: 'Red Heat', }, year: 1988, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0095963', wiki_ua: '%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0_%D1%81%D0%BF%D0%B5%D0%BA%D0%B0', },
-	cast: { arnold_schwarzenegger_30071947: 1, james_belushi_15061954: 1, gina_gershon_10061962: 1, laurence_fishburne_30071961: 1, savely_kramarov_13101934: 1, oleg_borys_vidov_11061943: 1, }, composer: { james_horner_14081953: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, james_belushi_15061954: 1, gina_gershon_10061962: 1, laurence_fishburne_30071961: 1, savely_viktor_kramarov_13101934: 1, oleg_borys_vidov_11061943: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
 	id: 'red_notice_2021', title: { ua: 'Червоне повідомлення', en: 'Red Notice', }, year: 2021, country: { usa: 1, },
