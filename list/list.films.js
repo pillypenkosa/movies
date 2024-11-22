@@ -3572,7 +3572,7 @@ const arrFilms = [
 	id: 'mission_impossible_4_2011', title: { ua: 'Місія неможлива - 4', en: 'Mission: Impossible - Ghost Protocol', }, year: 2011, country: { usa: 1, }, rating: 5, franchise: 'mission_impossible',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '1229238', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%BD%D0%B5%D0%B7%D0%B4%D1%96%D0%B9%D1%81%D0%BD%D0%B5%D0%BD%D0%BD%D0%B0:_%D0%9F%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB_%C2%AB%D0%A4%D0%B0%D0%BD%D1%82%D0%BE%D0%BC%C2%BB', },
-	cast: { tom_cruise_03071962: 1, paula_patton_05121975: 1, ving_rhames_12051959: 1, vladimir_mashkov_27111963: 1, },
+	cast: { tom_cruise_03071962: 1, paula_patton_05121975: 1, ving_rhames_12051959: 1, volodymyr_lev_mashkov_27111963: 1, },
 },
 {
 	id: 'mission_impossible_5_2015', title: { ua: 'Місія неможлива - 5', en: 'Mission: Impossible - Rogue Nation', }, year: 2015, country: { usa: 1, }, rating: 5, franchise: 'mission_impossible',
@@ -5069,7 +5069,7 @@ const arrFilms = [
 	id: 'righteous_kill_2008', title: { ua: 'Право на вбивство', en: 'Righteous Kill', }, year: 2008, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, },
 	internet: { imdb: '1034331', wiki_ua: '%D0%9F%D1%80%D0%B0%D0%B2%D0%BE_%D0%BD%D0%B0_%D0%B2%D0%B1%D0%B8%D0%B2%D1%81%D1%82%D0%B2%D0%BE', ashdivip: '16744', },
-	cast: { al_pacino_25041940: 1, robert_de_niro_17081943: 1, oleg_taktarov_26081967: 1, },
+	cast: { al_pacino_25041940: 1, robert_de_niro_17081943: 1, oleg_mykola_taktarov_26081967: 1, },
 },
 {
 	id: 'il_bisbetico_domato_1980', title: { ua: 'Приборкання норовливого', en: 'Il bisbetico domato', }, year: 1980, country: { ita: 1, },
@@ -5702,7 +5702,7 @@ const arrFilms = [
 	id: 'national_treasure_2004', title: { ua: 'Скарб нації', en: 'National Treasure', }, year: 2004, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, },
 	internet: { imdb: '0368891', wiki_ua: '%D0%A1%D0%BA%D0%B0%D1%80%D0%B1_%D0%BD%D0%B0%D1%86%D1%96%D1%97', ashdivip: '11597', },
-	cast: { nicolas_cage_07011964: 1, sean_bean_17041959: 1, jon_voight_29121938: 1, oleg_taktarov_26081967: 1, },
+	cast: { nicolas_cage_07011964: 1, sean_bean_17041959: 1, jon_voight_29121938: 1, oleg_mykola_taktarov_26081967: 1, },
 },
 {
 	id: 'cliffhanger_1995', title: { ua: 'Скелелаз', en: 'Cliffhanger', }, year: 1995, country: { usa: 1, }, rating: 5,
@@ -6453,7 +6453,7 @@ const arrFilms = [
 	id: 'the_tourist_2010', title: { ua: 'Турист', en: 'The Tourist', }, year: 2010, country: { usa: 1, gbr: 1, fra: 1, ita: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '1243957', wiki_ua: '%D0%A2%D1%83%D1%80%D0%B8%D1%81%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { johnny_depp_09061963: 1, angelina_jolie_04061975: 1, timothy_dalton_21031946: 1, igor_zhizhikin_08101965: 1, },
+	cast: { johnny_depp_09061963: 1, angelina_jolie_04061975: 1, timothy_dalton_21031946: 1, igor_vitaly_zhyzhykin_08101965: 1, },
 },
 {
 	id: 'tootsie_1982', title: { ua: 'Тутсі', en: 'Tootsie', }, year: 1982, country: { usa: 1, },
