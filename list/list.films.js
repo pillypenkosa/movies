@@ -3638,7 +3638,7 @@ const arrFilms = [
 	id: 'mio_min_mio_1987', title: { ua: 'Міо мій Міо', en: 'Mio min Mio', }, year: 1987, country: { swe: 1, nor: 1, sun: 1, },
 	genre: { fantasy: 1, },
 	internet: { imdb: '0093543', wiki_ua: '%D0%9C%D1%96%D0%BE,_%D0%BC%D1%96%D0%B9_%D0%9C%D1%96%D0%BE', },
-	cast: { christian_bale_30011974: 1, igor_yasulovich_24091941: 1, },
+	cast: { christian_bale_30011974: 1, igor_mykola_yasulovich_24091941: 1, },
 },
 {
 	id: 'die_hart_2023', title: { ua: 'Міцний Гарт: Фільм', en: 'Die Hart', }, year: 2023, country: { usa: 1, }, 
