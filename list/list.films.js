@@ -4318,7 +4318,7 @@ const arrFilms = [
 	id: 'wanted_2008', title: { ua: 'Особливо небезпечний', en: 'Wanted', }, year: 2008, country: { usa: 1, },	
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0493464', wiki_ua: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { morgan_freeman_01061937: 1, angelina_jolie_04061975: 1, konstantin_habensky_11011972: 1, },
+	cast: { morgan_freeman_01061937: 1, angelina_jolie_04061975: 1, kostyantyn_jury_habensky_11011972: 1, },
 },
 {
 	id: 'high_crimes_2002', title: { ua: 'Особливо тяжкі злочини', en: 'High Crimes', }, year: 2002, country: { usa: 1, },
