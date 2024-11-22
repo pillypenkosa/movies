@@ -9,6 +9,7 @@ const arrGenres = [
 
 	{ id: '_3d' 		, title: '3D-анімація' 	, },
 	{ id: 'sci_fi' 		, title: 'Sci-Fi' 		, },
+	{ id: 'animation' 	, title: 'Анімація' 	, },
 	{ id: 'biography' 	, title: 'Біографія' 	, },
 	{ id: 'action' 		, title: 'Бойовик' 		, },
 	{ id: 'western' 	, title: 'Вестерн' 		, },
@@ -3013,6 +3014,11 @@ const arrFilms = [
 	cast: { julia_roberts_28101967: 1, richard_gere_31081949: 1, },
 },
 {
+	id: 'beauty_and_the_beast_1991', title: { ua: 'Красуня і чудовисько', en: 'Beauty and the Beast', }, year: 1991, country: { usa: 1, jpn: 1, }, rating: 5,
+	genre: { cartoon: 1, fairytale: 1, },
+	internet: { imdb: '0101414', wiki_ua: '%D0%9A%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%8F_%D1%96_%D1%87%D1%83%D0%B4%D0%BE%D0%B2%D0%B8%D1%81%D1%8C%D0%BA%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1991)', },
+},
+{
 	id: 'jolt_2021', title: { ua: 'Красуня на драйві', en: 'Jolt', }, year: 2021, country: { usa: 1, }, 
 	genre: { action: 1, crime: 1, comedy: 1, },
 	internet: { imdb: '10228134', wiki_ua: '%D0%9A%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%8F_%D0%BD%D0%B0_%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D1%96', },
@@ -3113,7 +3119,7 @@ const arrFilms = [
 },
 {
 	id: 'labyrinth_1986', title: { ua: 'Лабіринт', en: 'Labyrinth', }, year: 1986, country: { gbr: 1, usa: 1, }, rating: '5+',
-	genre: { fantasy: 1, adventure: 1, },
+	genre: { fairytale: 1, fantasy: 1, adventure: 1, },
 	internet: { imdb: '0091369', wiki_ua: '%D0%9B%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1986)', ashdivip: '17285', },
 	cast: { jennifer_connelly_12121970: 1, david_bowie_08011947: 1, },
 },
@@ -3352,6 +3358,11 @@ const arrFilms = [
 	genre: { action: 1, },
 	internet: { imdb: '2119474', wiki_ua: '%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%82%D0%B5%D1%80%D0%BC%D1%96%D0%BD', },
 	cast: { steven_seagal_10041952: 1, michael_pare_09101958: 1, },
+},
+{
+	id: 'maria_mirabella_1981', title: { ua: 'Марія, Мирабела', en: 'Maria, Mirabella', }, year: 1981, country: { rou: 1, sun: 1, },
+	genre: { fairytale: 1, animation: 1, },
+	internet: { imdb: '0155858', wiki_ua: '%D0%9C%D0%B0%D1%80%D1%96%D1%8F,_%D0%9C%D0%B8%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D0%B0', },
 },
 {
 	id: 'mars_attacks_1996', title: { ua: 'Марс атакує', en: 'Mars Attacks!', }, year: 1996, country: { usa: 1, },
@@ -3636,7 +3647,7 @@ const arrFilms = [
 },
 {
 	id: 'mio_min_mio_1987', title: { ua: 'Міо мій Міо', en: 'Mio min Mio', }, year: 1987, country: { swe: 1, nor: 1, sun: 1, },
-	genre: { fantasy: 1, },
+	genre: { fairytale: 1, fantasy: 1, },
 	internet: { imdb: '0093543', wiki_ua: '%D0%9C%D1%96%D0%BE,_%D0%BC%D1%96%D0%B9_%D0%9C%D1%96%D0%BE', },
 	cast: { christian_bale_30011974: 1, igor_mykola_yasulovich_24091941: 1, },
 },
@@ -6863,7 +6874,7 @@ const arrFilms = [
 },
 {
 	id: 'who_framed_roger_rabbit_1988', title: { ua: 'Хто підставив кролика Роджера', en: 'Who Framed Roger Rabbit', }, year: 1988, country: { usa: 1, },
-	genre: { comedy: 1, fantasy: 1, },
+	genre: { comedy: 1, fantasy: 1, animation: 1, },
 	internet: { imdb: '0096438', wiki_ua: '%D0%A5%D1%82%D0%BE_%D0%BF%D1%96%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%B2_%D0%BA%D1%80%D0%BE%D0%BB%D0%B8%D0%BA%D0%B0_%D0%A0%D0%BE%D0%B4%D0%B6%D0%B5%D1%80%D0%B0%3F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { christopher_lloyd_22101938: 1, }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
