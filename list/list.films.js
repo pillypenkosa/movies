@@ -18,6 +18,7 @@ const arrGenres = [
 	{ id: 'erotica' 	, title: 'Еротика' 		, },
 	{ id: 'horror' 		, title: 'Жахи' 		, },
 	{ id: 'history' 	, title: 'Історія' 		, },
+	{ id: 'fairytale' 	, title: 'Казка' 		, },
 	{ id: 'disaster' 	, title: 'Катастрофа' 	, },
 	{ id: 'comedy' 		, title: 'Комедія' 		, },
 	{ id: 'crime' 		, title: 'Кримінал' 	, },
@@ -6386,8 +6387,8 @@ const arrFilms = [
 	cast: { mark_wahlberg_05061971: 1, },
 },
 {
-	id: 'tretí_princ_1982', title: { ua: 'Третій принц', en: 'Tretí princ', }, year: 1982, country: { csk: 1, },
-	genre: { fantasy: 1, },
+	id: 'tretí_princ_1983', title: { ua: 'Третій принц', en: 'Tretí princ', }, year: 1983, country: { csk: 1, },
+	genre: { fairytale: 1, fantasy: 1, },
 	internet: { imdb: '0227684', wiki_ua: '%D0%A2%D1%80%D0%B5%D1%82%D1%96%D0%B9_%D0%BF%D1%80%D0%B8%D0%BD%D1%86_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
@@ -6404,7 +6405,7 @@ const arrFilms = [
 },
 {
 	id: 'tri_orísky_pro_popelku_1973', title: { ua: 'Три горішки для Попелюшки', en: 'Tri orísky pro Popelku', }, year: 1973, country: { cze: 1, deu: 1, }, rating: 5,
-	genre: { fantasy: 1, },
+	genre: { fairytale: 1, fantasy: 1, },
 	internet: { imdb: '0070832', wiki_ua: '%D0%A2%D1%80%D0%B8_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BA%D0%B8_%D0%B4%D0%BB%D1%8F_%D0%9F%D0%BE%D0%BF%D0%B5%D0%BB%D1%8E%D1%88%D0%BA%D0%B8',	},
 },
 {
