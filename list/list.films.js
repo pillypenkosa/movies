@@ -369,7 +369,7 @@ const arrFilms = [
 },
 {
 	id: 'arabela_1979', title: { ua: 'Арабелла', en: 'Arabela', }, year: 1979, country: { usa: 1, },
-	genre: { serial: 1, fantasy: 1, comedy: 1, }, hash: { young: 1, children: 1, },
+	genre: { serial: 1, fairytale: 1, comedy: 1, }, hash: { young: 1, children: 1, },
 	internet: { imdb: '0175381', wiki_ua: '%D0%90%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D0%BB%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
 {
@@ -1230,6 +1230,11 @@ const arrFilms = [
 	cast: { chris_hemsworth_11081983: 1, natalie_dormer_11021982: 1, }, director: { ron_howard_31031954: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
+	id: 'gtmax_2024', title: { ua: 'Гонка вулицями Парижа', en: 'GTMax', }, year: 2024, country: { fra: 1, bel: 1, },
+	genre: { action: 1, drama: 1, crime: 1, }, hash: { race: 1, sport: 1, motorbike: 1, },
+	internet: { imdb: '29260436', },
+},
+{
 	id: 'driven_2001', title: { ua: 'Гонщик', en: 'Driven', }, year: 2001, country: { usa: 1, can: 1, aus: 1, }, rating: 5,
 	genre: { drama: 1, }, hash: { race: 1, sport: 1, cars: 1, },
 	internet: { imdb: '0132245', wiki_ua: '%D0%93%D0%BE%D0%BD%D1%89%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1302,7 +1307,7 @@ const arrFilms = [
 	id: 'game_of_thrones_2011', title: { ua: 'Гра престолів', en: 'Game of Thrones', }, year: 2011, country: { usa: 1, },
 	genre: { serial: 1, drama: 1, adventure: 1, }, hash: { middleAges: 1, battle: 1, dragon: 1, },
 	internet: { imdb: '0944947', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB%D1%96%D0%B2', },
-	cast: { emilia_clarke_23101986: 1, lena_headey_03101973: 1, peter_dinklage_11061969: 1, sophie_turner_21021996: 1, jason_momoa_01081979: 1, sean_bean_17041959: 1, natalie_dormer_11021982: 1, rose_leslie_09021987: 1, }, composer: { ramin_djawadi_19071974: 1, },
+	cast: { emilia_clarke_23101986: 1, lena_headey_03101973: 1, peter_dinklage_11061969: 1, sophie_turner_21021996: 1, nathalie_emmanuel_02031989: 1, jason_momoa_01081979: 1, sean_bean_17041959: 1, natalie_dormer_11021982: 1, rose_leslie_09021987: 1, }, composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'game_of_death_1978', title: { ua: 'Гра смерті', en: 'Game of Death', }, year: 1978, country: { hkg: 1, },
@@ -1719,6 +1724,12 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, }, hash: { dog: 1, },
 	internet: { imdb: '17009348', wiki_ua: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B5%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
 	director: { luc_besson_18031959: 1, },
+},
+{
+	id: 'dr_t_the_women_2000', title: { ua: 'Доктор Т і його жінки', en: 'Dr. T & the Women', }, year: 2000, country: { usa: 1, deu: 1, },
+	genre: { drama: 1, comedy: 1, }, hash: { doctor: 1, },
+	internet: { imdb: '0205271', wiki_ru: '%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%D0%A2%D0%B8_%D0%B8_%D0%B5%D0%B3%D0%BE_%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B', },
+	director: { richard_gere_31081949: 1, liv_tyler_01071977: 1, },
 },
 {
 	id: 'the_road_2009', title: { ua: 'Дорога', en: 'The Road', }, year: 2009, country: { usa: 1, },
@@ -2236,6 +2247,11 @@ const arrFilms = [
 	internet: { imdb: '11866324', wiki_ua: '%D0%97%D0%B4%D0%BE%D0%B1%D0%B8%D1%87_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', },
 },
 {
+	id: 'from_2022', title: { ua: 'Ззовні', en: 'From', }, year: 2022, country: { usa: 1, },
+	genre: { serial: 1, horror: 1, fantasy: 1, }, hash: { unreal_danger: 1, },
+	internet: { imdb: '9813792', wiki_ua: '%D0%97%D0%B7%D0%BE%D0%B2%D0%BD%D1%96_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
+},
+{
 	id: 'the_green_mile_1999', title: { ua: 'Зелена миля', en: 'The Green Mile', }, year: 1999, country: { usa: 1, }, rating: 5,
 	genre: { drama: 1, crime: 1, fantasy: 1, }, hash: { justice: 1, prison: 1, },
 	internet: { imdb: '0120689', wiki_ua: '%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0_%D0%BC%D0%B8%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -2372,7 +2388,7 @@ const arrFilms = [
 },
 {
 	id: 'critters_1986', title: { ua: 'Зубастики', en: 'Critters', }, year: 1986, country: { usa: 1, },
-	genre: { horror: 1, comedy: 1, sci_fi: 1, }, hash: { aliens: 1, },
+	genre: { horror: 1, comedy: 1, sci_fi: 1, }, hash: { aliens: 1, unreal_danger: 1, },
 	internet: { imdb: '0090887', wiki_ua: '%D0%97%D1%83%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B8', },
 	cast: { billy_zane_24021966: 1, },
 },
@@ -3106,6 +3122,12 @@ const arrFilms = [
 	internet: { imdb: '10198564', },
 },
 {
+	id: 'kull_the_conqueror_1997', title: { ua: 'Кулл-завойовник', en: 'Kull the Conqueror', }, year: 1997, country: { usa: 1, },
+	genre: { action: 1, fantasy: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '0119484', wiki_ua: '%D0%9A%D1%83%D0%BB%D0%BB-%D0%B7%D0%B0%D0%B2%D0%BE%D0%B9%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA', },
+	cast: { tia_carrere_02011967: 1, },
+},
+{
 	id: 'bullet_1996', title: { ua: 'Куля', en: 'Bullet', }, year: 1996, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0115781', wiki_ru: '%D0%9F%D1%83%D0%BB%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1996)', },
@@ -3435,6 +3457,12 @@ const arrFilms = [
 	genre: { sci_fi: 1, }, hash: { shark: 1, underwater: 1, },
 	internet: { imdb: '4779682', wiki_ua: '%D0%9C%D0%B5%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { jason_statham_26071967: 1, },
+},
+{
+	id: 'megalopolis_2024', title: { ua: 'Мегалополіс', en: 'Megalopolis', }, year: 2024, country: { usa: 1, },
+	genre: { fantasy: 1, drama: 1, },
+	internet: { imdb: '10128846', wiki_ua: '%D0%9C%D0%B5%D0%B3%D0%B0%D0%BB%D0%BE%D0%BF%D0%BE%D0%BB%D1%96%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { nathalie_emmanuel_02031989: 1, laurence_fishburne_30071961: 1, jon_voight_29121938: 1, shia_labeouf_11061986: 1, },
 },
 {
 	id: 'memoirs_of_a_geisha_2005', title: { ua: 'Мемуари гейші', en: 'Memoirs of a Geisha', }, year: 2005, country: { usa: 1, },
@@ -3812,7 +3840,7 @@ const arrFilms = [
 },
 {
 	id: 'the_watchers_2024', title: { ua: 'Наглядачі', en: 'The Watchers', }, year: 2024, country: { usa: 1, },
-	genre: { fantasy: 1, horror: 1, }, hash: { forest: 1, },
+	genre: { fantasy: 1, horror: 1, }, hash: { forest: 1, unreal_danger: 1, }, 
 	internet: { imdb: '26736843', wiki_ua: '%D0%9D%D0%B0%D0%B3%D0%BB%D1%8F%D0%B4%D0%B0%D1%87%D1%96', },
 	cast: { dakota_fanning_23021994: 1, },
 },
@@ -4326,6 +4354,12 @@ const arrFilms = [
 	cast: { tom_cruise_03071962: 1, }, director: { steven_spielberg_18121946: 1, },
 },
 {
+	id: 'barely_lethal_2015', title: { ua: 'Особливо небезпечна', en: 'Barely Lethal', }, year: 2015, country: { usa: 1, },	
+	genre: { action: 1, comedy: 1, }, hash: { young: 1, },
+	internet: { imdb: '1731701', ashdivip: '14352', },
+	cast: { samuel_l_jackson_21121948: 1, jessica_alba_28041981: 1, sophie_turner_21021996: 1, },
+},
+{
 	id: 'wanted_2008', title: { ua: 'Особливо небезпечний', en: 'Wanted', }, year: 2008, country: { usa: 1, },	
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0493464', wiki_ua: '%D0%9E%D1%81%D0%BE%D0%B1%D0%BB%D0%B8%D0%B2%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%87%D0%BD%D0%B8%D0%B9_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -4715,6 +4749,11 @@ const arrFilms = [
 	genre: { action: 1, },
 	internet: { imdb: '1549920', wiki_ua: '%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B3%D0%B5%D1%80%D0%BE%D1%8F', },
 	cast: { arnold_schwarzenegger_30071947: 1, forest_whitaker_15071961: 1, },
+},
+{
+	id: 'return_to_eden_1983', title: { ua: 'Повернення до Едему', en: 'Return to Eden', }, year: 1983, country: { usa: 1, aus: 1, },
+	genre: { serial: 1, drama: 1, },
+	internet: { imdb: '0085079', wiki_ua: '%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B4%D0%BE_%D0%95%D0%B4%D0%B5%D0%BC%D1%83_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },	
 },
 {
 	id: 'return_to_the_blue_lagoon_1991', title: { ua: 'Повернення у Блакитну лагуну', en: 'Return to the Blue Lagoon', }, year: 1991, country: { usa: 1, }, rating: 5,
@@ -5253,9 +5292,9 @@ const arrFilms = [
 },
 {
 	id: 'bird_box_2018', title: { ua: 'Пташиний короб', en: 'Bird Box', }, year: 2018, country: { usa: 1, },
-	genre: { horror: 1, mystic: 1, sci_fi: 1, },
+	genre: { horror: 1, mystic: 1, sci_fi: 1, }, hash: { unreal_danger: 1, },
 	internet: { imdb: '2737304', wiki_ua: '%D0%9F%D1%82%D0%B0%D1%88%D0%B8%D0%BD%D0%B8%D0%B9_%D0%BA%D0%BE%D1%80%D0%BE%D0%B1_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { sandra_bullock_26071964: 1, },
+	cast: { sandra_bullock_26071964: 1, john_malkovich_09121953: 1, },
 },
 {
 	id: 'bird_on_a_wire_1990', title: { ua: 'Пташка на дроті', en: 'Bird on a Wire', }, year: 1990, country: { usa: 1, },
@@ -5636,6 +5675,12 @@ const arrFilms = [
 	cast: { robert_de_niro_17081943: 1, john_travolta_18021954: 1, },
 },
 {
+	id: 'the_secret_of_my_success_1987', title: { ua: 'Секрет мого успіху', en: 'The Secret of My Succe$s', }, year: 1987, country: { usa: 1, },
+	genre: { comedy: 1, drama: 1, },
+	internet: { imdb: '0093936', wiki_ua: '%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82_%D0%BC%D0%BE%D0%B3%D0%BE_%D1%83%D1%81%D0%BF%D1%96%D1%85%D1%83', },
+	cast: { michael_j_fox_09061961: 1, },
+},
+{
 	id: 'sex_lies_and_videotape_1989', title: { ua: 'Секс, брехня та відео', en: 'Sex, Lies, and Videotape', }, year: 1989, country: { usa: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '0098724', wiki_ua: '%D0%A1%D0%B5%D0%BA%D1%81,_%D0%B1%D1%80%D0%B5%D1%85%D0%BD%D1%8F_%D1%96_%D0%B2%D1%96%D0%B4%D0%B5%D0%BE', },
@@ -5837,6 +5882,12 @@ const arrFilms = [
 	cast: { angelina_jolie_04061975: 1, }, composer: { james_newton_howard_09061951: 1, },
 },
 {
+	id: 'sommersby_1993', title: { ua: 'Соммерсбі', en: 'Sommersby', }, year: 1993, country: { usa: 1, deu: 1, },
+	genre: { drama: 1, }, 
+	internet: { imdb: '0108185', wiki_ua: '%D0%A1%D0%BE%D0%BC%D0%BC%D0%B5%D1%80%D1%81%D0%B1%D1%96', },
+	cast: { richard_gere_31081949: 1, jodie_foster_19111962: 1, bill_pullman_17121953: 1, },
+},
+{
 	id: 'sleepy_hollow_1999', title: { ua: 'Сонна Лощина', en: 'Sleepy Hollow', }, year: 1999, country: { usa: 1, deu: 1, },
 	genre: { horror: 1, mystic: 1, }, 
 	internet: { imdb: '0162661', wiki_ua: '%D0%A1%D0%BE%D0%BD%D0%BD%D0%B0_%D0%BB%D0%BE%D1%89%D0%B8%D0%BD%D0%B0', },
@@ -6004,7 +6055,7 @@ const arrFilms = [
 },
 {
 	id: 'arcadian_2024', title: { ua: 'Судна ніч в Аркадії', en: 'Arcadian', }, year: 2024, country: { usa: 1, can: 1, irl: 1, },
-	genre: { horror: 1, }, 
+	genre: { horror: 1, }, hash: { unreal_danger: 1, }, 
 	internet: { imdb: '22939186', wiki_ru: '%D0%A1%D1%83%D0%B4%D0%BD%D0%B0%D1%8F_%D0%BD%D0%BE%D1%87%D1%8C_%D0%B2_%D0%90%D1%80%D0%BA%D0%B0%D0%B4%D0%B8%D0%B8',	},
 	cast: { nicolas_cage_07011964: 1, },
 },
@@ -6271,7 +6322,7 @@ const arrFilms = [
 },
 {
 	id: 'a_quiet_place_2018', title: { ua: 'Тихе місце', en: 'A Quiet Place', }, year: 2018, country: { usa: 1, },
-	genre: { horror: 1, sci_fi: 1, },
+	genre: { horror: 1, sci_fi: 1, }, hash: { unreal_danger: 1, },
 	internet: { imdb: '6644200', wiki_ua: '%D0%A2%D0%B8%D1%85%D0%B5_%D0%BC%D1%96%D1%81%D1%86%D0%B5', },
 	cast: { emily_blunt_23021983: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
@@ -6313,11 +6364,13 @@ const arrFilms = [
 	id: 'the_maze_runner_2_2015', title: { ua: 'Той що біжить лабіринтом - 2', en: 'Maze Runner: The Scorch Trials', }, year: 2015, country: { usa: 1, }, franchise: 'the_maze_runner',
 	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, young: 1, },
 	internet: { imdb: '4046784', wiki_ua: '%D0%A2%D0%BE%D0%B9,_%D1%89%D0%BE_%D0%B1%D1%96%D0%B6%D0%B8%D1%82%D1%8C_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82%D0%BE%D0%BC:_%D0%92%D0%B8%D0%BF%D1%80%D0%BE%D0%B1%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B2%D0%BE%D0%B3%D0%BD%D0%B5%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { nathalie_emmanuel_02031989: 1, }, 
 },
 {
 	id: 'the_maze_runner_3_2018', title: { ua: 'Той що біжить лабіринтом - 3', en: 'Maze Runner: The Death Cure', }, year: 2018, country: { usa: 1, }, franchise: 'the_maze_runner',
 	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, young: 1, },
 	internet: { imdb: '4500922', wiki_ua: '%D0%A2%D0%BE%D0%B9,_%D1%89%D0%BE_%D0%B1%D1%96%D0%B6%D0%B8%D1%82%D1%8C_%D0%BB%D0%B0%D0%B1%D1%96%D1%80%D0%B8%D0%BD%D1%82%D0%BE%D0%BC:_%D0%9B%D1%96%D0%BA%D0%B8_%D0%B2%D1%96%D0%B4_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { nathalie_emmanuel_02031989: 1, }, 
 },
 {
 	id: 'thor_2011', title: { ua: 'Тор', en: 'Thor', }, year: 2011, country: { usa: 1, }, franchise: 'thor',
@@ -6381,7 +6434,7 @@ const arrFilms = [
 },
 {
 	id: 'tremors_1990', title: { ua: 'Тремтіння землі', en: 'Tremors', }, year: 1990, country: { usa: 1, }, rating: 5,
-	genre: { comedy: 1, horror: 1, }, hash: { trap: 1, surviving: 1, animal: 1, },
+	genre: { comedy: 1, horror: 1, }, hash: { trap: 1, surviving: 1, animal: 1, unreal_danger: 1, },
 	internet: { imdb: '0100814', wiki_ua: '%D0%A2%D1%80%D0%B5%D0%BC%D1%82%D1%96%D0%BD%D0%BD%D1%8F_%D0%B7%D0%B5%D0%BC%D0%BB%D1%96', },
 	cast: { kevin_bacon_08071958: 1, },
 },
@@ -6608,7 +6661,7 @@ const arrFilms = [
 },
 {
 	id: 'the_faculty_1998', title: { ua: 'Факультет', en: 'The Faculty', }, year: 1998, country: { usa: 1, },
-	genre: { horror: 1, sci_fi: 1, }, hash: { aliens: 1, },
+	genre: { horror: 1, sci_fi: 1, }, hash: { aliens: 1, unreal_danger: 1, },
 	internet: { imdb: '0133751', wiki_ua: '%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { elijah_wood_28011981: 1, josh_hartnett_21071978: 1, robert_patrick_05111958: 1, salma_hayek_02091966: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
@@ -6722,25 +6775,25 @@ const arrFilms = [
 	id: 'fast_furious_7_2015', title: { ua: 'Форсаж - 7', en: 'Fast & Furious 7', }, year: 2015, country: { usa: 1, }, rating: 5, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '2820852', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_7',	},
-	cast: { vin_diesel_18071967: 1, paul_walker_12091973: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, jason_statham_26071967: 1, kurt_russell_17031951: 1, },
+	cast: { vin_diesel_18071967: 1, paul_walker_12091973: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, nathalie_emmanuel_02031989: 1, jason_statham_26071967: 1, kurt_russell_17031951: 1, },
 },
 {
 	id: 'fast_furious_8_2017', title: { ua: 'Форсаж - 8', en: 'The Fate of the Furious', }, year: 2017, country: { usa: 1, }, rating: 5, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '4630562', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_8',	},
-	cast: { vin_diesel_18071967: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, jason_statham_26071967: 1, charlize_theron_07081975: 1, kurt_russell_17031951: 1, },
+	cast: { vin_diesel_18071967: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, nathalie_emmanuel_02031989: 1, jason_statham_26071967: 1, charlize_theron_07081975: 1, kurt_russell_17031951: 1, },
 },
 {
 	id: 'fast_furious_9_2021', title: { ua: 'Форсаж - 9', en: 'F9', }, year: 2021, country: { usa: 1, }, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '5433138', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_9',	},
-	cast: { vin_diesel_18071967: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, charlize_theron_07081975: 1, kurt_russell_17031951: 1, john_cena_23071977: 1, },
+	cast: { vin_diesel_18071967: 1, michelle_rodriguez_12071978: 1, dwayne_johnson_02051972: 1, nathalie_emmanuel_02031989: 1, charlize_theron_07081975: 1, kurt_russell_17031951: 1, john_cena_23071977: 1, },
 },
 {
 	id: 'fast_furious_10_2023', title: { ua: 'Форсаж - 10', en: 'Fast X', }, year: 2023, country: { usa: 1, }, rating: 5, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '5433140', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_10', ashdivip: '95214', },
-	cast: { vin_diesel_18071967: 1, jason_statham_26071967: 1, michelle_rodriguez_12071978: 1, jason_momoa_01081979: 1, charlize_theron_07081975: 1, brie_larson_01101989: 1, john_cena_23071977: 1, },
+	cast: { vin_diesel_18071967: 1, jason_statham_26071967: 1, michelle_rodriguez_12071978: 1, nathalie_emmanuel_02031989: 1, jason_momoa_01081979: 1, charlize_theron_07081975: 1, brie_larson_01101989: 1, john_cena_23071977: 1, },
 },
 {
 	id: 'fast_furious_presents_hobbs_shaw_2019', title: { ua: 'Форсаж: Гоббс та Шоу', en: 'Fast & Furious Presents: Hobbs & Shaw', }, year: 2019, country: { usa: 1, },
@@ -6810,7 +6863,7 @@ const arrFilms = [
 },
 {
 	id: 'never_let_go_2024', title: { ua: 'Хижий ліс', en: 'Never Let Go', }, year: 2024, country: { usa: 1, can: 1, fra: 1,},
-	genre: { horror: 1, thriller: 1, }, hash: { forest: 1, },
+	genre: { horror: 1, thriller: 1, }, hash: { forest: 1, unreal_danger: 1, },
 	internet: { imdb: '14415204', wiki_ua: '%D0%A5%D0%B8%D0%B6%D0%B8%D0%B9_%D0%BB%D1%96%D1%81', },
 	cast: { halle_berry_14081966: 1, },
 },
@@ -6853,6 +6906,12 @@ const arrFilms = [
 	id: 'chronicle_2012', title: { ua: 'Хроніка', en: 'Chronicle', }, year: 2012, country: { gbr: 1, usa: 1, },
 	genre: { sci_fi: 1, },
 	internet: { imdb: '1706593', wiki_ua: '%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',  },
+},
+{
+	id: 'pawn_shop_chronicles_2013', title: { ua: 'Хроніки ломбарду', en: 'Pawn Shop Chronicles', }, year: 2013, country: { usa: 1, }, 
+	genre: { action: 1, comedy: 1, crime: 1, },
+	internet: { imdb: '1741243', wiki_ua: '%D0%A5%D1%80%D0%BE%D0%BD%D1%96%D0%BA%D0%B8_%D0%BB%D0%BE%D0%BC%D0%B1%D0%B0%D1%80%D0%B4%D1%83', },
+	cast: { paul_walker_12091973: 1, matt_dillon_18021964: 1, elijah_wood_28011981: 1, },
 },
 {
 	id: 'the_chronicles_of_riddick_2004', title: { ua: 'Хроніки Ріддіка', en: 'The Chronicles of Riddick', }, year: 2004, country: { usa: 1, }, 
@@ -7300,7 +7359,7 @@ const arrFilms = [
 },
 {
 	id: 'i_am_legend_2007', title: { ua: 'Я - легенда', en: 'I Am Legend', }, year: 2007, country: { usa: 1, }, rating: 5,
-	genre: { action: 1, thriller: 1, horror: 1, }, hash: { oneman: 1, zombie: 1, biomedlab: 1, },
+	genre: { action: 1, thriller: 1, horror: 1, }, hash: { oneman: 1, zombie: 1, biomedlab: 1, unreal_danger: 1, },
 	internet: { imdb: '0480249', wiki_ua: '%D0%AF_%E2%80%94_%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14363', },
 	cast: { will_smith_25091968: 1, },
 },

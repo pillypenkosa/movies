@@ -127,8 +127,9 @@ const arrHashTags = [
 	{ id: 'apocalypse' 		, title: 'апокаліпсис' 					, app: { movies: 1, }, },
 	{ id: 'future' 			, title: 'майбутнє' 					, app: { movies: 1, }, },
 	{ id: 'real' 			, title: 'наРеальнихПодіях' 			, app: { movies: 1, }, }, // засновано на реальних подіях
+	{ id: 'unreal_danger' 	, title: 'нереальнаНебезпека' 			, app: { movies: 1, }, }, // загроза/небезпека неіснуючого походження
 	{ id: 'middleAges' 		, title: 'середньовіччя' 				, app: { movies: 1, }, },
-	{ id: 'ancient' 		, title: 'стародавнійСвіт' 				, app: { movies: 1, }, }, // подорожі у часі
+	{ id: 'ancient' 		, title: 'стародавнійСвіт' 				, app: { movies: 1, }, }, 
 	{ id: 'world' 			, title: 'світ' 						, app: { movies: 1, }, }, // вигаданий світ
 	{ id: 'utopia' 			, title: 'утопія' 						, app: { movies: 1, }, }, 
 	{ id: 'time' 			, title: 'уЧасі' 						, app: { movies: 1, }, }, // подорожі у часі
