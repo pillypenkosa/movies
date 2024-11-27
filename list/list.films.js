@@ -421,10 +421,21 @@ const arrFilms = [
 	cast: { macaulay_culkin_26081980: 1, claudia_schiffer_25081970: 1, }, composer: { alan_silvestri_26031950: 1, },
 },
 {
+	id: 'los_ricos_tambien_lloran_1979', title: { ua: 'Багаті теж плачуть', en: 'Los ricos tambien lloran', }, year: 1979, country: { mex: 1, }, 
+	genre: { serial: 1, drama: 1, }, 
+	internet: { imdb: '0211855', wiki_ua: '%D0%91%D0%B0%D0%B3%D0%B0%D1%82%D1%96_%D1%82%D0%B5%D0%B6_%D0%BF%D0%BB%D0%B0%D1%87%D1%83%D1%82%D1%8C', },
+	cast: { veronica_castro_19101952: 1, },
+},
+{
 	id: 'much_ado_about_1993', title: { ua: 'Багато галасу з нічого', en: 'Much Ado About', }, year: 1993, country: { gbr: 1, usa: 1, },
 	genre: { drama: 1, comedy: 1, },
 	internet: { imdb: '0107616', wiki_ua: '%D0%91%D0%B0%D0%B3%D0%B0%D1%82%D0%BE_%D0%B3%D0%B0%D0%BB%D0%B0%D1%81%D1%83_%D0%B7_%D0%BD%D1%96%D1%87%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1993)', },
 	cast: { keanu_reeves_02091964: 1, kate_beckinsale_26071973: 1, denzel_washington_28121954: 1, },
+},
+{
+	id: 'bugs_1995', title: { ua: 'Багз: електронні жучки', en: 'Bugs', }, year: 1995, country: { gbr: 1, },
+	genre: { serial: 1, sci_fi: 1, crime: 1, }, hash: { techno: 1, },
+	internet: { imdb: '0111904', wiki_ua: '%D0%91%D0%B0%D0%B3%D0%B7:_%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%96_%D0%B6%D1%83%D1%87%D0%BA%D0%B8', },
 },
 {
 	id: 'les_rivieres_pourpres_2000', title: { ua: 'Багряні ріки', en: 'Les rivières pourpres', }, year: 2000, country: { fra: 1, },
@@ -611,6 +622,11 @@ const arrFilms = [
 	genre: { drama: 1, }, hash: { real: 1, },
 	internet: { imdb: '1727824', wiki_ua: '%D0%91%D0%BE%D0%B3%D0%B5%D0%BC%D0%BD%D0%B0_%D1%80%D0%B0%D0%BF%D1%81%D0%BE%D0%B4%D1%96%D1%8F', },
 	cast: { rami_malek_12051981: 1, },
+},
+{
+	id: 'bordertown_1989', title: { ua: 'Бодетаун', en: 'Bordertown', }, year: 1989, country: { usa: 1, can: 1, fra: 1,}, 
+	genre: { serial: 1, western: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '0096551', },	
 },
 {
 	id: 'stark_raving_mad_2002', title: { ua: 'Божевільне пограбування', en: 'Stark Raving Mad', }, year: 2002, country: { usa: 1, },
@@ -1061,6 +1077,11 @@ const arrFilms = [
 	cast: { brad_pitt_18121963: 1, david_morse_11101953: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
+	id: 'all_the_rivers_run_1983', title: { ua: 'Всі річки течуть', en: 'All the Rivers Run', }, year: 1983, country: { aus: 1, }, 
+	genre: { serial: 1, drama: 1, }, hash: { ship: 1, middleAges: 1, },
+	internet: { imdb: '0086663', wiki_ru: '%D0%92%D1%81%D0%B5_%D1%80%D0%B5%D0%BA%D0%B8_%D1%82%D0%B5%D0%BA%D1%83%D1%82', },
+},
+{
 	id: 'the_getaway_1994', title: { ua: 'Втеча', en: 'The Getaway', }, year: 1994, country: { usa: 1, jpn: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0109890', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1994)', },
@@ -1071,6 +1092,11 @@ const arrFilms = [
 	genre: { crime: 1, }, hash: { prison: 1, escape: 1, },
 	internet: { imdb: '0079116', wiki_ua: '%D0%92%D1%82%D0%B5%D1%87%D0%B0_%D0%B7_%D0%90%D0%BB%D1%8C%D0%BA%D0%B0%D1%82%D1%80%D0%B0%D1%81%D0%B0',	},
 	cast: { clint_eastwood_31051930: 1, },
+},
+{
+	id: 'prison_break_2005', title: { ua: 'Втеча з в\'язниці', en: 'Prison Break', }, year: 2005, country: { usa: 1, gbr: 1, },
+	genre: { serial: 1, thriller: 1, crime: 1, }, hash: { prison: 1, escape: 1, },
+	internet: { imdb: '0455275', wiki_ru: '%D0%9F%D0%BE%D0%B1%D0%B5%D0%B3_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB,_2005)',},
 },
 {
 	id: 'deadlocked_escape_from_zone_14_1995', title: { ua: 'Втеча з зони 14', en: 'Deadlocked: Escape from Zone 14', }, year: 1995, country: { usa: 1, }, rating: '5+',
@@ -1410,7 +1436,7 @@ const arrFilms = [
 },
 {
 	id: 'the_devil_s_double_20011', title: { ua: 'Двійник диявола', en: 'The Devil\'s Double', }, year: 2011, country: { bel: 1, },
-	genre: { drama: 1, }, hash: { politic: 1, },
+	genre: { drama: 1, }, hash: { politic: 1, president: 1, },
 	internet: { imdb: '1270262', wiki_ua: '%D0%94%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%D0%BA_%D0%B4%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB%D0%B0', },
 },
 {
@@ -1513,6 +1539,12 @@ const arrFilms = [
 	genre: { comedy: 1, },
 	internet: { imdb: '6521876', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9_%D1%82%D0%B0_%D0%9C%D0%BE%D0%B2%D1%87%D0%B0%D0%B7%D0%BD%D0%B8%D0%B9_%D0%91%D0%BE%D0%B1:_%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%B2%D0%B0%D0%BD%D1%82%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F', },
 	cast: { chris_hemsworth_11081983: 1, jason_lee_25041970: 1, },
+},
+{
+	id: 'jane_eyre_1983', title: { ua: 'Джейн Ейр', en: 'Jane Eyre', }, year: 1983, country: { gbr: 1, }, 
+	genre: { serial: 1, drama: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '0085037', wiki_ua: '%D0%94%D0%B6%D0%B5%D0%B9%D0%BD_%D0%95%D0%B9%D1%80_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB,_1983)', },
+	cast: { timothy_dalton_21031946: 1, },
 },
 {
 	id: 'jason_bourne_2016', title: { ua: 'Джейсон Борн', en: 'Jason Bourne', }, year: 2016, country: { usa: 1, }, franchise: 'bourne',
@@ -1645,9 +1677,21 @@ const arrFilms = [
 	cast: { nina_siemaszko_14071970: 1, },
 },
 {
+	id: 'rosa_salvaje_1987', title: { ua: 'Дика Роза', en: 'Rosa salvaje', }, year: 1987, country: { mex: 1, }, 
+	genre: { serial: 1, drama: 1, }, 
+	internet: { imdb: '0211858', wiki_ua: '%D0%94%D0%B8%D0%BA%D0%B0_%D1%80%D0%BE%D0%B7%D0%B0', },
+	cast: { veronica_castro_19101952: 1, },
+},
+{
 	id: 'the_wild_robot_2024', title: { ua: 'Дикий робот', en: 'The Wild Robot', }, year: 2024, country: { usa: 1, jpn: 1, },
 	genre: { cartoon: 1, },	
 	internet: { imdb: '29623480', wiki_ua: '%D0%94%D0%B8%D0%BA%D0%B8%D0%B9_%D1%80%D0%BE%D0%B1%D0%BE%D1%82_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'dynasty_1981', title: { ua: 'Династія', en: 'Dynasty', }, year: 1981, country: { usa: 1, }, 
+	genre: { serial: 1, drama: 1, },
+	internet: { imdb: '0081856', wiki_ru: '%D0%94%D0%B8%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%8F_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D0%B8%D0%B0%D0%BB)', },
+	cast: { heather_locklear_25091961: 1, },
 },
 {
 	id: 'kindergarten_cop_1990', title: { ua: 'Дитсадковий поліцейський', en: 'Kindergarten Cop', }, year: 1990, country: { usa: 1, }, rating: 5,
@@ -1724,6 +1768,11 @@ const arrFilms = [
 	genre: { drama: 1, crime: 1, }, hash: { dog: 1, },
 	internet: { imdb: '17009348', wiki_ua: '%D0%94%D0%BE%D0%B3%D0%BC%D0%B5%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
 	director: { luc_besson_18031959: 1, },
+},
+{
+	id: 'dona_beija_1986', title: { ua: 'Донна Бейжа', en: 'Dona Beija', }, year: 1986, country: { bra: 1, }, 
+	genre: { serial: 1, drama: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '0143035', wiki_ua: '%D0%94%D0%BE%D0%BD%D0%BD%D0%B0_%D0%91%D0%B5%D0%B9%D0%B6%D0%B0', },	
 },
 {
 	id: 'dr_t_the_women_2000', title: { ua: 'Доктор Т і його жінки', en: 'Dr. T & the Women', }, year: 2000, country: { usa: 1, deu: 1, },
@@ -1887,6 +1936,16 @@ const arrFilms = [
 	genre: { thriller: 1, }, hash: { prison: 1, surviving: 1, },
 	internet: { imdb: '0997152', wiki_ua: '%D0%95%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2010)', },
 	cast: { adrien_brody_14041973: 1, forest_whitaker_15071961: 1, },
+},
+{
+	id: 'casablanca_express_1989', title: { ua: 'Експрес на Касабланку', en: 'Casablanca Express', }, year: 1989, country: { ita: 1, },
+	genre: { action: 1, adventure: 1, war: 1, }, hash: { train: 1, war2w: 1, president: 1, },
+	internet: { imdb: '0094843', wiki_ua: '%D0%95%D0%BA%D1%81%D0%BF%D1%80%D0%B5%D1%81_%D0%BD%D0%B0_%D0%9A%D0%B0%D1%81%D0%B0%D0%B1%D0%BB%D0%B0%D0%BD%D0%BA%D1%83', },
+},
+{
+	id: 'helene_et_les_garcons_1992', title: { ua: 'Елен і друзі', en: 'Helene et les garcons', }, year: 1992, country: { fra: 1, }, 
+	genre: { serial: 1, comedy: 1, drama: 1, }, hash: { young: 1, },
+	internet: { imdb: '0172009', wiki_ua: '%D0%95%D0%BB%D0%B5%D0%BD_%D1%96_%D0%B4%D1%80%D1%83%D0%B7%D1%96', },
 },
 {
 	id: 'elysium_2013', title: { ua: 'Елізіум', en: 'Elysium', }, year: 2013, country: { usa: 1, }, rating: 5,
@@ -2312,6 +2371,11 @@ const arrFilms = [
 	id: 'cuckoo_2024', title: { ua: 'Зозуля', en: 'Cuckoo', }, year: 2024, country: { usa: 1, deu: 1, },
 	genre: { horror: 1, mystic: 1, },
 	internet: { imdb: '12349832', wiki_ua: '%D0%97%D0%BE%D0%B7%D1%83%D0%BB%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
+},
+{
+	id: 'quien_sabe_1967', title: { ua: 'Золота куля', en: 'Quien sabe?', }, year: 1967, country: { ita: 1, esp: 1, }, 
+	genre: { western: 1, }, 
+	internet: { imdb: '0061429', wiki_ua: '%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%B0_%D0%BA%D1%83%D0%BB%D1%8F', },
 },
 {
 	id: 'golden_eye_1995', title: { ua: 'Золоте око', en: 'GoldenEye', }, year: 1995, country: { usa: 1, }, rating: 5, franchise: 'agent_007',
@@ -2859,7 +2923,7 @@ const arrFilms = [
 },
 {
 	id: 'columbo_1971', title: { ua: 'Коломбо', en: 'Columbo', }, year: 1971, country: { usa: 1, },
-	genre: { detective: 1, crime: 1, }, hash: { police: 1, },
+	genre: { serial: 1, detective: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '1466074', wiki_ua: '%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B1%D0%BE_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 	cast: { peter_falk_16091927: 1, },
 },
@@ -2984,6 +3048,11 @@ const arrFilms = [
 	id: 'the_lion_king_2019', title: { ua: 'Король-лев', en: 'The Lion King', }, year: 2019, country: { usa: 1, },
 	genre: { _3d: 1, }, 
 	internet: { imdb: '6105098', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', ashdivip: '118711', },
+},
+{
+	id: 'сalikusu_1986', title: { ua: 'Корольок пташка співоча', en: 'Сalikusu', }, year: 1986, country: { tur: 1, }, 
+	genre: { serial: 1, drama: 1, }, hash: { war1w: 1, },
+	internet: { imdb: '0952637', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C%D0%BE%D0%BA_%E2%80%94_%D0%BF%D1%82%D0%B0%D1%88%D0%BA%D0%B0_%D1%81%D0%BF%D1%96%D0%B2%D0%BE%D1%87%D0%B0_(%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
 {
 	id: 'short_circuit_1986', title: { ua: 'Коротке замикання', en: 'Short Circuit', }, year: 1986, country: { usa: 1, },
@@ -3226,6 +3295,12 @@ const arrFilms = [
 	genre: { cartoon: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0275847', wiki_ua: '%D0%9B%D1%96%D0%BB%D0%BE_%D1%96_%D0%A1%D1%82%D1%96%D1%87', },
 	composer: { alan_silvestri_26031950: 1, },
+},
+{
+	id: 'planes_2013', title: { ua: 'Літачки', en: 'Planes', }, year: 2013, country: { usa: 1, ind: 1, },
+	genre: { cartoon: 1, }, hash: { plane: 1, },
+	internet: { imdb: '1691917', wiki_ua: '%D0%9B%D1%96%D1%82%D0%B0%D1%87%D0%BA%D0%B8', },
+	composer: { mark_mancina_09031957: 1, },
 },
 {
 	id: 'split_second_1992', title: { ua: 'Лічені секунди', en: 'Split Second', }, year: 1992, country: { gbr: 1, usa: 1, },
@@ -4157,6 +4232,11 @@ const arrFilms = [
 	cast: { sean_connery_25081930: 1, kim_basinger_08121953: 1, },
 },
 {
+	id: 'tu_o_nadie_1985', title: { ua: 'Ніхто крім тебе', en: 'Tu o nadie', }, year: 1985, country: { mex: 1, }, 
+	genre: { serial: 1, drama: 1, },
+	internet: { imdb: '0214377', wiki_ua: '%D0%9D%D1%96%D1%85%D1%82%D0%BE,_%D0%BA%D1%80%D1%96%D0%BC_%D1%82%D0%B5%D0%B1%D0%B5', },	
+},
+{
 	id: 'night_at_the_museum_2006', title: { ua: 'Ніч у музеї', en: 'Night at the Museum', }, year: 2006, country: { usa: 1, },
 	genre: { comedy: 1, fantasy: 1, }, 
 	internet: { imdb: '0477347', wiki_ua: '%D0%9D%D1%96%D1%87_%D1%83_%D0%BC%D1%83%D0%B7%D0%B5%D1%97', },
@@ -4596,7 +4676,7 @@ const arrFilms = [
 },
 {
 	id: 'pearl_harbor_2001', title: { ua: 'Перл Гарбор', en: 'Pearl Harbor', }, year: 2001, country: { usa: 1, },
-	genre: { war: 1, history: 1, }, hash: { real: 1, war: 1, war2w: 1, plane: 1, battle: 1, love: 1, },
+	genre: { war: 1, history: 1, }, hash: { real: 1, war: 1, war2w: 1, plane: 1, battle: 1, love: 1, president: 1, },
 	internet: { imdb: '0213149', wiki_ua: '%D0%9F%D0%B5%D1%80%D0%BB-%D0%93%D0%B0%D1%80%D0%B1%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	ashdivip: '8425', },
 	cast: { ben_affleck_15081972: 1, josh_hartnett_21071978: 1, kate_beckinsale_26071973: 1, tom_sizemore_29111961: 1, jon_voight_29121938: 1, alec_baldwin_03041958: 1, cuba_gooding_jr_02011968: 1, }, director: { michael_bay_17021965: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
@@ -5256,6 +5336,12 @@ const arrFilms = [
 	cast: { patrick_swayze_18081952: 1, charlize_theron_07081975: 1, },
 },
 {
+	id: 'simplemente_maria_1989', title: { ua: 'Просто Марія', en: 'Simplemente Maria', }, year: 1989, country: { mex: 1, }, 
+	genre: { serial: 1, drama: 1, }, 
+	internet: { imdb: '0211866', wiki_ua: '%D0%9F%D1%80%D0%BE%D1%81%D1%82%D0%BE_%D0%9C%D0%B0%D1%80%D1%96%D1%8F_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB,_1989)', },
+	cast: { victoria_ruffo_31051962: 1, },
+},
+{
 	id: 'prototype_1992', title: { ua: 'Прототип X29A', en: 'Prototype', }, year: 1992, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, robot: 1, },
 	internet: { imdb: '0105183', youtube: 'tdMW9z9ieQw', },
@@ -5643,6 +5729,11 @@ const arrFilms = [
 	id: 'sanctum_2011', title: { ua: 'Санктум', en: 'Sanctum', }, year: 2011, country: { usa: 1, },
 	genre: { thriller: 1, drama: 1, }, hash: { real: 1, trap: 1, surviving: 1, tropic: 1, },
 	internet: { imdb: '0881320', wiki_ua: '%D0%A1%D0%B0%D0%BD%D0%BA%D1%82%D1%83%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '22721', },
+},
+{
+	id: 'santa_barbara_1984', title: { ua: 'Санта-Барбара', en: 'Santa Barbara', }, year: 1984, country: { usa: 1, }, 
+	genre: { serial: 1, drama: 1, },
+	internet: { imdb: '0086793', wiki_ua: '%D0%A1%D0%B0%D0%BD%D1%82%D0%B0-%D0%91%D0%B0%D1%80%D0%B1%D0%B0%D1%80%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
 {
 	id: 'oblivion_2013', title: { ua: 'Світ забуття', en: 'Oblivion', }, year: 2013, country: { usa: 1, },
@@ -6149,6 +6240,11 @@ const arrFilms = [
 	cast: { mithun_chakraborty_16061950: 1, },
 },
 {
+	id: 'tarzan_the_ape_man_1932', title: { ua: 'Тарзан людина-мавпа', en: 'Tarzan the Ape Man', }, year: 1932, country: { usa: 1, },
+	genre: { sci_fi: 1, adventure: 1, }, hash: { jungle: 1, animal: 1, monkey: 1, },
+	internet: { imdb: '0023551', wiki_ua: '%D0%A2%D0%B0%D1%80%D0%B7%D0%B0%D0%BD,_%D0%BB%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BC%D0%B0%D0%B2%D0%BF%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1932)', },
+},
+{
 	id: 'tarzan_and_the_lost_city_1998', title: { ua: 'Тарзан та загублене місто', en: 'Tarzan and the Lost City', }, year: 1998, country: { usa: 1, deu: 1, aus: 1, },
 	genre: { action: 1, adventure: 1, fantasy: 1, },
 	internet: { imdb: '0120856', wiki_ru: '%D0%A2%D0%B0%D1%80%D0%B7%D0%B0%D0%BD_%D0%B8_%D0%B7%D0%B0%D1%82%D0%B5%D1%80%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4', },
@@ -6644,7 +6740,7 @@ const arrFilms = [
 },
 {
 	id: 'the_apprentice_2024', title: { ua: 'Учень. Історія Трампа', en: 'The Apprentice', }, year: 2024, country: { can: 1, den: 1, irl: 1, },
-	genre: { drama: 1, history: 1, biography: 1, },
+	genre: { drama: 1, history: 1, biography: 1, }, hash: { president: 1, },
 	internet: { imdb: '8368368', wiki_ua: '%D0%A3%D1%87%D0%B5%D0%BD%D1%8C._%D0%86%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F_%D0%A2%D1%80%D0%B0%D0%BC%D0%BF%D0%B0', },
 },
 {
@@ -7196,6 +7292,11 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { utopia: 1, future: 1, road: 1, },
 	internet: { imdb: '1392190', wiki_ua: '%D0%A8%D0%B0%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D0%9C%D0%B0%D0%BA%D1%81:_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B0_%D0%B3%D0%BD%D1%96%D0%B2%D1%83', },
 	cast: { tom_hardy_15091977: 1, charlize_theron_07081975: 1, },
+},
+{
+	id: 'il_ricatto_1988', title: { ua: 'Шантаж', en: 'Il ricatto', }, year: 1988, country: { ita: 1, },
+	genre: { serial: 1, detective: 1, crime: 1, drama: 1, }, hash: { cop: 1, mafia: 1, },
+	internet: { imdb: '0401056', },	
 },
 {
 	id: 'the_best_man_2023', title: { ua: 'Шафер', en: 'The Best Man', }, year: 2023, country: { usa: 1, },
