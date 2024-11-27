@@ -8,6 +8,7 @@ const arrHashTags = [
 
 	{ id: '-' 				, title: '--- --- ЛЮДИ --- ---' 		, app: { movies: 1, }, },
 	{ id: 'fight' 			, title: 'бійці' 						, app: { movies: 1, }, }, // бойові мистецтва
+	{ id: 'genius' 			, title: 'генії' 						, app: { movies: 1, }, },
 	{ id: 'truckers' 		, title: 'далекобійники' 				, app: { movies: 1, }, },
 	{ id: 'children' 		, title: 'діти' 						, app: { movies: 1, }, },
 	{ id: 'bond' 			, title: 'ДжеймсБонд' 					, app: { movies: 1, }, }, 

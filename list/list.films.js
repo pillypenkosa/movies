@@ -368,7 +368,7 @@ const arrFilms = [
 	internet: { imdb: '8511466', },
 },
 {
-	id: 'arabela_1979', title: { ua: 'Арабелла', en: 'Arabela', }, year: 1979, country: { usa: 1, },
+	id: 'arabela_1979', title: { ua: 'Арабелла', en: 'Arabela', }, year: 1979, country: { csk: 1, },
 	genre: { serial: 1, fairytale: 1, comedy: 1, }, hash: { young: 1, children: 1, },
 	internet: { imdb: '0175381', wiki_ua: '%D0%90%D1%80%D0%B0%D0%B1%D0%B5%D0%BB%D0%BB%D0%B0_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
@@ -1054,7 +1054,7 @@ const arrFilms = [
 	cast: { roger_moore_14101927: 1, },
 },
 {
-	id: 'the_octopuses_from_the_second_floor_1987', title: { ua: 'Восьминіжки з другого поверху', en: 'The Octopuses from the Second Floor', }, year: 1987, country: { cze: 1, deu: 1, },
+	id: 'the_octopuses_from_the_second_floor_1987', title: { ua: 'Восьминіжки з другого поверху', en: 'The Octopuses from the Second Floor', }, year: 1987, country: { csk: 1, deu: 1, },
 	genre: { serial: 1, sci_fi: 1, comedy: 1, adventure: 1, }, hash: { animal: 1, children: 1, },
 	internet: { imdb: '0090834', wiki_ru: '%D0%9E%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B6%D0%BA%D0%B8_%D1%81%D0%BE_%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE_%D1%8D%D1%82%D0%B0%D0%B6%D0%B0', },
 },
@@ -1363,6 +1363,11 @@ const arrFilms = [
 	id: 'le_comte_de_monte_cristo_2024', title: { ua: 'Граф Монте-Крісто', en: 'Le Comte de Monte-Cristo', }, year: 2024, country: { fra: 1, bel: 1, },
 	genre: { history: 1, drama: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '26446278', wiki_ua: '%D0%93%D1%80%D0%B0%D1%84_%D0%9C%D0%BE%D0%BD%D1%82%D0%B5-%D0%9A%D1%80%D1%96%D1%81%D1%82%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2024)', },
+},
+{
+	id: 'la_dame_de_monsoreau_1971', title: { ua: 'Графиня де Монсоро', en: 'La dame de Monsoreau', }, year: 1971, country: { fra: 1, },
+	genre: { serial: 1, drama: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '0224857', wiki_ua: '%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BD%D1%8F_%D0%B4%D0%B5_%D0%9C%D0%BE%D0%BD%D1%81%D0%BE%D1%80%D0%BE_(%D0%BC%D1%96%D0%BD%D1%96%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB,_1971)', },
 },
 {
 	id: 'pik_lik_foh_1995', title: { ua: 'Громобій', en: 'Pik lik foh', }, year: 1995, country: { hkg: 1, },
@@ -2063,6 +2068,11 @@ const arrFilms = [
 	internet: { imdb: '0454876', wiki_ua: '%D0%96%D0%B8%D1%82%D1%82%D1%8F_%D0%9F%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: 'hard_time_on_planet_earth_1989', title: { ua: 'Жорсткі часи на планеті Земля', en: 'Hard Time on Planet Earth', }, year: 1989, country: { usa: 1, },
+	genre: { serial: 1, sci_fi: 1, }, hash: { aliens: 1, children: 1, },
+	internet: { imdb: '0096606', wiki_ua: '%D0%96%D0%BE%D1%80%D1%81%D1%82%D0%BA%D1%96_%D1%87%D0%B0%D1%81%D0%B8_%D0%BD%D0%B0_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D1%96_%D0%97%D0%B5%D0%BC%D0%BB%D1%8F', },
+},
+{
 	id: 'ringul_1984', title: { ua: 'Жорстокий ринг', en: 'Ringul', }, year: 1984, country: { rou: 1, },
 	genre: { drama: 1, }, hash: { box: 1, truckers: 1, },
 	internet: { imdb: '0133180', },
@@ -2493,7 +2503,7 @@ const arrFilms = [
 },
 {
 	id: 'a_beautiful_mind_2001', title: { ua: 'Ігри розуму', en: 'A Beautiful Mind', }, year: 2001, country: { usa: 1, },
-	genre: { drama: 1, }, hash: { psycho: 1, },
+	genre: { drama: 1, }, hash: { psycho: 1, genius: 1, },
 	internet: { imdb: '0268978', wiki_ua: '%D0%86%D0%B3%D1%80%D0%B8_%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%83', },
 	cast: { russell_crowe_07041964: 1, ed_harris_28111950: 1, jennifer_connelly_12121970: 1, christopher_plummer_13121929: 1, }, director: { ron_howard_31031954: 1, }, composer: { james_horner_14081953: 1, },
 },
@@ -3221,6 +3231,12 @@ const arrFilms = [
 	cast: { keanu_reeves_02091964: 1, morgan_freeman_01061937: 1, },
 },
 {
+	id: 'bullet_head_2017', title: { ua: 'Ланцюговий пес', en: 'Bullet Head', }, year: 2017, country: { usa: 1, bul: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { animal: 1, dog: 1, robbery: 1, },
+	internet: { imdb: '6204340', wiki_ua: '%D0%9B%D0%B0%D0%BD%D1%86%D1%8E%D0%B3%D0%BE%D0%B2%D0%B8%D0%B9_%D0%BF%D0%B5%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', },	
+	cast: { antonio_banderas_10081960: 1, adrien_brody_14041973: 1, john_malkovich_09121953: 1, },
+},
+{
 	id: 'lara_kroft_2001', title: { ua: 'Лара Крофт', en: 'Lara Croft: Tomb Raider', }, year: 2001, country: { usa: 1, gbr: 1, deu: 1, jpn: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, }, hash: { treasure: 1, travel: 1, },
 	internet: { imdb: '0146316', wiki_ua: '%D0%9B%D0%B0%D1%80%D0%B0_%D0%9A%D1%80%D0%BE%D1%84%D1%82:_%D0%A0%D0%BE%D0%B7%D0%BA%D1%80%D0%B0%D0%B4%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D1%80%D0%BE%D0%B1%D0%BD%D0%B8%D1%86%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -3344,7 +3360,7 @@ const arrFilms = [
 },
 {
 	id: 'rain_man_1988', title: { ua: 'Людина дощу', en: 'Rain Man', }, year: 1988, country: { usa: 1, },
-	genre: { drama: 1, },
+	genre: { drama: 1, }, hash: { genius: 1, },
 	internet: { imdb: '0095953', wiki_ua: '%D0%9B%D1%8E%D0%B4%D0%B8%D0%BD%D0%B0_%D0%B4%D0%BE%D1%89%D1%83', },
 	cast: { tom_cruise_03071962: 1, dustin_hoffman_08081937: 1, valeria_golino_22101965: 1, bonnie_hunt_22091961: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
@@ -3552,7 +3568,7 @@ const arrFilms = [
 },
 {
 	id: 'mercury_rising_1998', title: { ua: 'Меркурій в небезпеці', en: 'Mercury Rising', }, year: 1998, country: { usa: 1, },
-	genre: { action: 1, crime: 1, },
+	genre: { action: 1, crime: 1, }, hash: { genius: 1, children: 1, },
 	internet: { imdb: '0120749', wiki_ua: '%D0%9C%D0%B5%D1%80%D0%BA%D1%83%D1%80%D1%96%D0%B9_%D0%B2_%D0%BD%D0%B5%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D1%86%D1%96', },
 	cast: { bruce_willis_19031955: 1, alec_baldwin_03041958: 1, },
 },
@@ -4362,8 +4378,13 @@ const arrFilms = [
 	internet: { imdb: '15552142', wiki_ru: '%D0%9E%D0%B7%D0%B5%D1%80%D0%BE_%D0%9A%D0%B0%D0%B4%D0%B4%D0%BE_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', ashdivip: '146382', },
 },
 {
+	id: 'operation_mozart_1989', title: { ua: 'Операція Моцарт', en: 'Operation Mozart', }, year: 1989, country: { fra: 1, }, 
+	genre: { serial: 1, adventure: 1, drama: 1, }, hash: { genius: 1, children: 1,  },
+	internet: { imdb: '0253415', },
+},
+{
 	id: 'oppenheimer_2023', title: { ua: 'Оппенгеймер', en: 'Oppenheimer', }, year: 2023, country: { usa: 1, gbr: 1, },
-	genre: { drama: 1, }, hash: { real: 1, politic: 1, },
+	genre: { drama: 1, }, hash: { real: 1, politic: 1, genius: 1, },
 	internet: { imdb: '15398776', wiki_ua: '%D0%9E%D0%BF%D0%BF%D0%B5%D0%BD%D0%B3%D0%B5%D0%B9%D0%BC%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
 	cast: { emily_blunt_23021983: 1, matt_damon_08101970: 1, robert_downey_jr_01041965: 1, josh_hartnett_21071978: 1, rami_malek_12051981: 1, jason_clarke_17071969: 1, gary_oldman_21031958: 1, casey_affleck_12081975: 1, },
 },
@@ -5232,7 +5253,7 @@ const arrFilms = [
 	cast: { jake_gyllenhaal_19121980: 1, conor_mc_gregor_14071988: 1, },
 },
 {
-	id: 'spadla_z_oblakov_1978', title: { ua: 'Пригоди в канікули', en: 'Spadla z oblakov', }, year: 1978, country: { svk: 1, },
+	id: 'spadla_z_oblakov_1978', title: { ua: 'Пригоди в канікули', en: 'Spadla z oblakov', }, year: 1978, country: { csk: 1, },
 	genre: { serial: 1, adventure: 1, sci_fi: 1, }, hash: { aliens: 1, children: 1, },
 	internet: { imdb: '0077083', wiki_ru: '%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D0%BA%D0%B0%D0%BD%D0%B8%D0%BA%D1%83%D0%BB%D1%8B', youtube: 'Im2lD9l7zlg', },
 },
@@ -5521,6 +5542,11 @@ const arrFilms = [
 	genre: { sci_fi: 1, action: 1, }, hash: { animal: 1, },
 	internet: { imdb: '2231461', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%BF%D0%B5%D0%B9%D0%B4%D0%B6', ashdivip: '455', },
 	cast: { dwayne_johnson_02051972: 1, naomie_harris_06091976: 1, },
+},
+{
+	id: 'robin_of_sherwood_1984', title: { ua: 'Робін із Шервуда', en: 'Robin of Sherwood', }, year: 1984, country: { gbr: 1, },
+	genre: { serial: 1, fantasy: 1, }, hash: { middleAges: 1, },
+	internet: { imdb: '0086791', wiki_ru: '%D0%A0%D0%BE%D0%B1%D0%B8%D0%BD_%D0%B8%D0%B7_%D0%A8%D0%B5%D1%80%D0%B2%D1%83%D0%B4%D0%B0', },
 },
 {
 	id: 'robinson_crusoe_1997', title: { ua: 'Робінзон Крузо', en: 'Robinson Crusoe', }, year: 1997, country: { usa: 1, }, rating: 5,
@@ -6709,6 +6735,11 @@ const arrFilms = [
 	internet: { imdb: '15474916', wiki_ua: '%D0%A3%D1%81%D0%BC%D1%96%D1%85%D0%B0%D0%B9%D1%81%D1%8F', ashdivip: '81049', },
 },
 {
+	id: 'smile_2_2024', title: { ua: 'Усміхайся - 2', en: 'Smile 2', }, year: 2024, country: { usa: 1, can: 1, },
+	genre: { horror: 1, },
+	internet: { imdb: '29268110', wiki_ua: '%D0%A3%D1%81%D0%BC%D1%96%D1%85%D0%B0%D0%B9%D1%81%D1%8F_2', },
+},
+{
 	id: 'hard_to_kill_1990', title: { ua: 'Усупереч смерті', en: 'Hard to Kill', }, year: 1990, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0099739', wiki_ua: '%D0%A3%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%B5%D1%87_%D1%81%D0%BC%D0%B5%D1%80%D1%82%D1%96', },
@@ -6793,7 +6824,7 @@ const arrFilms = [
 },
 {
 	id: 'the_queens_gambit_2020', title: { ua: 'Ферзевий гамбіт', en: 'The Queen\'s Gambit', }, year: 2020, country: { usa: 1, },
-	genre: { serial: 1, drama: 1, }, hash: { chess: 1, },
+	genre: { serial: 1, drama: 1, }, hash: { chess: 1, genius: 1, },
 	internet: { imdb: '10048342', wiki_ua: '%D0%A4%D0%B5%D1%80%D0%B7%D0%B5%D0%B2%D0%B8%D0%B9_%D0%B3%D0%B0%D0%BC%D0%B1%D1%96%D1%82_(%D0%BC%D1%96%D0%BD%D1%96%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
 {
@@ -7297,6 +7328,12 @@ const arrFilms = [
 	id: 'il_ricatto_1988', title: { ua: 'Шантаж', en: 'Il ricatto', }, year: 1988, country: { ita: 1, },
 	genre: { serial: 1, detective: 1, crime: 1, drama: 1, }, hash: { cop: 1, mafia: 1, },
 	internet: { imdb: '0401056', },	
+},
+{
+	id: 'sharpe_1993', title: { ua: 'Шарп', en: 'Sharpe', }, year: 1993, country: { gbr: 1, },
+	genre: { serial: 1, war: 1, adventure: 1, }, hash: { war: 1, middleAges: 1, },
+	internet: { imdb: '12749392', wiki_ru: '%D0%9F%D1%80%D0%B8%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%BA%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0_%D0%A8%D0%B0%D1%80%D0%BF%D0%B0', },	
+	cast: { sean_bean_17041959: 1, },
 },
 {
 	id: 'the_best_man_2023', title: { ua: 'Шафер', en: 'The Best Man', }, year: 2023, country: { usa: 1, },
