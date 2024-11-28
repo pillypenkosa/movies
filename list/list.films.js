@@ -3589,6 +3589,11 @@ const arrFilms = [
 	cast: { nicole_kidman_20061967: 1, billy_zane_24021966: 1, },
 },
 {
+	id: 'elevation_2024', title: { ua: 'Мертві землі', en: 'Elevation', }, year: 2024, country: { usa: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, hash: { animal: 1, surviving: 1, mountains: 1, },
+	internet: { imdb: '23558280', },	
+},
+{
 	id: 'avengers_endgame_2019', title: { ua: 'Месники: Завершення', en: 'Avengers: Endgame', }, year: 2019, country: { usa: 1, },
 	genre: { action: 1, adventure: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '4154796', wiki_ua: '%D0%9C%D0%B5%D1%81%D0%BD%D0%B8%D0%BA%D0%B8:_%D0%97%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D1%8F', },
