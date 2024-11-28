@@ -32,31 +32,35 @@ const arrHashTags = [
 
 
 
-	{ id: '-' 				, title: '--- --- ПОТОЙБІЧНИЙ СВІТ --- ---' 	, app: { movies: 1, }, },
-	{ id: 'vampire' 		, title: 'вампіри' 								, app: { movies: 1, }, }, 
-	{ id: 'witch' 			, title: 'відьми' 								, app: { movies: 1, }, },
-	{ id: 'zombie' 			, title: 'зомбі' 								, app: { movies: 1, }, },
-	{ id: 'mutant' 			, title: 'мутанти'								, app: { movies: 1, }, },
-	{ id: 'bodyChange' 		, title: 'обмінТілами' 							, app: { movies: 1, }, }, // театр одного актора
-	{ id: 'werewolf' 		, title: 'перевертні' 							, app: { movies: 1, }, },
-	{ id: 'souls' 			, title: 'переселенняДуш' 						, app: { movies: 1, }, }, 
-	{ id: 'ghost' 			, title: 'привиди' 								, app: { movies: 1, }, }, 
-
-
-
 	{ id: '-' 				, title: '--- --- ТВАРИНИ --- ---' 		, app: { movies: 1, }, },
 	{ id: 'animal' 			, title: 'тварини' 						, app: { movies: 1, }, },
 	{ id: 'shark' 			, title: 'акули' 						, app: { movies: 1, }, },
 	{ id: 'groundhog' 		, title: 'бабак' 						, app: { movies: 1, }, }, // в стилі Дня Бабака
 	{ id: 'bear' 			, title: 'ведмеді' 						, app: { movies: 1, }, }, 
-	{ id: 'virus' 			, title: 'вірус' 						, app: { movies: 1, }, },
 	{ id: 'dinosaur' 		, title: 'динозаври' 					, app: { movies: 1, }, },
-	{ id: 'dragon' 			, title: 'дракони' 						, app: { movies: 1, }, },
 	{ id: 'snake' 			, title: 'змії' 						, app: { movies: 1, }, },
 	{ id: 'crocodile' 		, title: 'крокодили' 					, app: { movies: 1, }, },
 	{ id: 'monkey' 			, title: 'мавпи' 						, app: { movies: 1, }, },
 	{ id: 'spider' 			, title: 'павук' 						, app: { movies: 1, }, }, 
 	{ id: 'dog' 			, title: 'собаки' 						, app: { movies: 1, }, },
+
+
+
+	{ id: '-' 				, title: '--- --- ІСТОТИ --- ---' 		, app: { movies: 1, }, },
+	{ id: 'creature' 		, title: 'істоти' 						, app: { movies: 1, }, },
+	{ id: 'vampire' 		, title: 'вампіри' 								, app: { movies: 1, }, }, 
+	{ id: 'dragon' 			, title: 'дракони' 						, app: { movies: 1, }, },
+	{ id: 'zombie' 			, title: 'зомбі' 								, app: { movies: 1, }, },
+	{ id: 'mutant' 			, title: 'мутанти'								, app: { movies: 1, }, },
+	{ id: 'werewolf' 		, title: 'перевертні' 							, app: { movies: 1, }, },
+
+
+
+	{ id: '-' 				, title: '--- --- ПАРАЛЕЛЬНИЙ СВІТ --- ---' 	, app: { movies: 1, }, },
+	{ id: 'witch' 			, title: 'відьми' 								, app: { movies: 1, }, },
+	{ id: 'bodyChange' 		, title: 'обмінТілами' 							, app: { movies: 1, }, }, // театр одного актора
+	{ id: 'souls' 			, title: 'переселенняДуш' 						, app: { movies: 1, }, }, 
+	{ id: 'ghost' 			, title: 'привиди' 								, app: { movies: 1, }, }, 
 
 
 
@@ -118,10 +122,12 @@ const arrHashTags = [
 	
 
 
-	{ id: '-' 				, title: '--- --- ПАСТКИ --- ---' 		, app: { movies: 1, }, },
-	{ id: 'trap' 			, title: 'пастка' 						, app: { movies: 1, }, }, // випадкові смертельні пастки
+	{ id: '-' 				, title: '--- --- ЗАГРОЗА --- ---' 		, app: { movies: 1, }, },
 	{ id: 'surviving' 		, title: 'виживання' 					, app: { movies: 1, }, }, // подорожі у часі
+	{ id: 'virus' 			, title: 'вірус' 						, app: { movies: 1, }, },
 	{ id: 'quest' 			, title: 'квест' 						, app: { movies: 1, }, },
+	{ id: 'unreal_danger' 	, title: 'нереальнаНебезпека' 			, app: { movies: 1, }, }, // загроза/небезпека неіснуючого походження
+	{ id: 'trap' 			, title: 'пастка' 						, app: { movies: 1, }, }, // випадкові смертельні пастки
 
 
 
@@ -129,8 +135,7 @@ const arrHashTags = [
 	{ id: 'apocalypse' 		, title: 'апокаліпсис' 					, app: { movies: 1, }, },
 	{ id: 'future' 			, title: 'майбутнє' 					, app: { movies: 1, }, },
 	{ id: 'real' 			, title: 'наРеальнихПодіях' 			, app: { movies: 1, }, }, // засновано на реальних подіях
-	{ id: 'unreal_danger' 	, title: 'нереальнаНебезпека' 			, app: { movies: 1, }, }, // загроза/небезпека неіснуючого походження
-	{ id: 'middleAges' 		, title: 'середньовіччя' 				, app: { movies: 1, }, },
+	{ id: 'middleAges' 		, title: 'старіЧаси' 					, app: { movies: 1, }, },
 	{ id: 'ancient' 		, title: 'стародавнійСвіт' 				, app: { movies: 1, }, }, 
 	{ id: 'world' 			, title: 'світ' 						, app: { movies: 1, }, }, // вигаданий світ
 	{ id: 'utopia' 			, title: 'утопія' 						, app: { movies: 1, }, }, 

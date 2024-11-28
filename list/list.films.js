@@ -1055,7 +1055,7 @@ const arrFilms = [
 },
 {
 	id: 'the_octopuses_from_the_second_floor_1987', title: { ua: 'Восьминіжки з другого поверху', en: 'The Octopuses from the Second Floor', }, year: 1987, country: { csk: 1, deu: 1, },
-	genre: { serial: 1, sci_fi: 1, comedy: 1, adventure: 1, }, hash: { animal: 1, children: 1, },
+	genre: { serial: 1, sci_fi: 1, comedy: 1, adventure: 1, }, hash: { creature: 1, animal: 1, children: 1, },
 	internet: { imdb: '0090834', wiki_ru: '%D0%9E%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B6%D0%BA%D0%B8_%D1%81%D0%BE_%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE_%D1%8D%D1%82%D0%B0%D0%B6%D0%B0', },
 },
 {
@@ -1418,7 +1418,7 @@ const arrFilms = [
 },
 {
 	id: 'gremlins_1984', title: { ua: 'Ґремліни', en: 'Gremlins', }, year: 1984, country: { usa: 1, },
-	genre: { comedy: 1, fantasy: 1, horror: 1, }, hash: { animal: 1, },
+	genre: { comedy: 1, fantasy: 1, horror: 1, }, hash: { creature: 1, },
 	internet: { imdb: '0087363', wiki_ua: '%D0%93%D1%80%D0%B5%D0%BC%D0%BB%D1%96%D0%BD%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },	
 },
 {
@@ -1529,7 +1529,7 @@ const arrFilms = [
 },
 {
 	id: 'the_thing_2011', title: { ua: 'Дещо', en: 'The Thing', }, year: 2011, country: { usa: 1, can: 1, }, rating: 5,
-	genre: { horror: 1, sci_fi: 1, }, hash: { winter: 1, },
+	genre: { horror: 1, sci_fi: 1, }, hash: { creature: 1, winter: 1, },
 	internet: { imdb: '0905372', wiki_ua: '%D0%94%D0%B5%D1%89%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
 	composer: { marco_beltrami_07101966: 1, },
 },
@@ -2167,8 +2167,7 @@ const arrFilms = [
 },
 {
 	id: 'klatwa_doliny_wezy_1987', title: { ua: 'Закляття долини змій', en: 'Klatwa doliny wezy', }, year: 1987, country: { usa: 1, }, rating: '5+',
-	genre: { adventure: 1, horror: 1, },
-	hash: { animal: 1, snake: 1, aliens: 1, travel: 1, },
+	genre: { adventure: 1, horror: 1, }, hash: { snake: 1, aliens: 1, creature: 1, travel: 1, },
 	internet: { imdb: '0095456', wiki_ua: '%D0%97%D0%B0%D0%BA%D0%BB%D1%8F%D1%82%D1%82%D1%8F_%D0%B4%D0%BE%D0%BB%D0%B8%D0%BD%D0%B8_%D0%B7%D0%BC%D1%96%D0%B9', ashdivip: '113416', },
 },
 {
@@ -2462,7 +2461,7 @@ const arrFilms = [
 },
 {
 	id: 'critters_1986', title: { ua: 'Зубастики', en: 'Critters', }, year: 1986, country: { usa: 1, },
-	genre: { horror: 1, comedy: 1, sci_fi: 1, }, hash: { aliens: 1, unreal_danger: 1, },
+	genre: { horror: 1, comedy: 1, sci_fi: 1, }, hash: { creature: 1, aliens: 1, unreal_danger: 1, },
 	internet: { imdb: '0090887', wiki_ua: '%D0%97%D1%83%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BA%D0%B8', },
 	cast: { billy_zane_24021966: 1, },
 },
@@ -3590,7 +3589,7 @@ const arrFilms = [
 },
 {
 	id: 'elevation_2024', title: { ua: 'Мертві землі', en: 'Elevation', }, year: 2024, country: { usa: 1, },
-	genre: { sci_fi: 1, thriller: 1, }, hash: { animal: 1, surviving: 1, mountains: 1, },
+	genre: { sci_fi: 1, thriller: 1, }, hash: { animal: 1, creature: 1, surviving: 1, unreal_danger: 1, mountains: 1, },
 	internet: { imdb: '23558280', },	
 },
 {
@@ -6288,7 +6287,7 @@ const arrFilms = [
 },
 {
 	id: 'the_animal_2001', title: { ua: 'Тварина', en: 'The Animal', }, year: 2001, country: { usa: 1, },
-	genre: { comedy: 1, fantasy: 1, }, hash: { animal: 1, },
+	genre: { comedy: 1, fantasy: 1, }, hash: { creature: 1, animal: 1, },
 	internet: { imdb: '0255798', wiki_ua: '%D0%A2%D0%B2%D0%B0%D1%80%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2001)', },
 },
 {
@@ -6561,7 +6560,7 @@ const arrFilms = [
 },
 {
 	id: 'tremors_1990', title: { ua: 'Тремтіння землі', en: 'Tremors', }, year: 1990, country: { usa: 1, }, rating: 5,
-	genre: { comedy: 1, horror: 1, }, hash: { trap: 1, surviving: 1, animal: 1, unreal_danger: 1, },
+	genre: { comedy: 1, horror: 1, }, hash: { creature: 1, trap: 1, surviving: 1, unreal_danger: 1, },
 	internet: { imdb: '0100814', wiki_ua: '%D0%A2%D1%80%D0%B5%D0%BC%D1%82%D1%96%D0%BD%D0%BD%D1%8F_%D0%B7%D0%B5%D0%BC%D0%BB%D1%96', },
 	cast: { kevin_bacon_08071958: 1, },
 },
@@ -7490,7 +7489,7 @@ const arrFilms = [
 },
 {
 	id: 'the_thing_1982', title: { ua: 'Щось', en: 'The Thing', }, year: 1982, country: { usa: 1, }, rating: 5,
-	genre: { horror: 1, sci_fi: 1, }, hash: { winter: 1, },
+	genre: { horror: 1, sci_fi: 1, }, hash: { creature: 1, winter: 1, },
 	internet: { imdb: '0084787', wiki_ua: '%D0%A9%D0%BE%D1%81%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1982)', },
 	cast: { kurt_russell_17031951: 1, }, composer: { ennio_morricone_10111928: 1, },
 },
