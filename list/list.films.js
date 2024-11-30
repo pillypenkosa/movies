@@ -3282,7 +3282,7 @@ const arrFilms = [
 	cast: { bridget_fonda_27011964: 1, },
 },
 {
-	id: 'Leon_1994', title: { ua: 'Леон', en: 'Leon', }, year: 1994, country: { fra: 1, usa: 1, }, rating: '5+',
+	id: 'leon_1994', title: { ua: 'Леон', en: 'Leon', }, year: 1994, country: { fra: 1, usa: 1, }, rating: '5+',
 	genre: { action: 1, crime: 1, drama: 1, }, hash: { killer: 1, love: 1, drugs: 1, children: 1, },
 	internet: { imdb: '0110413', wiki_ua: '%D0%9B%D0%B5%D0%BE%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '324', },
 	cast: { jean_reno_30071948: 1, natalie_portman_09061981: 1, gary_oldman_21031958: 1, }, director: { luc_besson_18031959: 1, },
