@@ -298,7 +298,7 @@ const arrFilms = [
 	id: 'alpha_dog_2006', title: { ua: 'Альфа Дог', en: 'Alpha Dog', }, year: 2006, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { young: 1, },
 	internet: { imdb: '0426883', wiki_ua: '%D0%90%D0%BB%D1%8C%D1%84%D0%B0_%D0%94%D0%BE%D0%B3_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { justin_timberlake_31011981: 1, sharon_stone_10031958: 1, bruce_willis_19031955: 1, },
+	cast: { justin_timberlake_31011981: 1, sharon_stone_10031958: 1, bruce_willis_19031955: 1, anthon_yelchin_11031989: 1, },
 },
 {
 	id: 'amelie_2001', title: { ua: 'Амелі', en: 'Le fabuleux destin d`Amélie Poulain', }, year: 2001, country: { usa: 1, }, rating: 5,
@@ -2317,7 +2317,7 @@ const arrFilms = [
 	id: 'rememory_2017', title: { ua: 'Згадати знов', en: 'Rememory', }, year: 2017, country: { usa: 1, },
 	genre: { sci_fi: 1, detective: 1, }, hash: { future: 1, },
 	internet: { imdb: '2331047', wiki_ru: '%D0%92%D1%81%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D1%82%D1%8C_%D0%B7%D0%B0%D0%BD%D0%BE%D0%B2%D0%BE', },
-	cast: { peter_dinklage_11061969: 1, },
+	cast: { peter_dinklage_11061969: 1, anthon_yelchin_11031989: 1, },
 },
 {
 	id: 'prey_2022', title: { ua: 'Здобич', en: 'Prey', }, year: 2022, country: { usa: 1, },
@@ -3110,6 +3110,12 @@ const arrFilms = [
 	genre: { drama: 1, },
 	internet: { imdb: '0079417', wiki_ua: '%D0%9A%D1%80%D0%B0%D0%BC%D0%B5%D1%80_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%9A%D1%80%D0%B0%D0%BC%D0%B5%D1%80%D0%B0', },
 	cast: { dustin_hoffman_08081937: 1, },
+},
+{
+	id: 'johnny_handsome_1989', title: { ua: 'Красунчик Джонні', en: 'Johnny Handsome', }, year: 1989, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, },
+	internet: { imdb: '0097626', wiki_ua: '%D0%9A%D1%80%D0%B0%D1%81%D1%83%D0%BD%D1%87%D0%B8%D0%BA_%D0%94%D0%B6%D0%BE%D0%BD%D0%BD%D1%96', },
+	cast: { mickey_rourke_16091952: 1, morgan_freeman_01061937: 1, forest_whitaker_15071961: 1, },
 },
 {
 	id: 'pretty_woman_1990', title: { ua: 'Красуня', en: 'Pretty Woman', }, year: 1990, country: { usa: 1, }, rating: 5,
@@ -4184,7 +4190,7 @@ const arrFilms = [
 	id: 'no_way_out_1987', title: { ua: 'Немає виходу', en: 'No Way Out', }, year: 1987, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0093640', wiki_ua: '%D0%9D%D0%B5%D0%BC%D0%B0%D1%94_%D0%B2%D0%B8%D1%85%D0%BE%D0%B4%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1987)', },
-	cast: { kevin_costner_18011955: 1, },
+	cast: { kevin_costner_18011955: 1, sean_young_20111959: 1, },
 },
 {
 	id: 'nemesis_1992', title: { ua: 'Немезида', en: 'Nemesis', }, year: 1992, country: { usa: 1, dnk: 1, }, franchise: 'nemesis',
@@ -4441,7 +4447,7 @@ const arrFilms = [
 	studio: { dream_works: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '1059786', wiki_ua: '%D0%9E%D1%80%D0%BB%D0%B8%D0%BD%D0%B8%D0%B9_%D0%B7%D1%96%D1%80', },
-	cast: { shia_labeouf_11061986: 1, michelle_monaghan_23031976: 1, },
+	cast: { shia_labeouf_11061986: 1, michelle_monaghan_23031976: 1, william_sadler_13041950: 1, },
 },
 {
 	id: 'the_wasp_2024', title: { ua: 'Оса', en: 'The Wasp', }, year: 2024, country: { usa: 1, },
@@ -4957,7 +4963,7 @@ const arrFilms = [
 	studio: { columbia: 1, netflix: 1, },
 	genre: { action: 1, comedy: 1, }, 
 	internet: { imdb: '0172156', wiki_ua: '%D0%9F%D0%BE%D0%B3%D0%B0%D0%BD%D1%96_%D1%85%D0%BB%D0%BE%D0%BF%D1%86%D1%96_2', },
-	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, }, director: { michael_bay_17021965: 1, },
+	cast: { will_smith_25091968: 1, martin_lawrence_16041965: 1, oleg_mykola_taktarov_26081967: 1, }, director: { michael_bay_17021965: 1, },
 },
 {
 	id: 'bad_boys_3_2020', title: { ua: 'Погані хлопці назавжди', en: 'Bad Boys for Life', }, year: 2020, country: { usa: 1, }, franchise: 'bad_boys',
@@ -5587,6 +5593,12 @@ const arrFilms = [
 	cast: { dwayne_johnson_02051972: 1, naomie_harris_06091976: 1, },
 },
 {
+	id: 'replicant_2001', title: { ua: 'Реплікант', en: 'Replicant', }, year: 2001, country: { usa: 1, },
+	genre: { sci_fi: 1, action: 1, }, hash: { fight: 1, },
+	internet: { imdb: '0238552', wiki_ua: '%D0%A0%D0%B5%D0%BF%D0%BB%D1%96%D0%BA%D0%B0%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '20078', },
+	cast: { jean_claude_van_damme_18101960: 1, },
+},
+{
 	id: 'robin_of_sherwood_1984', title: { ua: 'Робін із Шервуда', en: 'Robin of Sherwood', }, year: 1984, country: { gbr: 1, },
 	genre: { serial: 1, fantasy: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0086791', wiki_ru: '%D0%A0%D0%BE%D0%B1%D0%B8%D0%BD_%D0%B8%D0%B7_%D0%A8%D0%B5%D1%80%D0%B2%D1%83%D0%B4%D0%B0', },
@@ -6040,6 +6052,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { army: 1, },
 	internet: { imdb: '0119173', wiki_ua: '%D0%A1%D0%BE%D0%BB%D0%B4%D0%B0%D1%82_%D0%94%D0%B6%D0%B5%D0%B9%D0%BD', },
 	cast: { demi_moore_11111962: 1, }, director: { ridley_scott_30111937: 1, },
+},
+{
+	id: 'solo_1996', title: { ua: 'Соло', en: 'Solo', }, year: 1996, country: { usa: 1, mex: 1, },
+	genre: { sci_fi: 1, action: 1, }, 
+	internet: { imdb: '0117688', wiki_ua: '%D0%A1%D0%BE%D0%BB%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
+	cast: { william_sadler_13041950: 1, adrien_brody_14041973: 1, },
 },
 {
 	id: 'salt_2010', title: { ua: 'Солт', en: 'Salt', }, year: 2010, country: { usa: 1, },
@@ -6885,7 +6903,7 @@ const arrFilms = [
 	id: 'movie_43_2013', title: { ua: 'Фільм 43', en: 'Movie 43', }, year: 2013, country: { usa: 1, },
 	genre: { parody: 1, comedy: 1, },
 	internet: { imdb: '1333125', wiki_ua: '%D0%A4%D1%96%D0%BB%D1%8C%D0%BC_43', },
-	cast: { richard_gere_31081949: 1, hugh_jackman_12101968: 1, gerard_butler_13111969: 1, seann_william_scott_03101976: 1, halle_berry_14081966: 1, kate_winslet_05101975: 1, naomi_watts_28091968: 1, uma_thurman_29041970: 1, },
+	cast: { richard_gere_31081949: 1, hugh_jackman_12101968: 1, gerard_butler_13111969: 1, seann_william_scott_03101976: 1, halle_berry_14081966: 1, kate_winslet_05101975: 1, naomi_watts_28091968: 1, uma_thurman_29041970: 1, anthon_yelchin_11031989: 1, },
 },
 {
 	id: 'the_firm_1993', title: { ua: 'Фірма', en: 'The FirmThe Firm', }, year: 1993, country: { usa: 1, },
@@ -7139,6 +7157,12 @@ const arrFilms = [
 	genre: { action: 1, adventure: 1, fantasy: 1, },
 	internet: { imdb: '0277296', wiki_ua: '%D0%A6%D0%B0%D1%80_%D1%81%D0%BA%D0%BE%D1%80%D0%BF%D1%96%D0%BE%D0%BD%D1%96%D0%B2', },
 	cast: { dwayne_johnson_02051972: 1, },
+},
+{
+	id: 'pet_sematary_1989', title: { ua: 'Цвинтар домашніх тварин', en: 'Pet Sematary', }, year: 1989, country: { usa: 1, },
+	genre: { horror: 1, },
+	internet: { imdb: '0098084', wiki_ua: '%D0%9A%D0%BB%D0%B0%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D0%B5_%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%96%D1%85_%D1%82%D0%B2%D0%B0%D1%80%D0%B8%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1989)', },
+	cast: { stephen_king_21091947: 1, },
 },
 {
 	id: 'it_s_a_mad_mad_mad_mad_world_1963', title: { ua: 'Цей шалений шалений світ', en: 'It\'s a Mad Mad Mad Mad World', }, year: 1963, country: { usa: 1, }, rating: 5,
