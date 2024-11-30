@@ -174,6 +174,26 @@ class ComponentWinMovies {
 						}
 					});
 				}
+
+				if ( objData.set == 'kinoman' ) {
+
+					let objKinoman = {};
+					arrSetKinoman.forEach( k => {
+
+						if ( objFilms[ k ] ) 
+							objKinoman[ k ] = objFilms[ k ];
+					});
+
+					//console.log( objKinoman );
+					arrSelected = arrSelected.filter( k => {
+
+						if ( k.id ) {
+
+							if ( objKinoman[ k.id ] ) 
+								return true;
+						}
+					});
+				}
 			}
 
 			if ( objData.sort ) {

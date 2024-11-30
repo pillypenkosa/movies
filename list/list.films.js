@@ -1,5 +1,4 @@
-
- // Аа Бб Вв Гг Ґґ Дд Ее Єє Жж Зз Ии Іі Її Йй Кк Лл Мм Нн Оо Пп Рр Сс Тт Уу Фф Хх Цц Чч Шш Щщ Ьь Юю Яя
+// Аа Бб Вв Гг Ґґ Дд Ее Єє Жж Зз Ии Іі Її Йй Кк Лл Мм Нн Оо Пп Рр Сс Тт Уу Фф Хх Цц Чч Шш Щщ Ьь Юю Яя
 
 
 
@@ -1059,8 +1058,13 @@ const arrFilms = [
 	internet: { imdb: '0090834', wiki_ru: '%D0%9E%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B6%D0%BA%D0%B8_%D1%81%D0%BE_%D0%B2%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE_%D1%8D%D1%82%D0%B0%D0%B6%D0%B0', },
 },
 {
+	id: 'up_2009', title: { ua: 'Вперед і вгору', en: 'Up', }, year: 2009, country: { usa: 1, },
+	genre: { cartoon: 1, },
+	internet: { imdb: '1049413', wiki_ua: '%D0%92%D0%BF%D0%B5%D1%80%D0%B5%D0%B4_%D1%96_%D0%B2%D0%B3%D0%BE%D1%80%D1%83', },	
+},
+{
 	id: 'catch_me_if_you_can_2002', title: { ua: 'Впіймай мене, якщо зможеш', en: 'Catch Me If You Can', }, year: 2002, country: { usa: 1, },
-	genre: { detective: 1, crime: 1, drama: 1,  },
+	genre: { detective: 1, crime: 1, drama: 1, },
 	internet: { imdb: '0264464', wiki_ua: '%D0%92%D0%BF%D1%96%D0%B9%D0%BC%D0%B0%D0%B9_%D0%BC%D0%B5%D0%BD%D0%B5,_%D1%8F%D0%BA%D1%89%D0%BE_%D0%B7%D0%BC%D0%BE%D0%B6%D0%B5%D1%88', },
 	cast: { leonardo_dicaprio_11111974: 1, tom_hanks_09071956: 1, martin_sheen_03081940: 1, },
 },
@@ -1431,7 +1435,7 @@ const arrFilms = [
 	id: 'twelve_monkeys_1995', title: { ua: 'Дванадцять мавп', en: 'Twelve Monkeys', }, year: 1995, country: { usa: 1, },
 	genre: { sci_fi: 1, mystic: 1, thriller: 1, }, hash: { time: 1, },
 	internet: { imdb: '0114746', wiki_ua: '12_%D0%BC%D0%B0%D0%B2%D0%BF', },
-	cast: { bruce_willis_19031955: 1, brad_pitt_18121963: 1, david_morse_11101953: 1, },
+	cast: { bruce_willis_19031955: 1, brad_pitt_18121963: 1, david_morse_11101953: 1, christopher_plummer_13121929: 1, },
 },
 {
 	id: 'gemini_man_2019', title: { ua: 'Двійник', en: 'Gemini Man', }, year: 2019, country: { usa: 1, },
@@ -1646,7 +1650,7 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, danny_devito_17111944: 1, },
 },
 {
-	id: 'the_ring_2020', title: { ua: 'Дзвінок', en: 'The Ring', }, year: 2002, country: { usa: 1, }, rating: 5,
+	id: 'the_ring_2002', title: { ua: 'Дзвінок', en: 'The Ring', }, year: 2002, country: { usa: 1, }, rating: 5,
 	genre: { horror: 1, mystic: 1, },
 	internet: { imdb: '0298130', wiki_ua: '%D0%94%D0%B7%D0%B2%D1%96%D0%BD%D0%BE%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2002)', },
 	cast: { naomi_watts_28091968: 1, },
@@ -1726,6 +1730,12 @@ const arrFilms = [
 	genre: { comedy: 1, drama: 1, },
 	internet: { imdb: '3152624', wiki_ua: '%D0%94%D1%96%D0%B2%D1%87%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B5%D0%B7_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B2', },
 	cast: { tilda_swinton_05111960: 1, brie_larson_01101989: 1, john_cena_23071977: 1, },
+},
+{
+	id: 'the_girl_with_the_dragon_tattoo_2011', title: { ua: 'Дівчина з тату дракона', en: 'The Girl with the Dragon Tattoo', }, year: 2011, country: { usa: 1, swe: 1, },
+	genre: { crime: 1, drama: 1, },
+	internet: { imdb: '1568346', wiki_ua: '%D0%94%D1%96%D0%B2%D1%87%D0%B8%D0%BD%D0%B0_%D0%B7_%D1%82%D0%B0%D1%82%D1%83_%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
+	cast: { daniel_craig_02031968: 1, christopher_plummer_13121929: 1, },
 },
 {
 	id: 'house_of_Gucci_2021', title: { ua: 'Дім Ґуччі', en: 'House of Gucci', }, year: 2021, country: { usa: 1, },
@@ -4183,6 +4193,12 @@ const arrFilms = [
 	cast: { megan_fox_16051986: 1, },
 },
 {
+	id: 'armor_2024', title: { ua: 'Непробивні', en: 'Armor', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, action: 1, }, hash: { robbery: 1, },
+	internet: { imdb: '29252358', },
+	cast: { sylvester_stallone_06071946: 1, },
+},
+{
 	id: 'the_unforgivable_2021', title: { ua: 'Непрощенна', en: 'The Unforgivable', }, year: 2021, country: { usa: 1, deu: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { justice: 1, },
 	internet: { imdb: '11233960', wiki_ua: '%D0%9D%D0%B5%D0%BF%D1%80%D0%BE%D1%89%D0%B5%D0%BD%D0%BD%D0%B0', },
@@ -4288,7 +4304,7 @@ const arrFilms = [
 	id: 'knives_out_2019', title: { ua: 'Ножі наголо', en: 'Knives Out', }, year: 2019, country: { usa: 1, },
 	genre: { comedy: 1, crime: 1, }, 
 	internet: { imdb: '8946378', wiki_ua: '%D0%9D%D0%BE%D0%B6%D1%96_%D0%BD%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE', },
-	cast: { daniel_craig_02031968: 1, chris_evans_13061981: 1, jamie_lee_curtis_22111958: 1, don_johnson_15121949: 1, ana_de_armas_30041988: 1, },
+	cast: { daniel_craig_02031968: 1, ana_de_armas_30041988: 1, christopher_plummer_13121929: 1, chris_evans_13061981: 1, jamie_lee_curtis_22111958: 1, don_johnson_15121949: 1, },
 },
 {
 	id: 'new_york_taxi_2004', title: { ua: 'Нью-Йоркське таксі', en: 'Taxi', }, year: 2004, country: { usa: 1, fra: 1, },
@@ -5879,7 +5895,7 @@ const arrFilms = [
 	id: 'national_treasure_2004', title: { ua: 'Скарб нації', en: 'National Treasure', }, year: 2004, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, adventure: 1, },
 	internet: { imdb: '0368891', wiki_ua: '%D0%A1%D0%BA%D0%B0%D1%80%D0%B1_%D0%BD%D0%B0%D1%86%D1%96%D1%97', ashdivip: '11597', },
-	cast: { nicolas_cage_07011964: 1, sean_bean_17041959: 1, jon_voight_29121938: 1, oleg_mykola_taktarov_26081967: 1, },
+	cast: { nicolas_cage_07011964: 1, sean_bean_17041959: 1, jon_voight_29121938: 1, christopher_plummer_13121929: 1, oleg_mykola_taktarov_26081967: 1, },
 },
 {
 	id: 'cliffhanger_1995', title: { ua: 'Скелелаз', en: 'Cliffhanger', }, year: 1995, country: { usa: 1, }, rating: 5,
