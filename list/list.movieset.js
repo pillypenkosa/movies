@@ -30,12 +30,8 @@ const arrMovieSort = [
 Живое (2017) 								// https://www.imdb.com/title/tt 5442430
 Жизнь Дэвида Гейла (2003) 					// https://www.imdb.com/title/tt 0289992
 Ловушка времени (2017)  					// https://www.imdb.com/title/tt 4815122
-Меню (2022) 								// https://www.imdb.com/title/tt 9764362
-На игле (1996) 								// https://www.imdb.com/title/tt 0117951
-На крючке (2008) 							// https://www.imdb.com/title/tt 1059786
 Ниндзя из Беверли-Хиллз (1997) 				// https://www.imdb.com/title/tt 0118708
 Обряд (2011) 								// https://www.imdb.com/title/tt 1161864
-Патруль времени (1994) 						// https://www.imdb.com/title/tt 0111438
 Патруль времени (2014) 						// https://www.imdb.com/title/tt 2397535
 Пацанская история (2022) 					// https://www.imdb.com/title/tt 21997048
 Помни (2000) 								// https://www.imdb.com/title/tt 0209144
@@ -44,7 +40,6 @@ const arrMovieSort = [
 Самый быстрый Индиан (2005) 				// https://www.imdb.com/title/tt 0412080
 Святые из Бундока (1999) 					// https://www.imdb.com/title/tt 0144117
 Серый человек (2022) 						// https://www.imdb.com/title/tt 1649418
-Сикарио (2015)								// https://www.imdb.com/title/tt 3397884
 Смокинг (2002) 								// https://www.imdb.com/title/tt 0290095
 Странный Томас (2013) 						// https://www.imdb.com/title/tt 1767354
 Тайлер Рейк: Операция по спасению - 2  		// https://www.imdb.com/title/tt 12263384
@@ -55,10 +50,21 @@ const arrMovieSort = [
 
 
 
+-- серіали --
+
+Бункер (2023) 										// https://www.imdb.com/title/tt14688458/
+Вавилон-Берлин (2017) 								// https://www.imdb.com/title/tt4378376/
 Голяк (2019) 										// https://www.imdb.com/title/tt9174582/
 Дисклеймер / Все совпадения неслучайны (2024) 		// https://www.imdb.com/title/tt16294384/
 Друзья (1994) 										// https://www.imdb.com/title/tt0108778/
+Императрица (2022) 									// https://www.imdb.com/title/tt13720112/
 Почему женщины убивают (2019) 						// https://www.imdb.com/title/tt9054904/
+
+
+
+
+
+
 
 
 */
@@ -141,6 +147,7 @@ const arrSetKinoman  = [
 	'mission_impossible_7_2023' 				, // Місія неможлива - 7
 	'die_hard_4_2007' 							, // Міцний горішок - 4
 	'morbius_2022' 								, // Морбіус
+	'trainspotting_1996' 						, // На голці
 	'point_break_1991' 							, // На гребені хвилі
 	'live_die_repeat_edge_of_tomorrow_2014' 	, // На межі майбутнього
 	'back_to_the_future_1985' 					, // Назад у майбутнє
@@ -158,6 +165,7 @@ const arrSetKinoman  = [
 	'limitless_2011' 							, // Області темряви
 	'scarface_1983' 							, // Обличчя зі шрамом
 	'caddo_lake_2024'							, // Озеро Каддо
+	'eagle_eye_2008'							, // Орлиний зір
 	'the_wasp_2024'								, // Оса
 	'resident_evil_2002'						, // Оселя зла
 	'unit_234_2024' 							, // Осередок 234
@@ -170,6 +178,7 @@ const arrSetKinoman  = [
 	'swordfish_2001' 							, // Пароль Риба-Меч
 	'perfume_2006' 								, // Парфумер
 	'entrapment_1999' 							, // Пастка
+	'timecop_1994' 								, // Патруль часу
 	'pearl_harbor_2001'							, // Перл Гарбор
 	'the_cave_2005' 							, // Печера
 	'hypnotic_2023' 							, // Під гіпнозом
@@ -197,6 +206,7 @@ const arrSetKinoman  = [
 	'role_play_2024'							, // Рольові ігри
 	'samaritan_2022' 							, // Самаритянин
 	'dragon_heart_1996'							, // Серце дракона
+	'sicario_2015'								, // Сікаріо 
 	'the_union_2024'							, // Спілка
 	'showgirls_1995' 							, // Стриптизерки
 	'the_substance_2024' 						, // Субстанція

@@ -3907,6 +3907,11 @@ const arrFilms = [
 	cast: { bruce_willis_19031955: 1, tom_sizemore_29111961: 1, brion_james_20021945: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
+	id: 'trainspotting_1996', title: { ua: 'На голці', en: 'Trainspotting', }, year: 1996, country: { usa: 1, gbr: 1, },
+	genre: { drama: 1, comedy: 1, },
+	internet: { imdb: '0117951', wiki_ua: '%D0%9D%D0%B0_%D0%B3%D0%BE%D0%BB%D1%86%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'point_break_1991', title: { ua: 'На гребені хвилі', en: 'Point Break', }, year: 1991, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, thriller: 1, crime: 1, }, hash: { skydive: 1, surfing: 1, police: 1, robbery: 1, },
 	internet: { imdb: '0102685', wiki_ua: '%D0%9D%D0%B0_%D0%B3%D1%80%D0%B5%D0%B1%D0%B5%D0%BD%D1%96_%D1%85%D0%B2%D0%B8%D0%BB%D1%96', ashdivip: '14484', },
@@ -4432,6 +4437,13 @@ const arrFilms = [
 	cast: { megan_fox_16051986: 1, bruce_willis_19031955: 1, },
 },
 {
+	id: 'eagle_eye_2008', title: { ua: 'Орлиний зір', en: 'Eagle Eye', }, year: 2008, country: { usa: 1, deu: 1, },
+	studio: { dream_works: 1, },
+	genre: { action: 1, }, 
+	internet: { imdb: '1059786', wiki_ua: '%D0%9E%D1%80%D0%BB%D0%B8%D0%BD%D0%B8%D0%B9_%D0%B7%D1%96%D1%80', },
+	cast: { shia_labeouf_11061986: 1, michelle_monaghan_23031976: 1, },
+},
+{
 	id: 'the_wasp_2024', title: { ua: 'Оса', en: 'The Wasp', }, year: 2024, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { psycho: 1, },
 	internet: { imdb: '21958136', ashdivip: '147936', },
@@ -4637,6 +4649,12 @@ const arrFilms = [
 	genre: { history: 1, war: 1, }, hash: { war: 1, },
 	internet: { imdb: '0187393', wiki_ua: '%D0%9F%D0%B0%D1%82%D1%80%D1%96%D0%BE%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2000)', },
 	cast: { mel_gibson_03011956: 1, },
+},
+{
+	id: 'timecop_1994', title: { ua: 'Патруль часу', en: 'Timecop', }, year: 1994, country: { usa: 1, jpn: 1, },
+	genre: { sci_fi: 1, action: 1, }, hash: { fight: 1, time: 1, cop: 1, },
+	internet: { imdb: '0111438', wiki_ua: '%D0%9F%D0%B0%D1%82%D1%80%D1%83%D0%BB%D1%8C_%D1%87%D0%B0%D1%81%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jean_claude_van_damme_18101960: 1, },
 },
 {
 	id: 'the_baker_2022', title: { ua: 'Пекар', en: 'The Baker', }, year: 2022, country: { usa: 1, deu: 1, gbr: 1, },
@@ -5866,6 +5884,12 @@ const arrFilms = [
 	id: 'signor_robinson_1976', title: { ua: 'Синьйор Робінзон', en: 'Il signor Robinson, mostruosa storia d\'amore e d\'avventure', }, year: 1976, country: { ita: 1, },
 	genre: { comedy: 1, adventure: 1, }, hash: { island: 1, surviving: 1, tropic: 1, },
 	internet: { imdb: '0076632', wiki_ru: '%D0%A1%D0%B8%D0%BD%D1%8C%D0%BE%D1%80_%D0%A0%D0%BE%D0%B1%D0%B8%D0%BD%D0%B7%D0%BE%D0%BD', },
+},
+{
+	id: 'sicario_2015', title: { ua: 'Сікаріо', en: 'Sicario', }, year: 2015, country: { usa: 1, mex: 1, hkg: 1, },
+	genre: { thriller: 1, crime: 1, },
+	internet: { imdb: '3397884', wiki_ua: '%D0%A1%D1%96%D0%BA%D0%B0%D1%80%D1%96%D0%BE', },
+	cast: { emily_blunt_23021983: 1,  },
 },
 {
 	id: 'salt_on_our_skin_1992', title: { ua: 'Сіль на нашій шкірі', en: 'Salt on Our Skin', }, year: 2010, country: { deu: 1, fra: 1, can: 1, },
