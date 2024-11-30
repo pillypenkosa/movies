@@ -2090,7 +2090,7 @@ const arrFilms = [
 {
 	id: 'falling_down_1993', title: { ua: 'З мене досить', en: 'Falling Down', }, year: 1993, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, drama: 1, crime: 1,  }, hash: { psycho: 1, },
-	internet: { imdb: '0106856', wiki_ua: '%D0%97_%D0%BC%D0%B5%D0%BD%D0%B5_%D0%B4%D0%BE%D1%81%D0%B8%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	internet: { imdb: '0106856', wiki_ua: '%D0%97_%D0%BC%D0%B5%D0%BD%D0%B5_%D0%B4%D0%BE%D1%81%D0%B8%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '14555', },
 	cast: { michael_douglas_25091944: 1, },
 },
 {
@@ -2905,7 +2905,7 @@ const arrFilms = [
 	internet: { imdb: '31450182', ashdivip: '146476', },
 },
 {
-	id: 'canary_black_2024', title: { ua: 'Код "Чорна канарка"', en: 'Canary Black', }, year: 2024, country: { usa: 1, gbr: 1, hrv: 1, },
+	id: 'canary_black_2024', title: { ua: 'Код Чорна канарка', en: 'Canary Black', }, year: 2024, country: { usa: 1, gbr: 1, hrv: 1, },
 	genre: { action: 1, }, 
 	internet: { imdb: '20048582', wiki_ua: '%D0%9A%D0%BE%D0%B4_%C2%AB%D0%A7%D0%BE%D1%80%D0%BD%D0%B0_%D0%BA%D0%B0%D0%BD%D0%B0%D1%80%D0%BA%D0%B0%C2%BB', ashdivip: '151502', },
 	cast: { kate_beckinsale_26071973: 1, },
@@ -3568,6 +3568,11 @@ const arrFilms = [
 	id: 'memoirs_of_a_geisha_2005', title: { ua: 'Мемуари гейші', en: 'Memoirs of a Geisha', }, year: 2005, country: { usa: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '0397535', wiki_ua: '%D0%9C%D0%B5%D0%BC%D1%83%D0%B0%D1%80%D0%B8_%D0%B3%D0%B5%D0%B9%D1%88%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'the_menu_2022', title: { ua: 'Меню', en: 'The Menu', }, year: 2022, country: { usa: 1, },
+	genre: { thriller: 1, horror: 1, comedy: 1, }, 
+	internet: { imdb: '9764362', wiki_ua: '%D0%9C%D0%B5%D0%BD%D1%8E_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2022)', },
 },
 {
 	id: 'the_net_1995', title: { ua: 'Мережа', en: 'The Net', }, year: 1995, country: { usa: 1, }, rating: 5,
@@ -6678,6 +6683,11 @@ const arrFilms = [
 	id: 'into_the_white_2012', title: { ua: 'У білому полоні', en: 'Into the White', }, year: 2012, country: { nor: 1, swe: 1, }, 
 	genre: { war: 1, drama: 1, }, hash: { war: 1, war2w: 1, winter: 1, },
 	internet: { imdb: '1876277', wiki_ua: '%D0%A3_%D1%81%D0%BD%D1%96%D0%B6%D0%BD%D0%BE%D0%BC%D1%83_%D0%BF%D0%BE%D0%BB%D0%BE%D0%BD%D1%96', },
+},
+{
+	id: 'dial_m_for_murder_1954', title: { ua: 'У випадку вбивства телефонуйте М', en: 'Dial M for Murder', }, year: 1954, country: { usa: 1, },
+	genre: { detective: 1, crime: 1, },
+	internet: { imdb: '0046912', wiki_ua: '%D0%A3_%D0%B2%D0%B8%D0%BF%D0%B0%D0%B4%D0%BA%D1%83_%D0%B2%D0%B1%D0%B8%D0%B2%D1%81%D1%82%D0%B2%D0%B0_%D0%BD%D0%B0%D0%B1%D0%B8%D1%80%D0%B0%D0%B9%D1%82%D0%B5_%C2%AB%D0%9C%C2%BB', },	
 },
 {
 	id: 'some_like_it_hot_1959', title: { ua: 'У джазі тільки дівчата', en: 'Some Like It Hot', }, year: 1959, country: { usa: 1, }, rating: 5,
