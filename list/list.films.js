@@ -396,6 +396,12 @@ const arrFilms = [
 	cast: { jennifer_lopez_24071969: 1, },
 },
 {
+	id: 'atomic_blonde_2017', title: { ua: 'Атомна Блондинка', en: 'Atomic Blonde', }, year: 2017, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '2406566', wiki_ua: '%D0%90%D1%82%D0%BE%D0%BC%D0%BD%D0%B0_%D0%B1%D0%BB%D0%BE%D0%BD%D0%B4%D0%B8%D0%BD%D0%BA%D0%B0', },
+	cast: { charlize_theron_07081975: 1, sofia_boutella_03041982: 1, },
+},
+{
 	id: 'the_accountant_2016', title: { ua: 'Аудитор', en: 'The Accountant', }, year: 2016, country: { usa: 1, },
 	genre: { action: 1, crime: 1, }, 
 	internet: { imdb: '2140479', wiki_ua: '%D0%90%D1%83%D0%B4%D0%B8%D1%82%D0%BE%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
@@ -3996,6 +4002,12 @@ const arrFilms = [
 	cast: { tom_cruise_03071962: 1, val_kilmer_31121959: 1, meg_ryan_19111961: 1, jennifer_connelly_12121970: 1, },
 },
 {
+	id: 'top_gun_maverick_2022', title: { ua: 'Найкращий стрілець: Маверік', en: 'Top Gun: Maverick', }, year: 2022, country: { usa: 1, },
+	genre: { action: 1, drama: 1, }, hash: { army: 1, plane: 1, },
+	internet: { imdb: '1745960', wiki_ua: '%D0%A2%D0%BE%D0%BF_%D2%90%D0%B0%D0%BD:_%D0%9C%D0%B5%D0%B2%D0%B5%D1%80%D1%96%D0%BA', },
+	cast: { tom_cruise_03071962: 1, val_kilmer_31121959: 1, jennifer_connelly_12121970: 1, ed_harris_28111950: 1, glen_powell_21101988: 1, },
+},
+{
 	id: 'best_of_the_best_1989', title: { ua: 'Найкращі з найкращих', en: 'Best of the Best', }, year: 1989, country: { usa: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '0096913', wiki_ru: '%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5_%D0%B8%D0%B7_%D0%BB%D1%83%D1%87%D1%88%D0%B8%D1%85', },
@@ -4004,6 +4016,7 @@ const arrFilms = [
 	id: 'hit_man_2023', title: { ua: 'Найманий убивця', en: 'Hit Man', }, year: 2023, country: { usa: 1, }, 
 	genre: { comedy: 1, crime: 1, },
 	internet: { imdb: '20215968', wiki_ua: '%D0%9D%D0%B0%D0%B9%D0%BC%D0%B0%D0%BD%D0%B8%D0%B9_%D1%83%D0%B1%D0%B8%D0%B2%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
+	cast: { glen_powell_21101988: 1, },
 },
 {
 	id: 'the_killer_2024', title: { ua: 'Найманий убивця', en: 'The Killer', }, year: 2024, country: { usa: 1, can: 1, kor: 1, }, 
@@ -6035,6 +6048,7 @@ const arrFilms = [
 	id: 'twisters_2024', title: { ua: 'Смерчі', en: 'Twisters', }, year: 2024, country: { usa: 1, }, franchise: 'twister',
 	genre: { thriller: 1, disaster: 1, adventure: 1, },
 	internet: { imdb: '12584954', wiki_ua: '%D0%A1%D0%BC%D0%B5%D1%80%D1%87%D1%96', },
+	cast: { glen_powell_21101988: 1, },
 },
 {
 	id: 'sniper_1993', title: { ua: 'Снайпер', en: 'Sniper', }, year: 1993, country: { usa: 1, },

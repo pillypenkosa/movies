@@ -106,6 +106,7 @@ const arrSetKinoman  = [
 	'the_devil_s_double_20011' 					, // Двійник диявола
 	'deja_vu_2006' 								, // Дежа вю
 	'the_thing_2011'							, // Дещо
+	'the_girl_with_the_dragon_tattoo_2011'		, // Дівчина з тату дракона
 	'joker_2019' 								, // Джокер
 	'the_ring_2002'								, // Дзвінок
 	'longlegs_2024' 							, // Довгоніг
