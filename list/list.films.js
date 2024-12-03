@@ -4006,6 +4006,12 @@ const arrFilms = [
 	internet: { imdb: '20215968', wiki_ua: '%D0%9D%D0%B0%D0%B9%D0%BC%D0%B0%D0%BD%D0%B8%D0%B9_%D1%83%D0%B1%D0%B8%D0%B2%D1%86%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2023)', },
 },
 {
+	id: 'the_killer_2024', title: { ua: 'Найманий убивця', en: 'The Killer', }, year: 2024, country: { usa: 1, can: 1, kor: 1, }, 
+	genre: { action: 1, },
+	internet: { imdb: '1121948', wiki_ru: '%D0%9D%D0%B0%D1%91%D0%BC%D0%BD%D1%8B%D0%B9_%D1%83%D0%B1%D0%B8%D0%B9%D1%86%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2024)', },
+	cast: { nathalie_emmanuel_02031989: 1, sam_worthington_02081976: 1, },
+},
+{
 	id: 'assassins_1995', title: { ua: 'Наймані вбивці', en: 'Assassins', }, year: 1995, country: { usa: 1, }, rating: '5+',
 	genre: { action: 1, thriller: 1, crime: 1, }, hash: { killer: 1, bank: 1, },
 	internet: { imdb: '0112401', wiki_ua: '%D0%A3%D0%B1%D0%B8%D0%B2%D1%86%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '18604', },
