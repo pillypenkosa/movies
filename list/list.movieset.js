@@ -83,6 +83,7 @@ const arrSetKinoman  = [
 	'the_devil_s_advocate_1997' 				, // Адвокат диявола
 	'upgrade_2018' 								, // Апгрейд
 	'armageddon_1998' 							, // Армагеддон
+	'atomic_blonde_2017' 						, // Атомна блондинка
 	'the_beekeeper_2024'						, // Бджоляр
 	'face_off_1997' 							, // Без обличчя
 	'beetlejuice_2024' 							, // Бітлджюс Бітлджюс

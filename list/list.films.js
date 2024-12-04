@@ -396,7 +396,7 @@ const arrFilms = [
 	cast: { jennifer_lopez_24071969: 1, },
 },
 {
-	id: 'atomic_blonde_2017', title: { ua: 'Атомна Блондинка', en: 'Atomic Blonde', }, year: 2017, country: { usa: 1, },
+	id: 'atomic_blonde_2017', title: { ua: 'Атомна блондинка', en: 'Atomic Blonde', }, year: 2017, country: { usa: 1, },
 	genre: { action: 1, },
 	internet: { imdb: '2406566', wiki_ua: '%D0%90%D1%82%D0%BE%D0%BC%D0%BD%D0%B0_%D0%B1%D0%BB%D0%BE%D0%BD%D0%B4%D0%B8%D0%BD%D0%BA%D0%B0', },
 	cast: { charlize_theron_07081975: 1, sofia_boutella_03041982: 1, },
@@ -2072,6 +2072,12 @@ const arrFilms = [
 	genre: { fantasy: 1, crime: 1, },
 	internet: { imdb: '0327554', wiki_ua: '%D0%96%D1%96%D0%BD%D0%BA%D0%B0-%D0%BA%D1%96%D1%88%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { halle_berry_14081966: 1, sharon_stone_10031958: 1, },
+},
+{
+	id: 'life_2017', title: { ua: 'Життя', en: 'Life', }, year: 2017, country: { usa: 1, }, 
+	genre: { sci_fi: 1, horror: 1, }, hash: { space: 1, },
+	internet: { imdb: '5442430', wiki_ua: '%D0%96%D0%B8%D1%82%D1%82%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', },
+	cast: { jake_gyllenhaal_19121980: 1, ryan_reynolds_23101976: 1, rebecca_ferguson_19101983: 1, },
 },
 {
 	id: 'life_stinks_1991', title: { ua: 'Життя лайно', en: 'Life Stinks', }, year: 1991, country: { usa: 1, }, 
@@ -4022,7 +4028,7 @@ const arrFilms = [
 	id: 'the_killer_2024', title: { ua: 'Найманий убивця', en: 'The Killer', }, year: 2024, country: { usa: 1, can: 1, kor: 1, }, 
 	genre: { action: 1, },
 	internet: { imdb: '1121948', wiki_ru: '%D0%9D%D0%B0%D1%91%D0%BC%D0%BD%D1%8B%D0%B9_%D1%83%D0%B1%D0%B8%D0%B9%D1%86%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2024)', },
-	cast: { nathalie_emmanuel_02031989: 1, sam_worthington_02081976: 1, },
+	cast: { nathalie_emmanuel_02031989: 1, sam_worthington_02081976: 1, }, director: { john_woo_01051946: 1, }, composer: { marco_beltrami_07101966: 1, },
 },
 {
 	id: 'assassins_1995', title: { ua: 'Наймані вбивці', en: 'Assassins', }, year: 1995, country: { usa: 1, }, rating: '5+',
