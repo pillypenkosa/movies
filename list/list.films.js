@@ -4490,7 +4490,7 @@ const arrFilms = [
 	id: 'the_proposal_2009', title: { ua: 'Освідчення', en: 'The Proposal', }, year: 2009, country: { usa: 1, },
 	genre: { comedy: 1, drama: 1, }, 
 	internet: { imdb: '1041829', wiki_ua: '%D0%9E%D1%81%D0%B2%D1%96%D0%B4%D1%87%D0%B5%D0%BD%D0%BD%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2009)', },
-	cast: { sandra_bullock_26071964: 1, ryan_reynolds_23101976: 1, },
+	cast: { sandra_bullock_26071964: 1, ryan_reynolds_23101976: 1, mary_steenburgen_08021953: 1, },
 },
 {
 	id: 'resident_evil_2002', title: { ua: 'Оселя зла', en: 'Resident Evil', }, year: 2002, country: { usa: 1, }, rating: 5,
