@@ -623,6 +623,12 @@ const arrFilms = [
 	cast: { arnold_schwarzenegger_30071947: 1, danny_devito_17111944: 1, },
 },
 {
+	id: 'hollow_point_1996', title: { ua: 'Блукаюча куля', en: 'Hollow Point', }, year: 1996, country: { usa: 1, },
+	genre: { action: 1, comedy: 1, crime: 1, },
+	internet: { imdb: '0113313', wiki_ua: '%D0%9C%D0%B0%D0%BD%D0%B4%D1%80%D1%96%D0%B2%D0%BD%D0%B0_%D0%BA%D1%83%D0%BB%D1%8F', },
+	cast: { tia_carrere_02011967: 1, donald_sutherland_17071935: 1, },
+},
+{
 	id: 'bohemian_rhapsody_2018', title: { ua: 'Богемна рапсодія', en: 'Bohemian Rhapsody', }, year: 2018, country: { usa: 1, gbr: 1, },
 	genre: { drama: 1, }, hash: { real: 1, },
 	internet: { imdb: '1727824', wiki_ua: '%D0%91%D0%BE%D0%B3%D0%B5%D0%BC%D0%BD%D0%B0_%D1%80%D0%B0%D0%BF%D1%81%D0%BE%D0%B4%D1%96%D1%8F', },
