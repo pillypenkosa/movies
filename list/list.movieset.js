@@ -26,27 +26,22 @@ const arrMovieSort = [
 
 /*
 
-Границы безумия (2022) 						// https://www.imdb.com/title/tt 22964884
-Живое (2017) 								// https://www.imdb.com/title/tt 5442430
-Жизнь Дэвида Гейла (2003) 					// https://www.imdb.com/title/tt 0289992
-Ловушка времени (2017)  					// https://www.imdb.com/title/tt 4815122
-Ниндзя из Беверли-Хиллз (1997) 				// https://www.imdb.com/title/tt 0118708
-Обряд (2011) 								// https://www.imdb.com/title/tt 1161864
-Патруль времени (2014) 						// https://www.imdb.com/title/tt 2397535
-Пацанская история (2022) 					// https://www.imdb.com/title/tt 21997048
-Помни (2000) 								// https://www.imdb.com/title/tt 0209144
-Продавец (2009) 							// https://www.imdb.com/title/tt 1092633
-Пьяный мастер (1978) 						// https://www.imdb.com/title/tt 0080179
-Самый быстрый Индиан (2005) 				// https://www.imdb.com/title/tt 0412080
-Святые из Бундока (1999) 					// https://www.imdb.com/title/tt 0144117
-Серый человек (2022) 						// https://www.imdb.com/title/tt 1649418
-Смокинг (2002) 								// https://www.imdb.com/title/tt 0290095
-Странный Томас (2013) 						// https://www.imdb.com/title/tt 1767354
-Тайлер Рейк: Операция по спасению - 2  		// https://www.imdb.com/title/tt 12263384
-Тринадцатий воин (1999) 					// https://www.imdb.com/title/tt 0120657
-Ужасающий - 3 (2024) 						// https://www.imdb.com/title/tt 27911000
-Хэллоуин убивает (2021) 					// https://www.imdb.com/title/tt 10665338
-Экстрасенс (2011) 							// https://www.imdb.com/title/tt 1687901
+Границы безумия (2022) 							// https://www.imdb.com/title/tt 22964884
+Жизнь Дэвида Гейла (2003) 						// https://www.imdb.com/title/tt 0289992
+Ниндзя из Беверли-Хиллз (1997) 					// https://www.imdb.com/title/tt 0118708
+Обряд (2011) 									// https://www.imdb.com/title/tt 1161864
+Пацанская история (2022) 						// https://www.imdb.com/title/tt 21997048
+Помни (2000) 									// https://www.imdb.com/title/tt 0209144
+Продавец (2009) 								// https://www.imdb.com/title/tt 1092633
+Пьяный мастер (1978) 							// https://www.imdb.com/title/tt 0080179
+Самый быстрый Индиан (2005) 					// https://www.imdb.com/title/tt 0412080
+Святые из Бундока (1999) 						// https://www.imdb.com/title/tt 0144117
+Смокинг (2002) 									// https://www.imdb.com/title/tt 0290095
+Тайлер Рейк: Операция по спасению - 2 ()2023  	// https://www.imdb.com/title/tt 12263384
+Тринадцатий воин (1999) 						// https://www.imdb.com/title/tt 0120657
+Ужасающий - 3 (2024) 							// https://www.imdb.com/title/tt 27911000
+Хэллоуин убивает (2021) 						// https://www.imdb.com/title/tt 10665338
+Экстрасенс (2011) 								// https://www.imdb.com/title/tt 1687901
 
 
 

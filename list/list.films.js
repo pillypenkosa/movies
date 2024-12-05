@@ -122,7 +122,7 @@ const arrFilms = [
 },
 {
 	id: '28_days_later_2002', title: { ua: '28 днів потому', en: '28 Days Later', }, year: 2002, country: { usa: 1, gbr: 1, },
-	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { zombie: 1, },
+	genre: { sci_fi: 1, horror: 1, thriller: 1, }, hash: { zombie: 1, apocalypse: 1, },
 	internet: { imdb: '0289043', wiki_ua: '28_%D0%B4%D0%BD%D1%96%D0%B2_%D0%BF%D0%BE%D1%82%D0%BE%D0%BC%D1%83', },
 	cast: { naomie_harris_06091976: 1, },
 },
@@ -775,7 +775,7 @@ const arrFilms = [
 {
 	id: 'the_great_escape_1963', title: { ua: 'Велика втеча', en: 'The Great Escape', }, year: 1963, country: { usa: 1, },
 	genre: { history: 1, war: 1, }, hash: { war: 1, war2w: 1, prison: 1, escape: 1, },
-	internet: { imdb: '0057115', wiki_ua: '%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_%D0%B2%D1%82%D0%B5%D1%87%D0%B0', },
+	internet: { imdb: '0057115', wiki_ua: '%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B0_%D0%B2%D1%82%D0%B5%D1%87%D0%B0', ashdivip: '19957', },
 },
 {
 	id: 'la_grande_vadrouille_1966', title: { ua: 'Велика прогулянка', en: 'La grande vadrouille', }, year: 1966, country: { fra: 1, gbr: 1, },
@@ -1674,6 +1674,12 @@ const arrFilms = [
 	cast: { kate_winslet_05101975: 1, jai_courtney_15031986: 1, zoe_kravitz_01121988: 1, ashley_judd_19041968: 1, naomi_watts_28091968: 1, maggie_q_22051979: 1, },
 },
 {
+	id: 'odd_thomas_2013', title: { ua: 'Дивний Томас', en: 'Odd Thomas', }, year: 2013, country: { usa: 1, gbr: 1, },
+	genre: { comedy: 1, thriller: 1, mystic: 1, },
+	internet: { imdb: '1767354', wiki_ua: '%D0%94%D0%B8%D0%B2%D0%BD%D0%B8%D0%B9_%D0%A2%D0%BE%D0%BC%D0%B0%D1%81', },
+	cast: { anthon_yelchin_11031989: 1, willem_dafoe_22071955: 1, arnold_vosloo_16061962: 1, },
+},
+{
 	id: 'wonder_woman_1984_2020', title: { ua: 'Диво-жінка 1984', en: 'Wonder Woman 1984', }, year: 2020, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, },
 	internet: { imdb: '7126948', wiki_ua: '%D0%94%D0%B8%D0%B2%D0%BE-%D0%B6%D1%96%D0%BD%D0%BA%D0%B0_1984', },
@@ -1915,7 +1921,7 @@ const arrFilms = [
 	id: 'dune_2021', title: { ua: 'Дюна', en: 'Dune', }, year: 2021, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { battle: 1, },
 	internet: { imdb: '1160419', wiki_ua: '%D0%94%D1%8E%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2021)', },
-	cast: { jason_momoa_01081979: 1, }, composer: { hans_zimmer_12091957: 1, },
+	cast: { jason_momoa_01081979: 1, rebecca_ferguson_19101983: 1, }, composer: { hans_zimmer_12091957: 1, },
 },
 {
 	id: 'edward_scissorhands_1990', title: { ua: 'Едвард Руки-ножиці', en: 'Edward Scissorhands', }, year: 1990, country: { usa: 1, },
@@ -2075,7 +2081,7 @@ const arrFilms = [
 },
 {
 	id: 'life_2017', title: { ua: 'Життя', en: 'Life', }, year: 2017, country: { usa: 1, }, 
-	genre: { sci_fi: 1, horror: 1, }, hash: { space: 1, },
+	genre: { sci_fi: 1, horror: 1, }, hash: { space: 1, creature: 1, },
 	internet: { imdb: '5442430', wiki_ua: '%D0%96%D0%B8%D1%82%D1%82%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', },
 	cast: { jake_gyllenhaal_19121980: 1, ryan_reynolds_23101976: 1, rebecca_ferguson_19101983: 1, },
 },
@@ -3745,19 +3751,19 @@ const arrFilms = [
 	id: 'mission_impossible_5_2015', title: { ua: 'Місія неможлива - 5', en: 'Mission: Impossible - Rogue Nation', }, year: 2015, country: { usa: 1, }, rating: 5, franchise: 'mission_impossible',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '2381249', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%BD%D0%B5%D0%B7%D0%B4%D1%96%D0%B9%D1%81%D0%BD%D0%B5%D0%BD%D0%BD%D0%B0:_%D0%9D%D0%B0%D1%86%D1%96%D1%8F_%D1%96%D0%B7%D0%B3%D0%BE%D1%97%D0%B2', },
-	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, alec_baldwin_03041958: 1, },
+	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, alec_baldwin_03041958: 1, rebecca_ferguson_19101983: 1, },
 },
 {
 	id: 'mission_impossible_6_2018', title: { ua: 'Місія неможлива - 6', en: 'Mission: Impossible - Fallout', }, year: 2018, country: { usa: 1, }, rating: 5, franchise: 'mission_impossible',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '4912910', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%BD%D0%B5%D0%B7%D0%B4%D1%96%D0%B9%D1%81%D0%BD%D0%B5%D0%BD%D0%BD%D0%B0:_%D0%A4%D0%BE%D0%BB%D0%B0%D1%83%D1%82', },
-	cast: { tom_cruise_03071962: 1, michelle_monaghan_23031976: 1, ving_rhames_12051959: 1, alec_baldwin_03041958: 1, },
+	cast: { tom_cruise_03071962: 1, michelle_monaghan_23031976: 1, ving_rhames_12051959: 1, alec_baldwin_03041958: 1, rebecca_ferguson_19101983: 1, },
 },
 {
 	id: 'mission_impossible_7_2023', title: { ua: 'Місія неможлива - 7', en: 'Mission: Impossible - Dead Reckoning Part One', }, year: 2023, country: { usa: 1, }, rating: '5+', franchise: 'mission_impossible',
 	genre: { action: 1, thriller: 1, },
 	internet: { imdb: '9603212', wiki_ua: '%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%BD%D0%B5%D0%BC%D0%BE%D0%B6%D0%BB%D0%B8%D0%B2%D0%B0:_%D0%A0%D0%BE%D0%B7%D0%BF%D0%BB%D0%B0%D1%82%D0%B0._%D0%A7%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_%D0%BF%D0%B5%D1%80%D1%88%D0%B0', ashdivip: '105107', },
-	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, hayley_atwell_05041982: 1, esai_morales_01101962: 1, },
+	cast: { tom_cruise_03071962: 1, ving_rhames_12051959: 1, hayley_atwell_05041982: 1, rebecca_ferguson_19101983: 1, esai_morales_01101962: 1, },
 },
 {
 	id: 'mission_of_justice_1992', title: { ua: 'Місія правосуддя', en: 'Mission of Justice', }, year: 1992, country: { usa: 1, },
@@ -5303,6 +5309,12 @@ const arrFilms = [
 	cast: { adriano_celentano_06011938: 1, ornella_muti_09031955: 1, },
 },
 {
+	id: 'arrival_2016', title: { ua: 'Прибуття', en: 'Arrival', }, year: 2016, country: { usa: 1, can: 1, },
+	genre: { sci_fi: 1, }, hash: { aliens: 1, },
+	internet: { imdb: '2543164', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B1%D1%83%D1%82%D1%82%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2016)', },
+	cast: { forest_whitaker_15071961: 1, },
+},
+{
 	id: 'private_resort_1985', title: { ua: 'Приватний курорт', en: 'Private Resort', }, year: 1985, country: { usa: 1, }, rating: 5,
 	genre: { comedy: 1, adventure: 1, }, hash: { young: 1, beach: 1, },
 	internet: { imdb: '0089839', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D0%B8%D0%B9_%D0%BA%D1%83%D1%80%D0%BE%D1%80%D1%82', ashdivip: '18611', },
@@ -6169,6 +6181,12 @@ const arrFilms = [
 	cast: { michele_placido_19051946: 1, remo_girone_01121948: 1, }, composer: { ennio_morricone_10111928: 1, },
 },
 {
+	id: 'the_intern_2015', title: { ua: 'Стажер', en: 'The Intern', }, year: 2015, country: { usa: 1, },
+	genre: { comedy: 1, drama: 1, },
+	internet: { imdb: '2361509', wiki_ua: '%D0%A1%D1%82%D0%B0%D0%B6%D0%B5%D1%80_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2015)', },
+	cast: { robert_de_niro_17081943: 1, rene_russo_17021954: 1, },
+},
+{
 	id: 'stealth_2005', title: { ua: 'Стелс', en: 'Stealth', }, year: 2005, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, }, hash: { plane: 1, techno: 1, },
 	internet: { imdb: '0382992', wiki_ru: '%D0%A1%D1%82%D0%B5%D0%BB%D1%81_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
@@ -6982,7 +7000,7 @@ const arrFilms = [
 	id: 'fast_furious_4_2009', title: { ua: 'Форсаж - 4', en: 'Fast & Furious', }, year: 2009, country: { usa: 1, jpn: 1, }, rating: 5, franchise: 'fast_furious',
 	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
 	internet: { imdb: '1013752', wiki_ua: '%D0%A4%D0%BE%D1%80%D1%81%D0%B0%D0%B6_4', },
-	cast: { vin_diesel_18071967: 1, paul_walker_12091973: 1, michelle_rodriguez_12071978: 1, },
+	cast: { vin_diesel_18071967: 1, paul_walker_12091973: 1, michelle_rodriguez_12071978: 1, gal_gadot_30041985: 1, },
 },
 {
 	id: 'fast_furious_5_2011', title: { ua: 'Форсаж - 5', en: 'Fast Five', }, year: 2011, country: { usa: 1, }, rating: 5, franchise: 'fast_furious',
