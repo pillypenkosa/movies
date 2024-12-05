@@ -34,15 +34,40 @@ class ComponentCast {
  
 		let html = ''; 
 		//console.log( 'fooName: ', fooName ); 
-		//console.log( 'objData: ', objData ); 
 
 		if ( objData ) {
 	
 			let htmlActor = ''; 
 			if ( objData.cast ) {
 
+
+
+
+
+
+
 				for ( let k in objData.cast ) {
 					if ( objListPeople[ k ] ) {
+
+						console.log( 'objData: ', objData.year ); 
+						console.log( 'objListPeople[ k ]: ', objListPeople[ k ].life.by ); 
+
+
+						let userAge = '';
+
+						if ( objData.year ) {
+							if ( objListPeople[ k ] ) {
+								if ( objListPeople[ k ].life ) {
+									if ( objListPeople[ k ].life.by ) {
+
+										let age = objData.year - objListPeople[ k ].life.by;
+
+										if ( age )
+											userAge = `( ~${ age })`;
+									}
+								}
+							}
+						}
 
 						let name = '';
 						if ( objListPeople[ k ].name ) {
@@ -53,7 +78,7 @@ class ComponentCast {
 								name += ' ' + objListPeople[ k ].name.s;
 						}
 
-						htmlActor += `<div class="each-person pointer" title="${ name }" onclick="${ this.name }.clcLink( '${ objListPeople[ k ].id }' )">
+						htmlActor += `<div class="each-person pointer" title="${ name } ${ userAge }" onclick="${ this.name }.clcLink( '${ objListPeople[ k ].id }' )">
 							<img src="https://pillypenkosa.github.io/media/img/people/${ objListPeople[ k ].id }/1.jpg" alt="${ name }">
 						</div>`;
 					}
