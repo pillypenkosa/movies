@@ -2080,6 +2080,12 @@ const arrFilms = [
 	cast: { halle_berry_14081966: 1, sharon_stone_10031958: 1, },
 },
 {
+	id: 'you_only_live_twice_1967', title: { ua: 'Живеш тільки двічі', en: 'You Only Live Twice', }, year: 1967, country: { gbr: 1, jpn: 1, }, franchise: 'agent_007',
+	genre: { action: 1, adventure: 1, }, hash: { bond: 1, },
+	internet: { imdb: '0062512', wiki_ua: '%D0%96%D0%B8%D0%B2%D0%B5%D1%88_%D1%82%D1%96%D0%BB%D1%8C%D0%BA%D0%B8_%D0%B4%D0%B2%D1%96%D1%87%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sean_connery_25081930: 1, },
+},
+{
 	id: 'life_2017', title: { ua: 'Життя', en: 'Life', }, year: 2017, country: { usa: 1, }, 
 	genre: { sci_fi: 1, horror: 1, }, hash: { space: 1, creature: 1, },
 	internet: { imdb: '5442430', wiki_ua: '%D0%96%D0%B8%D1%82%D1%82%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2017)', },
@@ -4005,7 +4011,7 @@ const arrFilms = [
 	id: 'back_to_the_future_3_1990', title: { ua: 'Назад у майбутнє - 3', en: 'Back to the Future Part III', }, year: 1990, country: { usa: 1, }, rating: '5+', franchise: 'back_to_the_future',
 	genre: { adventure: 1, sci_fi: 1, western: 1, }, hash: { time: 1, young: 1, cowboy: 1, },
 	internet: { imdb: '0099088', wiki_ua: '%D0%9D%D0%B0%D0%B7%D0%B0%D0%B4_%D1%83_%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%94_3', ashdivip: '291', moviestape: 'Nazad.u.majbutnje.3', }, director: { robert_zemeckis_14051952: 1, }, composer: { alan_silvestri_26031950: 1, },
-	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, elisabeth_shue_06101963: 1, },
+	cast: { michael_j_fox_09061961: 1, christopher_lloyd_22101938: 1, crispin_glover_20041964: 1, elisabeth_shue_06101963: 1, mary_steenburgen_08021953: 1, },
 },
 {
 	id: 'top_gun_1986', title: { ua: 'Найкращий стрілець', en: 'Top Gun', }, year: 1986, country: { usa: 1, },
