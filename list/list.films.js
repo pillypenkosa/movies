@@ -272,7 +272,7 @@ const arrFilms = [
 	studio: { warner: 1, },
 	genre: { action: 1, sci_fi: 1, fantasy: 1, }, hash: { superhero: 1, },
 	internet: { imdb: '1477834', wiki_ua: '%D0%90%D0%BA%D0%B2%D0%B0%D0%BC%D0%B5%D0%BD_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { jason_momoa_01081979: 1, nicole_kidman_20061967: 1,  },
+	cast: { jason_momoa_01081979: 1, dolph_lundgren_03111957: 1, nicole_kidman_20061967: 1, willem_dafoe_22071955: 1, },
 },
 {
 	id: 'aquaman_2_2023', title: { ua: 'Аквамен і загублене королівство', en: 'Aquaman and the Lost Kingdom', }, year: 2023, country: { usa: 1, },
@@ -838,6 +838,12 @@ const arrFilms = [
 	cast: { bill_paxton_17051955: 1, },
 },
 {
+	id: 'top_of_the_world_1997', title: { ua: '', en: 'Top of the World', }, year: 1997, country: { usa: 1, }, 
+	genre: { action: 1, comedy: 1, }, 
+	internet: { imdb: '0120353', wiki_ua: '%D0%92%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D0%B0_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { dennis_hopper_17051936: 1, peter_weller_24061947: 1, tia_carrere_02011967: 1, },
+},
+{
 	id: 'headless_horseman_1973', title: { ua: 'Вершник без голови', en: 'Headless horseman', }, year: 1973, country: { sun: 1, cub: 1, }, 
 	genre: { western: 1, }, hash: { cowboy: 1, },
 	internet: { imdb: '0202080', wiki_ua: '%D0%92%D0%B5%D1%80%D1%88%D0%BD%D0%B8%D0%BA_%D0%B1%D0%B5%D0%B7_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1973)', },
@@ -877,7 +883,7 @@ const arrFilms = [
 	id: 'a_view_to_a_kill_1985', title: { ua: 'Вид на вбивство', en: 'A View to a Kill', }, year: 1985, country: { gbr: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0090264', wiki_ua: '%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%B2%D0%B1%D0%B8%D0%B2%D1%81%D1%82%D0%B2%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '2667', },
-	cast: { roger_moore_14101927: 1, },
+	cast: { roger_moore_14101927: 1, dolph_lundgren_03111957: 1, },
 },
 {
 	id: 'the_call_2013', title: { ua: 'Виклик', en: 'The Call', }, year: 2013, country: { usa: 1, },
@@ -1056,7 +1062,7 @@ const arrFilms = [
 	id: 'blue_steel_1990', title: { ua: 'Воронована сталь', en: 'Blue Steel', }, year: 1990, country: { usa: 1, },
 	genre: { drama: 1, thriller: 1, crime: 1, }, hash: { police: 1, },
 	internet: { imdb: '0099160', wiki_ua: '%D0%91%D0%BB%D0%B0%D0%BA%D0%B8%D1%82%D0%BD%D0%B0_%D1%81%D1%82%D0%B0%D0%BB%D1%8C', ashdivip: '138898', },
-	cast: { jamie_lee_curtis_22111958: 1, }, composer: { brad_fiedel_10031951: 1, },
+	cast: { jamie_lee_curtis_22111958: 1, tom_sizemore_29111961: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
 {
 	id: 'octopussy_1983', title: { ua: 'Восьминiжка', en: 'Octopussy', }, year: 1983, country: { gbr: 1, }, franchise: 'agent_007',
@@ -2168,7 +2174,7 @@ const arrFilms = [
 	id: 'tomorrow_never_dies_1997', title: { ua: 'Завтра не помре ніколи', en: 'Tomorrow Never Dies', }, year: 1997, country: { gbr: 1, usa: 1, }, franchise: 'agent_007',
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0120347', wiki_ua: '%D0%97%D0%B0%D0%B2%D1%82%D1%80%D0%B0_%D0%BD%D0%B5_%D0%BF%D0%BE%D0%BC%D1%80%D0%B5_%D0%BD%D1%96%D0%BA%D0%BE%D0%BB%D0%B8', },
-	cast: { pierce_brosnan_16051953: 1, judi_dench_09121934: 1, },
+	cast: { pierce_brosnan_16051953: 1, judi_dench_09121934: 1, gerard_butler_13111969: 1, },
 },
 {
 	id: 'the_delta_force_1986', title: { ua: 'Загін Дельта', en: 'The Delta Force', }, year: 1986, country: { usa: 1, }, rating: 5, franchise: 'the_delta_force',
@@ -2441,7 +2447,7 @@ const arrFilms = [
 	id: 'drop_zone_1994', title: { ua: 'Зона висадки', en: 'Drop Zone', }, year: 1994, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, }, hash: { skydive: 1, },
 	internet: { imdb: '0109676', wiki_ua: '%D0%97%D0%BE%D0%BD%D0%B0_%D0%B2%D0%B8%D1%81%D0%B0%D0%B4%D0%BA%D0%B8', },
-	cast: { wesley_snipes_31071962: 1, gary_busey_29061944: 1, yancy_butler_02071970: 1, },
+	cast: { wesley_snipes_31071962: 1, gary_busey_29061944: 1, yancy_butler_02071970: 1, claire_stansfield_27081964: 1, },
 },
 {
 	id: 'the_zone_of_interest_2023', title: { ua: 'Зона інтересу', en: 'The Zone of Interest', }, year: 2023, country: { usa: 1, gbr: 1, pol: 1, }, 
@@ -3951,7 +3957,7 @@ const arrFilms = [
 	id: 'point_break_1991', title: { ua: 'На гребені хвилі', en: 'Point Break', }, year: 1991, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, thriller: 1, crime: 1, }, hash: { skydive: 1, surfing: 1, police: 1, robbery: 1, },
 	internet: { imdb: '0102685', wiki_ua: '%D0%9D%D0%B0_%D0%B3%D1%80%D0%B5%D0%B1%D0%B5%D0%BD%D1%96_%D1%85%D0%B2%D0%B8%D0%BB%D1%96', ashdivip: '14484', },
-	cast: { patrick_swayze_18081952: 1, keanu_reeves_02091964: 1, gary_busey_29061944: 1, },
+	cast: { patrick_swayze_18081952: 1, keanu_reeves_02091964: 1, gary_busey_29061944: 1, tom_sizemore_29111961: 1, },
 },
 {
 	id: 'the_edge_1997', title: { ua: 'На межі', en: 'The Edge', }, year: 1997, country: { usa: 1, },
@@ -6715,7 +6721,7 @@ const arrFilms = [
 	id: 'the_next_three_days_2010', title: { ua: 'Три дні на втечу', en: 'The Next Three Days', }, year: 2010, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '1458175', wiki_ua: '%D0%A2%D1%80%D0%B8_%D0%B4%D0%BD%D1%96_%D0%BD%D0%B0_%D0%B2%D1%82%D0%B5%D1%87%D1%83', },
-	cast: { russell_crowe_07041964: 1, },
+	cast: { russell_crowe_07041964: 1, liam_neeson_07061952: 1, },
 },
 {
 	id: 'the_three_musketeers_1993', title: { ua: 'Три мушкетери', en: 'The Three Musketeers', }, year: 1993, country: { usa: 1, aus: 1, }, rating: 5,
@@ -7281,7 +7287,7 @@ const arrFilms = [
 	id: 'a_time_to_kill_1996', title: { ua: 'Час вбивати', en: 'A Time to Kill', }, year: 1996, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { justice: 1, },
 	internet: { imdb: '0117913', wiki_ua: '%D0%A7%D0%B0%D1%81_%D0%B2%D0%B1%D0%B8%D0%B2%D0%B0%D1%82%D0%B8_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1996)', },
-	cast: { sandra_bullock_26071964: 1, samuel_l_jackson_21121948: 1, ashley_judd_19041968: 1, kevin_spacey_26071959: 1, donald_sutherland_17071935: 1, chris_cooper_09071951: 1, matthew_mcconaughey_04111969: 1, },
+	cast: { sandra_bullock_26071964: 1, samuel_l_jackson_21121948: 1, ashley_judd_19041968: 1, kevin_spacey_26071959: 1, donald_sutherland_17071935: 1, chris_cooper_09071951: 1, matthew_mcconaughey_04111969: 1, kiefer_sutherland_21121966: 1, },
 },
 {
 	id: 'latency_2024', title: { ua: 'Час очікування', en: 'Latency', }, year: 2024, country: { usa: 1, tha: 1, },
@@ -7362,7 +7368,7 @@ const arrFilms = [
 {
 	id: 'sweepers_1998', title: { ua: 'Чистильник', en: 'Sweepers', }, year: 1998, country: { zaf: 1, usa: 1, },
 	genre: { action: 1, },
-	internet: { imdb: '0120851', wiki_ua: '%D0%A7%D0%B8%D1%81%D1%82%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', },
+	internet: { imdb: '0120851', wiki_ua: '%D0%A7%D0%B8%D1%81%D1%82%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1998)', ashdivip: '59378', },
 	cast: { dolph_lundgren_03111957: 1, claire_stansfield_27081964: 1, },
 },
 {
@@ -7720,7 +7726,7 @@ const arrFilms = [
 	id: 'the_doors_1991', title: { ua: 'The Doors', en: 'The Doors', }, year: 1991, country: { usa: 1, fra: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '0101761', wiki_ua: 'The_Doors_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { val_kilmer_31121959: 1, meg_ryan_19111961: 1, crispin_glover_20041964: 1, kyle_maclachlan_22021959: 1, }, director: { oliver_stone_15091946: 1, },
+	cast: { val_kilmer_31121959: 1, meg_ryan_19111961: 1, crispin_glover_20041964: 1, kyle_maclachlan_22021959: 1, claire_stansfield_27081964: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
 	id: 'u-571_2000', title: { ua: 'U-571', en: 'U-571', }, year: 2000, country: { usa: 1, fra: 1, },
