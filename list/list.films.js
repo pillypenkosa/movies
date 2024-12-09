@@ -838,7 +838,7 @@ const arrFilms = [
 	cast: { bill_paxton_17051955: 1, },
 },
 {
-	id: 'top_of_the_world_1997', title: { ua: '', en: 'Top of the World', }, year: 1997, country: { usa: 1, }, 
+	id: 'top_of_the_world_1997', title: { ua: 'Вершина світу', en: 'Top of the World', }, year: 1997, country: { usa: 1, }, 
 	genre: { action: 1, comedy: 1, }, 
 	internet: { imdb: '0120353', wiki_ua: '%D0%92%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D0%B0_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { dennis_hopper_17051936: 1, peter_weller_24061947: 1, tia_carrere_02011967: 1, },
@@ -1149,6 +1149,11 @@ const arrFilms = [
 	cast: { morgan_freeman_01061937: 1, william_sadler_13041950: 1, },
 },
 {
+	id: 'weekend_in_taipei_2024', title: { ua: 'Втеча на вікенд', en: 'Weekend in Taipei', }, year: 2024, country: { usa: 1, fra: 1, tha: 1,},
+	genre: { action: 1, drama: 1, },
+	internet: { imdb: '28142896', },
+},
+{
 	id: 'volcano_1997', title: { ua: 'Вулкан', en: 'Volcano', }, year: 1997, country: { usa: 1, },
 	genre: { disaster: 1, },
 	internet: { imdb: '0120461', wiki_ru: '%D0%92%D1%83%D0%BB%D0%BA%D0%B0%D0%BD_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1997)', },
@@ -1352,7 +1357,7 @@ const arrFilms = [
 	cast: { ice_t_16021958: 1, rutger_hauer_23011944: 1, gary_busey_29061944: 1, },
 },
 {
-	id: 'game_of_thrones_2011', title: { ua: 'Гра престолів', en: 'Game of Thrones', }, year: 2011, country: { usa: 1, },
+	id: 'game_of_thrones_2011', title: { ua: 'Гра престолів', en: 'Game of Thrones', }, year: 2011, country: { usa: 1, }, franchise: 'game_of_thrones',
 	genre: { serial: 1, drama: 1, adventure: 1, }, hash: { middleAges: 1, battle: 1, dragon: 1, },
 	internet: { imdb: '0944947', wiki_ua: '%D0%93%D1%80%D0%B0_%D0%BF%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BB%D1%96%D0%B2', },
 	cast: { emilia_clarke_23101986: 1, lena_headey_03101973: 1, peter_dinklage_11061969: 1, sophie_turner_21021996: 1, nathalie_emmanuel_02031989: 1, jason_momoa_01081979: 1, sean_bean_17041959: 1, natalie_dormer_11021982: 1, rose_leslie_09021987: 1, }, composer: { ramin_djawadi_19071974: 1, },
@@ -1608,6 +1613,11 @@ const arrFilms = [
 	cast: { john_cena_23071977: 1, },
 },
 {
+	id: 'genie_2023', title: { ua: 'Джин', en: 'Genie', }, year: 2023, country: { usa: 1, gbr: 1, },
+	genre: { fantasy: 1, comedy: 1, drama: 1, },
+	internet: { imdb: '24429218', },
+},
+{
 	id: 'jobs_2013', title: { ua: 'Джобс: Імперія спокуси', en: 'Jobs', }, year: 2013, country: { usa: 1, },
 	genre: { biography: 1, drama: 1, },
 	internet: { imdb: '2357129', wiki_ua: '%D0%94%D0%B6%D0%BE%D0%B1%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1766,6 +1776,12 @@ const arrFilms = [
 	genre: { drama: 1, }, hash: { fashion: 1, },
 	internet: { imdb: '11214590', wiki_ua: '%D0%94%D1%96%D0%BC_%D2%90%D1%83%D1%87%D1%87%D1%96', },
 	cast: { lady_gaga_28031986: 1, al_pacino_25041940: 1, salma_hayek_02091966: 1, }, director: { ridley_scott_30111937: 1, },
+},
+{
+	id: 'house_of_the_dragon_2022', title: { ua: 'Дім Дракона', en: 'House of the Dragon', }, year: 2022, country: { usa: 1, }, franchise: 'game_of_thrones',
+	genre: { serial: 1, fantasy: 1, drama: 1, adventure: 1, }, hash: { middleAges: 1, dragon: 1, },
+	internet: { imdb: '11198330', wiki_ua: '%D0%94%D1%96%D0%BC_%D0%B4%D1%80%D0%B0%D0%BA%D0%BE%D0%BD%D0%B0', },
+	composer: { ramin_djawadi_19071974: 1, },
 },
 {
 	id: 'the_children_of_times_square_1986', title: { ua: 'Діти Таймс-Скверу', en: 'The Children of Times Square', }, year: 1986, country: { usa: 1, }, rating: 5,
@@ -5656,6 +5672,12 @@ const arrFilms = [
 	id: 'replicant_2001', title: { ua: 'Реплікант', en: 'Replicant', }, year: 2001, country: { usa: 1, },
 	genre: { sci_fi: 1, action: 1, }, hash: { fight: 1, },
 	internet: { imdb: '0238552', wiki_ua: '%D0%A0%D0%B5%D0%BF%D0%BB%D1%96%D0%BA%D0%B0%D0%BD%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '20078', },
+	cast: { jean_claude_van_damme_18101960: 1, },
+},
+{
+	id: 'year_10_2024', title: { ua: 'Рік 10', en: 'Year 10', }, year: 2024, country: { gbr: 1, },
+	genre: { sci_fi: 1, thriller: 1, adventure: 1, }, hash: { apocalypse: 1, surviving: 1, },
+	internet: { imdb: '21154574', },
 	cast: { jean_claude_van_damme_18101960: 1, },
 },
 {

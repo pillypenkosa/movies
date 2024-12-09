@@ -15,6 +15,7 @@ const arrFilmFranchise = [
 { id: 'venom' 					, title: 'Веном' 							, },
 { id: 'the_crow' 				, title: 'Ворон' 							, },
 { id: 'highlander' 				, title: 'Горець' 							, },
+{ id: 'game_of_thrones' 		, title: 'Гра престолів' 					, },
 { id: 'bourne' 					, title: 'Джейсон Борн' 					, },
 { id: 'joker' 					, title: 'Джокер' 							, },
 { id: 'the_delta_force' 		, title: 'Загін Дельта' 					, },
