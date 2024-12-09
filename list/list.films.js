@@ -932,6 +932,11 @@ const arrFilms = [
 	internet: { imdb: '10273738', },
 },
 {
+	id: 'mafia_wars_2024', title: { ua: 'Війни мафії', en: 'Mafia Wars', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, crime: 1, }, 
+	internet: { imdb: '10450852', },
+},
+{
 	id: 'retribution_2023', title: { ua: 'Відплата: Дорога помсти', en: 'Retribution', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, }, hash: { terrorist: 1, hostage: 1, cars: 1, },
 	internet: { imdb: '6906292', },
