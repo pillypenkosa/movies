@@ -841,7 +841,7 @@ const arrFilms = [
 	id: 'top_of_the_world_1997', title: { ua: 'Вершина світу', en: 'Top of the World', }, year: 1997, country: { usa: 1, }, 
 	genre: { action: 1, comedy: 1, }, 
 	internet: { imdb: '0120353', wiki_ua: '%D0%92%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D0%B0_%D1%81%D0%B2%D1%96%D1%82%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { dennis_hopper_17051936: 1, peter_weller_24061947: 1, tia_carrere_02011967: 1, },
+	cast: { dennis_hopper_17051936: 1, peter_weller_24061947: 1, tia_carrere_02011967: 1, martin_kove_06031947: 1, },
 },
 {
 	id: 'headless_horseman_1973', title: { ua: 'Вершник без голови', en: 'Headless horseman', }, year: 1973, country: { sun: 1, cub: 1, }, 
@@ -1006,6 +1006,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { utopia: 1, world: 1, sea: 1, underwater: 1, },
 	internet: { imdb: '0114898', wiki_ua: '%D0%92%D0%BE%D0%B4%D0%BD%D0%B8%D0%B9_%D1%81%D0%B2%D1%96%D1%82', ashdivip: '13486', },
 	cast: { kevin_costner_18011955: 1, jeanne_tripplehorn_10061963: 1, dennis_hopper_17051936: 1, jack_black_28081969: 1, },
+},
+{
+	id: 'walker_texas_ranger_1993', title: { ua: 'Вокер, техаський рейнджер', en: 'Walker, Texas Ranger', }, year: 1993, country: { usa: 1, }, 
+	genre: { serial: 1, action: 1, crime: 1, western: 1, }, hash: { cop: 1, },
+	internet: { imdb: '0106168', wiki_ua: '%D0%92%D0%BE%D0%BA%D0%B5%D1%80,_%D1%82%D0%B5%D1%85%D0%B0%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%80%D0%B5%D0%B9%D0%BD%D0%B4%D0%B6%D0%B5%D1%80', },
+	cast: { chuck_norris_10031940: 1, },
 },
 {
 	id: 'wall_e_2008', title: { ua: 'ВОЛЛ-І', en: 'WALL·E', }, year: 2008, country: { usa: 1, }, rating: 5,
@@ -6372,6 +6378,12 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0113277', wiki_ua: '%D0%A1%D1%83%D1%82%D0%B8%D1%87%D0%BA%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1995)', },
 	cast: { al_pacino_25041940: 1, robert_de_niro_17081943: 1, val_kilmer_31121959: 1, tom_sizemore_29111961: 1, danny_trejo_16051944: 1, jon_voight_29121938: 1, ashley_judd_19041968: 1, natalie_portman_09061981: 1, },
+},
+{
+	id: 'nothing_but_trouble_1991', title: { ua: 'Суцільні неприємності', en: 'Nothing But Trouble', }, year: 1991, country: { usa: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '0102558', wiki_ru: '%D0%9E%D0%B4%D0%BD%D0%B8_%D0%BD%D0%B5%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8', },
+	cast: { demi_moore_11111962: 1, },
 },
 {
 	id: 'sphere_1998', title: { ua: 'Сфера', en: 'Sphere', }, year: 1998, country: { usa: 1, }, rating: 5,
