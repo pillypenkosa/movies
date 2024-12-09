@@ -5636,7 +5636,7 @@ const arrFilms = [
 	id: 'rambo_2_1985', title: { ua: 'Рембо - 2', en: 'Rambo: First Blood Part II', }, year: 1985, country: { usa: 1, }, rating: 5, franchise: 'rambo',
 	genre: { action: 1, thriller: 1, }, hash: { army: 1, jungle: 1, },
 	internet: { imdb: '0089880', wiki_ua: '%D0%A0%D0%B5%D0%BC%D0%B1%D0%BE:_%D0%9F%D0%B5%D1%80%D1%88%D0%B0_%D0%BA%D1%80%D0%BE%D0%B2,_%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0_II', ashdivip: '984', },
-	cast: { sylvester_stallone_06071946: 1, richard_crenna_30111926: 1, },
+	cast: { sylvester_stallone_06071946: 1, richard_crenna_30111926: 1, martin_kove_06031947: 1, },
 },
 {
 	id: 'rambo_3_1988', title: { ua: 'Рембо - 3', en: 'Rambo III', }, year: 1988, country: { usa: 1, }, franchise: 'rambo',
