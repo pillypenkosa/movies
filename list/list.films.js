@@ -932,11 +932,6 @@ const arrFilms = [
 	internet: { imdb: '10273738', },
 },
 {
-	id: 'mafia_wars_2024', title: { ua: 'Війни мафії', en: 'Mafia Wars', }, year: 2024, country: { usa: 1, },
-	genre: { action: 1, crime: 1, }, 
-	internet: { imdb: '10450852', },
-},
-{
 	id: 'retribution_2023', title: { ua: 'Відплата: Дорога помсти', en: 'Retribution', }, year: 2023, country: { usa: 1, },
 	genre: { action: 1, }, hash: { terrorist: 1, hostage: 1, cars: 1, },
 	internet: { imdb: '6906292', },
@@ -965,6 +960,11 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { aliens: 1, },
 	internet: { imdb: '0407304', wiki_ua: '%D0%92%D1%96%D0%B9%D0%BD%D0%B0_%D1%81%D0%B2%D1%96%D1%82%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2005)', },
 	cast: { tom_cruise_03071962: 1, dakota_fanning_23021994: 1, }, director: { steven_spielberg_18121946: 1, },
+},
+{
+	id: 'mafia_wars_2024', title: { ua: 'Війни мафії', en: 'Mafia Wars', }, year: 2024, country: { usa: 1, },
+	genre: { action: 1, },
+	internet: { imdb: '10450852', },
 },
 {
 	id: 'willow_1988', title: { ua: 'Віллоу', en: 'Willow', }, year: 1988, country: { gbr: 1, usa: 1, }, rating: 5,
@@ -1836,6 +1836,11 @@ const arrFilms = [
 	director: { luc_besson_18031959: 1, },
 },
 {
+	id: 'dominique_2024', title: { ua: 'Домініка', en: 'Dominique', }, year: 2024, country: { usa: 1, col: 1, },
+	genre: { action: 1, crime: 1, },
+	internet: { imdb: '14972766', },
+},
+{
 	id: 'dona_beija_1986', title: { ua: 'Донна Бейжа', en: 'Dona Beija', }, year: 1986, country: { bra: 1, }, 
 	genre: { serial: 1, drama: 1, }, hash: { middleAges: 1, },
 	internet: { imdb: '0143035', wiki_ua: '%D0%94%D0%BE%D0%BD%D0%BD%D0%B0_%D0%91%D0%B5%D0%B9%D0%B6%D0%B0', },	
@@ -2202,6 +2207,11 @@ const arrFilms = [
 	genre: { action: 1, thriller: 1, adventure: 1, }, hash: { bond: 1, },
 	internet: { imdb: '0120347', wiki_ua: '%D0%97%D0%B0%D0%B2%D1%82%D1%80%D0%B0_%D0%BD%D0%B5_%D0%BF%D0%BE%D0%BC%D1%80%D0%B5_%D0%BD%D1%96%D0%BA%D0%BE%D0%BB%D0%B8', },
 	cast: { pierce_brosnan_16051953: 1, judi_dench_09121934: 1, gerard_butler_13111969: 1, },
+},
+{
+	id: 'riddle_of_fire_2023', title: { ua: 'Загадка вогню', en: 'Riddle of Fire', }, year: 2023, country: { usa: 1, fra: 1, },
+	genre: { comedy: 1, adventure: 1, }, hash: { children: 1, },
+	internet: { imdb: '7575046', },	
 },
 {
 	id: 'the_delta_force_1986', title: { ua: 'Загін Дельта', en: 'The Delta Force', }, year: 1986, country: { usa: 1, }, rating: 5, franchise: 'the_delta_force',
@@ -4616,6 +4626,11 @@ const arrFilms = [
 	cast: { vin_diesel_18071967: 1, rose_leslie_09021987: 1, elijah_wood_28011981: 1, },
 },
 {
+	id: 'the_last_stop_in_yuma_county_2023', title: { ua: 'Остання зупинка в окрузі Юма', en: 'The Last Stop in Yuma County', }, year: 2023, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, drama: 1, },
+	internet: { imdb: '11674730', },
+},
+{
 	id: 'final_fantasy_2001', title: { ua: 'Остання фантазія', en: 'Final Fantasy: The Spirits Within', }, year: 2001, country: { usa: 1, jpn: 1, },
 	genre: { _3d: 1, }, 
 	internet: { imdb: '0173840', wiki_ua: '%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%8F_%D1%84%D0%B0%D0%BD%D1%82%D0%B0%D0%B7%D1%96%D1%8F:_%D0%94%D1%83%D1%85%D0%B8_%D0%B2%D1%81%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%D0%BD%D1%96', },
@@ -5192,7 +5207,7 @@ const arrFilms = [
 	id: 'police_academy_7_1994', title: { ua: 'Поліцейська академія - 7', en: 'Police Academy: Mission to Moscow', }, year: 1994, country: { usa: 1, }, franchise: 'police_academy',
 	genre: { comedy: 1, }, hash: { police: 1, },
 	internet: { imdb: '0110857', wiki_ua: '%D0%9F%D0%BE%D0%BB%D1%96%D1%86%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%8F_7:_%D0%9C%D1%96%D1%81%D1%96%D1%8F_%D0%B2_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D1%96', },
-	cast: { ron_perlman_13041950: 1, },
+	cast: { ron_perlman_13041950: 1, claire_forlani_01071972: 1, },
 },
 {
 	id: 'tc_2000_1993', title: { ua: 'Поліцейський 2000', en: 'TC 2000', }, year: 1993, country: { usa: 1, can: 1, },
@@ -7195,6 +7210,11 @@ const arrFilms = [
 	genre: { action: 1, crime: 1, }, hash: { killer: 1, biomedlab: 1, },
 	internet: { imdb: '2679042', wiki_ua: '%D0%A5%D1%96%D1%82%D0%BC%D0%B5%D0%BD:_%D0%90%D0%B3%D0%B5%D0%BD%D1%82_47', ashdivip: '1623', },
 	composer: { marco_beltrami_07101966: 1, },
+},
+{
+	id: 'le_larbin_2024', title: { ua: 'Холоп із Парижа', en: 'Le larbin', }, year: 2024, country: { fra: 1, },
+	genre: { comedy: 1, },
+	internet: { imdb: '27348699', },	
 },
 {
 	id: 'hong_kil_dong_1986', title: { ua: 'Хон Гіль Дон', en: 'Hong Kil-dong', }, year: 1986, country: { prk: 1, },
