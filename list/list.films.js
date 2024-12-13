@@ -1033,7 +1033,7 @@ const arrFilms = [
 	id: 'Wall_street_2010', title: { ua: 'Волл-стріт: Гроші не сплять', en: 'Wall Street: Money Never Sleeps', }, year: 2010, country: { usa: 1, },
 	genre: { drama: 1, crime: 1, }, hash: { finance: 1, },
 	internet: { imdb: '1027718', wiki_ua: '%D0%92%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82:_%D0%B3%D1%80%D0%BE%D1%88%D1%96_%D0%BD%D0%B5_%D1%81%D0%BF%D0%BB%D1%8F%D1%82%D1%8C', },
-	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, }, director: { oliver_stone_15091946: 1, },
+	cast: { shia_labeouf_11061986: 1, michael_douglas_25091944: 1, charlie_sheen_03091965: 1, oliver_stone_15091946: 1, jason_clarke_17071969: 1, }, director: { oliver_stone_15091946: 1, },
 },
 {
 	id: 'they_cloned_tyrone_2023', title: { ua: 'Вони клонували Тайрона', en: 'They Cloned Tyrone', }, year: 2023, country: { usa: 1, },
@@ -1638,7 +1638,7 @@ const arrFilms = [
 	id: 'joe_versus_the_volcano_1990', title: { ua: 'Джо проти вулкану', en: 'Joe Versus the Volcano', }, year: 1990, country: { usa: 1, },
 	genre: { comedy: 1, },
 	internet: { imdb: '0099892', wiki_ua: '%D0%94%D0%B6%D0%BE_%D0%BF%D1%80%D0%BE%D1%82%D0%B8_%D0%B2%D1%83%D0%BB%D0%BA%D0%B0%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { tom_hanks_09071956: 1, meg_ryan_19111961: 1, },
+	cast: { tom_hanks_09071956: 1, meg_ryan_19111961: 1, lloyd_bridges_15011913: 1, },
 },
 {
 	id: 'joker_2019', title: { ua: 'Джокер', en: 'Joker', }, year: 2019, country: { usa: 1, }, franchise: 'joker',
@@ -1740,6 +1740,11 @@ const arrFilms = [
 	id: 'the_wild_robot_2024', title: { ua: 'Дикий робот', en: 'The Wild Robot', }, year: 2024, country: { usa: 1, jpn: 1, },
 	genre: { cartoon: 1, },	
 	internet: { imdb: '29623480', wiki_ua: '%D0%94%D0%B8%D0%BA%D0%B8%D0%B9_%D1%80%D0%BE%D0%B1%D0%BE%D1%82_(%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+},
+{
+	id: 'selvaggi_1995', title: { ua: 'Дикуни', en: 'Selvaggi', }, year: 1995, country: { ita: 1, },
+	genre: { comedy: 1, adventure: 1, }, hash: { island: 1, beach: 1, },	
+	internet: { imdb: '0114386', ashdivip: '151741', },
 },
 {
 	id: 'dynasty_1981', title: { ua: 'Династія', en: 'Dynasty', }, year: 1981, country: { usa: 1, }, 
@@ -1849,7 +1854,7 @@ const arrFilms = [
 	id: 'dr_t_the_women_2000', title: { ua: 'Доктор Т і його жінки', en: 'Dr. T & the Women', }, year: 2000, country: { usa: 1, deu: 1, },
 	genre: { drama: 1, comedy: 1, }, hash: { doctor: 1, },
 	internet: { imdb: '0205271', wiki_ru: '%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%D0%A2%D0%B8_%D0%B8_%D0%B5%D0%B3%D0%BE_%D0%B6%D0%B5%D0%BD%D1%89%D0%B8%D0%BD%D1%8B', },
-	director: { richard_gere_31081949: 1, liv_tyler_01071977: 1, },
+	cast: { richard_gere_31081949: 1, liv_tyler_01071977: 1, },
 },
 {
 	id: 'the_road_2009', title: { ua: 'Дорога', en: 'The Road', }, year: 2009, country: { usa: 1, },
@@ -2085,25 +2090,25 @@ const arrFilms = [
 	id: 'a_nightmare_on_elm_street_2_1985', title: { ua: 'Жах на вулиці В\'язів - 2', en: 'A Nightmare on Elm Street Part 2: Freddy\'s Revenge', }, year: 1985, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0089686', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_2:_%D0%9F%D0%BE%D0%BC%D1%81%D1%82%D0%B0_%D0%A4%D1%80%D0%B5%D0%B4%D0%B4%D1%96', },
-	cast: { robert_englund_06061947: 1,  },
+	cast: { robert_englund_06061947: 1, },
 },
 {
 	id: 'a_nightmare_on_elm_street_3_1987', title: { ua: 'Жах на вулиці В\'язів - 3', en: 'A Nightmare on Elm Street 3: Dream Warriors', }, year: 1987, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0093629', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_3:_%D0%92%D0%BE%D1%97%D0%BD%D0%B8_%D1%81%D0%BD%D1%83', },
-	cast: { robert_englund_06061947: 1,  },
+	cast: { robert_englund_06061947: 1, laurence_fishburne_30071961: 1, },
 },
 {
 	id: 'a_nightmare_on_elm_street_4_1988', title: { ua: 'Жах на вулиці В\'язів - 4', en: 'A Nightmare on Elm Street 4: The Dream Master', }, year: 1988, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0095742', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_4:_%D0%9F%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D1%81%D0%BD%D1%83', },
-	cast: { robert_englund_06061947: 1,  },
+	cast: { robert_englund_06061947: 1, },
 },
 {
 	id: 'a_nightmare_on_elm_street_5_1989', title: { ua: 'Жах на вулиці В\'язів - 5', en: 'A Nightmare on Elm Street: The Dream Child', }, year: 1989, country: { usa: 1, }, franchise: 'freddy_krueger',
 	genre: { horror: 1, }, hash: { young: 1, },
 	internet: { imdb: '0097981', wiki_ua: '%D0%9A%D0%BE%D1%88%D0%BC%D0%B0%D1%80_%D0%BD%D0%B0_%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%96_%D0%92%27%D1%8F%D0%B7%D1%96%D0%B2_5:_%D0%94%D0%B8%D1%82%D1%8F_%D1%81%D0%BD%D1%83', },
-	cast: { robert_englund_06061947: 1,  },
+	cast: { robert_englund_06061947: 1, },
 },
 {
 	id: 'a_nightmare_on_elm_street_6_1991', title: { ua: 'Жах на вулиці В\'язів - 6', en: 'Freddy\'s Dead: The Final Nightmare', }, year: 1991, country: { usa: 1, }, franchise: 'freddy_krueger',
@@ -5569,7 +5574,6 @@ const arrFilms = [
 	id: 'fifty_shades_of_grey_2015', title: { ua: 'П\'ятдесят відтінків сірого', en: 'Fifty Shades of Grey', }, year: 2015, country: { usa: 1, },
 	genre: { drama: 1, },
 	internet: { imdb: '2322441', wiki_ua: '%D0%9F%27%D1%8F%D1%82%D0%B4%D0%B5%D1%81%D1%8F%D1%82_%D0%B2%D1%96%D0%B4%D1%82%D1%96%D0%BD%D0%BA%D1%96%D0%B2_%D1%81%D1%96%D1%80%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
-	cast: { kevin_bacon_08071958: 1, },
 },
 {
 	id: 'friday_the_13th_1980', title: { ua: 'П\'ятниця 13', en: 'Friday the 13th', }, year: 1980, country: { usa: 1, },
@@ -6585,7 +6589,7 @@ const arrFilms = [
 	id: 'terminator_5_2015', title: { ua: 'Термінатор - 5', en: 'Terminator Genisys', }, year: 2015, country: { usa: 1, }, rating: 5, franchise: 'terminator',
 	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, techno: 1, robot: 1, },
 	internet: { imdb: '1340138', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80:_%D0%93%D0%B5%D0%BD%D0%B5%D0%B7%D0%B8%D1%81', moviestape: 'Terminator.Genisys', ashdivip: '3575', },
-	cast: { arnold_schwarzenegger_30071947: 1, emilia_clarke_23101986: 1, jai_courtney_15031986: 1, },
+	cast: { arnold_schwarzenegger_30071947: 1, emilia_clarke_23101986: 1, jai_courtney_15031986: 1, jason_clarke_17071969: 1, },
 },
 {
 	id: 'terminator_6_2019', title: { ua: 'Термінатор - 6', en: 'Terminator: Dark Fate', }, year: 2019, country: { usa: 1, }, rating: 5, franchise: 'terminator',
