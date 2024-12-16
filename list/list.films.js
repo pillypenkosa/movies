@@ -718,6 +718,12 @@ const arrFilms = [
 	cast: { steven_seagal_10041952: 1, brenda_bakke_15051963: 1, peter_greene_08101965: 1, },
 },
 {
+	id: 'take_cover_2024', title: { ua: 'В укриття', en: 'Take Cover', }, year: 2024, country: { gbr: 1, },
+	genre: { thriller: 1, }, hash: { killer: 1, },
+	internet: { imdb: '28129054',  },
+	cast: { scott_adkins_17061976: 1, },
+},
+{
 	id: 'hard_target_1993', title: { ua: 'Важка мішень', en: 'Hard Target', }, year: 1993, country: { usa: 1, }, rating: 5,
 	genre: { action: 1, thriller: 1, crime: 1, }, hash: { fight: 1, hunting: 1, },
 	internet: { imdb: '0107076', wiki_ua: '%D0%92%D0%B0%D0%B6%D0%BA%D0%B0_%D0%BC%D1%96%D1%88%D0%B5%D0%BD%D1%8C', ashdivip: '19859', },
@@ -1760,7 +1766,7 @@ const arrFilms = [
 },
 {
 	id: 'devil_2010', title: { ua: 'Диявол', en: 'Devil', }, year: 2010, country: { usa: 1, },
-	genre: { horror: 1, thriller: 1, },
+	genre: { horror: 1, thriller: 1, }, hash: { elevator: 1, },
 	internet: { imdb: '1314655', wiki_ua: '%D0%94%D0%B8%D1%8F%D0%B2%D0%BE%D0%BB_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2010)', },
 },
 {
@@ -3540,6 +3546,7 @@ const arrFilms = [
 	id: 'madame_web_2024', title: { ua: 'Мадам Павутина', en: 'Madame Web', }, year: 2024, country: { usa: 1, },
 	genre: { sci_fi: 1, action: 1, }, hash: { spider: 1, },
 	internet: { imdb: '11057302', wiki_ua: '%D0%9C%D0%B0%D0%B4%D0%B0%D0%BC_%D0%9F%D0%B0%D0%B2%D1%83%D1%82%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '123783', },
+	cast: { dakota_johnson_04101989: 1, },
 },
 {
 	id: 'haunted_mansion_2023', title: { ua: 'Маєток з привидами', en: 'Haunted Mansion', }, year: 2023, country: { usa: 1, },
@@ -3887,7 +3894,7 @@ const arrFilms = [
 },
 {
 	id: 'die_hard_2_1990', title: { ua: 'Міцний горішок - 2', en: 'Die Hard 2', }, year: 1990, country: { usa: 1, }, rating: 5, franchise: 'die_hard',
-	genre: { action: 1, thriller: 1,  }, hash: { terrorist: 1, plane: 1, },
+	genre: { action: 1, thriller: 1,  }, hash: { terrorist: 1, plane: 1, airport: 1, },
 	internet: { imdb: '0099423', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA_2', },
 	cast: { bruce_willis_19031955: 1, william_sadler_13041950: 1, robert_patrick_05111958: 1, },
 },
@@ -5573,7 +5580,8 @@ const arrFilms = [
 {
 	id: 'fifty_shades_of_grey_2015', title: { ua: 'П\'ятдесят відтінків сірого', en: 'Fifty Shades of Grey', }, year: 2015, country: { usa: 1, },
 	genre: { drama: 1, },
-	internet: { imdb: '2322441', wiki_ua: '%D0%9F%27%D1%8F%D1%82%D0%B4%D0%B5%D1%81%D1%8F%D1%82_%D0%B2%D1%96%D0%B4%D1%82%D1%96%D0%BD%D0%BA%D1%96%D0%B2_%D1%81%D1%96%D1%80%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)',	},
+	internet: { imdb: '2322441', wiki_ua: '%D0%9F%27%D1%8F%D1%82%D0%B4%D0%B5%D1%81%D1%8F%D1%82_%D0%B2%D1%96%D0%B4%D1%82%D1%96%D0%BD%D0%BA%D1%96%D0%B2_%D1%81%D1%96%D1%80%D0%BE%D0%B3%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { dakota_johnson_04101989: 1, },
 },
 {
 	id: 'friday_the_13th_1980', title: { ua: 'П\'ятниця 13', en: 'Friday the 13th', }, year: 1980, country: { usa: 1, },
@@ -5845,6 +5853,11 @@ const arrFilms = [
 	genre: { thriller: 1, },
 	internet: { imdb: '0104389', wiki_ru: '%D0%A0%D1%83%D0%BA%D0%B0,_%D0%BA%D0%B0%D1%87%D0%B0%D1%8E%D1%89%D0%B0%D1%8F_%D0%BA%D0%BE%D0%BB%D1%8B%D0%B1%D0%B5%D0%BB%D1%8C', },
 	cast: { julianne_moore_03121960: 1, rebecca_de_mornay_29081959: 1, },
+},
+{
+	id: 'carry_on_2024', title: { ua: 'Ручна поклажа', en: 'Carry-On', }, year: 2024, country: { usa: 1, },
+	genre: { thriller: 1, crime: 1, }, hash: { airport: 1, terrorist: 1, bomb: 1, },
+	internet: { imdb: '21382296', wiki_ru: '%D0%A0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D0%B0%D0%B4%D1%8C_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
 },
 {
 	id: 'the_guardian_2006', title: { ua: 'Рятівник', en: 'The Guardian', }, year: 2006, country: { usa: 1, },
@@ -6569,7 +6582,7 @@ const arrFilms = [
 },
 {
 	id: 'terminator_2_1991', title: { ua: 'Термінатор - 2', en: 'Terminator 2: Judgment Day', }, year: 1991, country: { usa: 1, }, rating: '5+', franchise: 'terminator',
-	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, robot: 1, children: 1, motorbike: 1, police: 1, },
+	genre: { action: 1, sci_fi: 1, }, hash: { time: 1, apocalypse: 1, robot: 1, children: 1, motorbike: 1, police: 1, madhouse: 1, elevator: 1, },
 	internet: { imdb: '0103064', wiki_ua: '%D0%A2%D0%B5%D1%80%D0%BC%D1%96%D0%BD%D0%B0%D1%82%D0%BE%D1%80_2:_%D0%A1%D1%83%D0%B4%D0%BD%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C', ashdivip: '3314', moviestape: 'Terminator.2.Judgment.Day', },
 	cast: { arnold_schwarzenegger_30071947: 1, linda_hamilton_26091956: 1, edward_furlong_02081977: 1, robert_patrick_05111958: 1, joe_morton_18101947: 1, michael_biehn_31071956: 1, }, director: { james_cameron_16081954: 1, }, composer: { brad_fiedel_10031951: 1, },
 },
@@ -7570,7 +7583,7 @@ const arrFilms = [
 {
 	id: 'speed_1994', title: { ua: 'Швидкість', en: 'Speed', }, year: 1994, country: { usa: 1, }, rating: '5+', franchise: 'speed',
 	studio: { _20_century: 1, netflix: 1, },
-	genre: { action: 1, thriller: 1, }, hash: { bus: 1, terrorist: 1, hostage: 1, police: 1, subway: 1, },
+	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, hostage: 1, police: 1, elevator: 1, bus: 1, airport: 1, subway: 1, },
 	internet: { imdb: '0111257', wiki_ua: '%D0%A8%D0%B2%D0%B8%D0%B4%D0%BA%D1%96%D1%81%D1%82%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '13774', moviestape: 'Speed', },
 	cast: { keanu_reeves_02091964: 1, sandra_bullock_26071964: 1, dennis_hopper_17051936: 1, jeff_daniels_19021955: 1, joe_morton_18101947: 1, }, director: { jan_de_bont_22101943: 1, }, composer: { mark_mancina_09031957: 1, },
 },

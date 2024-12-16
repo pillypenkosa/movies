@@ -105,6 +105,7 @@ const arrHashTags = [
 
 
 	{ id: '-' 				, title: '--- --- КРИМІНАЛ --- ---' 	, app: { movies: 1, }, },
+	{ id: 'bomb' 			, title: 'бомба' 						, app: { movies: 1, }, },
 	{ id: 'escape' 			, title: 'втеча' 						, app: { movies: 1, }, }, 
 	{ id: 'prison' 			, title: 'в\'язниця' 					, app: { movies: 1, }, },
 	{ id: 'hostage' 		, title: 'заручники' 					, app: { movies: 1, }, },
@@ -119,6 +120,8 @@ const arrHashTags = [
 	{ id: 'police' 			, title: 'поліція' 						, app: { movies: 1, }, },
 	{ id: 'hunting' 		, title: 'полюванняНаЛюдину' 			, app: { movies: 1, }, },
 	{ id: 'terrorist' 		, title: 'терористи' 					, app: { movies: 1, }, },
+
+
 	
 
 
@@ -156,9 +159,12 @@ const arrHashTags = [
 
 
 	{ id: '-' 				, title: '--- --- СПОРУДИ --- ---' 		, app: { movies: 1, }, },
+	{ id: 'airport' 		, title: 'aеропорт' 					, app: { movies: 1, }, }, // досліди в лабораторіях
 	{ id: 'bank' 			, title: 'банк' 						, app: { movies: 1, }, },
 	{ id: 'biomedlab' 		, title: 'біомедлаб' 					, app: { movies: 1, }, }, // досліди в лабораторіях
 	{ id: 'madhouse' 		, title: 'божевільня' 					, app: { movies: 1, }, }, // досліди в лабораторіях
+	{ id: 'elevator' 		, title: 'ліфт' 						, app: { movies: 1, }, }, // зламай мозок
+	
 	
 
 
@@ -169,6 +175,8 @@ const arrHashTags = [
 	{ id: 'politic' 		, title: 'політика' 					, app: { movies: 1, }, },
 	{ id: 'psycho' 			, title: 'психо' 						, app: { movies: 1, }, }, // зламай мозок
 	{ id: 'finance' 		, title: 'фінанси' 						, app: { movies: 1, }, }, // зламай мозок
+
+
 
 
 
