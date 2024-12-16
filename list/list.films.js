@@ -3635,7 +3635,7 @@ const arrFilms = [
 	id: '21_jump_street_2012', title: { ua: 'Мачо і ботан', en: '21 Jump Street', }, year: 2012, country: { usa: 1, },
 	genre: { action: 1, comedy: 1, crime: 1, },
 	internet: { imdb: '1232829', wiki_ua: '%D0%9C%D0%B0%D1%87%D0%BE_%D1%96_%D0%B1%D0%BE%D1%82%D0%B0%D0%BD', },
-	cast: { brie_larson_01101989: 1, johnny_depp_09061963: 1, },
+	cast: { brie_larson_01101989: 1, johnny_depp_09061963: 1, dakota_johnson_04101989: 1, },
 },
 {
 	id: 'maverick_1994', title: { ua: 'Меверік', en: 'Maverick', }, year: 1994, country: { usa: 1, },
@@ -6210,6 +6210,12 @@ const arrFilms = [
 	cast: { johnny_depp_09061963: 1, casper_van_dien_18121968: 1, },
 },
 {
+	id: 'the_social_network_2010', title: { ua: 'Соціальна мережа', en: 'The Social Network', }, year: 2010, country: { usa: 1, },
+	genre: { drama: 1, }, 
+	internet: { imdb: '1285016', wiki_ua: '%D0%A1%D0%BE%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { justin_timberlake_31011981: 1, dakota_johnson_04101989: 1, },
+},
+{
 	id: 'savior_1998', title: { ua: 'Спаситель', en: 'Savior', }, year: 1998, country: { usa: 1, },
 	genre: { drama: 1, war: 1, }, 
 	internet: { imdb: '0120070', wiki_ua: '%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -7463,6 +7469,28 @@ const arrFilms = [
 	genre: { thriller: 1, },
 	internet: { imdb: '0093660', wiki_ua: '%D0%A7%D0%BE%D0%BA%D0%BD%D1%83%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
+
+
+
+
+
+
+
+
+{
+	id: 'black_rose_2014', title: { ua: 'Чорна троянда', en: 'Black Rose', }, year: 2014, country: { rus: 1, usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { police: 1, cop: 1, },
+	internet: { imdb: '3266724', wiki_ru: '%D0%A7%D1%91%D1%80%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D0%B7%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2014)', },
+	cast: { kristanna_loken_08101979: 1, adrian_paul_29051959: 1, },
+},
+
+
+
+
+
+
+
+
 {
 	id: 'black_and_blue_2019', title: { ua: 'Чорне та синє', en: 'Black and Blue', }, year: 2019, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { police: 1, cop: 1, },
