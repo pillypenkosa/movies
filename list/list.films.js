@@ -145,6 +145,12 @@ const arrFilms = [
 	internet: { imdb: '12261776', wiki_ua: '65_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
 {
+	id: '300_2006', title: { ua: '300 спартанців', en: '300', }, year: 2006, country: { usa: 1, can: 1, bgr: 1, },
+	genre: { action: 1, drama: 1, }, hash: { ancient: 1, },
+	internet: { imdb: '0416449', wiki_ua: '300_%D1%81%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BD%D1%86%D1%96%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2006)', },
+	cast: { gerard_butler_13111969: 1, },
+},
+{
 	id: 'fahrenheit_451_2018', title: { ua: '451 градус за Фаренгейтом', en: 'Fahrenheit 451', }, year: 2018, country: { usa: 1, },
 	genre: { sci_fi: 1, thriller: 1, drama: 1, },
 	internet: { imdb: '0360556', wiki_ua: '451_%D0%B3%D1%80%D0%B0%D0%B4%D1%83%D1%81_%D0%B7%D0%B0_%D0%A4%D0%B0%D1%80%D0%B5%D0%BD%D0%B3%D0%B5%D0%B9%D1%82%D0%BE%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2018)', },
@@ -1321,6 +1327,12 @@ const arrFilms = [
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0091203', wiki_ua: '%D0%93%D0%BE%D1%80%D0%B5%D1%86%D1%8C', },
 	cast: { christopher_lambert_29031957: 1, sean_connery_25081930: 1, },
+},
+{
+	id: 'highlander_1992', title: { ua: 'Горець', en: 'Highlander', }, year: 1992, country: { can: 1, fra: 1, }, franchise: 'highlander',
+	genre: { serial: 1, action: 1, mystic: 1, },
+	internet: { imdb: '0103442', wiki_ua: '%D0%93%D0%BE%D1%80%D0%B5%D1%86%D1%8C_(%D1%82%D0%B5%D0%BB%D0%B5%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
+	cast: { adrian_paul_29051959: 1, },
 },
 {
 	id: 'highlander_2_1991', title: { ua: 'Горець - 2', en: 'Highlander 2: The Quickening', }, year: 1991, country: { usa: 1, fra: 1, }, franchise: 'highlander',
@@ -4638,6 +4650,12 @@ const arrFilms = [
 	cast: { vin_diesel_18071967: 1, rose_leslie_09021987: 1, elijah_wood_28011981: 1, },
 },
 {
+	id: 'freud_s_last_session_2023', title: { ua: 'Останній сеанс Фрейда', en: 'Freud\'s Last Session', }, year: 2023, country: { usa: 1, gbr: 1, irl: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '20420628', wiki_ua: '%D0%9E%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96%D0%B9_%D1%81%D0%B5%D0%B0%D0%BD%D1%81_%D0%A4%D1%80%D0%B5%D0%B9%D0%B4%D0%B0', },
+	cast: { anthony_hopkins_31121937: 1, },
+},
+{
 	id: 'the_last_stop_in_yuma_county_2023', title: { ua: 'Остання зупинка в окрузі Юма', en: 'The Last Stop in Yuma County', }, year: 2023, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, drama: 1, },
 	internet: { imdb: '11674730', },
@@ -6842,6 +6860,12 @@ const arrFilms = [
 	cast: { brad_pitt_18121963: 1, orlando_bloom_13011977: 1, sean_bean_17041959: 1, }, composer: { james_horner_14081953: 1, },
 },
 {
+	id: '3_men_and_a_baby_1987', title: { ua: 'Троє чоловіків і немовля', en: '3 Men and a Baby', }, year: 1987, country: { usa: 1, },
+	genre: { comedy: 1, drama: 1, },  hash: { children: 1, },
+	internet: { imdb: '0094137', wiki_ua: '%D0%A2%D1%80%D0%BE%D1%94_%D1%87%D0%BE%D0%BB%D0%BE%D0%B2%D1%96%D0%BA%D1%96%D0%B2_%D1%96_%D0%BD%D0%B5%D0%BC%D0%BE%D0%B2%D0%BB%D1%8F', },
+	cast: { tom_selleck_29011945: 1, },
+},
+{
 	id: 'dumb_and_dumber_1994', title: { ua: 'Тупий та ще тупіший', en: 'Dumb and Dumber', }, year: 1994, country: { usa: 1, },
 	genre: { comedy: 1, },
 	internet: { imdb: '0109686', wiki_ua: '%D0%A2%D1%83%D0%BF%D0%B8%D0%B9_%D1%82%D0%B0_%D1%89%D0%B5_%D1%82%D1%83%D0%BF%D1%96%D1%88%D0%B8%D0%B9', },
@@ -7469,28 +7493,12 @@ const arrFilms = [
 	genre: { thriller: 1, },
 	internet: { imdb: '0093660', wiki_ua: '%D0%A7%D0%BE%D0%BA%D0%BD%D1%83%D1%82%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 },
-
-
-
-
-
-
-
-
 {
 	id: 'black_rose_2014', title: { ua: 'Чорна троянда', en: 'Black Rose', }, year: 2014, country: { rus: 1, usa: 1, },
 	genre: { action: 1, crime: 1, }, hash: { police: 1, cop: 1, },
 	internet: { imdb: '3266724', wiki_ru: '%D0%A7%D1%91%D1%80%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D0%B7%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_2014)', },
 	cast: { kristanna_loken_08101979: 1, adrian_paul_29051959: 1, },
 },
-
-
-
-
-
-
-
-
 {
 	id: 'black_and_blue_2019', title: { ua: 'Чорне та синє', en: 'Black and Blue', }, year: 2019, country: { usa: 1, },
 	genre: { thriller: 1, crime: 1, }, hash: { police: 1, cop: 1, },
