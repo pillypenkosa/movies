@@ -994,7 +994,7 @@ const arrFilms = [
 	id: 'the_wolf_of_wall_street_2013', title: { ua: 'Вовк з Уолл-стріт', en: 'The Wolf of Wall Street', }, year: 2013, country: { usa: 1, },
 	genre: { comedy: 1, biography: 1, crime: 1, }, hash: { finance: 1, },
 	internet: { imdb: '0993846', wiki_ua: '%D0%92%D0%BE%D0%B2%D0%BA_%D0%B7_%D0%A3%D0%BE%D0%BB%D0%BB-%D1%81%D1%82%D1%80%D1%96%D1%82', },
-	cast: { leonardo_dicaprio_11111974: 1, margot_robbie_02071990: 1, },
+	cast: { leonardo_dicaprio_11111974: 1, margot_robbie_02071990: 1, kyle_chandler_17091965: 1, },
 },
 {
 	id: 'wolf_creek_2_2013', title: { ua: 'Вовча яма - 2', en: 'Wolf Creek 2', }, year: 2013, country: { aus: 1, },
@@ -2663,13 +2663,13 @@ const arrFilms = [
 	id: 'now_you_see_me_2013', title: { ua: 'Ілюзія обману', en: 'Now You See Me', }, year: 2013, country: { fra: 1, usa: 1, }, rating: 5, franchise: 'you_see_me',
 	genre: { mystic: 1, thriller: 1, },
 	internet: { imdb: '1670345', wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '1059', },
-	cast: { woody_harrelson_23071961: 1, morgan_freeman_01061937: 1, },
+	cast: { woody_harrelson_23071961: 1, morgan_freeman_01061937: 1, jesse_eisenberg_05101983: 1, },
 },
 {
 	id: 'now_you_see_me_2_2016', title: { ua: 'Ілюзія обману - 2', en: 'Now You See Me 2', }, year: 2016, country: { usa: 1, }, rating: 5, franchise: 'you_see_me',
 	genre: { mystic: 1, thriller: 1, },
 	internet: { imdb: '3110958', wiki_ua: '%D0%86%D0%BB%D1%8E%D0%B7%D1%96%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D1%83:_%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B9_%D0%B0%D0%BA%D1%82', ashdivip: '1060', },
-	cast: { woody_harrelson_23071961: 1, morgan_freeman_01061937: 1, },
+	cast: { woody_harrelson_23071961: 1, morgan_freeman_01061937: 1, jesse_eisenberg_05101983: 1, },
 },
 {
 	id: 'flightplan_2005', title: { ua: 'Ілюзія польоту', en: 'Flightplan', }, year: 2005, country: { usa: 1, }, rating: 5,
@@ -3011,6 +3011,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { killer: 1, },
 	internet: { imdb: '6079772', wiki_ua: '%D0%9A%D0%BE%D0%B4%D0%B5%D0%BA%D1%81_%D0%BA%D1%96%D0%BB%D0%B5%D1%80%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { maggie_q_22051979: 1, samuel_l_jackson_21121948: 1, robert_patrick_05111958: 1, },
+},
+{
+	id: 'red_one_2024', title: { ua: 'Кодове ім\'я Червоний', en: 'Red One', }, year: 2024, country: { usa: 1, can: 1, },
+	genre: { fantasy: 1, action: 1, comedy: 1, }, hash: { new_year: 1, },
+	internet: { imdb: '14948432', wiki_ua: '%D0%9A%D0%BE%D0%B4%D0%BE%D0%B2%D0%B5_%D1%96%D0%BC%27%D1%8F_%C2%AB%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B8%D0%B9%C2%BB', },
+	cast: { dwayne_johnson_02051972: 1, chris_evans_13061981: 1, },
 },
 {
 	id: 'coco_avant_chanel_2009', title: { ua: 'Коко до Шанель', en: 'Coco avant Chanel', }, year: 2009, country: { fra: 1, },
@@ -3900,13 +3906,13 @@ const arrFilms = [
 },
 {
 	id: 'die_hard_1988', title: { ua: 'Міцний горішок', en: 'Die Hard', }, year: 1988, country: { usa: 1, }, rating: 5, franchise: 'die_hard',
-	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, hostage: 1, newyork: 1, },
+	genre: { action: 1, thriller: 1, }, hash: { terrorist: 1, hostage: 1, newyork: 1, new_year: 1, },
 	internet: { imdb: '0095016', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA', },
 	cast: { bruce_willis_19031955: 1, },
 },
 {
 	id: 'die_hard_2_1990', title: { ua: 'Міцний горішок - 2', en: 'Die Hard 2', }, year: 1990, country: { usa: 1, }, rating: 5, franchise: 'die_hard',
-	genre: { action: 1, thriller: 1,  }, hash: { terrorist: 1, plane: 1, airport: 1, },
+	genre: { action: 1, thriller: 1,  }, hash: { terrorist: 1, plane: 1, airport: 1, new_year: 1, },
 	internet: { imdb: '0099423', wiki_ua: '%D0%9C%D1%96%D1%86%D0%BD%D0%B8%D0%B9_%D0%B3%D0%BE%D1%80%D1%96%D1%88%D0%BE%D0%BA_2', },
 	cast: { bruce_willis_19031955: 1, william_sadler_13041950: 1, robert_patrick_05111958: 1, },
 },
@@ -5112,7 +5118,7 @@ const arrFilms = [
 },
 {
 	id: 'jingle_all_the_way_1996', title: { ua: 'Подарунок на Різдво', en: 'Jingle All the Way', }, year: 1996, country: { usa: 1, }, rating: 5,
-	genre: { comedy: 1, }, 
+	genre: { comedy: 1, }, hash: { new_year: 1, },
 	internet: { imdb: '0116705', wiki_ua: '%D0%9F%D0%BE%D0%B4%D0%B0%D1%80%D1%83%D0%BD%D0%BE%D0%BA_%D0%BD%D0%B0_%D0%A0%D1%96%D0%B7%D0%B4%D0%B2%D0%BE', },
 	cast: { arnold_schwarzenegger_30071947: 1, james_belushi_15061954: 1, },
 },
@@ -5420,6 +5426,12 @@ const arrFilms = [
 	genre: { fantasy: 1, crime: 1, }, hash: { ghost: 1, love: 1, },
 	internet: { imdb: '0099653', wiki_ua: '%D0%9F%D1%80%D0%B8%D0%B2%D0%B8%D0%B4_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_1990)', ashdivip: '98287', },
 	cast: { patrick_swayze_18081952: 1, demi_moore_11111962: 1, whoopi_goldberg_13111955: 1, },
+},
+{
+	id: 'sasquatch_sunset_2024', title: { ua: 'Пригоди Бігфутів', en: 'Sasquatch Sunset', }, year: 2024, country: { usa: 1, },
+	genre: { adventure: 1, comedy: 1, }, hash: { creature: 1, forest: 1, },
+	internet: { imdb: '30180830', wiki_ru: '%D0%97%D0%B0%D0%BA%D0%B0%D1%82_%D1%81%D0%BD%D0%B5%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA%D0%B0', },
+	cast: { jesse_eisenberg_05101983: 1, },
 },
 {
 	id: 'road_house_1989', title: { ua: 'Придорожній клуб', en: 'Road House', }, year: 1989, country: { usa: 1, },
@@ -5903,13 +5915,13 @@ const arrFilms = [
 },
 {
 	id: 'home_alone_1990', title: { ua: 'Сам удома', en: 'Home Alone', }, year: 1990, country: { usa: 1, }, rating: 5, franchise: 'home_alone',
-	genre: { comedy: 1, }, hash: { children: 1, },
+	genre: { comedy: 1, }, hash: { children: 1, new_year: 1, },
 	internet: { imdb: '0099785', wiki_ua: '%D0%A1%D0%B0%D0%BC_%D1%83%D0%B4%D0%BE%D0%BC%D0%B0', },
 	cast: { macaulay_culkin_26081980: 1, joe_pesci_09021943: 1, daniel_stern_28081957: 1, catherine_ohara_04031954: 1, },
 },
 {
 	id: 'home_alone_2_1992', title: { ua: 'Сам удома - 2', en: 'Home Alone 2: Lost in New York', }, year: 1992, country: { usa: 1, }, rating: 5, franchise: 'home_alone',
-	genre: { comedy: 1, }, hash: { children: 1, },
+	genre: { comedy: 1, }, hash: { children: 1, new_year: 1, },
 	internet: { imdb: '0104431', wiki_ua: '%D0%A1%D0%B0%D0%BC_%D1%83%D0%B4%D0%BE%D0%BC%D0%B0_2:_%D0%97%D0%B0%D0%B3%D1%83%D0%B1%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9_%D1%83_%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA%D1%83', },
 	cast: { macaulay_culkin_26081980: 1, joe_pesci_09021943: 1, daniel_stern_28081957: 1, catherine_ohara_04031954: 1, tim_curry_19041946: 1, donald_trump_14061946: 1, },
 },
@@ -6231,7 +6243,7 @@ const arrFilms = [
 	id: 'the_social_network_2010', title: { ua: 'Соціальна мережа', en: 'The Social Network', }, year: 2010, country: { usa: 1, },
 	genre: { drama: 1, }, 
 	internet: { imdb: '1285016', wiki_ua: '%D0%A1%D0%BE%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
-	cast: { justin_timberlake_31011981: 1, dakota_johnson_04101989: 1, },
+	cast: { jesse_eisenberg_05101983: 1, justin_timberlake_31011981: 1, dakota_johnson_04101989: 1, },
 },
 {
 	id: 'savior_1998', title: { ua: 'Спаситель', en: 'Savior', }, year: 1998, country: { usa: 1, },
@@ -7826,6 +7838,12 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { future: 1, team: 1, },
 	internet: { imdb: '1583421', wiki_ua: 'G.I._Joe:_%D0%90%D1%82%D0%B0%D0%BA%D0%B0_%D0%9A%D0%BE%D0%B1%D1%80%D0%B8_2', },
 	cast: { dwayne_johnson_02051972: 1, bruce_willis_19031955: 1, arnold_vosloo_16061962: 1, },
+},
+{
+	id: 'need_for_speed_2014', title: { ua: 'Need for Speed: Жага швидкостi', en: 'Need for Speed', }, year: 2014, country: { ind: 1, usa: 1, },
+	genre: { action: 1, crime: 1, }, hash: { cars: 1, race: 1, },
+	internet: { imdb: '2369135', wiki_ua: 'Need_for_Speed:_%D0%96%D0%B0%D0%B3%D0%B0_%D1%88%D0%B2%D0%B8%D0%B4%D0%BA%D0%BE%D1%81%D1%82%D1%96', },
+	cast: { rami_malek_12051981: 1, dakota_johnson_04101989: 1, },
 },
 {
 	id: 'swat_2003', title: { ua: 'S.W.A.T.: Спецназ міста янголів', en: 'S.W.A.T.', }, year: 2003, country: { usa: 1, },

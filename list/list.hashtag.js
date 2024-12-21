@@ -46,10 +46,10 @@ const arrHashTags = [
 
 
 
-	{ id: '-' 				, title: '--- --- ІСТОТИ --- ---' 		, app: { movies: 1, }, },
-	{ id: 'creature' 		, title: 'істоти' 						, app: { movies: 1, }, },
+	{ id: '-' 				, title: '--- --- ІСТОТИ --- ---' 				, app: { movies: 1, }, },
+	{ id: 'creature' 		, title: 'істоти' 								, app: { movies: 1, }, },
 	{ id: 'vampire' 		, title: 'вампіри' 								, app: { movies: 1, }, }, 
-	{ id: 'dragon' 			, title: 'дракони' 						, app: { movies: 1, }, },
+	{ id: 'dragon' 			, title: 'дракони' 								, app: { movies: 1, }, },
 	{ id: 'zombie' 			, title: 'зомбі' 								, app: { movies: 1, }, },
 	{ id: 'mutant' 			, title: 'мутанти'								, app: { movies: 1, }, },
 	{ id: 'werewolf' 		, title: 'перевертні' 							, app: { movies: 1, }, },
