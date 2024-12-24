@@ -3171,7 +3171,7 @@ const arrFilms = [
 	internet: { imdb: '6105098', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C_%D0%9B%D0%B5%D0%B2_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2019)', ashdivip: '118711', },
 },
 {
-	id: 'сalikusu_1986', title: { ua: 'Корольок пташка співоча', en: 'Сalikusu', }, year: 1986, country: { tur: 1, }, 
+	id: 'calikusu_1986', title: { ua: 'Корольок пташка співоча', en: 'Сalikusu', }, year: 1986, country: { tur: 1, }, 
 	genre: { serial: 1, drama: 1, }, hash: { war1w: 1, },
 	internet: { imdb: '0952637', wiki_ua: '%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8C%D0%BE%D0%BA_%E2%80%94_%D0%BF%D1%82%D0%B0%D1%88%D0%BA%D0%B0_%D1%81%D0%BF%D1%96%D0%B2%D0%BE%D1%87%D0%B0_(%D1%81%D0%B5%D1%80%D1%96%D0%B0%D0%BB)', },
 },
@@ -7653,6 +7653,13 @@ const arrFilms = [
 	genre: { detective: 1, },
 	internet: { imdb: '0988045', wiki_ua: '%D0%A8%D0%B5%D1%80%D0%BB%D0%BE%D0%BA_%D0%A5%D0%BE%D0%BB%D0%BC%D1%81_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { robert_downey_jr_01041965: 1, }, director: { guy_ritchie_10091968: 1, }, composer: { hans_zimmer_12091957: 1, },
+},
+{
+	id: 'rubber_2010', title: { ua: 'Шина', en: 'Rubber ', }, year: 2010, country: { fra: 1, },
+	genre: { fantasy: 1, horror: 1, comedy: 1, },
+	internet: { imdb: '1612774', wiki_ua: '%D0%A8%D0%B8%D0%BD%D0%B0_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+
+
 },
 {
 	id: 'six_days_seven_nights_1998', title: { ua: 'Шість днів сім ночей', en: 'Six Days Seven Nights', }, year: 1998, country: { usa: 1, }, rating: 5,
