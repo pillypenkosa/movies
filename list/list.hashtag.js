@@ -122,7 +122,6 @@ const arrHashTags = [
 	{ id: 'terrorist' 		, title: 'терористи' 					, app: { movies: 1, }, },
 
 
-	
 
 
 	{ id: '-' 				, title: '--- --- ЗАГРОЗА --- ---' 		, app: { movies: 1, }, },

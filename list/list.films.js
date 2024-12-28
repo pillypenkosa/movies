@@ -933,6 +933,12 @@ const arrFilms = [
 	cast: { bruce_lee_27111940: 1, bolo_yeung_03071946: 1, jackie_chan_07041954: 1, },
 },
 {
+	id: 'vivarium_2019', title: { ua: 'Віваріум', en: 'Vivarium', }, year: 2019, country: { irl: 1, bel: 1, dnk: 1, },
+	genre: { sci_fi: 1, horror: 1, mystic: 1, }, hash: { trap: 1, },
+	internet: { imdb: '8368406', wiki_ua: '%D0%92%D1%96%D0%B2%D0%B0%D1%80%D1%96%D1%83%D0%BC_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { jesse_eisenberg_05101983: 1, },
+},
+{
 	id: 'from_dusk_till_dawn_1996', title: { ua: 'Від заходу до світанку', en: 'From Dusk Till Dawn', }, year: 1996, country: { usa: 1, },
 	genre: { horror: 1, action: 1, mystic: 1, }, hash: { zombie: 1, },
 	internet: { imdb: '0116367', wiki_ua: '%D0%92%D1%96%D0%B4_%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%83_%D0%B4%D0%BE_%D1%81%D0%B2%D1%96%D1%82%D0%B0%D0%BD%D0%BA%D1%83_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
@@ -1259,8 +1265,14 @@ const arrFilms = [
 	internet: { imdb: '20452218', },
 },
 {
+	id: 'wrath_of_man_2021', title: { ua: 'Гнів людський', en: 'Wrath of Man', }, year: 2021, country: { usa: 1, gbr: 1, },
+	genre: { action: 1, crime: 1, }, hash: { robbery: 1, },
+	internet: { imdb: '11083552', wiki_ua: '%D0%93%D0%BD%D1%96%D0%B2_%D0%BB%D1%8E%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D0%B9', },
+	cast: { jason_statham_26071967 : 1, josh_hartnett_21071978: 1, },
+},
+{
 	id: 'wrath_of_the_titans_2012', title: { ua: 'Гнів титанів', en: 'Wrath of the Titans', }, year: 2012, country: { usa: 1, esp: 1, },
-	genre: { action: 1, fantasy: 1, }, hash: { workd: 1, },
+	genre: { action: 1, fantasy: 1, }, hash: { world: 1, },
 	internet: { imdb: '1646987', wiki_ua: '%D0%93%D0%BD%D1%96%D0%B2_%D0%A2%D0%B8%D1%82%D0%B0%D0%BD%D1%96%D0%B2', },
 	cast: { sam_worthington_02081976: 1, liam_neeson_07061952: 1, rosamund_pike_27011979: 1, },
 },
@@ -6323,6 +6335,11 @@ const arrFilms = [
 	cast: { joe_morton_18101947: 1, },
 },
 {
+	id: 'walden_2023', title: { ua: 'Стенографіст', en: 'Walden', }, year: 2023, country: { usa: 1, },
+	genre: { thriller: 1, }, hash: { justice: 1, },
+	internet: { imdb: '21202916', },
+},
+{
 	id: 'eraser_1996', title: { ua: 'Стирач', en: 'Eraser', }, year: 1996, country: { usa: 1, },
 	genre: { action: 1, crime: 1, },
 	internet: { imdb: '0116213', wiki_ua: '%D0%A1%D1%82%D0%B8%D1%80%D0%B0%D1%87', },
@@ -6981,6 +6998,12 @@ const arrFilms = [
 	genre: { action: 1, sci_fi: 1, }, hash: { army: 1, techno: 1, },
 	internet: { imdb: '0105698', wiki_ua: '%D0%A3%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D1%81%D0%BE%D0%BB%D0%B4%D0%B0%D1%82_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', ashdivip: '4209', },
 	cast: { jean_claude_van_damme_18101960: 1, dolph_lundgren_03111957: 1, },
+},
+{
+	id: 'all_the_money_in_the_world_2017', title: { ua: 'Усі гроші світу', en: 'All the Money in the World', }, year: 2017, country: { usa: 1, gbr: 1, ita: 1, chn: 1, },
+	genre: { drama: 1, crime: 1, }, hash: { terrorist: 1, hostage: 1, },
+	internet: { imdb: '5294550', wiki_ua: '%D0%A3%D1%81%D1%96_%D0%B3%D1%80%D0%BE%D1%88%D1%96_%D1%81%D0%B2%D1%96%D1%82%D1%83', },
+	cast: { christopher_plummer_13121929: 1, mark_wahlberg_05061971: 1, kevin_spacey_26071959: 1, },
 },
 {
 	id: 'todos_los_nombres_de_dios_2023', title: { ua: 'Усі імена Бога', en: 'Todos los nombres de Dios', }, year: 2023, country: { esp: 1, },
@@ -7708,6 +7731,12 @@ const arrFilms = [
 	genre: { action: 1, mystic: 1, },
 	internet: { imdb: '0216216', wiki_ua: '%D0%A8%D0%BE%D1%81%D1%82%D0%B8%D0%B9_%D0%B4%D0%B5%D0%BD%D1%8C', ashdivip: '4456', },
 	cast: { arnold_schwarzenegger_30071947: 1, },
+},
+{
+	id: 'tinker_tailor_soldier_spy_2011', title: { ua: 'Шпигун вийди геть', en: 'Tinker Tailor Soldier Spy', }, year: 2011, country: { usa: 1, fra: 1, gbr: 1, deu: 1, },
+	genre: { drama: 1, thriller: 1, },
+	internet: { imdb: '1340800', wiki_ua: '%D0%A8%D0%BF%D0%B8%D0%B3%D1%83%D0%BD,_%D0%B2%D0%B8%D0%B9%D0%B4%D0%B8_%D0%B3%D0%B5%D1%82%D1%8C!', },
+	cast: { gary_oldman_21031958: 1, tom_hardy_15091977: 1, },
 },
 {
 	id: 'the_spy_next_door_2010', title: { ua: 'Шпигун по сусідству', en: 'The Spy Next Door', }, year: 2010, country: { usa: 1, },
