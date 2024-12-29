@@ -348,8 +348,10 @@ class ComponentMenuFilterMovie {
 		//console.log( 'fooName: ', fooName );
 
 		Router.link([
+
 			{ k: 'win' 			, v: 'movies' 		, },
 			{ k: 'sort' 		, v: elem.value 	, },
+			
 		]);
 
 
