@@ -1596,6 +1596,12 @@ const arrFilms = [
 	cast: { quentin_tarantino_27031963: 1, james_belushi_15061954: 1, },
 },
 {
+	id: 'd_tox_2002', title: { ua: 'Детоксикація', en: 'D-Tox', }, year: 2002, country: { usa: 1, deu: 1, },
+	genre: { thriller: 1, crime: 1, },
+	internet: { imdb: '0160184', wiki_ua: '%D0%94%D0%B5%D1%82%D0%BE%D0%BA%D1%81%D0%B8%D0%BA%D0%B0%D1%86%D1%96%D1%8F_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
+	cast: { sylvester_stallone_06071946: 1, tom_berenger_31051949: 1, robert_patrick_05111958: 1, kris_kristofferson_22061936: 1, },
+},
+{
 	id: 'the_thing_2011', title: { ua: 'Дещо', en: 'The Thing', }, year: 2011, country: { usa: 1, can: 1, }, rating: 5,
 	genre: { horror: 1, sci_fi: 1, }, hash: { creature: 1, winter: 1, },
 	internet: { imdb: '0905372', wiki_ua: '%D0%94%D0%B5%D1%89%D0%BE_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC,_2011)', },
@@ -3354,6 +3360,11 @@ const arrFilms = [
 	cast: { jennifer_connelly_12121970: 1, david_bowie_08011947: 1, },
 },
 {
+	id: 'lambada_1990', title: { ua: 'Ламбада', en: 'Lambada', }, year: 1990, country: { usa: 1, },
+	genre: { drama: 1, },
+	internet: { imdb: '0099969', wiki_ru: '%D0%9B%D0%B0%D0%BC%D0%B1%D0%B0%D0%B4%D0%B0_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC)', },
+},
+{
 	id: 'chain_reaction_1996', title: { ua: 'Ланцюгова реакція', en: 'Chain Reaction', }, year: 1996, country: { usa: 1, },
 	genre: { action: 1, sci_fi: 1, },
 	internet: { imdb: '0115857', wiki_ru: '%D0%A6%D0%B5%D0%BF%D0%BD%D0%B0%D1%8F_%D1%80%D0%B5%D0%B0%D0%BA%D1%86%D0%B8%D1%8F_(%D1%84%D0%B8%D0%BB%D1%8C%D0%BC,_1996)', },
@@ -4998,6 +5009,12 @@ const arrFilms = [
 	genre: { action: 1, }, hash: { prison: 1, },
 	internet: { imdb: '1211956', wiki_ua: '%D0%9F%D0%BB%D0%B0%D0%BD_%D0%B2%D1%82%D0%B5%D1%87%D1%96_(%D1%84%D1%96%D0%BB%D1%8C%D0%BC)', },
 	cast: { arnold_schwarzenegger_30071947: 1, sylvester_stallone_06071946: 1, },
+},
+{
+	id: 'k_pax_2001', title: { ua: 'Планета Ка-ПЕКС', en: 'K-PAX', }, year: 2001, country: { usa: 1, deu: 1, },
+	genre: { sci_fi: 1, drama: 1, }, 
+	internet: { imdb: '0272152', wiki_ua: '%D0%9F%D0%BB%D0%B0%D0%BD%D0%B5%D1%82%D0%B0_%D0%9A%D0%B0-%D0%9F%D0%95%D0%9A%D0%A1',	},
+	cast: { kevin_spacey_26071959: 1, },
 },
 {
 	id: 'planet_of_the_apes_1968', title: { ua: 'Планета Мавп', en: 'Planet of the Apes', }, year: 1968, country: { usa: 1, },
